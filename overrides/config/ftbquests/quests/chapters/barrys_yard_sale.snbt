@@ -1145,7 +1145,7 @@
 				item: "mysticaloaktree:wise_oak"
 				type: "item"
 			}]
-			title: "&eYard Trade:&r Magnetic Quarry"
+			title: "&eYard Trade:&r Wise Oak"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -1176,3 +1176,4 @@
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }
+
