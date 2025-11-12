@@ -235,7 +235,7 @@
 			}]
 			subtitle: "Contains 1x Random Curio Item"
 			tasks: [{
-				amount: 500L
+				amount: 400L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
@@ -725,7 +725,7 @@
 			}]
 			subtitle: "Purchase a Recall Potion"
 			tasks: [{
-				amount: 50L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "74B9A9777709424B"
 				type: "eternalcurrencies:currency"
@@ -989,6 +989,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Want a Quarry? "
 			tasks: [{
 				consume_items: true
@@ -1107,7 +1108,71 @@
 			x: 11.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Barry is willing to trade a &eWise Oak&r for a &dRusty Old Lumber Axe!"
+				""
+				"&6&nOnly one in stock!"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "790A4E22C757C2AF"
+			rewards: [{
+				id: "6F3E694EFAEDAB18"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_axe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"Rusty Old Lumber Axe\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "1ECD295F04A40E25"
+				item: "mysticaloaktree:wise_oak"
+				type: "item"
+			}]
+			title: "&eYard Trade:&r Magnetic Quarry"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&o&8Remnants of an ancient war in a world long gone... Some say it was destroyed by a bomb much bigger than this... at a certain shipping and recieving.."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "betterarcheology:bomb"
+			id: "64A2F7FE285D7D24"
+			rewards: [{
+				id: "0F019438B4EB9A13"
+				item: "betterarcheology:bomb"
+				type: "item"
+			}]
+			subtitle: "Purchase a Rusty Bomb"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "5373BE04DAD7309A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Rusty Bomb"
+			x: 11.0d
+			y: 3.0d
+		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }
-
