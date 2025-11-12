@@ -13,7 +13,7 @@
   "manifestVersion": 1,
   "name": "MC Eternal 2",
   "version": "1.2",
-  "author": "adam989911",
+  "author": "adam98991",
   "files": [
     {
       "projectID": 586095,
@@ -2307,7 +2307,7 @@
     },
     {
       "projectID": 583228,
-      "fileID": 5658734,
+      "fileID": 7151898,
       "required": true
     },
     {
