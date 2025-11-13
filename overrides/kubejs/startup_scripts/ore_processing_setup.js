@@ -443,7 +443,9 @@ global.preferredOreProducts = {
     },
     fluorite: {
         type: global.types.ORE_GEM,
+        block_density: 9,
         gem: "mekanism:fluorite",
+        block: "mekanism:block_fluorite",
         dust: "mekanism:dust_fluorite"
     },
     ruby: {
