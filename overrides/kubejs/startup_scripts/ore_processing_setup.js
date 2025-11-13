@@ -305,7 +305,7 @@ global.preferredOreProducts = {
         cooling_time: 54,
         ingot: "create:brass_ingot",
         nugget: "create:brass_nugget",
-        block: "create:brass_nugget",
+        block: "create:brass_block",
         plate: "create:brass_sheet",
         molten: "tconstruct:molten_brass"
     },
