@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "irons_spells_and_spellbooks"
@@ -5411,4 +5410,5 @@
 	]
 	title: "&7Iron's Spells and Spellbooks"
 }
+
 
