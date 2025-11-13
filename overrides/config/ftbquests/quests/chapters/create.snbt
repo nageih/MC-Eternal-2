@@ -3025,7 +3025,7 @@
 				{
 					count: 16
 					id: "5B1363C4B947001B"
-					item: "cgs:round_10mm"
+					item: "cgs:round_revolver"
 					type: "item"
 				}
 				{
@@ -3068,7 +3068,7 @@
 				{
 					count: 8L
 					id: "34036273336FFA72"
-					item: { Count: 16, id: "cgs:round_10mm" }
+					item: "cgs:round_revolver"
 					type: "item"
 				}
 			]
