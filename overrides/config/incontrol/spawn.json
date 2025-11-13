@@ -124,8 +124,16 @@
     "mod": "species",
     "when": "finalize",
     "result": "allow",
-    "healthmultiply": 1.8,
+    "healthmultiply": 1.9,
     "damagemultiply": 1.7,
+    "speedmultiply": 1.0
+  },
+  {
+    "mod": "goety",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 1.6,
+    "damagemultiply": 1.5,
     "speedmultiply": 1.0
   },
   {
