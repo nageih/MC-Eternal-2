@@ -1,7 +1,7 @@
 StartupEvents.registry("item", event => {
   
 
-  
+  event.create('portable_wormhole_generator').glow(true);
   event.create('unsigned_contract').glow(false);
   
   event.create('clipboard').displayName('§eClipboard').glow(false);
