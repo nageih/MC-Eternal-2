@@ -1,6 +1,6 @@
 StartupEvents.registry("item", event => {
   
-
+  event.create('portable_wormhole_generator_inert').glow(false);
   event.create('portable_wormhole_generator').glow(true);
   event.create('unsigned_contract').glow(false);
   
