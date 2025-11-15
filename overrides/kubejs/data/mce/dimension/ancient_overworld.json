@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:frozen_ocean",
+          "biome": "terralith:volcanic_crater",
           "parameters": {
             "temperature": -0.2,
             "humidity": 0.0,
@@ -25,7 +25,7 @@
             "humidity": 0.0,
             "continentalness": 0.85,
             "erosion": 0.4,
-            "weirdness": -0.6,
+            "weirdness": 0.8,
             "depth": 0.0,
             "offset": 0.1
           }
@@ -48,7 +48,7 @@
           "parameters": {
             "temperature": 0.5,
             "humidity": 0.0,
-            "continentalness": 0.55,
+            "continentalness": 0.5,
             "erosion": 0.0,
             "weirdness": 0.0,
             "depth": 0.0,
@@ -62,13 +62,37 @@
             "humidity": 0.6,
             "continentalness": 0.6,
             "erosion": 0.0,
-            "weirdness": 0.0,
+            "weirdness": 0.7,
             "depth": 0.0,
             "offset": 0.2
           }
         },
         {
           "biome": "terralith:basalt_cliffs",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.0,
+            "weirdness": 0.7,
+            "depth": 0.8,
+            "offset": 0.2
+          }
+        },
+         {
+          "biome": "terralith:volcanic_peaks",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.2,
+            "erosion": 0.0,
+            "weirdness": 0.7,
+            "depth": 0.8,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "terralith:volcanic_crater",
           "parameters": {
             "temperature": 0.8,
             "humidity": 0.8,
