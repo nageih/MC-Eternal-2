@@ -10,7 +10,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:portable_wormhole_generator_inert', Text.of('§7§oIf we could somehow... harness this lightning channel into the Flux Capacitor, it just might work. Next Saturday night, we are sending you back to the future!!').color('#FFFFFF')); 
 	event.add('kubejs:portable_wormhole_generator', Text.of('§eCan be used to open a portal to The Ancient Overworld.').color('#FFFFFF')); 
 	event.add('kubejs:portable_wormhole_generator', Text.of('§7§oThey said a time machine was impossible... how wrong they were!').color('#FFFFFF')); 
-	event.add('kubejs:portable_wormhole_generator', Text.of('§7§oBingle bongle dingle dangle yickedy doo yicked da ping pong lippy tappy too ta.').color('#FFFFFF')); 
+	event.add('kubejs:portable_wormhole_generator', Text.of('§7§oBingle bongle dingle dangle yickedy doo yickedy da ping pong lippy tappy too ta.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
 	event.add('kubejs:chocolate_coin', Text.of('§e§oYou asked for a use for coins! Now you can eat your riches and sorrows away!').color('#FFFFFF')); 
 	event.add('mekanism:osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
@@ -250,6 +250,7 @@ ItemEvents.tooltip(event => {
 	event.add("quark:gold_bars", Text.translate("block.tconstruct.gold_bars.tooltip").color("gray"))
 	
 })
+
 
 
 
