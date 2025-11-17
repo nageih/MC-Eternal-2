@@ -682,7 +682,7 @@
 		"metadata": { "icon": "eldritch_icon_5" }
 	},
 	"eldritch_power10": {
-		"title": "Cultist: +30% Eldritch Spell Power",
+		"title": "Electromancer: +30% Lightning Spell Power",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -699,7 +699,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"attribute": "irons_spellbooks:lightning_spell_power",
 					"value": 0.3,
 					"operation": "multiply_base"
 				}
