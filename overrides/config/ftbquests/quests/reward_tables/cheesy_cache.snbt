@@ -438,5 +438,5 @@
 		}
 		{ item: "rats:rat_upgrade_sculked" }
 	]
-	title: "&aCheesy Cache"
+	title: "{ftbquests.loot_table.2644483923066781056.title}"
 }

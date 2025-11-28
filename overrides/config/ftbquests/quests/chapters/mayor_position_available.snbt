@@ -183,7 +183,7 @@
 			y: -1.4285714285714306d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -193,8 +193,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&eTip:&r Choose the location wisely!"
-				"The Town Hall block is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level).Once the Town Hall block is placed, you will start receiving your initial 4 citizens."
+				"{ftbquests.chapter.mayor_position_available.quest3943352435617385756.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest3943352435617385756.description2}"
 			]
 			id: "36B99A25BD254D1C"
 			rewards: [
@@ -203,7 +203,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "68DDA0891FAD74FB"
-					title: "&eUnlock Title:&r The Mayor"
+					title: "{ftbquests.chapter.mayor_position_available.quest3943352435617385756.reward.7556372260599985403.title}"
 					type: "command"
 				}
 				{
@@ -229,7 +229,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Place a &eTown Hall"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest3943352435617385756.subtitle}"
 			tasks: [{
 				id: "6E676F4E47AF7393"
 				item: "minecolonies:blockhuttownhall"
@@ -240,11 +240,11 @@
 		}
 		{
 			description: [
-				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp. "
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description1}"
 				""
-				"You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony."
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description2}"
 				""
-				"They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+				"{ftbquests.chapter.mayor_position_available.quest7739403904482382878.description3}"
 			]
 			id: "6B67E2D893F1941E"
 			optional: true
@@ -273,23 +273,23 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&d&oChoice Quest"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest7739403904482382878.subtitle}"
 			tasks: [{
 				id: "64F01A965555AF83"
 				item: "minecolonies:supplychestdeployer"
 				type: "item"
 			}]
-			title: "Naval Colony"
+			title: "{ftbquests.chapter.mayor_position_available.quest7739403904482382878.title}"
 			x: 0.4761904761904674d
 			y: -0.9523809523809561d
 		}
 		{
 			description: [
-				"Once you have chosen a location for your colony, you must place a Supply Ship or Supply Camp.  "
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description1}"
 				""
-				"You can only place one of these per world. The Supply Camp/Ship gives you the Town Hall block you need to officially start your colony."
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description2}"
 				""
-				"They also have some other supplies you may need during the building of your colony. Once you have the Town Hall block and the build tool, the remaining camp/ship is just decoration. You can leave it or tear it down."
+				"{ftbquests.chapter.mayor_position_available.quest1918846649344769445.description3}"
 			]
 			id: "1AA11CDC70A4BDA5"
 			optional: true
@@ -318,21 +318,21 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&d&oChoice Quest"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1918846649344769445.subtitle}"
 			tasks: [{
 				id: "57F6504817B55C4A"
 				item: "minecolonies:supplycampdeployer"
 				type: "item"
 			}]
-			title: "Land-locked Colony"
+			title: "{ftbquests.chapter.mayor_position_available.quest1918846649344769445.title}"
 			x: 6.571428571428569d
 			y: -1.0d
 		}
 		{
 			dependencies: ["36B99A25BD254D1C"]
 			description: [
-				"&eTip:&r You will need to keep your builder well fed during construction, make sure to place food in their inventory!"
-				"&6Note: &rBefore anything can be built, you need a Builder. The Builder must build their own Builder’s Hut before building any other structures, and they cannot build or upgrade a hut to a higher level than their own hut level."
+				"{ftbquests.chapter.mayor_position_available.quest8846088757248034273.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest8846088757248034273.description2}"
 			]
 			id: "7AC39EDB2B5885E1"
 			rewards: [
@@ -368,7 +368,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build a &eBuilder's Hut"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest8846088757248034273.subtitle}"
 			tasks: [
 				{
 					id: "5EFE696638FBD2A2"
@@ -385,7 +385,7 @@
 					advancement: "minecolonies:minecolonies/citizen_eat_food_first"
 					criterion: ""
 					id: "4BB2F0634C1616AB"
-					title: "&eFeed your builder"
+					title: "{ftbquests.chapter.mayor_position_available.quest8846088757248034273.task.5454686407968036523.title}"
 					type: "advancement"
 				}
 			]
@@ -394,7 +394,7 @@
 		}
 		{
 			dependencies: ["7AC39EDB2B5885E1"]
-			description: ["Your colonists will need a place to sleep and a house, so it is recommended to build a Tavern next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."]
+			description: ["{ftbquests.chapter.mayor_position_available.quest3906423856654640752.description1}"]
 			id: "363667CCEE02E670"
 			rewards: [
 				{
@@ -420,7 +420,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build a &eTavern"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest3906423856654640752.subtitle}"
 			tasks: [
 				{
 					id: "21AC1F41DF8B0D9E"
@@ -439,7 +439,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["The next major thing you need for your colony is food. The fastest way to get food is to build a Fisher’s Hut. You could build a Farm or one of the animal herders, but a Fisher is faster. Building a Restaurant may also be advisable if you don’t want to feed your colonists (or cook their food) by hand."]
+			description: ["{ftbquests.chapter.mayor_position_available.quest1591880329328478119.description1}"]
 			id: "16177EB9B28E47A7"
 			optional: true
 			rewards: [
@@ -471,7 +471,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build a &eFishing Hut"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1591880329328478119.subtitle}"
 			tasks: [{
 				id: "5A95546DA8465642"
 				item: "minecolonies:blockhutfisherman"
@@ -482,7 +482,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["The next major thing you need for your colony is food. The fastest way to get food is to build a Fisher’s Hut. You could build a Farm or one of the animal herders, but a Fisher is faster. Building a Restaurant may also be advisable if you don’t want to feed your colonists (or cook their food) by hand."]
+			description: ["{ftbquests.chapter.mayor_position_available.quest5943626480411644727.description1}"]
 			id: "527C00CB128A9337"
 			optional: true
 			rewards: [
@@ -509,7 +509,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build a &eFarm"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5943626480411644727.subtitle}"
 			tasks: [{
 				id: "2728715D01C81A7D"
 				item: "minecolonies:blockhutfarmer"
@@ -523,7 +523,7 @@
 				"527C00CB128A9337"
 				"16177EB9B28E47A7"
 			]
-			description: ["The Restaurant can employ one citizen as a Chef, he can prepare food and serve other citizens!"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest525256321789497482.description1}"]
 			id: "074A15D77C4A908A"
 			optional: true
 			rewards: [
@@ -555,7 +555,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build a &eRestaurant"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest525256321789497482.subtitle}"
 			tasks: [{
 				id: "50DA33A7DB2B8BF6"
 				item: "minecolonies:blockhutcook"
@@ -603,7 +603,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oIf your style is wood, it’s recommended to build a Forester’s Hut next. That way your new Forester can start gathering wood for your next builds and for tools and other items."
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest277043016867283360.subtitle}"
 			tasks: [{
 				id: "654838AEED76AAE7"
 				item: "minecolonies:blockhutlumberjack"
@@ -660,7 +660,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oStone and ores are another major need for any colony, so a Mine is the next logical step, rarely a miner can mine rare treasure from stone!"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5446505472062696635.subtitle}"
 			tasks: [
 				{
 					id: "7D4B7C445C817284"
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAt this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the Warehouse and Courier’s Hut are the solution you are looking for! Couriers transport items between the Warehouse and all of the workplaces."
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5717330726434018328.subtitle}"
 			tasks: [{
 				id: "1631350DA38BED2D"
 				item: "minecolonies:blockhutwarehouse"
@@ -746,7 +746,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAt this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. You also might want to store items in one place. Well, the Warehouse and Courier’s Hut are the solution you are looking for! Couriers transport items between the Warehouse and all of the workplaces."
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1794021054735412351.subtitle}"
 			tasks: [{
 				id: "7ADC149BC99697CA"
 				item: "minecolonies:blockhutdeliveryman"
@@ -757,7 +757,7 @@
 		}
 		{
 			dependencies: ["4B8CEF6761AED987"]
-			description: ["&lGuards are much stronger than normal!"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest518960672522183816.description1}"]
 			id: "0733B7FB6A152488"
 			optional: true
 			rewards: [
@@ -810,7 +810,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest518960672522183816.subtitle}"
 			tasks: [
 				{
 					id: "4D377A083B08D849"
@@ -858,7 +858,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest6928217550473890420.subtitle}"
 			tasks: [{
 				id: "244BA51187DF5812"
 				item: "minecolonies:blockhuthospital"
@@ -907,7 +907,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oThis is where you need to decide what you need next, based on how you play and what your colony needs. But you have several things to look at. Once you get seven citizens you can get attacked by raiders and you may want to build a Guard Tower, or you may get a sick citizen and want to build a Hospital, or you may decide you want a Sawmill to make the needed items for a worker. Or you may just want to have a specific worker, or you found a great place for a certain hut. &nYou decide how your colony will grow!"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest5443989276883605895.subtitle}"
 			tasks: [{
 				id: "16D1E5F625471EA5"
 				item: "minecolonies:blockhutsawmill"
@@ -918,7 +918,7 @@
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
-			description: ["&eTip;&r Now you can begin upgrading other buildings!"]
+			description: ["{ftbquests.chapter.mayor_position_available.quest2540792441687468057.description1}"]
 			hide_dependency_lines: true
 			id: "2342B54396C76819"
 			rewards: [
@@ -965,12 +965,12 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Build the Builders Hut Level 2"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2540792441687468057.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_builder_2"
 				criterion: ""
 				id: "4D3B1D5903C0226C"
-				title: "&lUpgrade Builder's Hut"
+				title: "{ftbquests.chapter.mayor_position_available.quest2540792441687468057.task.5565074032698597996.title}"
 				type: "advancement"
 			}]
 			x: 3.6857142857142833d
@@ -1019,14 +1019,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oHave 25 Colonists in your Colony"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest7013861010115928777.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_25"
 				criterion: ""
 				id: "74B4FA169BDCAEC1"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2Hamlet"
+			title: "{ftbquests.chapter.mayor_position_available.quest7013861010115928777.title}"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -1084,14 +1084,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oBuild the highest tier Town Hall"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest8106985922084552939.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_town_hall_5"
 				criterion: ""
 				id: "1566F2A881007EA7"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2The Masterpiece Centerpiece"
+			title: "{ftbquests.chapter.mayor_position_available.quest8106985922084552939.title}"
 			x: 5.0d
 			y: 10.0d
 		}
@@ -1138,14 +1138,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oHave 50 Colonists in your Colony"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2721711342676637710.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_75"
 				criterion: ""
 				id: "3BFA8148F3D22B7D"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2Town"
+			title: "{ftbquests.chapter.mayor_position_available.quest2721711342676637710.title}"
 			x: 5.0d
 			y: 8.0d
 		}
@@ -1192,22 +1192,22 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oHave 75 Colonists in your Colony"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest2665313273877843228.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/colony_population_50"
 				criterion: ""
 				id: "565E0A2B34E4313B"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2Village"
+			title: "{ftbquests.chapter.mayor_position_available.quest2665313273877843228.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["363667CCEE02E670"]
 			description: [
-				"In order to keep your villagers happy, you will need to construct them homes, build a level 1 house for a villager to live in!"
-				"&eTip:&r Upgrading a the level of a &eHouse&r will increase the amount of villagers that can live under its roof, before you know it you will be charging 1500 emeralds a month for a bedroom in shared accommodation. &oCapitalism Woo!"
+				"{ftbquests.chapter.mayor_position_available.quest1518433180720237150.description1}"
+				"{ftbquests.chapter.mayor_position_available.quest1518433180720237150.description2}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1244,13 +1244,13 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Build a &eHouse"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.subtitle}"
 			tasks: [
 				{
 					advancement: "minecolonies:minecolonies/build_citizen"
 					criterion: ""
 					id: "0A66F94454F22A5B"
-					title: "&eHome Sweet Home!"
+					title: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.task.749560459882015323.title}"
 					type: "advancement"
 				}
 				{
@@ -1259,7 +1259,7 @@
 					type: "item"
 				}
 			]
-			title: "House"
+			title: "{ftbquests.chapter.mayor_position_available.quest1518433180720237150.title}"
 			x: 3.602040816326536d
 			y: 1.3367346938775526d
 		}
@@ -1306,14 +1306,14 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oBuild a Grand Garrison"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest60210359929432801.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:military/build_all_barracks_towers"
 				criterion: ""
 				id: "50FC28648B47BD9A"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2Grand Garrison"
+			title: "{ftbquests.chapter.mayor_position_available.quest60210359929432801.title}"
 			x: 7.0d
 			y: 8.0d
 		}
@@ -1357,17 +1357,17 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&oHave an army size of 80"
+			subtitle: "{ftbquests.chapter.mayor_position_available.quest420491539056604151.subtitle}"
 			tasks: [{
 				advancement: "minecolonies:military/army_80"
 				criterion: ""
 				id: "120CAB09B2516713"
 				type: "advancement"
 			}]
-			title: "&6&lChallenge Quest: &r&2Centurion"
+			title: "{ftbquests.chapter.mayor_position_available.quest420491539056604151.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 	]
-	title: "&7Mayor Position Available!"
+	title: "{ftbquests.chapter.mayor_position_available.title}"
 }

@@ -78,11 +78,11 @@
 	quests: [
 		{
 			description: [
-				"Light bedrock on fire and listen for the universe to sneeze out tiny Grains of Infinity."
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description1}"
 				""
-				"No bedrock?"
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description2}"
 				""
-				"Hold flint off-hand and deepslate main-hand, then sneak–right-click obsidian (or crying obsidian) or a grindstone to scrape out early grains. Mind the sparks and the existential dust."
+				"{ftbquests.chapter.enderio.quest6991880660330278319.description3}"
 			]
 			id: "6108266A7EE8EDAF"
 			rewards: [
@@ -110,23 +110,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "<wave>A Small Piece of Infinity"
+			subtitle: "{ftbquests.chapter.enderio.quest6991880660330278319.subtitle}"
 			tasks: [{
 				id: "15A57AA8DE3A3C90"
 				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
-			title: "&l&#9B59FFGrains of Infinity&r"
+			title: "{ftbquests.chapter.enderio.quest6991880660330278319.title}"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6108266A7EE8EDAF"]
 			description: [
-				"Before you dive into the wonders of advanced alloys, here’s the budget version - powered by good old-fashioned fire.  "
-				"It might be slow, smoky, and smell faintly of regret, but it gets the job done.  "
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description1}"
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description2}"
 				""
-				"Toss in some coal, grab a snack, and wait. Progress takes time… and apparently, fumes."
+				"{ftbquests.chapter.enderio.quest1521294958742201939.description3}"
 			]
 			id: "151CB9B46E6BE653"
 			rewards: [{
@@ -136,23 +136,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oIndustrial Revolution, Caveman Edition"
+			subtitle: "{ftbquests.chapter.enderio.quest1521294958742201939.subtitle}"
 			tasks: [{
 				id: "1AB9E69A7344D9AF"
 				item: "enderio:primitive_alloy_smelter"
 				type: "item"
 			}]
-			title: "&l&#A3A3A3Primitive Alloy Smelter&r"
+			title: "{ftbquests.chapter.enderio.quest1521294958742201939.title}"
 			x: -5.75d
 			y: -2.25d
 		}
 		{
 			dependencies: ["6108266A7EE8EDAF"]
 			description: [
-				"Behold the Conduit - EnderIO’s answer to “why not everything at once?”  "
-				"Energy, items, fluids… &l&oall&r&r squeezed into a single block.  "
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description1}"
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description2}"
 				""
-				"It’s clean, efficient, and will absolutely make your base look like a sci-fi noodle factory."
+				"{ftbquests.chapter.enderio.quest6441615519933696405.description3}"
 			]
 			id: "5965372FAD4A8995"
 			rewards: [{
@@ -162,7 +162,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oThe Ultimate Cable Management Solution"
+			subtitle: "{ftbquests.chapter.enderio.quest6441615519933696405.subtitle}"
 			tasks: [
 				{
 					count: 18L
@@ -189,20 +189,20 @@
 					type: "item"
 				}
 			]
-			title: "&l&#7F7BFFConduits&r"
+			title: "{ftbquests.chapter.enderio.quest6441615519933696405.title}"
 			x: -5.75d
 			y: -5.75d
 		}
 		{
 			dependencies: ["0DC7D05B53CA8F62"]
 			description: [
-				"It starts simple - copper and redstone, a spark and a dream.  "
-				"The Alloy Smelter merges metals, dusts, and a touch of chaos into materials no furnace could imagine.  "
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description1}"
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description2}"
 				""
-				"From humble Copper Alloys to Pulsating and Conductive blends,  "
-				"each fusion brings you one step closer to mastering EnderIO’s mysterious metallurgy.  "
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description3}"
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description4}"
 				""
-				"Don’t forget your SAG Mill - Silicon is the unsung hero in this recipe symphony."
+				"{ftbquests.chapter.enderio.quest5472872229081790680.description5}"
 			]
 			id: "4BF38C4BBB8538D8"
 			rewards: [
@@ -230,7 +230,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "&oWhere Metals Meet Madness"
+			subtitle: "{ftbquests.chapter.enderio.quest5472872229081790680.subtitle}"
 			tasks: [
 				{
 					id: "1F5AF5C68A1A4FCB"
@@ -253,16 +253,16 @@
 					type: "item"
 				}
 			]
-			title: "&l&#E3874BAlloyed Ingenuity&r"
+			title: "{ftbquests.chapter.enderio.quest5472872229081790680.title}"
 			x: -7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0DC7D05B53CA8F62"]
 			description: [
-				"The SAG Mill - half grinder, half miracle of questionable engineering."
+				"{ftbquests.chapter.enderio.quest1540319402060126475.description1}"
 				""
-				"Throw in ores, coal, or anything remotely solid, and it’ll reduce it to dust with mechanical enthusiasm."
+				"{ftbquests.chapter.enderio.quest1540319402060126475.description2}"
 			]
 			id: "15605055D06F990B"
 			rewards: [
@@ -289,26 +289,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWhere Rocks Meet Their End"
+			subtitle: "{ftbquests.chapter.enderio.quest1540319402060126475.subtitle}"
 			tasks: [{
 				id: "0947EB7E68D8F9BE"
 				item: "enderio:sag_mill"
 				type: "item"
 			}]
-			title: "&l&#5C7080SAG Mill&r"
+			title: "{ftbquests.chapter.enderio.quest1540319402060126475.title}"
 			x: -7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4BF38C4BBB8538D8"]
 			description: [
-				"The Alloy Smelter hungers once more. This time for the essence of the Nether.  "
-				"Glowstone dust, soul sand, redstone, and a bit of courage are all you need to bend reality into new forms.  "
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description1}"
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description2}"
 				""
-				"Soularium carries whispers of the beyond, while Energetic and Vibrant alloys pulse with life and light.  "
-				"Each ingot hums faintly, as if aware of its own creation.  "
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description3}"
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description4}"
 				""
-				"Just don’t stare too long... &4<shake>some say they stare back.&r"
+				"{ftbquests.chapter.enderio.quest4638160382077014804.description5}"
 			]
 			id: "405E0E4B20FD9314"
 			rewards: [
@@ -336,7 +336,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "&oForged in Flame, Touched by the Nether"
+			subtitle: "{ftbquests.chapter.enderio.quest4638160382077014804.subtitle}"
 			tasks: [
 				{
 					id: "7513A67E1F8D6838"
@@ -354,16 +354,16 @@
 					type: "item"
 				}
 			]
-			title: "&l&#E8D87BThe Soul of the Alloy&r"
+			title: "{ftbquests.chapter.enderio.quest4638160382077014804.title}"
 			x: -8.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5965372FAD4A8995"]
 			description: [
-				"Every great machine starts somewhere and usually with a small metal can full of questionable energy."
-				"  "
-				"The Basic Capacitor might not power a city, but it’ll keep your first EnderIO machines humming happily instead of sulking in silence."
+				"{ftbquests.chapter.enderio.quest6587316022773085740.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6587316022773085740.description2}"
 			]
 			id: "5B6AD90588A0F62C"
 			rewards: [{
@@ -373,23 +373,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oThe Spark of Progress"
+			subtitle: "{ftbquests.chapter.enderio.quest6587316022773085740.subtitle}"
 			tasks: [{
 				id: "4470C89C707E4E13"
 				item: "enderio:basic_capacitor"
 				type: "item"
 			}]
-			title: "&l&#FFD166Basic Capacitor&r"
+			title: "{ftbquests.chapter.enderio.quest6587316022773085740.title}"
 			x: -6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["5B6AD90588A0F62C"]
 			description: [
-				"When one capacitor just isn’t enough, slap another layer on top and call it progress.  "
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description1}"
 				""
-				"The Double-Layer Capacitor brings more power, more efficiency, and slightly more chances of a small localized explosion.  "
-				"Don’t worry... mostly safe."
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description2}"
+				"{ftbquests.chapter.enderio.quest1634837880463803043.description3}"
 			]
 			id: "16B01C63FA65C2A3"
 			rewards: [{
@@ -399,22 +399,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oTwice the Power, Twice the Risk"
+			subtitle: "{ftbquests.chapter.enderio.quest1634837880463803043.subtitle}"
 			tasks: [{
 				id: "7DD2E4AB6E3ED68D"
 				item: "enderio:double_layer_capacitor"
 				type: "item"
 			}]
-			title: "&l&#E59866Double-Layer Capacitor&r"
+			title: "{ftbquests.chapter.enderio.quest1634837880463803043.title}"
 			x: -7.25d
 			y: -7.25d
 		}
 		{
 			dependencies: ["16B01C63FA65C2A3"]
 			description: [
-				"Eight layers of pure, unfiltered energy storage!!! The Octadic Capacitor is EnderIO’s final word in “maybe we went too far.”"
-				"  "
-				"It supercharges your machines to absurd levels of efficiency, though side effects may include glowing walls and mild power addiction."
+				"{ftbquests.chapter.enderio.quest6024339046104304492.description1}"
+				""
+				"{ftbquests.chapter.enderio.quest6024339046104304492.description2}"
 			]
 			id: "539AC071B1900B6C"
 			rewards: [
@@ -441,24 +441,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBecause “Overkill” Sounds Too Negative"
+			subtitle: "{ftbquests.chapter.enderio.quest6024339046104304492.subtitle}"
 			tasks: [{
 				id: "75BC2D9D5D9D6836"
 				item: "enderio:octadic_capacitor"
 				type: "item"
 			}]
-			title: "&l&#F9E79FOctadic Capacitor&r"
+			title: "{ftbquests.chapter.enderio.quest6024339046104304492.title}"
 			x: -8.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["15605055D06F990B"]
 			description: [
-				"Tired of your SAG Mill chewing through ores like a toddler with gravel?  "
-				"Time to add some science: <rainb>Grinding Balls!  "
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description1}"
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description2}"
 				""
-				"These shiny spheres boost output and reduce wear - at least until they shatter dramatically.  "
-				"Choose your material wisely... performance comes at a price."
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description3}"
+				"{ftbquests.chapter.enderio.quest1602992454687407844.description4}"
 			]
 			id: "163EF924FF463EE4"
 			rewards: [
@@ -485,7 +485,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBecause Smashing Rocks Can Be Optimized"
+			subtitle: "{ftbquests.chapter.enderio.quest1602992454687407844.subtitle}"
 			tasks: [{
 				id: "41DE97399C1CA5EB"
 				item: {
@@ -495,19 +495,19 @@
 						value: "mce2:enderio/grinding_balls"
 					}
 				}
-				title: "Any Grinding Ball"
+				title: "{ftbquests.chapter.enderio.quest1602992454687407844.task.4746397330983134699.title}"
 				type: "item"
 			}]
-			title: "<rainb>Any Grinding Ball"
+			title: "{ftbquests.chapter.enderio.quest1602992454687407844.title}"
 			x: -8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0DC7D05B53CA8F62"]
 			description: [
-				"No more charcoal and hand-fed fires. It’s time for real power!"
+				"{ftbquests.chapter.enderio.quest2164040641549335020.description1}"
 				""
-				"The Alloy Smelter takes your tinkering to the next level, fusing metals with precision, speed, and just a hint of smug superiority."
+				"{ftbquests.chapter.enderio.quest2164040641549335020.description2}"
 			]
 			id: "1E08377F770E79EC"
 			rewards: [
@@ -534,22 +534,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oThe Furnace That Dreamed Bigger"
+			subtitle: "{ftbquests.chapter.enderio.quest2164040641549335020.subtitle}"
 			tasks: [{
 				id: "4FBD2CDA8A852FF0"
 				item: "enderio:alloy_smelter"
 				type: "item"
 			}]
-			title: "&l&#7B8E9CAlloy Smelter&r"
+			title: "{ftbquests.chapter.enderio.quest2164040641549335020.title}"
 			x: -6.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["78149E0BF29D8147"]
 			description: [
-				"The Wired Charger converts stored energy into a usable form, reviving drained equipment and restoring your tools to full &lpower&r."
+				"{ftbquests.chapter.enderio.quest8350554170396503624.description1}"
 				""
-				"Simply connect it to your power network and watch your items light back up, ready for action. "
+				"{ftbquests.chapter.enderio.quest8350554170396503624.description2}"
 			]
 			id: "73E320C65C23EE48"
 			rewards: [
@@ -576,25 +576,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBecause tools don’t power themselves"
+			subtitle: "{ftbquests.chapter.enderio.quest8350554170396503624.subtitle}"
 			tasks: [{
 				id: "3C320C760522D37A"
 				item: "enderio:wired_charger"
 				type: "item"
 			}]
-			title: "&l&#E67E22Fully Charged&r"
+			title: "{ftbquests.chapter.enderio.quest8350554170396503624.title}"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6108266A7EE8EDAF"]
 			description: [
-				"Every empire of machines starts with a humble flame.  "
-				"The Stirling Generator takes what once fueled your furnace  "
-				"and turns it into something far greater... usable power.  "
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description1}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description2}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description3}"
 				""
-				"Coal, charcoal, wood… anything that burns will keep your network alive.  "
-				"It may not be flashy, but it’s reliable - and reliability is the first step toward automation."
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description4}"
+				"{ftbquests.chapter.enderio.quest8652714558237802823.description5}"
 			]
 			id: "78149E0BF29D8147"
 			rewards: [{
@@ -604,26 +604,26 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oThe Humble Beginning of Endless Energy"
+			subtitle: "{ftbquests.chapter.enderio.quest8652714558237802823.subtitle}"
 			tasks: [{
 				id: "437DF73151CBFDE9"
 				item: "enderio:stirling_generator"
 				type: "item"
 			}]
-			title: "&l&#C0C0C0Stirling Generator&r"
+			title: "{ftbquests.chapter.enderio.quest8652714558237802823.title}"
 			x: -2.25d
 			y: -2.25d
 		}
 		{
 			dependencies: ["6108266A7EE8EDAF"]
 			description: [
-				"A weird way to say “bio-assembly machine.”"
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description1}"
 				""
-				"Install an axe and shears, feed it mob parts, silicon, and a little power,  "
-				"and it’ll craft the organic circuits your future machines crave  "
-				"(Z-Logic Controllers, Ender Resonators, and more)."
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description2}"
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description3}"
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description4}"
 				""
-				"&6Warning:&r Tools lose durability. Please keep your fingers outside the working area."
+				"{ftbquests.chapter.enderio.quest2185920528141330750.description5}"
 			]
 			id: "1E55F3238B19293E"
 			rewards: [{
@@ -633,24 +633,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oClassified Hardware for Integrated Life Logistics"
+			subtitle: "{ftbquests.chapter.enderio.quest2185920528141330750.subtitle}"
 			tasks: [{
 				id: "5B415F90C2415BD1"
 				item: "enderio:slice_and_splice"
 				type: "item"
 			}]
-			title: "&l&#7A5A46Slice’N’Splice&r"
+			title: "{ftbquests.chapter.enderio.quest2185920528141330750.title}"
 			x: -2.25d
 			y: -5.75d
 		}
 		{
 			dependencies: ["1E55F3238B19293E"]
 			description: [
-				"To create life, one must first capture its essence. The Soul Vial allows you to safely store the consciousness  "
-				"of &omost&r living beings."
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description1}"
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description2}"
 				""
-				"Use it wisely. "
-				"&3<shake>Some say the souls remember...&r"
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description3}"
+				"{ftbquests.chapter.enderio.quest6377707321909107278.description4}"
 			]
 			id: "58822B04CBCCDA4E"
 			rewards: [{
@@ -660,19 +660,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Generalized Aetheric Node Generator"
+			subtitle: "{ftbquests.chapter.enderio.quest6377707321909107278.subtitle}"
 			tasks: [{
 				id: "5AE1CAE321C97498"
 				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
-			title: "&l&#7FC6FFContain the Essence&r"
+			title: "{ftbquests.chapter.enderio.quest6377707321909107278.title}"
 			x: -1.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["58822B04CBCCDA4E"]
-			description: ["A delicate fusion of metal and mind. The Soul Binder is capable of merging organic essence with inorganic matter."]
+			description: ["{ftbquests.chapter.enderio.quest2601955873894153626.description1}"]
 			id: "241C0114E0B3BD9A"
 			rewards: [
 				{
@@ -698,22 +698,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Binding Souls Since Version 1.7.10"
+			subtitle: "{ftbquests.chapter.enderio.quest2601955873894153626.subtitle}"
 			tasks: [{
 				id: "1851B5E04B832BA4"
 				item: "enderio:soul_binder"
 				type: "item"
 			}]
-			title: "&l&#7A5A46Soul Binder&r"
+			title: "{ftbquests.chapter.enderio.quest2601955873894153626.title}"
 			x: -0.75d
 			y: -7.25d
 		}
 		{
 			dependencies: ["3A33BB68006E85E8"]
 			description: [
-				"Experience is precious and volatile."
+				"{ftbquests.chapter.enderio.quest8214451045381672025.description1}"
 				""
-				"The XP Vacuum harvests raw experience before it fades, drawing in every last drop of knowledge from fallen foes."
+				"{ftbquests.chapter.enderio.quest8214451045381672025.description2}"
 			]
 			id: "71FF97B428CF8C59"
 			rewards: [
@@ -740,24 +740,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oCollect wisdom the efficient way."
+			subtitle: "{ftbquests.chapter.enderio.quest8214451045381672025.subtitle}"
 			tasks: [{
 				id: "0413FF8E7D78EDE6"
 				item: "enderio:xp_vacuum"
 				type: "item"
 			}]
-			title: "&l&#9BFF61XP Vacuum&r"
+			title: "{ftbquests.chapter.enderio.quest8214451045381672025.title}"
 			x: 1.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["3A33BB68006E85E8"]
 			description: [
-				"A curious fusion of magnetism and automation. "
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description1}"
 				""
-				"The Vacuum Chest pulls in nearby items with unseen force, saving you from chasing drops across the factory floor."
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description2}"
 				""
-				"It’s quiet, efficient, and slightly unsettling - because who really knows &l&owhere&r the void keeps its treasures?"
+				"{ftbquests.chapter.enderio.quest7964736593737849539.description3}"
 			]
 			id: "6E886DBBA74C9AC3"
 			rewards: [
@@ -784,24 +784,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWhen gravity becomes your best collector."
+			subtitle: "{ftbquests.chapter.enderio.quest7964736593737849539.subtitle}"
 			tasks: [{
 				id: "6101CF4235299FD5"
 				item: "enderio:vacuum_chest"
 				type: "item"
 			}]
-			title: "&l&#6A4DFEVacuum Chest&r"
+			title: "{ftbquests.chapter.enderio.quest7964736593737849539.title}"
 			x: -0.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["78149E0BF29D8147"]
 			description: [
-				"Why burn fuel when the sun gives energy for free?"
-				"The Energetic Photovoltaic Module turns daylight into usable power: clean, quiet, and always ready when skies are clear.  "
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description1}"
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description2}"
 				""
-				"Its output may be modest, but every great power grid starts small.  "
-				"Just make sure nothing blocks its view of the sky."
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description3}"
+				"{ftbquests.chapter.enderio.quest8667531236788076843.description4}"
 			]
 			id: "784941BCC05B012B"
 			rewards: [
@@ -828,22 +828,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oThe First Step Toward Sustainable Power"
+			subtitle: "{ftbquests.chapter.enderio.quest8667531236788076843.subtitle}"
 			tasks: [{
 				id: "340BC6A2AE53A28D"
 				item: "enderio:energetic_photovoltaic_module"
 				type: "item"
 			}]
-			title: "&l&#FFC857Harness the Sun&r"
+			title: "{ftbquests.chapter.enderio.quest8667531236788076843.title}"
 			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["784941BCC05B012B"]
 			description: [
-				"Refined materials and improved conductors bring your solar setup to the next level.   "
+				"{ftbquests.chapter.enderio.quest2939055792504673759.description1}"
 				""
-				"It’s the perfect mid-tier upgrade for any tech-savvy engineer who prefers brilliance over combustion."
+				"{ftbquests.chapter.enderio.quest2939055792504673759.description2}"
 			]
 			id: "28C99FABE74B95DF"
 			rewards: [
@@ -870,24 +870,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oMore Energy, Same Sunshine"
+			subtitle: "{ftbquests.chapter.enderio.quest2939055792504673759.subtitle}"
 			tasks: [{
 				id: "1ECE7FEE2D139636"
 				item: "enderio:pulsating_photovoltaic_module"
 				type: "item"
 			}]
-			title: "&l&#74F2CESolar Pulse&r"
+			title: "{ftbquests.chapter.enderio.quest2939055792504673759.title}"
 			x: -1.25d
 			y: -0.25d
 		}
 		{
 			dependencies: ["28C99FABE74B95DF"]
 			description: [
-				"You’ve mastered energy - now you command light itself."
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description1}"
 				""
-				"The Vibrant Photovoltaic Module is the pinnacle of solar efficiency, drawing raw brilliance from the sky and channeling it flawlessly."
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description2}"
 				""
-				"No fuel, no noise, no limits - &e<wave>just pure radiant power.&r  "
+				"{ftbquests.chapter.enderio.quest7487159918875376193.description3}"
 			]
 			id: "67E7BC470D1BFA41"
 			rewards: [
@@ -914,27 +914,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWhen the Sun Itself Powers Your Dreams"
+			subtitle: "{ftbquests.chapter.enderio.quest7487159918875376193.subtitle}"
 			tasks: [{
 				id: "758167E8BF52F1B3"
 				item: "enderio:vibrant_photovoltaic_module"
 				type: "item"
 			}]
-			title: "&l&#E3FF67Radiant Perfection&r"
+			title: "{ftbquests.chapter.enderio.quest7487159918875376193.title}"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["78149E0BF29D8147"]
 			description: [
-				"Raw energy is useless if you can’t control it.  "
-				"The Basic Capacitor Bank gives your power a place to rest. A steady reserve between your generators and machines.  "
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description1}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description2}"
 				""
-				"It stores energy, balances loads, and even connects with others  "
-				"to form larger banks for industrial-scale setups.  "
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description3}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description4}"
 				""
-				"Think of it as your base’s first real power grid.  "
-				"After all, even progress needs a little downtime to recharge."
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description5}"
+				"{ftbquests.chapter.enderio.quest2765283216498585989.description6}"
 			]
 			id: "2660426F2EBF7185"
 			rewards: [
@@ -961,24 +961,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBecause Power Deserves a Home"
+			subtitle: "{ftbquests.chapter.enderio.quest2765283216498585989.subtitle}"
 			tasks: [{
 				id: "2B05AB447ED63221"
 				item: "enderio:basic_capacitor_bank"
 				type: "item"
 			}]
-			title: "&l&#A3C4DCStored Potential&r"
+			title: "{ftbquests.chapter.enderio.quest2765283216498585989.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2660426F2EBF7185"]
 			description: [
-				"You’ve learned to store power - now it’s time to <rainb><wave>upgrade.  "
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description1}"
 				""
-				"The Advanced Capacitor Bank doesn’t just hold more energy, it delivers it faster, cleaner, and more reliably."
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description2}"
 				""
-				"Perfect for powering multiple machines or feeding larger production setups without bottlenecks."
+				"{ftbquests.chapter.enderio.quest4914519658560383274.description3}"
 			]
 			id: "4433E1975A2A692A"
 			rewards: [
@@ -1005,24 +1005,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWhen Basic Just Isn’t Enough"
+			subtitle: "{ftbquests.chapter.enderio.quest4914519658560383274.subtitle}"
 			tasks: [{
 				id: "5224E79EB75C5941"
 				item: "enderio:advanced_capacitor_bank"
 				type: "item"
 			}]
-			title: "&l&#5BB2F5High Voltage Dreams&r"
+			title: "{ftbquests.chapter.enderio.quest4914519658560383274.title}"
 			x: -0.25d
 			y: -1.25d
 		}
 		{
 			dependencies: ["4433E1975A2A692A"]
 			description: [
-				"The pinnacle of power storage. Refined alloys, pulsating energy, and unmatched capacity - the Vibrant Capacitor Bank is as efficient as it is elegant.  "
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description1}"
 				""
-				"With a massive internal buffer and rapid transfer rates, this unit doesn’t just hold energy - it &b&l<shake>commands&r&r it.  "
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description2}"
 				""
-				"Stack multiple banks together to create your own glowing power core, and watch your base pulse with limitless potential."
+				"{ftbquests.chapter.enderio.quest7780810388374814218.description3}"
 			]
 			id: "6BFAFDD2DFBFFE0A"
 			rewards: [
@@ -1049,28 +1049,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWhere Energy Becomes Art"
+			subtitle: "{ftbquests.chapter.enderio.quest7780810388374814218.subtitle}"
 			tasks: [{
 				id: "5DA135D9914D94D7"
 				item: "enderio:vibrant_capacitor_bank"
 				type: "item"
 			}]
-			title: "&l&#32FFC7Power Unleashed&r"
+			title: "{ftbquests.chapter.enderio.quest7780810388374814218.title}"
 			x: 0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1E08377F770E79EC"]
 			description: [
-				"Who said magic and machinery can’t mix?"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description1}"
 				""
-				"The Enchanter is where redstone logic meets arcane knowledge - infusing books with raw power and just a hint of forbidden science."
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description2}"
 				""
-				"Feed it materials, lapis, and a touch of XP to craft enchantments  "
-				"from the mundane to the bizarre.  "
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description3}"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description4}"
 				""
-				"From Repellent to Auto Smelt, your gear will never be the same again.  "
-				"&6Just be careful&r - &oteleporting your boss away mid-fight tends to ruin the mood.&r"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description5}"
+				"{ftbquests.chapter.enderio.quest6880363831892744155.description6}"
 			]
 			id: "5F7BF6738D6997DB"
 			rewards: [
@@ -1098,24 +1098,24 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "&oWhen Circuits Meet Spells"
+			subtitle: "{ftbquests.chapter.enderio.quest6880363831892744155.subtitle}"
 			tasks: [{
 				id: "7BBF092764DD5816"
 				item: "enderio:enchanter"
 				type: "item"
 			}]
-			title: "&l&#A97FEFArcane Engineering&r"
+			title: "{ftbquests.chapter.enderio.quest6880363831892744155.title}"
 			x: -6.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["151CB9B46E6BE653"]
 			description: [
-				"Before you can build the fancy EnderIO machines, you’ll need to get your hands dirty... literally.  "
-				"Grind some coal into Powdered Coal using flint, obsidian, or a grindstone. Yes, by hand. Welcome to early automation.  "
+				"{ftbquests.chapter.enderio.quest992991333524868962.description1}"
+				"{ftbquests.chapter.enderio.quest992991333524868962.description2}"
 				""
-				"Once you’ve got enough, throw it into your Alloy Smelter with iron and obsidian to forge Dark Steel.  "
-				"It’s tough, efficient, and looks suspiciously like it’s judging your setup."
+				"{ftbquests.chapter.enderio.quest992991333524868962.description3}"
+				"{ftbquests.chapter.enderio.quest992991333524868962.description4}"
 			]
 			id: "0DC7D05B53CA8F62"
 			rewards: [
@@ -1142,7 +1142,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oEvery Empire Starts with Dust"
+			subtitle: "{ftbquests.chapter.enderio.quest992991333524868962.subtitle}"
 			tasks: [
 				{
 					id: "371728AF4F6711AE"
@@ -1155,18 +1155,18 @@
 					type: "item"
 				}
 			]
-			title: "&l&#4E5D64Powdered Coal \\& Dark Steel&r"
+			title: "{ftbquests.chapter.enderio.quest992991333524868962.title}"
 			x: -6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["241C0114E0B3BD9A"]
 			description: [
-				"Forbidden fusion of machinery and soulcraft."
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description1}"
 				""
-				"Feed it energy, attach a bound Soul Vial, and let your factory pulse with the rhythm of rebirth."
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description2}"
 				""
-				"Some call it innovation - others call it playing god."
+				"{ftbquests.chapter.enderio.quest4193901733370299880.description3}"
 			]
 			id: "3A33BB68006E85E8"
 			rewards: [
@@ -1193,7 +1193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oHarness life itself — with a little help from Create."
+			subtitle: "{ftbquests.chapter.enderio.quest4193901733370299880.subtitle}"
 			tasks: [{
 				id: "0D8A627157F92E76"
 				item: {
@@ -1203,18 +1203,18 @@
 				}
 				type: "item"
 			}]
-			title: "&l&#7A5A46Rebirth Protocol&r"
+			title: "{ftbquests.chapter.enderio.quest4193901733370299880.title}"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			description: [
-				"Why walk when you can *teleport dramatically* instead?  "
-				"Craft some Travel Anchors, place them around your base, and channel your inner Enderman with the Staff of Travelling.  "
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description1}"
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description2}"
 				""
-				"Just look at an anchor, think happy thoughts, and blink across space like a caffeine-fueled wizard."
-				"  "
-				"&6Warning:&r sudden stops may result in mild existential confusion."
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description3}"
+				""
+				"{ftbquests.chapter.enderio.quest2115816794260875162.description4}"
 			]
 			id: "1D5CE42A0FB9A79A"
 			rewards: [
@@ -1241,7 +1241,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBlink. Don’t Think."
+			subtitle: "{ftbquests.chapter.enderio.quest2115816794260875162.subtitle}"
 			tasks: [
 				{
 					id: "4375CC0DF3B0C58D"
@@ -1264,10 +1264,10 @@
 					type: "item"
 				}
 			]
-			title: "&l&#6DE0FFTravel Network&r"
+			title: "{ftbquests.chapter.enderio.quest2115816794260875162.title}"
 			x: 3.0d
 			y: -9.0d
 		}
 	]
-	title: "&7EnderIO"
+	title: "{ftbquests.chapter.enderio.title}"
 }

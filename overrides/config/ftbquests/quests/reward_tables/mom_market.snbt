@@ -1491,5 +1491,5 @@
 		{ count: 3, item: "amethyst_tools:amethyst_carrot" }
 		{ item: "amethyst_tools:amethyst_apple" }
 	]
-	title: "mom_market"
+	title: "{ftbquests.loot_table.7279712221922706554.title}"
 }

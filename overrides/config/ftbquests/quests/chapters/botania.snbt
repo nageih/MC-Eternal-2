@@ -172,27 +172,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "Concocting strange Flora..."
+			subtitle: "{ftbquests.chapter.botania.quest2676481344635197992.subtitle}"
 			tasks: [{
 				id: "4C826485E4D4D537"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "Petal Apothecary"
+			title: "{ftbquests.chapter.botania.quest2676481344635197992.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["534740624C012CBF"]
 			description: [
-				"&bMana&r, the fundamental energy used by Botanists."
+				"{ftbquests.chapter.botania.quest696260986371080398.description1}"
 				""
-				"In order to produce it, you'll need some sort of Flower that can generate it from other things"
-				"&cMana is not produced passively&r, it is something that &aGenerating Flora&r must actively consume things to produce."
+				"{ftbquests.chapter.botania.quest696260986371080398.description2}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description3}"
 				""
-				"When placed, Generating Flora will automatically attempt to bind to the nearest &6Mana Spreader&r within binding range."
-				"You can manually &dBind&r them after placement using a &6Wand of the Forest&r by &dSneaking and Interacting&r on the Flower, and then the desired Mana Spreader."
-				"As for firing Mana from Mana Spreaders into a &6Mana Pool&r, &dSneak and Interact&r with the Spreader while holding a Wand of the Forest, and then the block you want it to target."
+				"{ftbquests.chapter.botania.quest696260986371080398.description4}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description5}"
+				"{ftbquests.chapter.botania.quest696260986371080398.description6}"
 			]
 			id: "09A99DAD9B9C80CE"
 			rewards: [{
@@ -202,7 +202,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&lMa&r&7king &lMa&r&7na"
+			subtitle: "{ftbquests.chapter.botania.quest696260986371080398.subtitle}"
 			tasks: [
 				{
 					id: "338A914328CD0034"
@@ -223,11 +223,11 @@
 							value: "mce2:botania/basic_generating_flower"
 						}
 					}
-					title: "&oCraft a simple Generating Flower"
+					title: "{ftbquests.chapter.botania.quest696260986371080398.task.4188957946427896708.title}"
 					type: "item"
 				}
 			]
-			title: "Creating Mana"
+			title: "{ftbquests.chapter.botania.quest696260986371080398.title}"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -244,7 +244,6 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "gear"
-			subtitle: ""
 			tasks: [
 				{
 					id: "50D1AB43F24FD615"
@@ -262,36 +261,36 @@
 					type: "item"
 				}
 			]
-			title: "Pure Daisy"
+			title: "{ftbquests.chapter.botania.quest6000835819420593343.title}"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"From Botania's About section on Curseforge"
-				"&9https://www.curseforge.com/minecraft/mc-mods/botania &r"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description1}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description2}"
 				""
-				"&o&b&lBotania&r&o is a tech mod themed around natural magic. Gameplay is centered around creating magical flowers and devices using Mana, the power of the earth. Botania is fully playable as a standalone mod (and is designed as such), but it functions just well in conjunction with other mods."
+				"{ftbquests.chapter.botania.quest7875371975904872838.description3}"
 				""
-				"The mod focuses on automation, but without elements that make it feel grindy-- systems can be thought out and designed, rather than built blindly from blueprints in JEI or a wiki.&r"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description4}"
 				""
-				"&6&lBotania's design philosophy&r"
-				"- No pipes, wires, etc-- they're boring and overdone;"
-				"- No GUIs-- interact with everything in-world;"
-				"- No numbers-- players shouldn't try to minmax everything;"
-				"- Keep all resources as renewable as possible;"
-				"- Provide pleasing visuals, despite using only two different particle effects."
+				"{ftbquests.chapter.botania.quest7875371975904872838.description5}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description6}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description7}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description8}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description9}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description10}"
 				""
-				"&6&lBotania's goals&r"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description11}"
 				""
-				"- Break the mold of mods being means to ends-- be engaging in gameplay as well as in rewards;"
-				"- Deliver fun and balanced gameplay without forcing players to grind;"
-				"- Incentivize sandbox gameplay and allow players to create fun contraptions;"
-				"- Create an overall immersive experience."
+				"{ftbquests.chapter.botania.quest7875371975904872838.description12}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description13}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description14}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description15}"
 				""
-				"Difficulty: &6☆☆&r"
-				"Cost: &6☆&r"
-				"Strength: &6☆☆☆&r"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description16}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description17}"
+				"{ftbquests.chapter.botania.quest7875371975904872838.description18}"
 			]
 			id: "6D4AF11629E04986"
 			rewards: [{
@@ -301,7 +300,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Introduction to Magical Botany"
+			subtitle: "{ftbquests.chapter.botania.quest7875371975904872838.subtitle}"
 			tasks: [{
 				id: "2C1EBB89070F54F9"
 				item: {
@@ -311,13 +310,13 @@
 				}
 				type: "item"
 			}]
-			title: "Lexica Botania"
+			title: "{ftbquests.chapter.botania.quest7875371975904872838.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6D4AF11629E04986"]
-			description: ["Gain the Knowledge of the &aElves of Alfheim&r, and further expand your Botanical possibilities!"]
+			description: ["{ftbquests.chapter.botania.quest7917003710928581595.description1}"]
 			id: "6DDED8EDD358F3DB"
 			rewards: [
 				{
@@ -344,7 +343,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Knowledge Lost to Alftime"
+			subtitle: "{ftbquests.chapter.botania.quest7917003710928581595.subtitle}"
 			tasks: [{
 				id: "0E70AE06CC0904B7"
 				item: {
@@ -355,24 +354,24 @@
 					}
 				}
 				match_nbt: true
-				title: "Lexica Botania (with &6Elven Knowledge&r)"
+				title: "{ftbquests.chapter.botania.quest7917003710928581595.task.1040522858138764471.title}"
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&6Knowledge from Alfheim"
+			title: "{ftbquests.chapter.botania.quest7917003710928581595.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["534740624C012CBF"]
 			description: [
-				"The &6Wand of the Forest&r is a botanist's equivalent to a Wrench, used to configure many botanical blocks and flowers."
+				"{ftbquests.chapter.botania.quest5088047349113092864.description1}"
 				""
-				"Simply holding it in your hand will display a &bMana&r bar when looking at a block that holds Mana, showing its capacity, along with how much it currently has."
+				"{ftbquests.chapter.botania.quest5088047349113092864.description2}"
 				""
-				"Its most common use is to &dBind&r some botanical devices to other blocks."
-				"To do such, &dSneak and Interact with the device while holding the Wand, and then do the same on the target block.&r"
-				"Binding is used to connect &dFunctional and Generating Flora&r to &bMana Pools&r or &bMana Spreaders&r respectively, aswell as aim Mana Spreaders at blocks, and set targets for some other devices."
+				"{ftbquests.chapter.botania.quest5088047349113092864.description3}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description4}"
+				"{ftbquests.chapter.botania.quest5088047349113092864.description5}"
 			]
 			id: "469C601B3C40FB00"
 			rewards: [
@@ -399,7 +398,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Legally, it's a Wrench"
+			subtitle: "{ftbquests.chapter.botania.quest5088047349113092864.subtitle}"
 			tasks: [{
 				id: "5A466E90ACF4EBFD"
 				item: {
@@ -412,16 +411,16 @@
 				}
 				type: "item"
 			}]
-			title: "Wand of the Forest"
+			title: "{ftbquests.chapter.botania.quest5088047349113092864.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["09A99DAD9B9C80CE"]
 			description: [
-				"Some items can be &bInfused with Mana&r, unlocking wholly new Botanical applications for them."
+				"{ftbquests.chapter.botania.quest7126936400966812386.description1}"
 				""
-				"&6&oNearby Quests will unlock as each material is acquired!"
+				"{ftbquests.chapter.botania.quest7126936400966812386.description2}"
 			]
 			id: "62E7F6E5846D82E2"
 			rewards: [
@@ -448,7 +447,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Magical Deep Frying"
+			subtitle: "{ftbquests.chapter.botania.quest7126936400966812386.subtitle}"
 			tasks: [
 				{
 					id: "754B137377EB2E58"
@@ -476,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "Mana Materials"
+			title: "{ftbquests.chapter.botania.quest7126936400966812386.title}"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -497,7 +496,6 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [
 				{
 					id: "049E586E50F2CD7F"
@@ -512,16 +510,16 @@
 					type: "advancement"
 				}
 			]
-			title: "Runic Altar"
+			title: "{ftbquests.chapter.botania.quest8156005351944722675.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["712FF3A7BCD998F3"]
 			description: [
-				"Runes of Botanical origin, some forged to embody aspects of the world, and some to embody aspects of the beings within it."
+				"{ftbquests.chapter.botania.quest6653458311892948285.description1}"
 				""
-				"&6&oNearby Quests will unlock as each rune is acquired!"
+				"{ftbquests.chapter.botania.quest6653458311892948285.description2}"
 			]
 			id: "5C55D515483FD53D"
 			rewards: [
@@ -548,7 +546,6 @@
 					type: "item"
 				}
 			]
-			subtitle: ""
 			tasks: [
 				{
 					id: "6152AF0624908A20"
@@ -631,7 +628,7 @@
 					type: "item"
 				}
 			]
-			title: "Botanical Runes"
+			title: "{ftbquests.chapter.botania.quest6653458311892948285.title}"
 			x: 7.0d
 			y: 2.0d
 		}
@@ -645,14 +642,14 @@
 				"6152AF0624908A20"
 			]
 			description: [
-				"The &6Terrestrial Agglomeration Plate&r, used to forge &aTerrasteel&r using large amounts of &bMana&r."
+				"{ftbquests.chapter.botania.quest1224632961744829523.description1}"
 				""
-				"To operate it, simply drop the ingredient items &dontop of the Plate, or Interact with the plate while holding them&r."
-				"Note that it can only forge one item at a time, and if the process is interrupted, &call &bMana&c it has consumed so far is lost!&r"
+				"{ftbquests.chapter.botania.quest1224632961744829523.description2}"
+				"{ftbquests.chapter.botania.quest1224632961744829523.description3}"
 				""
-				"Unless you want a difficult challenge, you'll need to place a &6Spark&r ontop of both the Plate and any nearby &bMana Pools&r you want to use Mana from, the items on the plate can despawn, and a few &bMana Spreaders&r will not provide Mana to the plate anywhere near fast enough."
+				"{ftbquests.chapter.botania.quest1224632961744829523.description4}"
 				""
-				"&6&oRequired to make Corporea Automation Devices in MCE2!"
+				"{ftbquests.chapter.botania.quest1224632961744829523.description5}"
 			]
 			icon: "botania:terra_plate"
 			id: "10FEC530B908FC53"
@@ -682,7 +679,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Terraforged"
+			subtitle: "{ftbquests.chapter.botania.quest1224632961744829523.subtitle}"
 			tasks: [
 				{
 					id: "12CD7FA257769E3D"
@@ -697,7 +694,7 @@
 					layer: true
 					name: "terra_plate"
 					rightclick: false
-					title: "&oConstruct the Terrestrial Agglomeration Plate"
+					title: "{ftbquests.chapter.botania.quest1224632961744829523.task.7593007887934315671.title}"
 					type: "questsadditions:structure"
 				}
 				{
@@ -712,17 +709,17 @@
 					type: "item"
 				}
 			]
-			title: "&bTerrestrial Agglomeration Plate"
+			title: "{ftbquests.chapter.botania.quest1224632961744829523.title}"
 			x: 9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["10FEC530B908FC53"]
 			description: [
-				"The &6Portal to Alfheim&r, a Portal you can't travel through yourself, unfortunately, but will enable you to trade with the &aElves of Alfheim&r, allowing you to gain new items to further your Botanical projects!"
+				"{ftbquests.chapter.botania.quest7265581909575970881.description1}"
 				""
-				"Opening the Portal requires 1/5th of a &bMana Pool&r's maximum capacity, split between all Pools within &d5 Blocks&r of the Gateway Core which have &bNatura Pylons&r directly ontop of them."
-				"A &dminimum of two&r Mana Pools with Natura Pylons must be present, but more than that will work just fine!"
+				"{ftbquests.chapter.botania.quest7265581909575970881.description2}"
+				"{ftbquests.chapter.botania.quest7265581909575970881.description3}"
 			]
 			id: "64D4884086C7B041"
 			rewards: [
@@ -750,7 +747,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Link Between Worlds"
+			subtitle: "{ftbquests.chapter.botania.quest7265581909575970881.subtitle}"
 			tasks: [
 				{
 					id: "410205C71E594BA8"
@@ -764,7 +761,7 @@
 					type: "item"
 				}
 			]
-			title: "&6The Portal to Alfheim"
+			title: "{ftbquests.chapter.botania.quest7265581909575970881.title}"
 			x: 11.0d
 			y: 2.0d
 		}
@@ -774,9 +771,9 @@
 				"754B137377EB2E58"
 			]
 			description: [
-				"The &6Floral Obidence Stick&r can be used to quickly bind all nearby &dFunctional&r or &dGenerating&r Flora to the &bMana Pool&r or &bMana Spreader&r the stick was used on."
+				"{ftbquests.chapter.botania.quest4881124679431418323.description1}"
 				""
-				"Handy if you're working with a lot of flowers and didn't place the target first, or want to bind them to one pool over another."
+				"{ftbquests.chapter.botania.quest4881124679431418323.description2}"
 			]
 			id: "43BD3D08DDE6F1D3"
 			min_required_dependencies: 1
@@ -804,22 +801,21 @@
 					type: "item"
 				}
 			]
-			subtitle: ""
 			tasks: [{
 				id: "60035FF7D644E794"
 				item: "botania:obedience_stick"
 				type: "item"
 			}]
-			title: "Floral Obedience Stick"
+			title: "{ftbquests.chapter.botania.quest4881124679431418323.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&6Hydroangeas&r produce Mana by sapping &1Water&r from nearby source blocks, consuming them if they are not in a postion where they would be an infinite source."
+				"{ftbquests.chapter.botania.quest8326499692880917124.description1}"
 				""
-				"Unlike other &bGenerating Flora&r, they will &cDecay&r and vanish after a time."
-				"When it comes to automating them, the intent is that the flower itself is automated."
+				"{ftbquests.chapter.botania.quest8326499692880917124.description2}"
+				"{ftbquests.chapter.botania.quest8326499692880917124.description3}"
 			]
 			id: "738DAB5AE090F284"
 			optional: true
@@ -830,21 +826,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Don't forget to &bstay Hydrated&7!"
+			subtitle: "{ftbquests.chapter.botania.quest8326499692880917124.subtitle}"
 			tasks: [{
 				id: "346567F558BFFBCB"
 				item: "botania:hydroangeas"
 				type: "item"
 			}]
-			title: "Hydroangeas"
+			title: "{ftbquests.chapter.botania.quest8326499692880917124.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&6Endoflames&r generates &bMana&r using &6Burnable Items&r dropped nearby, though &ditems that leave behind something else&r (such as Lava Buckets) &ccannot be used by it&r."
+				"{ftbquests.chapter.botania.quest6167608624577498497.description1}"
 				""
-				"Endoflames are quite slow at generating Mana, so when you use them, you either want a lot of them, or you want to use them as a stepping stone to something else."
+				"{ftbquests.chapter.botania.quest6167608624577498497.description2}"
 			]
 			id: "5597BF5DDD93CD81"
 			optional: true
@@ -855,21 +851,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Don't get burnt out!"
+			subtitle: "{ftbquests.chapter.botania.quest6167608624577498497.subtitle}"
 			tasks: [{
 				id: "6B3BAA2AB473F34D"
 				item: "botania:endoflame"
 				type: "item"
 			}]
-			title: "Endoflame"
+			title: "{ftbquests.chapter.botania.quest6167608624577498497.title}"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"&6Thermalillies&r suck up nearby &bLava&r and run for some time, producing a considerable amount of &bMana&r in the process."
-				"However, they will then go on a long cooldown with some randomness to its length."
-				"Unlike other Flora, they aren't really intended to be automated."
+				"{ftbquests.chapter.botania.quest3995646614224903605.description1}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description2}"
+				"{ftbquests.chapter.botania.quest3995646614224903605.description3}"
 			]
 			id: "3773636D00DE1DB5"
 			rewards: [{
@@ -879,22 +875,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Infernal Overdrive"
+			subtitle: "{ftbquests.chapter.botania.quest3995646614224903605.subtitle}"
 			tasks: [{
 				id: "088A499B6680E1AF"
 				item: "botania:thermalily"
 				type: "item"
 			}]
-			title: "Thermalily"
+			title: "{ftbquests.chapter.botania.quest3995646614224903605.title}"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"&6Rosa Arcana&r will consume &bExperience&r from &dnearby Players or Experience Orbs&r to generate &bMana&r."
-				"They are also able to &ddisenchant items like a &bGrindstone&r in to generate Mana from the experience that "
+				"{ftbquests.chapter.botania.quest3080700386101472968.description1}"
+				"{ftbquests.chapter.botania.quest3080700386101472968.description2}"
 				""
-				"It produces somewhat more Mana when extracting from a player, but having to sit there for your Mana production to work sucks."
+				"{ftbquests.chapter.botania.quest3080700386101472968.description3}"
 			]
 			id: "2AC0D8ADCCFCAEC8"
 			rewards: [{
@@ -904,22 +900,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Partly Black and White, too."
+			subtitle: "{ftbquests.chapter.botania.quest3080700386101472968.subtitle}"
 			tasks: [{
 				id: "585FB7F3425CD0FD"
 				item: "botania:rosa_arcana"
 				type: "item"
 			}]
-			title: "Rosa Arcana"
+			title: "{ftbquests.chapter.botania.quest3080700386101472968.title}"
 			x: -3.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"&6Munchdews&r produce &bMana&r by eating up &bLeaves&r in a large area around them."
-				"However, no items will drop from Leaves it consumes."
+				"{ftbquests.chapter.botania.quest3677527691542608483.description1}"
+				"{ftbquests.chapter.botania.quest3677527691542608483.description2}"
 				""
-				"After consuming all leaves in range, it will go on cooldown for a while."
+				"{ftbquests.chapter.botania.quest3677527691542608483.description3}"
 			]
 			id: "330933F37A0F3A63"
 			rewards: [{
@@ -929,20 +925,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "385CF325261C0D09"
 				item: "botania:munchdew"
 				type: "item"
 			}]
-			title: "Munchdew"
+			title: "{ftbquests.chapter.botania.quest3677527691542608483.title}"
 			x: -3.0d
 			y: 7.0d
 		}
 		{
 			description: [
-				"&6Entropinnyums&r absorb explosions from TNT (and sometimes similar Explosives) to generate &bMana&r."
-				"They generate a significant amount of Mana, but they must be entirely emptied to absorb an explosion, otherwise they won't absorb it at all, and you should know how that goes..."
+				"{ftbquests.chapter.botania.quest6007728143980019821.description1}"
+				"{ftbquests.chapter.botania.quest6007728143980019821.description2}"
 			]
 			id: "535FBCEAA90BC06D"
 			rewards: [{
@@ -952,21 +947,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "3C5D9095394DD429"
 				item: "botania:entropinnyum"
 				type: "item"
 			}]
-			title: "Entropinnyum"
+			title: "{ftbquests.chapter.botania.quest6007728143980019821.title}"
 			x: -2.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"&6Gourmaryllis&r consume &dedible items&r dropped near them to generate &bMana&r."
-				"They take some time to digest foods, depending on how filling the food is."
-				"They also have diminshing returns for feeding them the same food multiple times in a row, and a Streak mechanic that vastly increases Mana produced the more unique foods are fed in a row."
+				"{ftbquests.chapter.botania.quest8862898077166756742.description1}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description2}"
+				"{ftbquests.chapter.botania.quest8862898077166756742.description3}"
 			]
 			id: "7AFF56D7F2046386"
 			rewards: [{
@@ -976,18 +970,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "59EC0E493D948DBF"
 				item: "botania:gourmaryllis"
 				type: "item"
 			}]
-			title: "Gourmaryllis"
+			title: "{ftbquests.chapter.botania.quest8862898077166756742.title}"
 			x: -2.0d
 			y: 6.0d
 		}
 		{
-			description: ["The &6Kekimurus&r chomps on nearby &bCakes&r to produce &bMana&r."]
+			description: ["{ftbquests.chapter.botania.quest514164780489394565.description1}"]
 			id: "0722AE24C9164985"
 			rewards: [{
 				amount: 50L
@@ -996,24 +989,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "02D5C858095578AF"
 				item: "botania:kekimurus"
 				type: "item"
 			}]
-			title: "Kekimurus"
+			title: "{ftbquests.chapter.botania.quest514164780489394565.title}"
 			x: -8.0d
 			y: 9.0d
 		}
 		{
 			description: [
-				"The &6Rafflowsia&r generates &bMana&r by &dconsuming other Flora placed near it&r."
+				"{ftbquests.chapter.botania.quest7332193940488596700.description1}"
 				""
-				"You might think that sounds terrible, and it starts that way, and has diminishing returns if you keep giving it the same Flora over and over, but every &dunique Flora fed to it in a row causes it to make exponentially more Mana&r, and it makes a &lLOT&r of Mana at high Streak values."
-				"It will also forget the least recently consumed Flora when it reaches the maximum Streak, so you can keep the chain going indefinitely with a proper setup."
+				"{ftbquests.chapter.botania.quest7332193940488596700.description2}"
+				"{ftbquests.chapter.botania.quest7332193940488596700.description3}"
 				""
-				"Even though some Flora can't be automated, the limit for its Streak doesn't account for those Flora."
+				"{ftbquests.chapter.botania.quest7332193940488596700.description4}"
 			]
 			id: "65C12F8A8F182CDC"
 			rewards: [{
@@ -1023,21 +1015,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "7F6F297E9635985A"
 				item: "botania:rafflowsia"
 				type: "item"
 			}]
-			title: "Rafflowsia"
+			title: "{ftbquests.chapter.botania.quest7332193940488596700.title}"
 			x: -6.0d
 			y: 9.0d
 		}
 		{
 			description: [
-				"&6Dandelifeons&r literally just play &dConway's Game of Life&r within Minecraft to generate &bMana&r, though with some minor changes to it."
+				"{ftbquests.chapter.botania.quest8942867177925075877.description1}"
 				""
-				"Explaining Conway's Game of Life is a little out of scope for a quest description, so go search up information on it if you need more than the &bLexica Botania's&r page on the Dandelifeon covers."
+				"{ftbquests.chapter.botania.quest8942867177925075877.description2}"
 			]
 			id: "7C1B725125B963A5"
 			rewards: [{
@@ -1047,22 +1038,22 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "It's literally just Conway's Game of Life in Minecraft."
+			subtitle: "{ftbquests.chapter.botania.quest8942867177925075877.subtitle}"
 			tasks: [{
 				id: "3748C9B5B06513B4"
 				item: "botania:dandelifeon"
 				type: "item"
 			}]
-			title: "Dandelifeon"
+			title: "{ftbquests.chapter.botania.quest8942867177925075877.title}"
 			x: -2.0d
 			y: 9.0d
 		}
 		{
 			description: [
-				"&6Shulk Me Nots&r create considerable amounts of &bMana&r when a &bShulker's Projectile&r collides with a &cHostile mob&r."
-				"Both the Shulker that fired the projectile and the hit Mob must be within in the Shulk Me Not's range, and will be killed when the projectile hits."
+				"{ftbquests.chapter.botania.quest413671051139902500.description1}"
+				"{ftbquests.chapter.botania.quest413671051139902500.description2}"
 				""
-				"&eHint:&r Getting ahold of Shulkers for it sounds tricky, perhaps a Botanical avenue offers a means using a resource from The End?"
+				"{ftbquests.chapter.botania.quest413671051139902500.description3}"
 			]
 			id: "05BDA7A1190E6C24"
 			rewards: [{
@@ -1072,21 +1063,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "This is the Monado's Power!"
+			subtitle: "{ftbquests.chapter.botania.quest413671051139902500.subtitle}"
 			tasks: [{
 				id: "4551CE438AFAD84A"
 				item: "botania:shulk_me_not"
 				type: "item"
 			}]
-			title: "Shulk Me Not"
+			title: "{ftbquests.chapter.botania.quest413671051139902500.title}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
 			description: [
-				"&6Spectrolus&r consume &bColored Wool&r dropped near them, but require the different colors to be given in a specific sequence, looping around when it reaches the end."
-				"If any color it doesn't want is given, no Mana is generated."
-				"Holding a &bWand of the Forest&r will show you the next color in the sequence."
+				"{ftbquests.chapter.botania.quest6311959951768629779.description1}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description2}"
+				"{ftbquests.chapter.botania.quest6311959951768629779.description3}"
 			]
 			id: "5798962249A93213"
 			rewards: [{
@@ -1096,18 +1087,17 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "52DC9F7B4BA3E979"
 				item: "botania:spectrolus"
 				type: "item"
 			}]
-			title: "Spectrolus"
+			title: "{ftbquests.chapter.botania.quest6311959951768629779.title}"
 			x: -4.0d
 			y: 9.0d
 		}
 		{
-			description: ["&6Narslimmus&r will break down &bSlimes &dnautrally spawned in &aSlime Chunks&r nearby them to generate &bMana&r, with the amount produced increasing based on their size."]
+			description: ["{ftbquests.chapter.botania.quest8735345195644695492.description1}"]
 			id: "793A2E2C70D133C4"
 			rewards: [{
 				amount: 50L
@@ -1116,22 +1106,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: ""
 			tasks: [{
 				id: "79FB78B2DB67581B"
 				item: "botania:narslimmus"
 				type: "item"
 			}]
-			title: "Narslimmus"
+			title: "{ftbquests.chapter.botania.quest8735345195644695492.title}"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["64D4884086C7B041"]
 			description: [
-				"The Elves of Alfheim are willing to exchange some of the resources found in their world for some from ours."
+				"{ftbquests.chapter.botania.quest702429581693393127.description1}"
 				""
-				"&6&oNearby Quests will unlock as each material is acquired!"
+				"{ftbquests.chapter.botania.quest702429581693393127.description2}"
 			]
 			id: "09BF87FBA08F98E7"
 			rewards: [
@@ -1158,7 +1147,6 @@
 					type: "item"
 				}
 			]
-			subtitle: ""
 			tasks: [
 				{
 					id: "2B2AB96F58D3270E"
@@ -1181,16 +1169,16 @@
 					type: "item"
 				}
 			]
-			title: "Resources of Alfheim"
+			title: "{ftbquests.chapter.botania.quest702429581693393127.title}"
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["09BF87FBA08F98E7"]
 			description: [
-				"The Ritual of Gaia is used to summon the &bGuardian of Gaia&r, a powerful Avatar of the Earth itself."
+				"{ftbquests.chapter.botania.quest1237442985485991883.description1}"
 				""
-				"In order to summon it, the Beacon in the ritual setup must be active, and a &aTerrasteel Ingot&r must be sacrificed by &dSneaking and Interacting&r with the Beacon."
+				"{ftbquests.chapter.botania.quest1237442985485991883.description2}"
 			]
 			id: "112C47D6CBB0FFCB"
 			rewards: [
@@ -1219,7 +1207,6 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: ""
 			tasks: [
 				{
 					count: 4L
@@ -1235,14 +1222,14 @@
 					layer: true
 					name: "ritual_of_gaia"
 					rightclick: false
-					title: "&oConstruct the setup for the Ritual of Gaia"
+					title: "{ftbquests.chapter.botania.quest1237442985485991883.task.4440522734282509435.title}"
 					type: "questsadditions:structure"
 				}
 			]
-			title: "The Ritual of Gaia"
+			title: "{ftbquests.chapter.botania.quest1237442985485991883.title}"
 			x: 15.0d
 			y: 2.0d
 		}
 	]
-	title: "&7Botania"
+	title: "{ftbquests.chapter.botania.title}"
 }

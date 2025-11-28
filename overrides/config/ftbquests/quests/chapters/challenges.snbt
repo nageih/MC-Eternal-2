@@ -42,7 +42,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5F35CA25829786CE"
-					title: "&eUnlock Title:&r Deathbane"
+					title: "{ftbquests.chapter.challenges.quest6853387121516673064.reward.6860611869822387918.title}"
 					type: "command"
 				}
 				{
@@ -82,7 +82,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oSurvive for 7 (irl) days in-game "
+			subtitle: "{ftbquests.chapter.challenges.quest6853387121516673064.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -93,11 +93,11 @@
 				}
 				id: "5BFFFC2DFE485118"
 				stat: "minecraft:time_since_death"
-				title: "&eTime Survived (Latest High-Score)"
+				title: "{ftbquests.chapter.challenges.quest6853387121516673064.task.6629294450982539544.title}"
 				type: "stat"
 				value: 12102000
 			}]
-			title: "&c&lHardcore without the Hardcore!"
+			title: "{ftbquests.chapter.challenges.quest6853387121516673064.title}"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -371,7 +371,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["\n"]
+			description: [""]
 			id: "2F1421D4A7FB5CD2"
 			optional: true
 			rewards: [
@@ -405,7 +405,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oCollect every type of Scythe"
+			subtitle: "{ftbquests.chapter.challenges.quest3392373616551877842.subtitle}"
 			tasks: [
 				{
 					id: "21137AA9A25CAB4F"
@@ -476,7 +476,7 @@
 					type: "item"
 				}
 			]
-			title: "&eScythe'd Up"
+			title: "{ftbquests.chapter.challenges.quest3392373616551877842.title}"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -501,7 +501,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "21081C69D2D6D614"
-					title: "&eUnlock Title:&r National Hero"
+					title: "{ftbquests.chapter.challenges.quest1756929490255373182.reward.2380183643899745812.title}"
 					type: "command"
 				}
 				{
@@ -518,7 +518,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oWin 100 Raids"
+			subtitle: "{ftbquests.chapter.challenges.quest1756929490255373182.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -534,14 +534,14 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "&6National Hero"
+			title: "{ftbquests.chapter.challenges.quest1756929490255373182.title}"
 			x: 9.0d
 			y: 5.0d
 		}
 		{
 			description: [
 				""
-				"People assume that time is a strict progression of cause to effect, but actually, from a nonlinear, non-subjective viewpoint, it's more like a big ball of wibbly-wobbly, timey-wimey... stuff.."
+				"{ftbquests.chapter.challenges.quest6492590628068786334.description1}"
 			]
 			id: "5A1A50C6EA12009E"
 			optional: true
@@ -563,7 +563,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "1BFA50BC20FC458D"
-					title: "&eUnlock Title:&r Timelord"
+					title: "{ftbquests.chapter.challenges.quest6492590628068786334.reward.2016012552139195789.title}"
 					type: "command"
 				}
 				{
@@ -596,16 +596,16 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oPlay for 5 (irl) days in-game"
+			subtitle: "{ftbquests.chapter.challenges.quest6492590628068786334.subtitle}"
 			tasks: [{
 				icon: "supplementaries:clock_block"
 				id: "37977CF70BD55992"
 				stat: "minecraft:play_time"
-				title: "&eTime Played"
+				title: "{ftbquests.chapter.challenges.quest6492590628068786334.task.4005807794066643346.title}"
 				type: "stat"
 				value: 8640000
 			}]
-			title: "&6Time Played: 5 Days"
+			title: "{ftbquests.chapter.challenges.quest6492590628068786334.title}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -672,7 +672,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "712EF8F3DD71113D"
-					title: "&eUnlock Title:&r Master Angler"
+					title: "{ftbquests.chapter.challenges.quest3086271306032236913.reward.8155729701490463037.title}"
 					type: "command"
 				}
 				{
@@ -688,7 +688,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&o“There is certainly something in angling that tends to produce a serenity of the mind.”"
+			subtitle: "{ftbquests.chapter.challenges.quest3086271306032236913.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -702,7 +702,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "&6Catch 5000 Fish"
+			title: "{ftbquests.chapter.challenges.quest3086271306032236913.title}"
 			x: -2.0d
 			y: 5.0d
 		}
@@ -733,7 +733,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "2147CCD0C48E468A"
-					title: "&eTitle Unlock:&r of the Borg"
+					title: "{ftbquests.chapter.challenges.quest4072003556709142116.reward.2398110523621000842.title}"
 					type: "command"
 				}
 				{
@@ -749,7 +749,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft all 4 Tiers of Rocket Ship!"
+			subtitle: "{ftbquests.chapter.challenges.quest4072003556709142116.subtitle}"
 			tasks: [
 				{
 					id: "395158D44241BF2B"
@@ -788,12 +788,12 @@
 					type: "item"
 				}
 			]
-			title: "&6Space Adventurer"
+			title: "{ftbquests.chapter.challenges.quest4072003556709142116.title}"
 			x: 7.0d
 			y: 5.0d
 		}
 		{
-			description: ["&n&eEntering Expert Mode will fail this Challenge!"]
+			description: ["{ftbquests.chapter.challenges.quest3149441517464418428.description1}"]
 			id: "2BB5105FA955787C"
 			incompatible: ["099610C83CC67421"]
 			optional: true
@@ -834,7 +834,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "75C16C5877360ABC"
-					title: "&eUnlock Title:&r the Patient"
+					title: "{ftbquests.chapter.challenges.quest3149441517464418428.reward.8485182300155677372.title}"
 					type: "command"
 				}
 				{
@@ -843,18 +843,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oThe Normal Mode Challenge!"
+			subtitle: "{ftbquests.chapter.challenges.quest3149441517464418428.subtitle}"
 			tasks: [{
 				days: 100
 				id: "673F2D14DBC8E253"
 				type: "questsadditions:days"
 			}]
-			title: "&eReach Day 100 While Still In Normal Mode"
+			title: "{ftbquests.chapter.challenges.quest3149441517464418428.title}"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
-			description: ["Eat and prepare a course of every meal from Farmer's Delight"]
+			description: ["{ftbquests.chapter.challenges.quest1775034021665636693.description1}"]
 			id: "18A23009C59D0155"
 			optional: true
 			rewards: [
@@ -907,7 +907,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "4807F30E0FEAEDBF"
-					title: "&eUnlock Title:&r Master Chef"
+					title: "{ftbquests.chapter.challenges.quest1775034021665636693.reward.5190384337289932223.title}"
 					type: "command"
 				}
 				{
@@ -923,7 +923,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oWHERE'S THE LAMB SAUCE!!"
+			subtitle: "{ftbquests.chapter.challenges.quest1775034021665636693.subtitle}"
 			tasks: [
 				{
 					advancement: "farmersdelight:main/master_chef"
@@ -951,12 +951,12 @@
 					type: "advancement"
 				}
 			]
-			title: "&eMaster Chef"
+			title: "{ftbquests.chapter.challenges.quest1775034021665636693.title}"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
-			description: ["&eFinally we are taxing the rich.. In Minecraft!"]
+			description: ["{ftbquests.chapter.challenges.quest4176940204329355588.description1}"]
 			id: "39F778FC47194944"
 			optional: true
 			rewards: [
@@ -996,7 +996,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "41C61D6A61ED9270"
-					title: "&eUnlock Title:&r The Millionare"
+					title: "{ftbquests.chapter.challenges.quest4176940204329355588.reward.4739508000600724080.title}"
 					type: "command"
 				}
 				{
@@ -1054,7 +1054,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oBecome a Millionare and then give it all away just to complete a quest"
+			subtitle: "{ftbquests.chapter.challenges.quest4176940204329355588.subtitle}"
 			tasks: [{
 				amount: 1000000L
 				currency: "eternalcurrencies:coins"
@@ -1087,7 +1087,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "5047F40F416D9BD6"
-					title: "&eTitle Unlock:&r Music Collector"
+					title: "{ftbquests.chapter.challenges.quest2538370257753474597.reward.5784860592740080598.title}"
 					type: "command"
 				}
 				{
@@ -1115,7 +1115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oCollect every single Music Disc that exists in MC Eternal 2!"
+			subtitle: "{ftbquests.chapter.challenges.quest2538370257753474597.subtitle}"
 			tasks: [
 				{
 					id: "15F3EC92CED3E9C0"
@@ -1416,12 +1416,12 @@
 					type: "item"
 				}
 			]
-			title: "&eThe Music Collector"
+			title: "{ftbquests.chapter.challenges.quest2538370257753474597.title}"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: ["Build a fully functioning &6Jaffa Factory"]
+			description: ["{ftbquests.chapter.challenges.quest4511936365458450053.description1}"]
 			id: "3E9D9E3818516685"
 			optional: true
 			rewards: [
@@ -1482,13 +1482,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oIt shouldn't take 100 episodes... should it!?"
+			subtitle: "{ftbquests.chapter.challenges.quest4511936365458450053.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 100000L
 				id: "15363F95BE298C23"
 				item: "jaffactory:jaffa_cake"
-				title: "Jaffa Factory"
+				title: "{ftbquests.chapter.challenges.quest4511936365458450053.task.1528479035911932963.title}"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1565,7 +1565,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "10DAFAB1AC4B0F0F"
-					title: "&eUnlock Title:&r Dragon Slayer"
+					title: "{ftbquests.chapter.challenges.quest3844325577878526947.reward.1214558690536525583.title}"
 					type: "command"
 				}
 				{
@@ -1581,7 +1581,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oKill 50x of each Dragon!"
+			subtitle: "{ftbquests.chapter.challenges.quest3844325577878526947.subtitle}"
 			tasks: [
 				{
 					entity: "iceandfire:fire_dragon"
@@ -1623,14 +1623,14 @@
 					value: 50L
 				}
 			]
-			title: "&6Dragon Slayer!"
+			title: "{ftbquests.chapter.challenges.quest3844325577878526947.title}"
 			x: 8.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"Challenge Quests are optional Quests that give you a &c&oChallenge&r. These challenges can range from skill based to the &outterly absurd&r. Challenge Quests often require a lot of time to complete! but they have extra &e&ospecial rewards™&r for your trouble!"
-				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
+				"{ftbquests.chapter.challenges.quest5245909642508231407.description1}"
+				"{ftbquests.chapter.challenges.quest5245909642508231407.image0}"
 			]
 			icon: "titles:title_scroll_rare"
 			id: "48CD37069D7FE2EF"
@@ -1650,13 +1650,13 @@
 			]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "What are Challenge Quests?"
+			subtitle: "{ftbquests.chapter.challenges.quest5245909642508231407.subtitle}"
 			tasks: [{
 				id: "7E73744AAA758DBE"
-				title: "&7Information Quest&r&e (Click To Complete)"
+				title: "{ftbquests.chapter.challenges.quest5245909642508231407.task.9111754335136878014.title}"
 				type: "checkmark"
 			}]
-			title: "&6&l&nChallenge Quests"
+			title: "{ftbquests.chapter.challenges.quest5245909642508231407.title}"
 			x: -2.5238095238095255d
 			y: -1.5714285714285694d
 		}
@@ -1717,7 +1717,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "0EF672DD9B345BB1"
-					title: "&eUnlock Title:&r Mr Electric"
+					title: "{ftbquests.chapter.challenges.quest6015117261113044175.reward.1078175456919051185.title}"
 					type: "command"
 				}
 				{
@@ -1745,12 +1745,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oGenerate unnecessary amounts of power, feed it into a &r&eTask Screen"
+			subtitle: "{ftbquests.chapter.challenges.quest6015117261113044175.subtitle}"
 			tasks: [{
 				icon: "mekanism:resistive_heater"
 				id: "584D87091ADF75D2"
 				max_input: 1000000000000000000L
-				title: "&ePowering The Planet"
+				title: "{ftbquests.chapter.challenges.quest6015117261113044175.task.6362890321719686610.title}"
 				type: "forge_energy"
 				value: 1000000000000000000L
 			}]
@@ -1767,7 +1767,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "3391A536F4D39348"
-					title: "&eUnlock Title:&r the Tiny Potato"
+					title: "{ftbquests.chapter.challenges.quest7710851260419707963.reward.3715932823011693384.title}"
 					type: "command"
 				}
 				{
@@ -1783,16 +1783,16 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft 1 Million &eTiny Potato"
+			subtitle: "{ftbquests.chapter.challenges.quest7710851260419707963.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1000000L
 				id: "462A757C87457DD1"
 				item: "botania:tiny_potato"
-				title: "Tiny Potato"
+				title: "{ftbquests.chapter.challenges.quest7710851260419707963.task.5055982709382675921.title}"
 				type: "item"
 			}]
-			title: "&eThe Giant Tiny Potato"
+			title: "{ftbquests.chapter.challenges.quest7710851260419707963.title}"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -1819,7 +1819,7 @@
 				"06911768DBF8A5A5"
 				"2093117385E8FF1D"
 			]
-			description: ["Only the most &npowerful&r sorry, did I say &opowerful?...&r I meant only the person without any semblance of a social life can obtain the &6&lLoremaster&r in a reasonable time-frame"]
+			description: ["{ftbquests.chapter.challenges.quest3918710953294087847.description1}"]
 			icon: "titles:title_scroll_uncommon"
 			id: "36620ED98C86C6A7"
 			rewards: [
@@ -1829,7 +1829,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "643B91E57C589E0E"
-					title: "&eUnlock Title:&r The Loremaster"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.7222526842238443022.title}"
 					type: "command"
 				}
 				{
@@ -1839,7 +1839,7 @@
 					elevate_perms: true
 					icon: "etched:radio"
 					id: "0101958C6BCD1EBD"
-					title: "&e&nRadio Broadcast"
+					title: "{ftbquests.chapter.challenges.quest3918710953294087847.reward.72503499351203517.title}"
 					type: "command"
 				}
 				{
@@ -1850,24 +1850,24 @@
 			]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Complete &lEVERY&r Quest Chapter"
+			subtitle: "{ftbquests.chapter.challenges.quest3918710953294087847.subtitle}"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "titles:title_fragment"
 				id: "6811343CA3BB7B1A"
-				title: "&e&lTHE LOREMASTER"
+				title: "{ftbquests.chapter.challenges.quest3918710953294087847.task.7498832289598241562.title}"
 				type: "dimension"
 			}]
-			title: "&e&lLore Master"
+			title: "{ftbquests.chapter.challenges.quest3918710953294087847.title}"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"What’s a chicken’s favorite subject to study? &oEgg-onomics"
-				"What do you call a chicken from space? An &oegg-straterrestrial."
-				"The best puns don’t fall far from the &opoul-tree."
-				"&6This Quest is made in part due to a friend of mine who doesn't stop making horrible lag-infested chicken farms. Will this not just incentivise him to make more you might ask? I haven't really thought that far ahead.. &c&oBut &cprobably."
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description1}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description2}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description3}"
+				"{ftbquests.chapter.challenges.quest8115777220850313945.description4}"
 			]
 			id: "70A1086214FD6AD9"
 			optional: true
@@ -1878,7 +1878,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "29768140ED89DB31"
-					title: "&eUnlock Title:&r King of the Chickens"
+					title: "{ftbquests.chapter.challenges.quest8115777220850313945.reward.2987717518670027569.title}"
 					type: "command"
 				}
 				{
@@ -1899,7 +1899,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oCommit ungodly acts against Chickenkind"
+			subtitle: "{ftbquests.chapter.challenges.quest8115777220850313945.subtitle}"
 			tasks: [
 				{
 					entity: "minecraft:chicken"
@@ -1916,17 +1916,17 @@
 					type: "item"
 				}
 			]
-			title: "&6The Curse of Jam"
+			title: "{ftbquests.chapter.challenges.quest8115777220850313945.title}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"Name a Cow &e\"Ghast\"&r with a Nametag and have a Ghast kill it..."
-				"What happens next? only Glob knows..."
-				"&6Tip:&r &oGood luck :)"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description1}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description2}"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description3}"
 				""
-				"&e\"Brace yourself for udder devastation! your very blood will &ocurdle in fear!\" &r&d- Magicdealer"
+				"{ftbquests.chapter.challenges.quest5211646346371013304.description4}"
 				""
 			]
 			icon: {
@@ -1944,7 +1944,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "6F095FAF0E97DB2C"
-					title: "&eUnlock Title:&r The Ghow Slayer"
+					title: "{ftbquests.chapter.challenges.quest5211646346371013304.reward.8001031418469145388.title}"
 					type: "command"
 				}
 				{
@@ -2000,7 +2000,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Boss? Battle?"
+			subtitle: "{ftbquests.chapter.challenges.quest5211646346371013304.subtitle}"
 			tasks: [{
 				entity: "ghastcow:ghast_cow"
 				icon: {
@@ -2011,7 +2011,7 @@
 					}
 				}
 				id: "482A39DDAF6660DE"
-				title: "&eKill The Ghow"
+				title: "{ftbquests.chapter.challenges.quest5211646346371013304.task.5200032344045936862.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -2026,7 +2026,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "688BDCF0348DE9F5"
-					title: "&eUnlock Title:&r the Enlightened"
+					title: "{ftbquests.chapter.challenges.quest3031528775408008088.reward.7533357725939263989.title}"
 					type: "command"
 				}
 				{
@@ -2042,12 +2042,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Complete &eThe Sculpter's&r Challenge!"
+			subtitle: "{ftbquests.chapter.challenges.quest3031528775408008088.subtitle}"
 			tasks: [{
 				advancement: "mowziesmobs:sculptor_challenge"
 				criterion: ""
 				id: "68FB618A7D59374A"
-				title: "At One With The World"
+				title: "{ftbquests.chapter.challenges.quest3031528775408008088.task.7564747246535259978.title}"
 				type: "advancement"
 			}]
 			x: 8.0d
@@ -2055,8 +2055,8 @@
 		}
 		{
 			description: [
-				"&o&7It might be worth investing in some better armor... "
-				"&2-The Questmaster"
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description1}"
+				"{ftbquests.chapter.challenges.quest1508817133578834933.description2}"
 			]
 			id: "14F065305DFD53F5"
 			rewards: [
@@ -2066,7 +2066,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_common"
 					id: "1365D7093281C20B"
-					title: "&eUnlock Title:&r Die-a-Lot"
+					title: "{ftbquests.chapter.challenges.quest1508817133578834933.reward.1397759693870449163.title}"
 					type: "command"
 				}
 				{
@@ -2083,7 +2083,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "&o&eDie 100 Times!"
+			subtitle: "{ftbquests.chapter.challenges.quest1508817133578834933.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2096,7 +2096,7 @@
 				}
 				id: "0DF5C00B564E1983"
 				stat: "minecraft:deaths"
-				title: "&6100 Deaths.. But who's counting? &d[Secret Quest]"
+				title: "{ftbquests.chapter.challenges.quest1508817133578834933.task.1005921246712306051.title}"
 				type: "stat"
 				value: 100
 			}]
@@ -2105,8 +2105,8 @@
 		}
 		{
 			description: [
-				"Cleaning up the planet... one piece of plastic at a time!"
-				"&6PS: TELL TECH PLAYERS TO STOP LITTERING!"
+				"{ftbquests.chapter.challenges.quest63909497621471834.description1}"
+				"{ftbquests.chapter.challenges.quest63909497621471834.description2}"
 			]
 			id: "00E30D597780625A"
 			optional: true
@@ -2128,27 +2128,27 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "4878192B49691F91"
-					title: "&eUnlock Title:&r the Trashman"
+					title: "{ftbquests.chapter.challenges.quest63909497621471834.reward.5221951441642004369.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Collect 500x &ePlastic Waste!"
+			subtitle: "{ftbquests.chapter.challenges.quest63909497621471834.subtitle}"
 			tasks: [{
 				count: 500L
 				id: "61E2CFC3EFFF44F0"
 				item: "rats:plastic_waste"
 				type: "item"
 			}]
-			title: "&6Community Service!"
+			title: "{ftbquests.chapter.challenges.quest63909497621471834.title}"
 			x: 10.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
-				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
+				"{ftbquests.chapter.challenges.quest627689187293864018.description1}"
+				"{ftbquests.chapter.challenges.quest627689187293864018.description2}"
 				""
-				"&7&oDid you CHEAT and BURY a goat or build a dirt wall around it or something? if so, shame on you! SHAME! if not, well done I'm proud of you xoxo."
+				"{ftbquests.chapter.challenges.quest627689187293864018.description3}"
 			]
 			hide_dependency_lines: true
 			id: "08B5FFFD7E012052"
@@ -2160,7 +2160,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "626960F9F8D32E9A"
-					title: "&eUnlock Title:&r the Goat Whisperer"
+					title: "{ftbquests.chapter.challenges.quest627689187293864018.reward.7091305715009269402.title}"
 					type: "command"
 				}
 				{
@@ -2196,22 +2196,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Learn from a Goat if you wish to become THE G.O.A.T"
+			subtitle: "{ftbquests.chapter.challenges.quest627689187293864018.subtitle}"
 			tasks: [{
 				icon: "skillcloaks:prayer_hood"
 				id: "3ACA45E5C5866A57"
 				observe_type: 5
 				timer: 1000L
-				title: "&eStare at a Goat uninterrupted for 100 seconds"
+				title: "{ftbquests.chapter.challenges.quest627689187293864018.task.4236275252659120727.title}"
 				to_observe: "minecraft:goat"
 				type: "observation"
 			}]
-			title: "&6The Way of The Goat"
+			title: "{ftbquests.chapter.challenges.quest627689187293864018.title}"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			description: ["&o\"Godzilla was baptized in the fire of the H-bomb and survived. What could kill it now?\""]
+			description: ["{ftbquests.chapter.challenges.quest5497200196616777365.description1}"]
 			id: "4C49FA74128CEE95"
 			rewards: [
 				{
@@ -2237,7 +2237,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "5D2DF03A7B532A06"
-					title: "&eUnlock Title:&r the Terror"
+					title: "{ftbquests.chapter.challenges.quest5497200196616777365.reward.6714286753447094790.title}"
 					type: "command"
 				}
 				{
@@ -2246,20 +2246,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tame a &dTremorzilla"
+			subtitle: "{ftbquests.chapter.challenges.quest5497200196616777365.subtitle}"
 			tasks: [{
 				advancement: "alexscaves:alexscaves/tame_tremorzilla"
 				criterion: ""
 				icon: "alexscaves:waste_drum"
 				id: "116EB152780DB546"
-				title: "&6King of The Monsters"
+				title: "{ftbquests.chapter.challenges.quest5497200196616777365.task.1256136313842545990.title}"
 				type: "advancement"
 			}]
 			x: 4.0d
 			y: 3.0d
 		}
 		{
-			description: ["&o‘Now I Am Become Death, the Destroyer of Worlds.’"]
+			description: ["{ftbquests.chapter.challenges.quest3597581435051051636.description1}"]
 			id: "31ED2D411EC20A74"
 			rewards: [
 				{
@@ -2286,7 +2286,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "074DBF126B7B6BD2"
-					title: "&eUnlock Title:&r the Destroyer of Worlds"
+					title: "{ftbquests.chapter.challenges.quest3597581435051051636.reward.526286817305783250.title}"
 					type: "command"
 				}
 				{
@@ -2295,13 +2295,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eNuclear Bomb"
+			subtitle: "{ftbquests.chapter.challenges.quest3597581435051051636.subtitle}"
 			tasks: [{
 				id: "71320C2F137A9170"
 				item: "alexscaves:nuclear_bomb"
 				type: "item"
 			}]
-			title: "&6Oppenheimer"
+			title: "{ftbquests.chapter.challenges.quest3597581435051051636.title}"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -2347,11 +2347,11 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "0D6B48FB4BB71223"
-					title: "&eUnlock Title:&r the Skillful"
+					title: "{ftbquests.chapter.challenges.quest6860648494938943830.reward.966946789145383459.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Collect all &dSkill Cloaks"
+			subtitle: "{ftbquests.chapter.challenges.quest6860648494938943830.subtitle}"
 			tasks: [
 				{
 					id: "5654CCA80063E2D6"
@@ -2464,12 +2464,12 @@
 					type: "item"
 				}
 			]
-			title: "The Skillful"
+			title: "{ftbquests.chapter.challenges.quest6860648494938943830.title}"
 			x: 9.0d
 			y: -1.0d
 		}
 		{
-			description: ["&7\"I'm the Trash Man! I come out, I throw trash all over the- all over the ring! And then I start eatin' garbage! And then I pick up the trash can, and I bash the guy on the head.\""]
+			description: ["{ftbquests.chapter.challenges.quest8361597504342229435.description1}"]
 			id: "740A5CA0E91C81BB"
 			optional: true
 			rewards: [
@@ -2498,26 +2498,25 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "369FC710E68FD3B6"
-					title: "&eUnlock Title:&r the Stinky"
+					title: "{ftbquests.chapter.challenges.quest8361597504342229435.reward.3936083474746692534.title}"
 					type: "command"
 				}
 			]
 			secret: true
-			subtitle: "Roll Around in Garbage Piles"
+			subtitle: "{ftbquests.chapter.challenges.quest8361597504342229435.subtitle}"
 			tasks: [{
 				icon: "rats:garbage_pile"
 				id: "78D75DD658F2E993"
 				observe_type: 0
 				timer: 200L
-				title: "&8Roll Around in Garbage"
+				title: "{ftbquests.chapter.challenges.quest8361597504342229435.task.8707531579740842387.title}"
 				to_observe: "rats:garbage_pile"
 				type: "observation"
 			}]
-			title: "&e<shake>The Trashman"
+			title: "{ftbquests.chapter.challenges.quest8361597504342229435.title}"
 			x: -1.0d
 			y: -1.0d
 		}
 	]
-	title: "&7Challenges"
+	title: "{ftbquests.chapter.challenges.title}"
 }
-

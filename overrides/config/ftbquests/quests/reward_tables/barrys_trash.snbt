@@ -487,5 +487,5 @@
 		{ item: "immersive_aircraft:boiler" }
 		{ item: "alshanex_familiars:rusty_helmet" }
 	]
-	title: "barry's trash"
+	title: "{ftbquests.loot_table.6507594593139803708.title}"
 }

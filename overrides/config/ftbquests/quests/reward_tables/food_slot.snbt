@@ -1,7 +1,7 @@
 {
 	id: "7CB4328E5FD5760C"
 	loot_size: 1
-	order_index: 21
+	order_index: 22
 	rewards: [
 		{ item: "minecraft:porkchop", random_bonus: 10, weight: 5.0f }
 		{ item: "minecraft:cod", random_bonus: 10, weight: 5.0f }
@@ -202,5 +202,5 @@
 		}
 		{ item: "farmersdelight:mutton_wrap" }
 	]
-	title: "food_slot"
+	title: "{ftbquests.loot_table.8985862743585551884.title}"
 }

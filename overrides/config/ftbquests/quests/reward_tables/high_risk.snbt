@@ -1,7 +1,7 @@
 {
 	id: "1E553705F784CD54"
 	loot_size: 1
-	order_index: 18
+	order_index: 19
 	rewards: [
 		{
 			item: {
@@ -46,5 +46,5 @@
 		{ item: "accessoriumeternia:accessory_radioactive_waste", weight: 40.0f }
 		{ item: "mekanism:radioactive_waste_barrel", weight: 40.0f }
 	]
-	title: "high_risk"
+	title: "{ftbquests.loot_table.2185713692925283668.title}"
 }

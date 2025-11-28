@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Strange new forms of &dAmethyst&r, packed full of energy known as &dMedia&r."]
+			description: ["{ftbquests.chapter.6hexcasting.quest7805182394404268294.description1}"]
 			icon: "hexcasting:charged_amethyst"
 			id: "6C519408B9996906"
 			rewards: [
@@ -28,7 +28,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Amethetical"
+			subtitle: "{ftbquests.chapter.6hexcasting.quest7805182394404268294.subtitle}"
 			tasks: [
 				{
 					id: "4D249676D959D1CC"
@@ -41,22 +41,22 @@
 					type: "item"
 				}
 			]
-			title: "Hexxed Amethysts"
+			title: "{ftbquests.chapter.6hexcasting.quest7805182394404268294.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C519408B9996906"]
 			description: [
-				"&6Hexcasting&r is a mod about &e&lProgramming&r your own Spells, by drawing Patterns between nodes on &dHex&ragonal Grid!"
+				"{ftbquests.chapter.6hexcasting.quest3941842946598059019.description1}"
 				""
-				"If you're not familiar with &e&lProgramming&r concepts, most of this mod won't make much sense to you, and that's Ok! Like many mods, Hexcasting &lisn't&r for everyone!"
+				"{ftbquests.chapter.6hexcasting.quest3941842946598059019.description2}"
 				""
-				"This questline mostly serves as an impetus for those unaware of the mod, to get your mind spinning with its &enear-limitless&r possibilities."
+				"{ftbquests.chapter.6hexcasting.quest3941842946598059019.description3}"
 				""
-				"&6Staves&r are your core tool, they're how you open the &dHex Grid&r to cast on."
+				"{ftbquests.chapter.6hexcasting.quest3941842946598059019.description4}"
 				""
-				"The &6Hex Notebook&r is the mod's own form of documentation. Its &dPatterns section&r is an excellent reference for all the different Patterns available. But its other sections should not be written off, &lespecially&r since this questline doesn't cover everything!"
+				"{ftbquests.chapter.6hexcasting.quest3941842946598059019.description5}"
 			]
 			hide_until_deps_complete: true
 			id: "36B43D46705B3C0B"
@@ -85,7 +85,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "\"I'm casting Explode on you\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest3941842946598059019.subtitle}"
 			tasks: [
 				{
 					id: "1FD1404CBD1B87B1"
@@ -96,7 +96,7 @@
 							value: "hexcasting:staves"
 						}
 					}
-					title: "Any Hex Staff"
+					title: "{ftbquests.chapter.6hexcasting.quest3941842946598059019.task.2292684383642683313.title}"
 					type: "item"
 				}
 				{
@@ -111,26 +111,26 @@
 					type: "item"
 				}
 			]
-			title: "Get Casting"
+			title: "{ftbquests.chapter.6hexcasting.quest3941842946598059019.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0F8871D3EC43504A"]
 			description: [
-				"&6Casting Items&r are a much faster way to cast your Spells."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description1}"
 				""
-				"By casting the appropriate \"&dCraft&r\" spell, with a &5Pattern List&r Iota ontop of the Stack, and an &bEntity&r of an &dItem with a Media value&r below it, a Hex can be embedded into the Casting Item, from which it can then be cast by simply using the item."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description2}"
 				""
-				"When a Casting Item is crafted, the &dtotal Media value of of the Media Item's stack&r will become the Casting Item's &eBattery&r, which will be drained to Cast the Hex from the Item."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description3}"
 				""
-				"They can be recharged by Casting \"&dRecharge Item&r\", and \"&dErase Item&r\" can be used to clear them."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description4}"
 				""
-				"&6Cyphers&r will &cbe destroyed&r once their &eBattery&r is fully drained. they also &ccannot be recharged&r."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description5}"
 				""
-				"&6Trinkets&r will be unable to cast a Hex once their &eBattery&r is low."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description6}"
 				""
-				"&6Artifacts&r can draw Media from their user when their &eBattery&r is drained."
+				"{ftbquests.chapter.6hexcasting.quest6329363568597880084.description7}"
 			]
 			id: "57D66AA198934D14"
 			rewards: [
@@ -224,7 +224,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Casting from a Floppy"
+			subtitle: "{ftbquests.chapter.6hexcasting.quest6329363568597880084.subtitle}"
 			tasks: [{
 				id: "7AA13A75EA584C6D"
 				item: {
@@ -247,20 +247,20 @@
 						]
 					}
 				}
-				title: "Any Casting Item"
+				title: "{ftbquests.chapter.6hexcasting.quest6329363568597880084.task.8836408221994863725.title}"
 				type: "item"
 			}]
-			title: "Saved Casting"
+			title: "{ftbquests.chapter.6hexcasting.quest6329363568597880084.title}"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
 			description: [
-				"A Read-Only &aNumber&r Iota source that can be adjusted on the fly by &dSneaking and Scrolling&r. Holding it in the Offhand allows adjusting the Decmial by &b0.1&r."
-				"Holding &dSprint&r intensifies the adjustment, &b10&r when in the main hand, and &b0.001&r in the Offhand."
+				"{ftbquests.chapter.6hexcasting.quest4147473958902021159.description1}"
+				"{ftbquests.chapter.6hexcasting.quest4147473958902021159.description2}"
 				""
-				"Excellent as a source for variables for Spells. Lets you make a spell with an adjustable Length, for example!"
+				"{ftbquests.chapter.6hexcasting.quest4147473958902021159.description3}"
 			]
 			id: "398EC9976389BC27"
 			rewards: [{
@@ -270,7 +270,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"Gotta tweak that value...\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest4147473958902021159.subtitle}"
 			tasks: [{
 				id: "79AB1A163C6DF3AA"
 				item: "hexcasting:abacus"
@@ -282,9 +282,9 @@
 		{
 			dependencies: ["36B43D46705B3C0B"]
 			description: [
-				"&6Pigments&r can be absorbed by casting \"&dInternalize Pigment&r\" with it in your other hand, permanently changing the &ecolor&r of Casting particles generated by your Spells."
+				"{ftbquests.chapter.6hexcasting.quest1005983459099660162.description1}"
 				""
-				"&6Vacant Pigment&r can be used to reset to the default coloration."
+				"{ftbquests.chapter.6hexcasting.quest1005983459099660162.description2}"
 			]
 			id: "0DF5F8A0498DCF82"
 			rewards: [{
@@ -294,7 +294,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"How Queer\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest1005983459099660162.subtitle}"
 			tasks: [{
 				id: "6A54D60B05FD7FD8"
 				item: {
@@ -304,24 +304,24 @@
 						value: "mce2:hexcasting/pigment"
 					}
 				}
-				title: "Any Pigment"
+				title: "{ftbquests.chapter.6hexcasting.quest1005983459099660162.task.7661984208897540056.title}"
 				type: "item"
 			}]
-			title: "Pigmentation"
+			title: "{ftbquests.chapter.6hexcasting.quest1005983459099660162.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
 			description: [
-				"&eIota Storage&r Items allow you to write Iotas from your current Casting stack to them using \"&dScribe's Gambit&r\", to permanently save them to the Item to Copy later using \"&dScribe's Reflection&r\"."
+				"{ftbquests.chapter.6hexcasting.quest1119269662417440842.description1}"
 				""
-				"&6Thought-Knots&r can only be &cWritten to once&r. Further write or erase attempts on them fail."
+				"{ftbquests.chapter.6hexcasting.quest1119269662417440842.description2}"
 				""
-				"&6Foci&r can be freely overwritten. Handy for saving a Hex as you work on it. Casting \"&dErase Item&r\" will clear it."
+				"{ftbquests.chapter.6hexcasting.quest1119269662417440842.description3}"
 				""
-				"&6Spellbooks&r have &d64 Pages&r that can be cycled through with &dSneak+Scroll&r, each storing an Iota! Pages can be individually renamed, aswell as Write-locked with &6Honeycombs&r."
-				"Like the Focus, \"&dErase Item&r\" can clear the active Page."
+				"{ftbquests.chapter.6hexcasting.quest1119269662417440842.description4}"
+				"{ftbquests.chapter.6hexcasting.quest1119269662417440842.description5}"
 			]
 			id: "0F8871D3EC43504A"
 			rewards: [{
@@ -331,7 +331,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "stack.write(iota)"
+			subtitle: "{ftbquests.chapter.6hexcasting.quest1119269662417440842.subtitle}"
 			tasks: [{
 				id: "6D76FE211B83C0CC"
 				item: {
@@ -358,16 +358,16 @@
 						]
 					}
 				}
-				title: "Any Iota Storage"
+				title: "{ftbquests.chapter.6hexcasting.quest1119269662417440842.task.7887771215534997708.title}"
 				type: "item"
 			}]
-			title: "Wizard's Flash Drive"
+			title: "{ftbquests.chapter.6hexcasting.quest1119269662417440842.title}"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
-			description: ["Decreases the space between nodes on the &dHex Grid&r, giving more room to write patterns."]
+			description: ["{ftbquests.chapter.6hexcasting.quest292592824588197258.description1}"]
 			id: "040F7F9FAD685D8A"
 			rewards: [{
 				amount: 25L
@@ -376,7 +376,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Demagnifying Glass"
+			subtitle: "{ftbquests.chapter.6hexcasting.quest292592824588197258.subtitle}"
 			tasks: [{
 				id: "5C38184183FA4C54"
 				item: "hexcasting:lens"
@@ -398,14 +398,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "\"Madness is a desire to comprehend, but the inability to do so.\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest5446680522993181249.subtitle}"
 			tasks: [{
 				advancement: "hexcasting:y_u_no_cast_angy"
 				criterion: ""
 				id: "02840647B76406ED"
 				type: "advancement"
 			}]
-			title: "Blind Diversion"
+			title: "{ftbquests.chapter.6hexcasting.quest5446680522993181249.title}"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -419,20 +419,20 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Peer through the Psychic barrier that binds reality."
+			subtitle: "{ftbquests.chapter.6hexcasting.quest3278624835792994072.subtitle}"
 			tasks: [{
 				advancement: "hexcasting:enlightenment"
 				criterion: ""
 				id: "7943FCF0E1A18201"
 				type: "advancement"
 			}]
-			title: "Achieve Englightenment"
+			title: "{ftbquests.chapter.6hexcasting.quest3278624835792994072.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2D8003EAD136FF18"]
-			description: ["A terrible spell, capable of rending Minds into proper housing, for all sorts of immoral purposes."]
+			description: ["{ftbquests.chapter.6hexcasting.quest5007388821847729256.description1}"]
 			hide_until_deps_complete: true
 			id: "457DD19A6A7EE468"
 			rewards: [{
@@ -443,7 +443,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "rsquare"
-			subtitle: "\"No thoughts, Head Empty.\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest5007388821847729256.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -462,25 +462,25 @@
 						}
 					}
 				}
-				title: "Ancient Scroll of Flay Mind"
+				title: "{ftbquests.chapter.6hexcasting.quest5007388821847729256.task.9050633796476546734.title}"
 				type: "item"
 			}]
-			title: "The Mindflayer"
+			title: "{ftbquests.chapter.6hexcasting.quest5007388821847729256.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
 			description: [
-				"&6Impeti&r are used to engage Casting in &eSpell Circles&r, which are assemblies of Slate that can autonomously cast Spells."
+				"{ftbquests.chapter.6hexcasting.quest6917928459928880123.description1}"
 				""
-				"Each Impetus activates when different criteria are met."
+				"{ftbquests.chapter.6hexcasting.quest6917928459928880123.description2}"
 				""
-				"&6Toolsmiths&r will activate when &binteracted with&r."
+				"{ftbquests.chapter.6hexcasting.quest6917928459928880123.description3}"
 				""
-				"&6Fletchers&r will activate when &bgazed at&r."
+				"{ftbquests.chapter.6hexcasting.quest6917928459928880123.description4}"
 				""
-				"&6Clerics&r will activated when given a &cRedstone Signal&r."
+				"{ftbquests.chapter.6hexcasting.quest6917928459928880123.description5}"
 			]
 			hide_until_deps_complete: true
 			id: "60016B4813A043FB"
@@ -508,7 +508,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"One thought, only Casting...\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest6917928459928880123.subtitle}"
 			tasks: [{
 				id: "2C0A58FED6F1AA28"
 				item: {
@@ -518,16 +518,16 @@
 						value: "hexcasting:impeti"
 					}
 				}
-				title: "Any Impetus"
+				title: "{ftbquests.chapter.6hexcasting.quest6917928459928880123.task.3173446738987035176.title}"
 				type: "item"
 			}]
-			title: "Autonomous Spellcasting"
+			title: "{ftbquests.chapter.6hexcasting.quest6917928459928880123.title}"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
-			description: ["An &dextremely Media-Rich&r material, filled with &dMedia&r from &bAllays&r."]
+			description: ["{ftbquests.chapter.6hexcasting.quest2676211188641635383.description1}"]
 			hide_until_deps_complete: true
 			id: "2523CFE59AE91C37"
 			rewards: [
@@ -554,7 +554,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Are you really THAT thirsty?"
+			subtitle: "{ftbquests.chapter.6hexcasting.quest2676211188641635383.subtitle}"
 			tasks: [{
 				id: "76F16182D9804C5C"
 				item: "hexcasting:quenched_allay_shard"
@@ -565,7 +565,7 @@
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
-			description: ["The &6Akashic Record&r allows you to create an &eAkashic Library&r, which can be used to associate Iotas with &dPatterns&r, essentially allowing you to &bcreate your own Shortcuts or Patterns!&r"]
+			description: ["{ftbquests.chapter.6hexcasting.quest1826894594802521097.description1}"]
 			id: "195A6EF465491409"
 			rewards: [
 				{
@@ -591,7 +591,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not a Tome, but it does the trick."
+			subtitle: "{ftbquests.chapter.6hexcasting.quest1826894594802521097.subtitle}"
 			tasks: [
 				{
 					id: "29E7E79FFC60335E"
@@ -609,7 +609,7 @@
 					type: "item"
 				}
 			]
-			title: "Akashic Library"
+			title: "{ftbquests.chapter.6hexcasting.quest1826894594802521097.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -623,7 +623,7 @@
 				"0DF5F8A0498DCF82"
 				"195A6EF465491409"
 			]
-			description: ["This is the part where i tell you to go and &dmake more Hexes&r, get &ecreative&r, &6look for fellow Hexcasters&r to rope into your madness. You know, &buse Hexcasting to its fullest extent!&r I can't do that for you now, can i?"]
+			description: ["{ftbquests.chapter.6hexcasting.quest7807671634203359931.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "hexcasting:lore_fragment"
@@ -653,15 +653,15 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "\"You say you're a Hexmaster? Not even close.\""
+			subtitle: "{ftbquests.chapter.6hexcasting.quest7807671634203359931.subtitle}"
 			tasks: [{
 				id: "1343BB952574B00E"
 				type: "checkmark"
 			}]
-			title: "&dCaught in the Hex"
+			title: "{ftbquests.chapter.6hexcasting.quest7807671634203359931.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 	]
-	title: "&7Hexcasting"
+	title: "{ftbquests.chapter.6hexcasting.title}"
 }

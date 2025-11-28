@@ -100,6 +100,6 @@
 			}
 		}
 	]
-	title: "Goodie Bag"
+	title: "{ftbquests.loot_table.6750392856093556082.title}"
 	use_title: true
 }

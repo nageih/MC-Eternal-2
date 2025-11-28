@@ -1,7 +1,7 @@
 {
 	id: "7A4FB9A7FDF16754"
 	loot_size: 1
-	order_index: 25
+	order_index: 26
 	rewards: [
 		{
 			item: {
@@ -70,5 +70,5 @@
 			}
 		}
 	]
-	title: "hand_me_down"
+	title: "{ftbquests.loot_table.8813467126958483284.title}"
 }

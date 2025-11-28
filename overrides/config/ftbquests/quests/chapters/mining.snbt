@@ -51,9 +51,9 @@
 		{
 			dependencies: ["4789D17B88722641"]
 			description: [
-				"Ol' Reliable"
+				"{ftbquests.chapter.mining.quest4156035262804243701.description1}"
 				""
-				"&eTip:&r Tools enchanted with Vein Miner will be able to excavate! You can craft Amethyst Tools which come pre-enchanted!"
+				"{ftbquests.chapter.mining.quest4156035262804243701.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "39AD340D4971B4F5"
@@ -76,7 +76,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oFind or Craft an Iron Pickaxe"
+			subtitle: "{ftbquests.chapter.mining.quest4156035262804243701.subtitle}"
 			tasks: [{
 				id: "3486D6580A337C12"
 				item: {
@@ -123,7 +123,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oTools made from Netherite have incredible durability and mining speed. Netherite Pickaxe's are also immune to fire!"
+			subtitle: "{ftbquests.chapter.mining.quest1636486434105046254.subtitle}"
 			tasks: [{
 				id: "6846CE31AE41E313"
 				item: {
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["Mining blocks since 2011!!"]
+			description: ["{ftbquests.chapter.mining.quest5924949272282777685.description1}"]
 			id: "5239A5F8AE9FC855"
 			rewards: [
 				{
@@ -180,7 +180,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oFind or Craft a Diamond Pickaxe"
+			subtitle: "{ftbquests.chapter.mining.quest5924949272282777685.subtitle}"
 			tasks: [{
 				id: "65193D8BFFCA4291"
 				item: {
@@ -244,7 +244,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{ftbquests.chapter.mining.quest1183684409501818541.subtitle}"
 			tasks: [
 				{
 					count: 32L
@@ -277,7 +277,7 @@
 					type: "item"
 				}
 			]
-			title: "&eDiggy Diggy Hole! (1)"
+			title: "{ftbquests.chapter.mining.quest1183684409501818541.title}"
 			x: -0.8d
 			y: -0.8d
 		}
@@ -342,7 +342,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{ftbquests.chapter.mining.quest8193720394899353076.subtitle}"
 			tasks: [
 				{
 					count: 8L
@@ -401,7 +401,7 @@
 					type: "item"
 				}
 			]
-			title: "&eDiggy Diggy Hole Part (2)"
+			title: "{ftbquests.chapter.mining.quest8193720394899353076.title}"
 			x: 0.8d
 			y: -0.8d
 		}
@@ -459,7 +459,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&oCollect earthly &mrocks&r minerals"
+			subtitle: "{ftbquests.chapter.mining.quest7778967938915916782.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "7FAC63CEA2FA1521"
@@ -474,13 +474,13 @@
 				}
 				type: "item"
 			}]
-			title: "&eDiggy Diggy Hole! (3)"
+			title: "{ftbquests.chapter.mining.quest7778967938915916782.title}"
 			x: -1.221428571428575d
 			y: -0.3795918367346971d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
-			description: ["&d&o/give xephos 46 64"]
+			description: ["{ftbquests.chapter.mining.quest9041398380452631684.description1}"]
 			hide_dependency_lines: true
 			id: "7D797FEC73ABD484"
 			rewards: [
@@ -614,7 +614,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Mine 4664 Blocks of Stone"
+			subtitle: "{ftbquests.chapter.mining.quest9041398380452631684.subtitle}"
 			tasks: [{
 				block: "minecraft:stone"
 				block_type: 0
@@ -623,7 +623,7 @@
 				type: "questsadditions:break"
 				value: 4664L
 			}]
-			title: "&eDiggy Diggy Hole! (4)"
+			title: "{ftbquests.chapter.mining.quest9041398380452631684.title}"
 			x: 1.2642857142857196d
 			y: -0.3795918367346971d
 		}
@@ -633,7 +633,7 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["Requires &eDiggy Diggy Part 1,2,3,4."]
+			description: ["{ftbquests.chapter.mining.quest6410433765430371974.description1}"]
 			hide_dependency_lines: true
 			id: "58F66F8BB4A5A686"
 			rewards: [
@@ -661,7 +661,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oIt's deep underground! Not quite past the bedrock, but don't dig straight down, you'll regret that!"
+			subtitle: "{ftbquests.chapter.mining.quest6410433765430371974.subtitle}"
 			tasks: [{
 				biome: "minecraft:dripstone_caves"
 				icon: {
@@ -670,7 +670,7 @@
 					tag: { }
 				}
 				id: "681D67B3FE0C4388"
-				title: "&eLocate The Dripstone Caves"
+				title: "{ftbquests.chapter.mining.quest6410433765430371974.task.7502266577028137864.title}"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -682,7 +682,7 @@
 				"106D4AB2F2861EAD"
 				"6BF472202E3C5BEE"
 			]
-			description: ["Requires &eDiggy Diggy Part 1,2,3,4."]
+			description: ["{ftbquests.chapter.mining.quest3281582345321303253.description1}"]
 			hide_dependency_lines: true
 			id: "2D8A85C1AA11CCD5"
 			rewards: [
@@ -691,7 +691,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "1751F3FB18D062B6"
-					title: "&eUnlock Title:&r the Dwarf"
+					title: "{ftbquests.chapter.mining.quest3281582345321303253.reward.1680392395764556470.title}"
 					type: "command"
 				}
 				{
@@ -718,7 +718,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oUncover the mysteries of the &eLush Caves!"
+			subtitle: "{ftbquests.chapter.mining.quest3281582345321303253.subtitle}"
 			tasks: [{
 				biome: "minecraft:lush_caves"
 				icon: {
@@ -727,7 +727,7 @@
 					tag: { }
 				}
 				id: "3FF3FC9541AFDB07"
-				title: "&eLocate The Lush Caves"
+				title: "{ftbquests.chapter.mining.quest3281582345321303253.task.4608304561712519943.title}"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -735,7 +735,7 @@
 		}
 		{
 			dependencies: ["58F45881D48D9534"]
-			description: ["Find all of &eAlex's Caves&r."]
+			description: ["{ftbquests.chapter.mining.quest3460186953449756008.description1}"]
 			hide_dependency_lines: true
 			id: "30050DB388D05568"
 			rewards: [
@@ -775,7 +775,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "\"Collect my Caves\""
+			subtitle: "{ftbquests.chapter.mining.quest3460186953449756008.subtitle}"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/discover_primordial_caves"
@@ -814,21 +814,21 @@
 					type: "advancement"
 				}
 			]
-			title: "&6An Uncommon Adventure!"
+			title: "{ftbquests.chapter.mining.quest3460186953449756008.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["39AD340D4971B4F5"]
 			description: [
-				"The &eTunnel Digger&r can be used to quickly clear out a mineshaft or tunnel. "
+				"{ftbquests.chapter.mining.quest8033327730336826704.description1}"
 				""
-				"It will dig in a 1x3 radius but only when fueled and used by a Player!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description2}"
 				""
-				"Additionally you can aquire &dAmethyst&r to increase the speed of your &eTunnel Digger!&r"
-				"You can also use different &eDrill Upgrades&r to increase your efficiency!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description3}"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description4}"
 				""
-				"&eTip:&r Holding &eSHIFT&r will dig 1 Block below you too!"
+				"{ftbquests.chapter.mining.quest8033327730336826704.description5}"
 			]
 			hide_dependency_lines: true
 			id: "6F7C1D0223058550"
@@ -878,7 +878,7 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Craft a &eTunnel Digger&r"
+			subtitle: "{ftbquests.chapter.mining.quest8033327730336826704.subtitle}"
 			tasks: [{
 				id: "310FA1963FDAD265"
 				item: {
@@ -888,18 +888,18 @@
 				}
 				type: "item"
 			}]
-			title: "&eMining With Style!"
+			title: "{ftbquests.chapter.mining.quest8033327730336826704.title}"
 			x: -1.9761904761904745d
 			y: 2.761904761904752d
 		}
 		{
 			dependencies: ["5239A5F8AE9FC855"]
 			description: [
-				"&eThe Mining Gadget &ris a device that shoots a continuous high-powered beam of pure energy. "
-				"This beam is capable of mining blocks at high speed and can be upgraded with many different upgrades for different playstyles and preferences!"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description1}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description2}"
 				""
-				"&6Hint:&r You can upgrade your Mining Gadget with a &eModification Station"
-				"&eTip:&r This item needs to be charged with &d\"FE - Forge Energy\"&r"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description3}"
+				"{ftbquests.chapter.mining.quest2823051759884533869.description4}"
 			]
 			hide_dependency_lines: true
 			id: "272D7E9E5275806D"
@@ -935,7 +935,7 @@
 			]
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Craft a &eMining Gadget"
+			subtitle: "{ftbquests.chapter.mining.quest2823051759884533869.subtitle}"
 			tasks: [{
 				id: "56AE37E65F02C816"
 				item: {
@@ -946,20 +946,20 @@
 					}
 				}
 				only_from_crafting: true
-				title: "Any Mining Gadget"
+				title: "{ftbquests.chapter.mining.quest2823051759884533869.task.6245991195785480214.title}"
 				type: "item"
 			}]
-			title: "&eMining With Style (II)"
+			title: "{ftbquests.chapter.mining.quest2823051759884533869.title}"
 			x: 2.0d
 			y: 2.761904761904752d
 		}
 		{
 			description: [
-				"&eAlex's Caves&r is a mod that adds a handful of &6Rare&r and Expansive &dUnderground Biomes&r, each with a swath of unique content associated with them."
+				"{ftbquests.chapter.mining.quest4971210052405956054.description1}"
 				""
-				"You might have taken note of the fact that they're &6Rare&r though, and you might be thinking \"&7&ooh great, that'll be fun to try and find...&r\", and you'd be right! Fortunately, the mod has mechanics to locate them!"
+				"{ftbquests.chapter.mining.quest4971210052405956054.description2}"
 				""
-				"And before you think about using some kind of &2Biome Locator&r to find them, don't, it won't work. &eAlex's Caves&r wants you to &dinteract with its own mechanics&r, not just skip over them."
+				"{ftbquests.chapter.mining.quest4971210052405956054.description3}"
 			]
 			icon: {
 				Count: 1
@@ -976,14 +976,14 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Introduction to Alex's Caves"
+			subtitle: "{ftbquests.chapter.mining.quest4971210052405956054.subtitle}"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/root"
 					criterion: ""
 					icon: "minecraft:stripped_oak_log"
 					id: "53C881772ABEEB80"
-					title: "&eFind an Underground Cabin"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.6037217649308396416.title}"
 					type: "advancement"
 				}
 				{
@@ -995,26 +995,26 @@
 					advancement: "alexscaves:alexscaves/cave_tablet"
 					criterion: ""
 					id: "71574DF96C9B64BF"
-					title: "&eFind a Cave Tablet"
+					title: "{ftbquests.chapter.mining.quest4971210052405956054.task.8167082182924002495.title}"
 					type: "advancement"
 				}
 			]
-			title: "&6Cavernous Journey"
+			title: "{ftbquests.chapter.mining.quest4971210052405956054.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["44FD49343D820DD6"]
 			description: [
-				"In order to &oactually&r find one of &eAlex's Caves&r without losing your mind, you'll need to decode your &dCave Tablets&r at the &bSpelunkery Table&r."
+				"{ftbquests.chapter.mining.quest6409845484295132468.description1}"
 				""
-				"Decoding them is as simple as &dfinding key words shown on the left&r in the batch of &eGalactic Standard Alphabet&r text on the right."
+				"{ftbquests.chapter.mining.quest6409845484295132468.description2}"
 				""
-				"Do it 3 times without more than 5 wrong guesses, and you'll get a &6Cave Codex&r, which you can &buse to craft a &6Cave Map&r for the type of cave the Codex is related to, or &duse while holding with &l{key.use}&r to add information about some of that Cave's features to the &bCave Compendium&r when you read it."
+				"{ftbquests.chapter.mining.quest6409845484295132468.description3}"
 				"{@pagebreak}"
-				"&eTip:&r Memorize the appearance of &aVowels&r in &eGalactic Standard Alphabet&r, being common characters, knowing the way they look helps in easing the process!"
+				"{ftbquests.chapter.mining.quest6409845484295132468.description4}"
 				""
-				"You &ocould&r also just use the collective memory known as \"&dThe Internet&r\", surely someone's made a translator out there. But where's the fun in that?"
+				"{ftbquests.chapter.mining.quest6409845484295132468.description5}"
 			]
 			icon: {
 				Count: 1
@@ -1048,27 +1048,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "Half of a Codec"
+			subtitle: "{ftbquests.chapter.mining.quest6409845484295132468.subtitle}"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/cave_codex"
 					criterion: ""
 					id: "7E6FB54AE3ED3399"
-					title: "&eDecode a Cave Tablet"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.9110699904449983385.title}"
 					type: "advancement"
 				}
 				{
 					advancement: "alexscaves:alexscaves/cave_map"
 					criterion: ""
 					id: "567F0EEFBE248A92"
-					title: "&eCraft a Cave Map"
+					title: "{ftbquests.chapter.mining.quest6409845484295132468.task.6232716832154094226.title}"
 					type: "advancement"
 				}
 			]
-			title: "&6Decoder"
+			title: "{ftbquests.chapter.mining.quest6409845484295132468.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 	]
-	title: "&7Intro To Mining"
+	title: "{ftbquests.chapter.mining.title}"
 }

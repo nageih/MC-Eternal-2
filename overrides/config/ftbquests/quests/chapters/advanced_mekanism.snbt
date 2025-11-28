@@ -212,9 +212,9 @@
 		{
 			height: 0.5d
 			hover: [
-				"v"
-				"Hydrogen"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext1"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext2"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext3"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -225,9 +225,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Hydrogen Chloride"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext4"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext5"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext6"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -237,7 +237,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["> Gunpowder >"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext7"]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -247,9 +247,9 @@
 		{
 			height: 0.5d
 			hover: [
-				"v"
-				"Chlorine"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext8"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext9"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext10"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -260,9 +260,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Sulfur"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext11"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext12"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext13"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_logistical_transporter_vertical.png"
 			rotation: 0.0d
@@ -273,9 +273,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Sulfur Dioxide"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext14"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext15"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext16"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -285,7 +285,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["< Oxygen <"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext17"]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -294,7 +294,7 @@
 		}
 		{
 			height: 1.25d
-			hover: ["> Water Vapor >"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext18"]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: -45.0d
 			width: 0.5d
@@ -304,9 +304,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Sulfur Trioxide"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext19"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext20"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext21"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/basic_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -317,9 +317,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Sulfuric Acid"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext22"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext23"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext24"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -329,7 +329,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["> Uranium Ingot >"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext25"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -339,9 +339,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Yellow Cake Uranium"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext26"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext27"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext28"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 0.0d
@@ -351,7 +351,7 @@
 		}
 		{
 			height: 1.25d
-			hover: ["> Uranium Oxide >"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext29"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: -45.0d
 			width: 0.5d
@@ -360,7 +360,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["< Fluorite <"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext30"]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_logistical_transporter_vertical.png"
 			rotation: 90.0d
 			width: 0.25d
@@ -370,9 +370,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Hydrofluoric Acid"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext31"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext32"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext33"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/advanced_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -382,7 +382,7 @@
 		}
 		{
 			height: 0.5d
-			hover: ["< Nuclear Waste <"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext34"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -392,9 +392,9 @@
 		{
 			height: 0.75d
 			hover: [
-				"v"
-				"Uranium Hexafluoride"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext35"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext36"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext37"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -405,9 +405,9 @@
 		{
 			height: 2.0d
 			hover: [
-				"v"
-				"Fissile Fuel"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext38"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext39"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext40"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/elite_pressurized_tube_vertical.png"
 			rotation: 0.0d
@@ -418,9 +418,9 @@
 		{
 			height: 1.5d
 			hover: [
-				"v"
-				"Steam"
-				"v"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext41"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext42"
+				"ftbquests.chapter.advanced_mekanism.image.hovertext43"
 			]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 33.75d
@@ -430,7 +430,7 @@
 		}
 		{
 			height: 2.0d
-			hover: ["> Steam >"]
+			hover: ["ftbquests.chapter.advanced_mekanism.image.hovertext44"]
 			image: "mekanism:textures/block/models/multipart/opaque/ultimate_pressurized_tube_vertical.png"
 			rotation: 90.0d
 			width: 0.5d
@@ -909,7 +909,7 @@
 				item: "mekanismgenerators:turbine_valve"
 				type: "item"
 			}]
-			title: "Steam Turbine"
+			title: "{ftbquests.chapter.advanced_mekanism.quest8337097437657288401.title}"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -1528,7 +1528,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Want to go one step further in the thermal evaporation process? Feed your brine into this plant and get liquid lithium, an essential component for your induction matrix!"]
+			description: ["{ftbquests.chapter.advanced_mekanism.quest8788060949101547629.description1}"]
 			icon: "mekanism:boiler_valve"
 			id: "79F576DF3FAE106D"
 			rewards: [
@@ -1566,7 +1566,7 @@
 		}
 		{
 			dependencies: ["79F576DF3FAE106D"]
-			description: ["Want to get the most out of your liquid lithium? Decondensentrate it to proceed further!"]
+			description: ["{ftbquests.chapter.advanced_mekanism.quest6692407719896508770.description1}"]
 			id: "5CE0355D04836962"
 			rewards: [
 				{
@@ -1611,7 +1611,7 @@
 		}
 		{
 			dependencies: ["5CE0355D04836962"]
-			description: ["Experience the power of lithium! Pump it into the chemical crystallizer for dust that can be used to craft induction cells and providers, giving you access to supreme storable energy."]
+			description: ["{ftbquests.chapter.advanced_mekanism.quest6193462810271479244.description1}"]
 			id: "55F3999C8FD2F5CC"
 			rewards: [
 				{
@@ -1656,7 +1656,7 @@
 		}
 		{
 			dependencies: ["55F3999C8FD2F5CC"]
-			description: ["Whether you need to store or transfer power, you can easily customize your matrix to fit your needs—from a small 3x3x4 to a massive 18x18x18."]
+			description: ["{ftbquests.chapter.advanced_mekanism.quest3536562127461532557.description1}"]
 			id: "311464847571C38D"
 			rewards: [
 				{
@@ -1693,7 +1693,7 @@
 		}
 		{
 			dependencies: ["311464847571C38D"]
-			description: ["Indulge your inner creeper with this custom-made induction matrix! You can create a one-of-a-kind centerpiece using a mix of basic and ultimate blocks."]
+			description: ["{ftbquests.chapter.advanced_mekanism.quest1037980300234582131.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0E67A5956755E873"
@@ -2121,5 +2121,5 @@
 			y: 1.5d
 		}
 	]
-	title: "&7Mekanism (II)"
+	title: "{ftbquests.chapter.advanced_mekanism.title}"
 }

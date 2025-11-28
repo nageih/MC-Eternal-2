@@ -1,7 +1,7 @@
 {
 	id: "5A39920C0FF1F852"
 	loot_size: 1
-	order_index: 19
+	order_index: 20
 	rewards: [{
 		item: {
 			Count: 1
@@ -30,5 +30,5 @@
 		}
 		weight: 10.0f
 	}]
-	title: "penny"
+	title: "{ftbquests.loot_table.6501388117590800466.title}"
 }

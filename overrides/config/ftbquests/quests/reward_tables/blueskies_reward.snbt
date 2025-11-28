@@ -179,5 +179,5 @@
 			only_one: true
 		}
 	]
-	title: "blueskies_reward"
+	title: "{ftbquests.loot_table.2275128639932864800.title}"
 }

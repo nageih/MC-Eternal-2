@@ -83,13 +83,13 @@
 		}
 		{
 			description: [
-				"Titles are unique cosmetic rewards that can be used to show off your progress. Try to collect them all!"
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description1}"
 				""
-				"They earned by completing Quests, Advancements, Challenges, Collecting Title Fragments and more!"
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description2}"
 				""
-				"When you've unlocked a special MCE2 Title, it will appear here, inside The Book of Titles. "
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description3}"
 				""
-				"Here you can claim your Titles and Equip them by pressing the designated Keybind!"
+				"{ftbquests.chapter.etitles.quest6831313394081181756.description4}"
 			]
 			id: "5ECDB3568B93B03C"
 			rewards: [{
@@ -98,7 +98,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "&oWelcome to &eThe Book of Titles! &r&o[Click me to learn more]"
+			subtitle: "{ftbquests.chapter.etitles.quest6831313394081181756.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -110,7 +110,7 @@
 					id: "titles:title_scroll_uncommon"
 				}
 				id: "65E781F651F35B55"
-				title: "&eThe Book of Titles"
+				title: "{ftbquests.chapter.etitles.quest6831313394081181756.task.7342980612387724117.title}"
 				type: "checkmark"
 			}]
 			x: -7.547619047619037d
@@ -120,7 +120,7 @@
 			id: "5CCA92D1F4EF1398"
 			tasks: [{
 				id: "3964D22FB6349200"
-				title: "test"
+				title: "{ftbquests.chapter.etitles.quest6686318027240051608.task.4135661460195152384.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -151,5 +151,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Book of Titles (NYI)"
+	title: "{ftbquests.chapter.etitles.title}"
 }

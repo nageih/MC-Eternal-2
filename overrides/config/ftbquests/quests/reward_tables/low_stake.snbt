@@ -92,5 +92,5 @@
 		{ item: "alexsmobs:banana_peel", weight: 80.0f }
 		{ item: "accessoriumeternia:accessory_moldy_bread", weight: 30.0f }
 	]
-	title: "low_stake"
+	title: "{ftbquests.loot_table.8295254696958436208.title}"
 }

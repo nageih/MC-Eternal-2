@@ -11,15 +11,15 @@
 	quests: [
 		{
 			description: [
-				"You can purchase &dLand Titles&r to be able to claim more land!"
-				"By default you have 80 Chunks that you can claim as your own. "
-				"You can claim chunks by opening your Xaero's Worldmap and pressing &dM&r and clicking to select chunks to claim. You &lcannot&r claim chunks that someone else has already claimed!"
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description1}"
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description2}"
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description3}"
 				""
-				"Simply hold &dRight-Click&r and drag to highlight a chunk and press &dClaim Selected!"
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description4}"
 				""
-				"&6Hint:&r Claimed chunks are immune to most forms of mob griefing, such as creepers and endermen. Players that aren't in your team will be unable to build, break blocks or open chests!"
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description5}"
 				""
-				"&8Ignore the fact that these quests are pyramid shaped. That is unrelated."
+				"{ftbquests.chapter.6land_deeds.quest2859881821560083491.description6}"
 			]
 			icon: "create:schematic_and_quill"
 			id: "27B0575D49AF9423"
@@ -29,19 +29,19 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "Learn about Claiming Chunks!"
+			subtitle: "{ftbquests.chapter.6land_deeds.quest2859881821560083491.subtitle}"
 			tasks: [{
 				id: "4612D43233C08F18"
-				title: "&e&nClick To Complete!"
+				title: "{ftbquests.chapter.6land_deeds.quest2859881821560083491.task.5049331444317458200.title}"
 				type: "checkmark"
 			}]
-			title: "&6&nInformation Quest&r &r&2&l"
+			title: "{ftbquests.chapter.6land_deeds.quest2859881821560083491.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27B0575D49AF9423"]
-			description: ["&2Unlock:&r +5 Chunks"]
+			description: ["{ftbquests.chapter.6land_deeds.quest1428723753355751021.description1}"]
 			icon: "titles:title_scroll_common"
 			id: "13D3D8AF18EEAE6D"
 			rewards: [
@@ -50,7 +50,7 @@
 					console: true
 					icon: "titles:title_scroll_common"
 					id: "70813F175D24A808"
-					title: "&eUnlock Title:&r the Landlord"
+					title: "{ftbquests.chapter.6land_deeds.quest1428723753355751021.reward.8106830173823084552.title}"
 					type: "command"
 				}
 				{
@@ -60,22 +60,22 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "&eThe Landlord"
+			subtitle: "{ftbquests.chapter.6land_deeds.quest1428723753355751021.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "77C4875020276837"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&dPurchase Land Deed:&r &7+5 Chunks"
+			title: "{ftbquests.chapter.6land_deeds.quest1428723753355751021.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["13D3D8AF18EEAE6D"]
 			description: [
-				"&2Unlock:&r +10 Chunks"
-				"&2Unlock:&r +3 Chunk Loaders"
+				"{ftbquests.chapter.6land_deeds.quest4943080111422770919.description1}"
+				"{ftbquests.chapter.6land_deeds.quest4943080111422770919.description2}"
 			]
 			icon: "titles:title_scroll_uncommon"
 			id: "4499592BF9A70EE7"
@@ -85,7 +85,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "37449BF693B38FF2"
-					title: "&eUnlock Title:&r the Proprietor"
+					title: "{ftbquests.chapter.6land_deeds.quest4943080111422770919.reward.3982479453844639730.title}"
 					type: "command"
 				}
 				{
@@ -100,14 +100,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&3The Proprietor"
+			subtitle: "{ftbquests.chapter.6land_deeds.quest4943080111422770919.subtitle}"
 			tasks: [{
 				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "67059F819AC917ED"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&dPurchase Land Deed:&r &7+10 Chunks"
+			title: "{ftbquests.chapter.6land_deeds.quest4943080111422770919.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -117,8 +117,8 @@
 				"27B0575D49AF9423"
 			]
 			description: [
-				"&2Unlock:&r +50 Chunks"
-				"&2Unlock:&r +5 Chunk Loaders"
+				"{ftbquests.chapter.6land_deeds.quest1124792805245103022.description1}"
+				"{ftbquests.chapter.6land_deeds.quest1124792805245103022.description2}"
 			]
 			icon: "titles:title_scroll_rare"
 			id: "0F9C1118D28CABAE"
@@ -128,7 +128,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "2B6AEC16D6420755"
-					title: "&eUnlock Title:&r the Tycoon "
+					title: "{ftbquests.chapter.6land_deeds.quest1124792805245103022.reward.3128572473990317909.title}"
 					type: "command"
 				}
 				{
@@ -144,14 +144,14 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "&6&lThe Tycoon"
+			subtitle: "{ftbquests.chapter.6land_deeds.quest1124792805245103022.subtitle}"
 			tasks: [{
 				amount: 8000L
 				currency: "eternalcurrencies:coins"
 				id: "0062CFA0CB2F24C3"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&dPurchase Land Title:&r &7+50 Chunks"
+			title: "{ftbquests.chapter.6land_deeds.quest1124792805245103022.title}"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -163,11 +163,11 @@
 				"0F9C1118D28CABAE"
 			]
 			description: [
-				"&2Unlock:&r +1 Chunk"
+				"{ftbquests.chapter.6land_deeds.quest5610109363107351670.description1}"
 				""
-				"&eNote:&r This Quest is repeatable!"
+				"{ftbquests.chapter.6land_deeds.quest5610109363107351670.description2}"
 				""
-				"&o&7Taking over the world one chunk at a time!"
+				"{ftbquests.chapter.6land_deeds.quest5610109363107351670.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -180,17 +180,17 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "&6&lThe Land Baron"
+			subtitle: "{ftbquests.chapter.6land_deeds.quest5610109363107351670.subtitle}"
 			tasks: [{
 				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "7F752B5BB30C7A46"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&dPurchase Land Deed:&r &7+1 Chunk"
+			title: "{ftbquests.chapter.6land_deeds.quest5610109363107351670.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 	]
-	title: "&7Land Deeds"
+	title: "{ftbquests.chapter.6land_deeds.title}"
 }

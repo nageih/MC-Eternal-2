@@ -460,14 +460,14 @@
 	quests: [
 		{
 			description: [
-				"So you have found your first spell and you want to become a powerful wizard?"
-				"&5Iron's Spells and Spellbooks&r is just the right place for that."
-				"You'll cast a plethora of utility and damage dealing spells across your magical carrer."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description3}"
 				""
-				"These &escrolls&r are frail and will be consumed if you use them directly."
-				"That won't do... There must be a less barbaric way of casting."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description4}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description5}"
 				""
-				"&7Chapter Credit: Dark_Reaper115&r"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description6}"
 			]
 			id: "5161C98079099E9B"
 			rewards: [{
@@ -483,18 +483,18 @@
 				id: "4D5B8112F7B9E8A2"
 				item: "irons_spellbooks:scroll"
 				match_nbt: false
-				title: "Any Magical Scroll"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.task.5574190882266671266.title}"
 				type: "item"
 			}]
-			title: "Wizard Beginnings"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5161C98079099E9B"]
 			description: [
-				"Equip a &espellbook&r in your &eSpellbook Curio Slot&r and that will allow you to access your spells with a few &lkeybinds&r."
-				"&o(Personal preference is holding &lX&r to open the spell selection wheel and pressing &lR&r to cast the selected spell. You can also assign keybinds directly to a spell slot.)&r"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.description2}"
 			]
 			icon_scale: 0.75d
 			id: "791BEBC41E54EE77"
@@ -524,7 +524,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Eureka!"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.subtitle}"
 			tasks: [{
 				id: "23D50C13F3CE4E1C"
 				item: {
@@ -561,16 +561,16 @@
 				}
 				type: "item"
 			}]
-			title: "Wizard's First Spellbook"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8726827930515467895.title}"
 			x: 5.069047619047566d
 			y: 0.009183673469372877d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
 			description: [
-				"Now that you have your &espellbook&r in your &ecurio slot&r, you can access it from the &eInscription Table&r."
-				"Simply place your prefered spell in the input slot, select which spell slot you want that spell to go into, and save it."
-				"You can also remove spells by selecting it on the right and taking it out."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.description3}"
 			]
 			id: "2406A8BE1889B68A"
 			rewards: [{
@@ -582,7 +582,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Preperred spellcasting was never cooler"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2595947769634600586.subtitle}"
 			tasks: [{
 				id: "23516E5A824DBB2D"
 				item: "irons_spellbooks:inscription_table"
@@ -593,14 +593,14 @@
 		}
 		{
 			description: [
-				"There's 5 &eink&r rarities:"
-				"&7Common&r"
-				"&2Uncommon&r"
-				"&3Rare&r"
-				"&5Epic&r"
-				"and &6<wave>Legendary&r"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description3}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description4}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description5}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description6}"
 				""
-				"Can be found in random chests, dropped by &5Iron's Spells&r enemies, and crafted from lower tier &einks&r.&e"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.description7}"
 			]
 			id: "38485FF144506F44"
 			rewards: [
@@ -663,10 +663,10 @@
 						]
 					}
 				}
-				title: "Any Ink"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.task.5051214709606900853.title}"
 				type: "item"
 			}]
-			title: "Inks"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4055596954285010756.title}"
 			x: 9.0d
 			y: -2.0d
 		}
@@ -676,9 +676,9 @@
 				"2406A8BE1889B68A"
 			]
 			description: [
-				"The &eSpell Forge&r allows you to create your own spells &escrolls&r."
-				"All spells requiere some &eink&r (higher rarity &einks&r result in more powerful spells), a piece of &epaper&r, and finally some &emagic school focus&r."
-				"To see a full list of the &emagic school focuses&r, I recommand looking up the uses of the Spell Forge in JEI. Some examples are &eBlaze Rods&r for fire, &eDivine Pearl&r for Holy, and &ePoisonus Potato&r for Nature..."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.description3}"
 			]
 			id: "411641ED457A2ADF"
 			rewards: [
@@ -705,7 +705,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Write that down! Write that down!"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4690008549281639135.subtitle}"
 			tasks: [{
 				id: "34F25B2740E4EEE2"
 				item: "irons_spellbooks:scroll_forge"
@@ -715,7 +715,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Dropped by &cAncient Knights&r. They can be found in &7Pyromancer Towers&r in the Overworld or more abundantly in &7Ancient Battlegrounds&r in the Nether."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2055641086258977452.description1}"]
 			icon: "irons_spellbooks:cinder_essence"
 			id: "1C871AAD3C2A1AAC"
 			rewards: [{
@@ -740,9 +740,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Inventory clogged with extra spells you'll never use?"
-				"Say no more. This &ecauldron&r allows you to destroy the worthless spells and (sometimes) get &eink&r in return."
-				"Additionally, you can brew &epotions&r and even combine &eink&r from a rarity to get a better rarity one."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7850822665214106840.description3}"
 			]
 			id: "6CF3B99E5AAC1CD8"
 			rewards: [
@@ -791,12 +791,12 @@
 		{
 			dependencies: ["2406A8BE1889B68A"]
 			description: [
-				"The &eArcane Anvil&r has a few uses:"
-				"First of all it let's you level up your spells with higher rarity &eink&r. Usually it's cheaper to make a higher level version with the &eSpell Forge&r but certain spell can only get to their highest potential this way."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description2}"
 				"{@pagebreak}"
-				"The &eArcane Anvil&r also allows you to imbue one spell into a sword, helmet, or chestplate. Essentially you are getting +1 spell slot while holding/wearing said item."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description3}"
 				"{@pagebreak}"
-				"The final function is to apply &eupgrade orbs&r to armor pieces, staves, and spellbooks. You can apply up to 3 &eupgrade orbs&r per item. These upgrade orbs can grant all sorts of bonuses like spell power, cooldown reduction, maximum mana, cast time speed, etc..."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6999913205766722184.description4}"
 			]
 			id: "6124AFF9384A9288"
 			rewards: [{
@@ -815,7 +815,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Exclusively obtained from looting chests, every single piece of &eArcane Essence&r is important. Eventually you'll need &nLOTS&r of this to make your fancy &earmors&r and &eupgrades&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4575860934045661794.description1}"]
 			id: "3F80B9468B60FA62"
 			rewards: [{
 				amount: 50L
@@ -835,9 +835,9 @@
 		{
 			dependencies: ["3F80B9468B60FA62"]
 			description: [
-				"Your very first armor set."
-				"Cheap. Reliable. Cheap."
-				"Better than leather, for sure."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.description3}"
 			]
 			id: "672773DD7379C83C"
 			rewards: [{
@@ -847,7 +847,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"I put on my robe and wizard hat\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.subtitle}"
 			tasks: [
 				{
 					id: "39D47D113244D93A"
@@ -894,13 +894,13 @@
 					type: "item"
 				}
 			]
-			title: "Wandering Magician Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7433037104960620604.title}"
 			x: -4.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["71F301DD88440949"]
-			description: ["Improved defense and maximum mana while looking stylish."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.description1}"]
 			id: "1BD6D6FB76B036EB"
 			rewards: [{
 				amount: 120L
@@ -909,7 +909,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "I should put one of these in my farm"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.subtitle}"
 			tasks: [
 				{
 					id: "755E6E09020C8CC2"
@@ -956,15 +956,15 @@
 					type: "item"
 				}
 			]
-			title: "Scarecrow Armor Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2006027059556529899.title}"
 			x: 0.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["3F80B9468B60FA62"]
 			description: [
-				"Base material for most armor sets and a few other items."
-				"Hope you've been collecting &3Arcane Essence&r."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8210908596612106569.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest8210908596612106569.description2}"
 			]
 			id: "71F301DD88440949"
 			rewards: [{
@@ -984,7 +984,7 @@
 		}
 		{
 			dependencies: ["71F301DD88440949"]
-			description: ["So far so good... but generic armors aren't good enough. Let's look into some &eclass armor sets&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1303421230208476207.description1}"]
 			id: "1216AEB3FB47642F"
 			rewards: [{
 				id: "3B14201475B20484"
@@ -1004,7 +1004,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "6417FB916F795EAF"
-				title: "Better Armors"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1303421230208476207.task.7212509930316193455.title}"
 				type: "checkmark"
 			}]
 			x: 12.0d
@@ -1037,7 +1037,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "For those looking to be a jack-of-all-trades... or some extra defense"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7009424357929360270.subtitle}"
 			tasks: [
 				{
 					id: "743F2BB7EDA9695E"
@@ -1090,18 +1090,18 @@
 					type: "item"
 				}
 			]
-			title: "Netherite Battle Mage"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7009424357929360270.title}"
 			x: 7.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
-			description: ["Alright! You are getting the hang of spellcasting but it's kinda sad if you only prepare a few spells in your &espellbook.&r Let's look into some options."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8782633220489869362.description1}"]
 			id: "79E22E61B3D7F832"
 			shape: "hexagon"
 			tasks: [{
 				id: "19C47F0AE90F64E6"
-				title: "Better Spellbooks"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8782633220489869362.task.1856748631219987686.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -1112,7 +1112,7 @@
 				"189A7A4E7CF3BC1D"
 				"7199204729030BD5"
 			]
-			description: ["Improve any &espellbook&r with less than 12 slots &eup to 12 slots&r. It's like teaching a new trick to an old dog."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest9016775045780220903.description1}"]
 			id: "7D22052197562BE7"
 			rewards: [{
 				amount: 50L
@@ -1121,7 +1121,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "You'll need an arcane anvil to apply these to your spellbooks"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9016775045780220903.subtitle}"
 			tasks: [{
 				id: "5F9CC9E7A58D16DB"
 				item: "irons_spellbooks:lesser_spell_slot_upgrade"
@@ -1140,7 +1140,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Gross... How long was this sitting here?"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest664709190448169765.subtitle}"
 			tasks: [{
 				id: "35CCD3BE2975DC8C"
 				item: {
@@ -1163,12 +1163,12 @@
 		{
 			dependencies: ["0939857CA799C325"]
 			description: [
-				"\"Your clothes are so clean they look new... And there's a vaguely floral smell about them...\""
-				"{image:botania:block/light_blue_shiny_flower width:50 height:50 align:center}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.image0}"
 				"{@pagebreak}"
-				"&6&lWARNING:&r&r If you are about to craft this &espellbook&r, &4&lDO NOT DO IT&r&r until you take all your precious &espells&r out. If you don't, they will be gone and become part of a rats nest. &nNot kidding&r. I learned that the hard way. Twice... T_T"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.description2}"
 				""
-				"{image:incubation:item/twig_nest width:50 height:50 align:center}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6996837788727795402.image2}"
 			]
 			id: "6119C2E5E4265ECA"
 			rewards: [
@@ -1217,7 +1217,7 @@
 		}
 		{
 			dependencies: ["7C291600402C8DFF"]
-			description: ["For those Wizards looking for even more customization. Can be upgraded with &emodifiers&r just like other &5Tinker's Construct&r items."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.description1}"]
 			id: "31B611FEFBAE1625"
 			rewards: [{
 				amount: 80L
@@ -1226,7 +1226,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft any Construct's Casting Spellbook"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.subtitle}"
 			tasks: [{
 				id: "7C62E1887F30A1D2"
 				item: {
@@ -1245,19 +1245,15 @@
 										spellWheel: 1b
 									}
 									etstlib_tool_uuid: "4c8f133d-13db-4352-8d46-9a6160580aee"
-									tic_modifiers: [
-										{
-											level: 1
-											name: "constructs_casting:cooldown_upgrade"
-										}
-										{
-											level: 1
-											name: "constructs_casting:mana_upgrade"
-										}
-									]
+									tic_modifiers: [ ]
 									tic_persistent: { }
-									tic_stats: { }
+									tic_stats: {
+										"constructs_casting:cooldown_reduction": 0.1f
+										"constructs_casting:max_mana": 125.0f
+										"constructs_casting:spell_slots": 6.0f
+									}
 									tic_volatile_data: {
+										abilities: 1
 										upgrades: 5
 									}
 								}
@@ -1287,10 +1283,10 @@
 						]
 					}
 				}
-				title: "Any Construct's Casting Spellbook"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.task.8962974184786403794.title}"
 				type: "item"
 			}]
-			title: "Tinkerer's New Best Friend"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3582070340461663781.title}"
 			x: -2.0d
 			y: 13.0d
 		}
@@ -1304,7 +1300,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Faster casting"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6281724919816927829.subtitle}"
 			tasks: [{
 				id: "4F9CF5F59EA69EA0"
 				item: {
@@ -1334,7 +1330,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "More maximum mana. Mmm..."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8946706325080673791.subtitle}"
 			tasks: [{
 				id: "457129B61E98BE6A"
 				item: {
@@ -1359,7 +1355,7 @@
 				"79E22E61B3D7F832"
 				"2E93490E1274F9F3"
 			]
-			description: ["Once you get into &4The Nether&r, go hunt some &cHoglins&r and you'll have plenty materials for some upgrades."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1772863880846097437.description1}"]
 			id: "189A7A4E7CF3BC1D"
 			rewards: [
 				{
@@ -1396,7 +1392,7 @@
 				item: "irons_spellbooks:hogskin"
 				type: "item"
 			}]
-			title: "Hoglin's Bane"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1772863880846097437.title}"
 			x: -1.0d
 			y: 9.0d
 		}
@@ -1405,7 +1401,7 @@
 				"79E22E61B3D7F832"
 				"26E27FB78FB855CE"
 			]
-			description: ["Whether you like it or not, this &eRuined Book&r holds immerse dormant power and you'll have to delve deep into the &7Ancient Cities&r if you wish to procure one for yourself. It's far too damaged to be used as is, so you might need a few more materials to make it into something usable."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7171475999966599264.description1}"]
 			id: "6386336D053F9860"
 			rewards: [
 				{
@@ -1527,7 +1523,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Even more cooldown"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9011545858113355302.subtitle}"
 			tasks: [{
 				id: "3BDCCCDEA397D9AC"
 				item: {
@@ -1552,7 +1548,7 @@
 				"68D9B6502F9CEFAF"
 				"596943F35C9D8838"
 			]
-			description: ["Crafted by offering a &eRuined Book&r in an &eAltar of Amethyst Blessing&r. Found in the &7Sunken City&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4210664357734366143.description1}"]
 			id: "3A6F48EC9F27BBBF"
 			rewards: [
 				{
@@ -1593,7 +1589,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"Release the kraken!\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4210664357734366143.subtitle}"
 			tasks: [{
 				id: "34A7D0391D5CBDD2"
 				item: {
@@ -1615,7 +1611,7 @@
 		}
 		{
 			dependencies: ["22355C3503FEFBA9"]
-			description: ["Go inside the Arch &7Evoker's Fort&r, steal their &eResearch Jounal&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8293613194562225753.description1}"]
 			id: "7318D5424E5FC659"
 			rewards: [{
 				amount: 50L
@@ -1652,7 +1648,7 @@
 		}
 		{
 			dependencies: ["2D6744F825F58CF4"]
-			description: ["Comes with &e3 Evoker themed spells&r by default."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5043863591307842195.description1}"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:evoker_spell_book"
@@ -1744,7 +1740,7 @@
 				}
 				type: "item"
 			}]
-			title: "Grimoire of Evokation"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5043863591307842195.title}"
 			x: 7.0d
 			y: 14.0d
 		}
@@ -1758,21 +1754,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Found in Overworld. Usually in forest or plains biomes."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2464977753825278889.subtitle}"
 			tasks: [{
 				id: "5E082763C8F777A5"
 				structure: "irons_spellbooks:evoker_fort"
 				type: "structure"
 			}]
-			title: "Find an Evoker's Fort"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2464977753825278889.title}"
 			x: 7.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["7318D5424E5FC659"]
 			description: [
-				"Hopefully you can find a &2captured Wandering Trader&r by the &cEvoker&r who can translate their &eresearch journal&r."
-				"(Low chance to spawn in each &7Evoker's Fort&r)"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.description2}"
 			]
 			id: "68A61D5731BE9529"
 			rewards: [{
@@ -1782,7 +1778,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Have some emeralds ready... it won't be cheap"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7540746886412408105.subtitle}"
 			tasks: [{
 				id: "4955F09461006559"
 				item: {
@@ -1811,7 +1807,7 @@
 		}
 		{
 			dependencies: ["68A61D5731BE9529"]
-			description: ["Finally, take the &eTranslated Research Journal&r to a &2Priest Villager&r (randomly spawns in &7villages&r, always wearing their white &epriest armor set&r) who will give you back a &eVillager Bible&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.description1}"]
 			id: "520230ECA591D440"
 			rewards: [
 				{
@@ -1821,7 +1817,7 @@
 					icon: "artifacts:cross_necklace"
 					id: "48FCFB3082C2FA33"
 					team_reward: true
-					title: "Trully Devoted"
+					title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.reward.5259354650632714803.title}"
 					type: "command"
 				}
 				{
@@ -1864,7 +1860,7 @@
 				}
 				type: "item"
 			}]
-			title: "Final Step!!"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5909339454011724864.title}"
 			x: 9.0d
 			y: 13.0d
 		}
@@ -1878,7 +1874,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Follow the whispers..."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4054066521892803817.subtitle}"
 			tasks: [{
 				id: "14A69FDDEB3AC841"
 				item: {
@@ -1895,7 +1891,7 @@
 		}
 		{
 			dependencies: ["3842F005B53954E9"]
-			description: ["Use the &eWayward Compass&r to locate &7The Catacombs&r, the &cDead King's&r underground domain. Be ready for plenty of &cenemies&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.description1}"]
 			id: "19702CD2611FF444"
 			rewards: [{
 				amount: 50L
@@ -1907,16 +1903,16 @@
 			tasks: [{
 				id: "26FF7AD5C051925A"
 				structure: "irons_spellbooks:catacombs"
-				title: "The Dead King's Domain"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.task.2810099750975672922.title}"
 				type: "structure"
 			}]
-			title: "&fThe&r &cDead King's&r domain"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1833014330424030276.title}"
 			x: 11.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
-			description: ["If you are looking for a very straight forward way to get a new &espellbook&r, go kill some &cblazes&r and that's it. Couldn't be easier. Chances are you'll be needing them for plenty other quests."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest457661697768981467.description1}"]
 			id: "0659F0E3AAD283DB"
 			rewards: [{
 				amount: 100L
@@ -1949,7 +1945,7 @@
 				"596943F35C9D8838"
 				"1C32B61EE2552559"
 			]
-			description: ["Crafted with &eIgnitium Ingots&r dropped from &4Ignis&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6993972603075306967.description1}"]
 			id: "610F9506DF1E25D7"
 			rewards: [
 				{
@@ -1990,7 +1986,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"SuperNOVA!!!\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6993972603075306967.subtitle}"
 			tasks: [{
 				id: "6EE8BF851BB795BE"
 				item: {
@@ -2013,13 +2009,13 @@
 		{
 			dependencies: ["79E22E61B3D7F832"]
 			dependency_requirement: "one_completed"
-			description: ["&5Cataclysm: Spellbooks&r is an add-on for &5Iron's Spells and Spellbooks&r and &5L_Ender 's Cataclysm&r which adds &eover 50 new spells&r, including the &eabyssal magic school&r based on &cThe Leviathan&r boss, and the &eTechnomancy school&r based on &cThe Harvinger&r, among other goodies."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6442755454440147000.description1}"]
 			hide_dependency_lines: true
 			id: "596943F35C9D8838"
 			shape: "hexagon"
 			tasks: [{
 				id: "5E98B8555C634B83"
-				title: "Cataclysmic Upgrades"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6442755454440147000.task.6816400712786987907.title}"
 				type: "checkmark"
 			}]
 			x: 24.0d
@@ -2030,7 +2026,7 @@
 				"596943F35C9D8838"
 				"3BDCCCDEA397D9AC"
 			]
-			description: ["Crafted with a &eStrange Disc&r dropped from &4The Harvinger&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest665904147132539287.description1}"]
 			id: "093DC44B304B6197"
 			rewards: [
 				{
@@ -2071,7 +2067,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not to be confused with AE2's Disc Drives"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest665904147132539287.subtitle}"
 			tasks: [{
 				id: "03F65EA96B031FBB"
 				item: {
@@ -2102,7 +2098,7 @@
 				"596943F35C9D8838"
 				"3BDCCCDEA397D9AC"
 			]
-			description: ["Crafted with &eCursium Ingots&r dropped from &4Maledectus&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2077868603111802374.description1}"]
 			id: "1CD6127C4A6A8606"
 			rewards: [
 				{
@@ -2143,7 +2139,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sheer cold"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2077868603111802374.subtitle}"
 			tasks: [{
 				id: "63B8A7368BCAACE2"
 				item: {
@@ -2166,9 +2162,9 @@
 		{
 			dependencies: ["596943F35C9D8838"]
 			description: [
-				"Mixed class bonuses for both &eNature&r and &eHoly&r spells"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5886131445705851053.description1}"
 				""
-				"Dropped from the &4Ancient Remnant&r boss."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5886131445705851053.description2}"
 			]
 			id: "51AFBD5D228DC0AD"
 			rewards: [
@@ -2274,7 +2270,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft any Alshanex Familiars Spellbook"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.subtitle}"
 			tasks: [{
 				id: "7625D641A9ABE596"
 				item: {
@@ -2309,16 +2305,16 @@
 						]
 					}
 				}
-				title: "Any Alshanex Familiars Spellbook"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.task.8513446248121623958.title}"
 				type: "item"
 			}]
-			title: "The Music and the Critters"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.title}"
 			x: 0.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["79E22E61B3D7F832"]
-			description: ["The &cIllager raids&r are stronger than ever and you can adquiere some of their powers with these brand new &espellbooks&r"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.description1}"]
 			id: "746FDCADDE8671C7"
 			rewards: [{
 				amount: 100L
@@ -2379,10 +2375,10 @@
 						]
 					}
 				}
-				title: "Any Illage and Spell-age Spellbook"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.task.7318681056694911938.title}"
 				type: "item"
 			}]
-			title: "&5Illage and Spell-age&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.title}"
 			x: 1.0d
 			y: 9.0d
 		}
@@ -2404,7 +2400,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "\"I don't care how big the room is... I cast FIREBALL!\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest733606263353331337.subtitle}"
 			tasks: [
 				{
 					id: "29D76A41E5AA5A69"
@@ -2457,7 +2453,7 @@
 					type: "item"
 				}
 			]
-			title: "Pyromancer Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest733606263353331337.title}"
 			x: 7.0d
 			y: -10.0d
 		}
@@ -2488,7 +2484,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"Unlimited POWAH!\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6590507490766860471.subtitle}"
 			tasks: [
 				{
 					id: "6ECFAC6FAF1D11B4"
@@ -2541,7 +2537,7 @@
 					type: "item"
 				}
 			]
-			title: "Electromancer Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6590507490766860471.title}"
 			x: 10.0d
 			y: -10.0d
 		}
@@ -2572,7 +2568,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"The cold never bothered me anyway\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8267789157079812547.subtitle}"
 			tasks: [
 				{
 					id: "3575BC49CF5E619A"
@@ -2625,7 +2621,7 @@
 					type: "item"
 				}
 			]
-			title: "Cryomancer Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8267789157079812547.title}"
 			x: 14.0d
 			y: -10.0d
 		}
@@ -2656,7 +2652,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"♫Dori me. Interino, adapare. Dori me.♪♪\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6346163702232495502.subtitle}"
 			tasks: [
 				{
 					id: "352B87E3928EE712"
@@ -2709,7 +2705,7 @@
 					type: "item"
 				}
 			]
-			title: "Priest Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6346163702232495502.title}"
 			x: 17.0d
 			y: -10.0d
 		}
@@ -2740,7 +2736,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "To beat your enemy, you must think like your enemy."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest66348000486535760.subtitle}"
 			tasks: [
 				{
 					id: "5E36D464E90594C1"
@@ -2793,7 +2789,7 @@
 					type: "item"
 				}
 			]
-			title: "Archevoker Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest66348000486535760.title}"
 			x: 17.0d
 			y: -17.0d
 		}
@@ -2807,7 +2803,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "No blood sacrifices neccesary"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest940507454619322550.subtitle}"
 			tasks: [
 				{
 					id: "2ACC3D4B267088B9"
@@ -2860,7 +2856,7 @@
 					type: "item"
 				}
 			]
-			title: "Cultist Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest940507454619322550.title}"
 			x: 17.0d
 			y: -13.0d
 		}
@@ -2891,7 +2887,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"I am the night.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4146936070672598266.subtitle}"
 			tasks: [
 				{
 					id: "63603CB3A956ECA1"
@@ -2944,7 +2940,7 @@
 					type: "item"
 				}
 			]
-			title: "Shadow-Walker Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4146936070672598266.title}"
 			x: 17.0d
 			y: -20.0d
 		}
@@ -2959,7 +2955,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "You heard pick your poison and you took that literally."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1032094742812977620.subtitle}"
 			tasks: [
 				{
 					id: "6D6C55346FB76981"
@@ -3012,7 +3008,7 @@
 					type: "item"
 				}
 			]
-			title: "Plagued Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1032094742812977620.title}"
 			x: 10.0d
 			y: -20.0d
 		}
@@ -3026,7 +3022,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Told you programming is 90% magic"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7135886368946809965.subtitle}"
 			tasks: [
 				{
 					id: "2C7803FD3DC72A3D"
@@ -3085,7 +3081,7 @@
 					type: "item"
 				}
 			]
-			title: "Engineer's Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7135886368946809965.title}"
 			x: 7.0d
 			y: -17.0d
 		}
@@ -3119,7 +3115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "What lurks beneath the cold dark ocean?"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest297374264459553449.subtitle}"
 			tasks: [
 				{
 					id: "7A4AD0AD48A2EB8F"
@@ -3178,12 +3174,12 @@
 					type: "item"
 				}
 			]
-			title: "Abyssal Warlock Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest297374264459553449.title}"
 			x: 7.0d
 			y: -20.0d
 		}
 		{
-			description: ["Secret item with amazing magical properties as long as you don't mind dealing less damage with regular weapons."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest839419752359484729.description1}"]
 			id: "0BA637D13CD55D39"
 			invisible: true
 			rewards: [
@@ -3232,7 +3228,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["Secret item only dropped by &can specific vindicator&r at &7Evoker Forts&r. Makes you stronger against magical attacks."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1699551242750405853.description1}"]
 			id: "179604D9C5B62CDD"
 			invisible: true
 			rewards: [
@@ -3275,7 +3271,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Secret weapon. Only dropped."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1806671516521272110.description1}"]
 			id: "1912962C1011132E"
 			invisible: true
 			rewards: [
@@ -3323,7 +3319,7 @@
 				"0DD6705B00E9AFBE"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Most of these &ecurios&r can be looted from chests or crafted."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.description1}"]
 			id: "652FD4B14D238A98"
 			rewards: [{
 				amount: 100L
@@ -3341,16 +3337,16 @@
 						value: "irons_spellbooks:salvageable_curio"
 					}
 				}
-				title: "Any Iron Spell's curio"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.task.9181943618034146298.title}"
 				type: "item"
 			}]
-			title: "Stronger Curios"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.title}"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["791BEBC41E54EE77"]
-			description: ["Early on getting any extra &emana regen&r or &ecooldown&r might just save your life in combat."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5205955235520134093.description1}"]
 			id: "483F44B451C33BCD"
 			rewards: [{
 				amount: 50L
@@ -3377,7 +3373,7 @@
 					type: "item"
 				}
 			]
-			title: "Early Additions"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5205955235520134093.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -3422,7 +3418,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You'll need a Netherite level pickaxe to mine this."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3672892099312917169.subtitle}"
 			tasks: [{
 				id: "6189A8A1EE58BA68"
 				item: "irons_spellbooks:arcane_debris"
@@ -3446,7 +3442,7 @@
 				item: "irons_spellbooks:arcane_salvage"
 				type: "item"
 			}]
-			title: "Blast it all!"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest997107903668793278.title}"
 			x: 2.0d
 			y: -6.0d
 		}
@@ -3477,7 +3473,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This weapons come with one preset spell"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.subtitle}"
 			tasks: [{
 				id: "4C4E3029A2D9348B"
 				item: {
@@ -3524,10 +3520,10 @@
 						]
 					}
 				}
-				title: "Any Imbued Weapon"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.task.5498385150449890443.title}"
 				type: "item"
 			}]
-			title: "Imbued Weapons"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8427906497364785890.title}"
 			x: 5.0d
 			y: -8.0d
 		}
@@ -3541,7 +3537,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Crafting material only"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest9073941337810235256.subtitle}"
 			tasks: [{
 				id: "77B860B3561BBAFB"
 				item: "irons_spellbooks:upgrade_orb"
@@ -3555,7 +3551,7 @@
 				"7DED1D9228E96F78"
 				"7199204729030BD5"
 			]
-			description: ["You can apply &eup to three orbs&r per piece of valid equipment (each armor piece, weapon, staff, spellbook). You'll an &eArcane Anvil&r to apply said orbs."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.description1}"]
 			id: "6C34C9D1465FE1BD"
 			rewards: [
 				{
@@ -3648,10 +3644,10 @@
 						]
 					}
 				}
-				title: "Any Upgrade Orb"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.task.5490473295520534995.title}"
 				type: "item"
 			}]
-			title: "Any Upgrade Orb"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7797078755551207869.title}"
 			x: 9.0d
 			y: -6.0d
 		}
@@ -3683,7 +3679,7 @@
 				}
 			]
 			shape: "embellish"
-			subtitle: "You chose correctly"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4746763487401258821.subtitle}"
 			tasks: [{
 				id: "5F24C76275C92FAD"
 				item: {
@@ -3776,10 +3772,10 @@
 						]
 					}
 				}
-				title: "Any Staff"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1336870513909389920.task.5097379528808287569.title}"
 				type: "item"
 			}]
-			title: "Stronger Staves"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1336870513909389920.title}"
 			x: 9.0d
 			y: -4.0d
 		}
@@ -3806,7 +3802,7 @@
 		}
 		{
 			dependencies: ["0081D9957EA24E30"]
-			description: ["Each comes with &etheir own unique spell&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.description1}"]
 			id: "26896BF9AB3215D1"
 			rewards: [
 				{
@@ -3849,7 +3845,7 @@
 			]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Craft any Subjugator upgrade"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.subtitle}"
 			tasks: [{
 				id: "640582A4A0CF9CDB"
 				item: {
@@ -3929,10 +3925,10 @@
 						]
 					}
 				}
-				title: "Any Subjugator Upgrade"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.task.7207310422260554971.title}"
 				type: "item"
 			}]
-			title: "Are these even swords anymore?!"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest2776869365313836497.title}"
 			x: 28.0d
 			y: 5.0d
 		}
@@ -3949,7 +3945,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"Thanks, builder. I couldn't have done it without you.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest240581282221327364.subtitle}"
 			tasks: [{
 				id: "427D9927F1B500AE"
 				item: "irons_spellbooks:ancient_knowledge_fragment"
@@ -3969,7 +3965,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"You are alone, builder. There is only darkness for you, and only death for your people. These ancients are just the beginning. I will command a great and terrible army, and we will sail to a billion worlds. We will sail until every light has been extinguished. You are strong, builder, but I am beyond strength. I am the end, and I have come for you, Steve.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5262229089393212392.subtitle}"
 			tasks: [{
 				id: "0EC0DF0885863C1B"
 				item: "irons_spellbooks:eldritch_manuscript"
@@ -3989,7 +3985,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"Did you bring the book? ... Yes, one step closer.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3788853127081668909.subtitle}"
 			tasks: [{
 				id: "120F313970457FB5"
 				item: {
@@ -4027,7 +4023,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"Aren't you cold, Steve?\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8083620118315993467.subtitle}"
 			tasks: [{
 				id: "502C7E021D4EDF69"
 				item: {
@@ -4064,7 +4060,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"The book, builder. Give me the book. Quickly. We are running out of time.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4512476544764231296.subtitle}"
 			tasks: [{
 				id: "5C802D2A8BBD9D67"
 				item: {
@@ -4101,7 +4097,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"The ice wizard is a weak fool\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5731092807495840441.subtitle}"
 			tasks: [{
 				id: "2EFB316889168E9A"
 				item: {
@@ -4138,7 +4134,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"No, it's all true. The book has great power. I can make you live... forever. Anything you want... Just give me that book.\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1602503513439729968.subtitle}"
 			tasks: [{
 				id: "48FA67503E92BCC8"
 				item: {
@@ -4177,7 +4173,7 @@
 				icon: "irons_spellbooks:invisibility_ring"
 				id: "26486BACBD4F1F97"
 				secret: true
-				title: "?"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3695455683289825416.task.2758573161419054999.title}"
 				type: "questsadditions:time"
 			}]
 			x: 18.700000000000003d
@@ -4196,7 +4192,7 @@
 				icon: "irons_spellbooks:invisibility_ring"
 				id: "0B75E2491531A261"
 				secret: true
-				title: "??"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7538741162923859856.task.825814910208418401.title}"
 				type: "questsadditions:time"
 			}]
 			x: 18.700000000000003d
@@ -4233,7 +4229,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crab people?"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8514941395351780602.subtitle}"
 			tasks: [
 				{
 					id: "0175B136765E387E"
@@ -4292,7 +4288,7 @@
 					type: "item"
 				}
 			]
-			title: "Bloom Stone Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8514941395351780602.title}"
 			x: 10.0d
 			y: -24.0d
 		}
@@ -4326,7 +4322,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harness the blazing power of Ignis"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3419906947598449609.subtitle}"
 			tasks: [
 				{
 					id: "439A3242ADA4EEEC"
@@ -4385,7 +4381,7 @@
 					type: "item"
 				}
 			]
-			title: "Ignis Mage Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3419906947598449609.title}"
 			x: 4.0d
 			y: -10.0d
 		}
@@ -4419,7 +4415,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harness the spectral power of Maledictus"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8013074098020582064.subtitle}"
 			tasks: [
 				{
 					id: "6020DEEBFEDED9B9"
@@ -4478,7 +4474,7 @@
 					type: "item"
 				}
 			]
-			title: "Cursium Mage Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8013074098020582064.title}"
 			x: 4.0d
 			y: -13.0d
 		}
@@ -4488,9 +4484,9 @@
 				"5E98B8555C634B83"
 			]
 			description: [
-				"Mixed armor set for both &eNature&r and &eHoly&r Spells"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.description1}"
 				""
-				"&eCataclysm materials&r drop in the &7Cursed Pyramid&r."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.description2}"
 			]
 			id: "4032CE8B8F2B34C9"
 			rewards: [{
@@ -4558,7 +4554,7 @@
 					type: "item"
 				}
 			]
-			title: "Pharaoh Sacred Set"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4625986866060670153.title}"
 			x: 14.0d
 			y: -20.0d
 		}
@@ -4567,7 +4563,7 @@
 				"6307C2D852A06C6D"
 				"5E98B8555C634B83"
 			]
-			description: ["The Excelsius armor set comes in 3 different flavors but these two pieces are your base."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.description1}"]
 			id: "3C56C4B7860A192F"
 			rewards: [{
 				amount: 100L
@@ -4576,7 +4572,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"We have technology\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.subtitle}"
 			tasks: [
 				{
 					id: "0F977C6CF613B3CB"
@@ -4601,13 +4597,13 @@
 					type: "item"
 				}
 			]
-			title: "Excelsius Propulsion"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4347878782779660591.title}"
 			x: 4.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["The &eExcelsius Oppresor&r variant focuses on &eSpell Resistance&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.description1}"]
 			id: "071933CFB7B89499"
 			rewards: [{
 				amount: 100L
@@ -4616,7 +4612,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"This world... is an illusion...\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.subtitle}"
 			tasks: [
 				{
 					id: "12F9A781AD079D3A"
@@ -4665,13 +4661,13 @@
 					type: "item"
 				}
 			]
-			title: "Excelsius Oppresor"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest511496999916835993.title}"
 			x: 2.0d
 			y: -17.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["The &eExcelsius Adversary&r variant focuses on &eMaximum Mana&r"]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.description1}"]
 			id: "2A4DAD96C671699F"
 			rewards: [{
 				amount: 100L
@@ -4680,7 +4676,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Become the mana reservoir"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.subtitle}"
 			tasks: [
 				{
 					id: "6E568B99E3FEE314"
@@ -4729,13 +4725,13 @@
 					type: "item"
 				}
 			]
-			title: "Excelsius Adversary"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3048283385885714847.title}"
 			x: 4.0d
 			y: -19.0d
 		}
 		{
 			dependencies: ["3C56C4B7860A192F"]
-			description: ["The &eExcelsius Velocity&r variant focuses on &eCooldown Reduction&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.description1}"]
 			id: "453C732510938EA2"
 			rewards: [{
 				amount: 100L
@@ -4744,7 +4740,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The power... It's accelerating. I can't stop casting!!!"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.subtitle}"
 			tasks: [
 				{
 					id: "45D32EDE7FCA8614"
@@ -4793,14 +4789,14 @@
 					type: "item"
 				}
 			]
-			title: "Excelsius Velocity"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4988989090248756898.title}"
 			x: 2.0d
 			y: -19.0d
 		}
 		{
 			description: [
-				"In your journey to become a great wizard, you might find plenty of random magical &escrolls&r."
-				"It would be wise to keep them since they can always be useful or eventually you will get a way to recycle them for &eink&r."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.description2}"
 			]
 			icon: {
 				Count: 1
@@ -4811,54 +4807,54 @@
 				}
 			}
 			id: "3F37D498C09BBC06"
-			subtitle: "Bundles are a great early way to hoard spells"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.subtitle}"
 			tasks: [{
 				id: "654A6DAF6692B890"
-				title: "Great!"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.task.7298766746214906000.title}"
 				type: "checkmark"
 			}]
-			title: "Bundles are actually good?"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4555343300640095238.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
-			description: ["Keep an eye out for some handy spells for traveling like &eAngel Wings&r combined with &eBurning Dash&r, &eTeleport&r, &eBlood Step&r, &eFrost Step&r, etc..."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.description1}"]
 			icon: "minecraft:compass"
 			id: "610AEBCEEFADCAFD"
 			tasks: [{
 				id: "36DA4F4A1FF2C775"
-				title: "Will do"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.task.3952558802753210229.title}"
 				type: "checkmark"
 			}]
-			title: "Iron's is all about exploration"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6992660645463051005.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			description: [
-				"All spells scale with your spell power, generic or class specific."
-				"However, there's a few spells that also base their power of your current held weapon."
-				"Those would be &eDivine Strike&r and &eFlaming Strike&r. A berserker's best friend."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.description3}"
 			]
 			icon: "dreadsteel:dreadsteel_scythe"
 			id: "010F4C671F424CAD"
-			subtitle: "Hmm... I think I suddenly need a BIG scythe"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.subtitle}"
 			tasks: [{
 				id: "0B28BEA79245FC40"
-				title: "Hack'n'Slash"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.task.804102160408509504.title}"
 				type: "checkmark"
 			}]
-			title: "Magical Might"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest76363724478368941.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"You'll need &eBlank Runes&r in order to craft &eclass runes&r for better armor."
-				"Your main source of them is either looting random chests or finding &7locations&r with some &2friendly NPCs&r to trade for maps that will point you to other &7points of interest&r or some &cfearsome foes&r that you'll have to defeat.}"
-				"Keep in mind you can craft &erunes&r with a &eShriving Stone&r to clean the elemental magic of rune and turn them backl to &eBlank Runes&r"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description2}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description3}"
 				""
-				"&oNOTE: The &7Ancient Battleground&r is located in &4The Nether&r. (Careful with those &cbig guys&r)&r"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.description4}"
 			]
 			icon: "irons_spellbooks:furled_map"
 			id: "3EDB8D8AD5C605FB"
@@ -4909,14 +4905,14 @@
 					type: "structure"
 				}
 			]
-			title: "Locations, locations, locations..."
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest4529369477682693627.title}"
 			x: 11.982993197278894d
 			y: -13.702040816326516d
 		}
 		{
 			description: [
-				"Not even a secret... you might not even realize you just got this item."
-				"Hard to keep track of for sure."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.description1}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.description2}"
 			]
 			id: "5B5E134C19341572"
 			invisible: true
@@ -4945,7 +4941,7 @@
 				}
 			]
 			shape: "embellish"
-			subtitle: "For real..."
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6583720922823529842.subtitle}"
 			tasks: [{
 				id: "6E54F41545F865CC"
 				item: "irons_spellbooks:invisibility_ring"
@@ -4956,9 +4952,9 @@
 		}
 		{
 			description: [
-				"So a little &2Rat friend&r told me the &4Dead King's&r lair has plenty of magical resources (&einks&r, &earcane essence&r, &eblank runes&r, etc...) that could be worth exploring even if you aren't fighting the &4Dead King&r."
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.description1}"
 				""
-				"{image:ftbchunks:textures/faces/minecraft/chicken.png width:50 height:50 align:center}"
+				"{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.image0}"
 			]
 			id: "692705EA9E580BE7"
 			rewards: [
@@ -4975,19 +4971,19 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Why struggle when you can go to the source?"
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.subtitle}"
 			tasks: [{
 				id: "39A4C9CE1DB8C593"
-				title: "Quick Tip"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.task.4153666643441534355.title}"
 				type: "checkmark"
 			}]
-			title: "Loot is EVERYTHING"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7577031403311205351.title}"
 			x: 11.65238095238091d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5768E11E5F137489"]
-			description: ["The &cDead King&r has chance to drop his powerful &eNecronomicon&r. This &espellbook&r has a few spells bound to it and cannot be removed. He also has a chance to drop &eThe Blood Staff&r as well."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5913983542919488988.description1}"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:necronomicon_spell_book"
@@ -5100,12 +5096,12 @@
 					type: "item"
 				}
 			]
-			title: "Prying it from his cold dead hands"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5913983542919488988.title}"
 			x: 11.0d
 			y: 17.0d
 		}
 		{
-			description: ["The &5Alshanex Familiars mod&r adds a &esound based magic school&r and plenty of spells on top of multiple &2familiars&r can you can find in the wild, tame, and bring with you in your journeys to help you with buffs and fighting."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -5124,10 +5120,10 @@
 			}]
 			tasks: [{
 				id: "0A3F97B18E076D1C"
-				title: "Alshanex's Familiars"
+				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.task.738475652759907612.title}"
 				type: "checkmark"
 			}]
-			title: "Alshanex's Familiars"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.title}"
 			x: 2.0d
 			y: 13.0d
 		}
@@ -5149,14 +5145,14 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "\"Hmm....Hogham...\""
+			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3356106472109177331.subtitle}"
 			tasks: [{
 				entity: "minecraft:hoglin"
 				id: "72ADF6C6B117495E"
 				type: "kill"
 				value: 3L
 			}]
-			title: "&fSlay&r &4Hoglins&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3356106472109177331.title}"
 			x: -2.0d
 			y: 8.0d
 		}
@@ -5202,7 +5198,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&fSlay an&r &4Ancient Knight&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6112444363118132701.title}"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -5249,7 +5245,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&fSlay&r &4The Dead King&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6298531599438017673.title}"
 			x: 11.0d
 			y: 15.0d
 		}
@@ -5296,12 +5292,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&fSlay an&r &4Archevoker&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3271659486887382260.title}"
 			x: 7.0d
 			y: 12.0d
 		}
 		{
-			description: ["From the &eCataclysm&r mod. Found in the &7Sunken City&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest859958548677056081.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -5350,12 +5346,12 @@
 					type: "item"
 				}
 			]
-			title: "&fSlay an&r &4Amethyst Crab&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest859958548677056081.title}"
 			x: 10.0d
 			y: -27.0d
 		}
 		{
-			description: ["From the &eCataclysm&r mod. Found in the &7Sunken City&r."]
+			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -5403,12 +5399,10 @@
 					type: "item"
 				}
 			]
-			title: "&fSlay a&r &4Coral Golem&r"
+			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.title}"
 			x: 4.0d
 			y: -23.0d
 		}
 	]
-	title: "&7Iron's Spells and Spellbooks"
+	title: "{ftbquests.chapter.irons_spells_and_spellbooks.title}"
 }
-
-

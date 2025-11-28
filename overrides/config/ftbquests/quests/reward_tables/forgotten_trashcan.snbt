@@ -11,7 +11,7 @@
 		string_id: "forgotten_trashcan"
 	}
 	loot_size: 4
-	order_index: 27
+	order_index: 28
 	rewards: [
 		{ count: 3, item: "rats:cheese", only_one: true }
 		{
@@ -55,5 +55,5 @@
 			weight: 4.0f
 		}
 	]
-	title: "forgotten_trashcan"
+	title: "{ftbquests.loot_table.223017160791464304.title}"
 }

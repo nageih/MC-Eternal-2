@@ -16,7 +16,7 @@
 		string_id: "quest_loot"
 	}
 	loot_size: 1
-	order_index: 17
+	order_index: 18
 	rewards: [
 		{
 			item: {
@@ -3658,19 +3658,15 @@
 						spellWheel: 1b
 					}
 					etstlib_tool_uuid: "f79f7468-e25f-4cc3-b419-a9ff25305858"
-					tic_modifiers: [
-						{
-							level: 1
-							name: "constructs_casting:cooldown_upgrade"
-						}
-						{
-							level: 1
-							name: "constructs_casting:mana_upgrade"
-						}
-					]
+					tic_modifiers: [ ]
 					tic_persistent: { }
-					tic_stats: { }
+					tic_stats: {
+						"constructs_casting:cooldown_reduction": 0.1f
+						"constructs_casting:max_mana": 125.0f
+						"constructs_casting:spell_slots": 6.0f
+					}
 					tic_volatile_data: {
+						abilities: 1
 						upgrades: 5
 					}
 				}
@@ -5406,6 +5402,6 @@
 		{ item: "rats:rat_and_crossbones_banner_pattern" }
 		{ item: "cataclysm_spellbooks:mechanical_brace" }
 	]
-	title: "&e"
+	title: "{ftbquests.loot_table.5682295257556819944.title}"
 	use_title: true
 }

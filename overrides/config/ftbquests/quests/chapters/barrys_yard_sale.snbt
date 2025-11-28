@@ -8,7 +8,7 @@
 	images: [
 		{
 			height: 4.0d
-			hover: ["Spend all of your coins here!! Barry needs a new set of shoes!"]
+			hover: ["ftbquests.chapter.barrys_yard_sale.image.hovertext1"]
 			image: "dialog:textures/portraits/barry.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -18,7 +18,7 @@
 		{
 			dependency: "2CDE940DD434CD08"
 			height: 4.0d
-			hover: ["Spend all of your coins here!! Barry needs a new set of shoes!"]
+			hover: ["ftbquests.chapter.barrys_yard_sale.image.hovertext2"]
 			image: "modpack:textures/barry-the-rat-uwu-transparent-no-white.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -33,11 +33,11 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Charlie is a well known and legendary Goblin Trader! You can summon him by paying a small fee!"
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description1}"
 				""
-				"&6Hint:&r If you cannot locate a Goblin Trader by normal means for daily reward loyalty cards, Charlie can help and always has the relevant trades!"
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description2}"
 				""
-				"&dNote: &rYou can only hire Charlie once every hour!"
+				"{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -50,10 +50,10 @@
 				icon: "rats:tiny_coin"
 				id: "538093A5B68608B8"
 				silent: true
-				title: "&6Summon Charlie!"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.reward.6016971442108106936.title}"
 				type: "command"
 			}]
-			subtitle: "&oTempt Charlie the Goblin Trader with some money!"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.subtitle}"
 			tasks: [
 				{
 					amount: 150L
@@ -67,11 +67,11 @@
 					elapsedTime: 3600L
 					icon: "minecraft:green_bed"
 					id: "679BAD7C2CE5BE2E"
-					title: "&aNap Time!"
+					title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.task.7465751556137532974.title}"
 					type: "questsadditions:time"
 				}
 			]
-			title: "&6Hire Charlie"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7865724748782535660.title}"
 			x: 5.0d
 			y: 15.0d
 		}
@@ -79,9 +79,9 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"This strange device can turn money into chocolate money. Waow."
-				"{image:integrateddynamics:aspect/read/boolean/machine/isworking width:100 height:100 align:center}"
-				"            &o&7<shake>Beep Boop CHOCOLATE"
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.image0}"
+				"{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -94,24 +94,24 @@
 				type: "item"
 			}]
 			shape: "embellish"
-			subtitle: "Feed me money..."
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.subtitle}"
 			tasks: [{
 				amount: 10L
 				currency: "eternalcurrencies:coins"
 				id: "4ABFA578BC714193"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eChocolate Coin Maker 5000"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5511213617055282641.title}"
 			x: 6.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Frank can often be found hanging out under a bridge with his bridge friends. You can summon him by paying a small fee!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.description1}"
 				""
 				""
-				"&dNote: &rYou can only hire Frank once!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -124,10 +124,10 @@
 				icon: "rats:tiny_coin"
 				id: "3AF731FD7801A8D5"
 				silent: true
-				title: "&6Summon Frank!"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.reward.4248919738157213909.title}"
 				type: "command"
 			}]
-			subtitle: "&oTempt Frank the Ribbit with some money!"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.subtitle}"
 			tasks: [{
 				amount: 150L
 				currency: "eternalcurrencies:coins"
@@ -135,7 +135,7 @@
 				id: "67AC5B6A04A8EE4F"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&6Hire Frank"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8345199004483467640.title}"
 			x: 7.0d
 			y: 15.0d
 		}
@@ -171,24 +171,24 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Contains 1x Random Piece of Questing Loot"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5429973448536698512.subtitle}"
 			tasks: [{
 				amount: 150L
 				currency: "eternalcurrencies:coins"
 				id: "0482D52AC33F2747"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Quest Lootbox"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5429973448536698512.title}"
 			x: 5.0d
 			y: 10.0d
 		}
 		{
 			description: [
-				"While we &opatiently&r await the return of the Quest Shop&r, Barry has decided to setup a Yard Sale to sell off some of their worldly and otherworldly possessions! "
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description1}"
 				""
-				"&o\"In my Quest to become the richest rat in the universe, I have setup a Yard Sale to sell some of my miscellaneous wares\" &r&6- Barry"
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description2}"
 				""
-				"&eTip:&r You can use &o/ec checkbalance eternalcurrencies:coins&r to view your coin balance at any time!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description3}"
 			]
 			icon: "rats:trash_can"
 			id: "13049AEB2F8829E1"
@@ -198,20 +198,20 @@
 				type: "item"
 			}]
 			size: 3.0d
-			subtitle: "Barry is having a Yard Sale!"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.subtitle}"
 			tasks: [{
 				id: "541D7005ED9AA37D"
-				title: "The Yard Sale! &e(Click To View Barry's Wares!)"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.task.6061123844274037629.title}"
 				type: "checkmark"
 			}]
-			title: "&7<pend f=1.0 a=30 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=3 j=0.02 b=0.01 s=0.1><neon p=8 r=2 a=0.15>Barry's Yard Sale"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&7*&oCurio not guaranteed"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -233,21 +233,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Contains 1x Random Curio Item"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.subtitle}"
 			tasks: [{
 				amount: 400L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Curio Lootbox"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.title}"
 			x: 5.0d
 			y: 7.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&7&o*Quality of item may vary!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -269,21 +269,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Contains 1x Random Item From Barry's Trashcan"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "3A6C1F57602DE2AF"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Barry's Trashcan"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest879587116138330832.title}"
 			x: 7.0d
 			y: 10.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Mmmmmm cheesy..."]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -305,21 +305,21 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Contains 1x Random Item From Cheesy Cache"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.subtitle}"
 			tasks: [{
 				amount: 150L
 				currency: "eternalcurrencies:coins"
 				id: "40FDCA5AFA29B0E1"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Cheesy Lootbox"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.title}"
 			x: 7.0d
 			y: 7.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&oWhy does Barry have so many Helium Flamingo's?"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "artifacts:helium_flamingo"
@@ -329,31 +329,31 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			subtitle: "Purchase a Helium Flamingo"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.subtitle}"
 			tasks: [{
 				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "6E96EBCCC7C568C5"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale: &rHelium Flamingo"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.title}"
 			x: 6.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"               &l<grad from=#55CDFC to=#F7A8B8 hue=true f=0.3 sp=80 uni=true>Trans Rights!!!!!!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description1}"
 				""
 				""
-				"                  <grad from=#55CDFC to=#55CDFC hue=true f=0 sp=0 uni=true>[][][][][][][]"
-				"                  <grad from=#F7A8B8 to=#F7A8B8 hue=true f=0 sp=0 uni=true>[][][][][][][]"
-				"                  <grad from=#FFFFFF to=#FFFFFF hue=true f=0 sp=0 uni=true>[][][][][][][]"
-				"                  <grad from=#F7A8B8 to=#F7A8B8 hue=true f=0 sp=0 uni=true>[][][][][][][]"
-				"                  <grad from=#55CDFC to=#55CDFC hue=true f=0 sp=0 uni=true>[][][][][][][]"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description5}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description6}"
 				""
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description7}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -376,28 +376,28 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Barry Says"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.subtitle}"
 			tasks: [{
 				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "15D985D888F354CB"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Blade of Blahaj"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.title}"
 			x: 8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Rats, rats, we're the rats"
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>We prey at night, we stalk at night, we're the rats"
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>[King Rat]"
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>I'm the giant rat that makes all of the rules"
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>[All Rats]"
-				"<grad from=#FFD966 to=#F6B800 hue=true f=0.3 sp=80 uni=true>Let's see what kind of trouble we can get ourselves into"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description5}"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description6}"
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -420,22 +420,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Gilded Rat Flute"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "603DAAE5844659DD"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Gilded Rat Flute"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"<grad from=#A8E6A3 to=#3FA66D hue=true f=0.3 sp=70 uni=true>Something is very wrong with this egg"
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -446,22 +446,22 @@
 				item: "mce2lib:chicken_nugget_summon"
 				type: "item"
 			}]
-			subtitle: "Purchase a Freaky Egg"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.subtitle}"
 			tasks: [{
 				amount: 350L
 				currency: "eternalcurrencies:coins"
 				id: "376BA5950114D0F5"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Freaky Egg"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.title}"
 			x: 4.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"<grad from=#FADADD to=#E75480 hue=true f=0.3 sp=70 uni=true>This Porkchop radiates pure joy and love!"
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -472,27 +472,27 @@
 				item: "mce2lib:porkus_summon"
 				type: "item"
 			}]
-			subtitle: "Purchase a Magical Porkchop"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.subtitle}"
 			tasks: [{
 				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "5D5494F38BA16309"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Magical Porkchop"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2871863604006338682.title}"
 			x: 8.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>La-la-la-lava ch-ch-ch-chicken"
-				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Steve's Lava Chicken, yeah, it's tasty as hell"
-				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, mamacita, now you're ringing the bell"
-				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Crispy and juicy, now you're having a snack"
-				"<grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>Ooh, super spicy, it's a lava attack"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description4}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description5}"
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.description6}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -503,20 +503,20 @@
 				item: "vanillabackport:music_disc_lava_chicken"
 				type: "item"
 			}]
-			subtitle: "Purchase Music Disc"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "1A22D494123B5A2B"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Music Disc - Lava Chicken"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.title}"
 			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -550,14 +550,14 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Junkyard Shotgun"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
 			tasks: [{
 				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "7C01FD149595D34D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Junkyard Shotgun"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
 			x: 6.0d
 			y: 12.0d
 		}
@@ -565,12 +565,12 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>I want to be the very greatest"
-				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>Like no one ever has been"
-				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>To catch them is my real challenge"
-				"<grad from=#FFCC00 to=#FF0000 hue=true f=0.3 sp=70 uni=true>To train them is my job"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
 				""
-				"- One can never take a chance with Nintendo. "
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -581,20 +581,20 @@
 				item: "petcapturetool:capture_tool"
 				type: "item"
 			}]
-			subtitle: "Purchase a Portable Pet Sphere"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "0CC79025F886B2F2"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Portable Pet Sphere"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -616,20 +616,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Amethyst Goat Horn"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.subtitle}"
 			tasks: [{
 				amount: 350L
 				currency: "eternalcurrencies:coins"
 				id: "402EEE608482552C"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Amethyst Goat Horn"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
 			x: 10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -651,22 +651,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Gorgon Head"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.subtitle}"
 			tasks: [{
 				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "2A62CC68B32A1663"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale: &rGorgon Head"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2054178622665004686.title}"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Weezer is HUGE in Goblin circles right now... "
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -677,20 +677,20 @@
 				item: "iceandfire:weezer_blue_album"
 				type: "item"
 			}]
-			subtitle: "Purchase Weezer"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.subtitle}"
 			tasks: [{
 				amount: 650L
 				currency: "eternalcurrencies:coins"
 				id: "3F1B6B9E578DEF8D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Weezer"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1221128012913219663.title}"
 			x: 10.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "alexscaves:nuclear_bomb"
@@ -700,14 +700,14 @@
 				item: "alexscaves:nuclear_bomb"
 				type: "item"
 			}]
-			subtitle: "Purchase a Nuclear Bomb"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.subtitle}"
 			tasks: [{
 				amount: 50000L
 				currency: "eternalcurrencies:coins"
 				id: "75A99232C9E867F3"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Nuclear Bomb"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.title}"
 			x: 2.0d
 			y: 12.0d
 		}
@@ -723,20 +723,20 @@
 				item: "majruszsdifficulty:recall_potion"
 				type: "item"
 			}]
-			subtitle: "Purchase a Recall Potion"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1034986400627589634.subtitle}"
 			tasks: [{
 				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "74B9A9777709424B"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Recall Potion"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1034986400627589634.title}"
 			x: 10.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -772,20 +772,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Barry's Famous Fez"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.subtitle}"
 			tasks: [{
 				amount: 80L
 				currency: "eternalcurrencies:coins"
 				id: "0A15BC4964BCA57A"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Barry's Famous Fez"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.title}"
 			x: 3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -817,28 +817,28 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Druidic Tome"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.subtitle}"
 			tasks: [{
 				amount: 300L
 				currency: "eternalcurrencies:coins"
 				id: "4B04842062FB6833"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Druidic Tome"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.title}"
 			x: 9.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"The Mechanical Dragonfly is a true marvel of engineering!"
-				"It can be mounted and is capable of flight using its large brass wings!"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description2}"
 				""
-				"It can be yours for the &oLOW &oLOW&r price of 1800 coins!!"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description3}"
 				""
-				"&eHint:&r Upon purchasing this item, the dragonfly will be summoned nearby already tamed!"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description4}"
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description5}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -849,29 +849,29 @@
 				console: true
 				icon: "clockwork:crossbow_barrel"
 				id: "7F844D797AA3E20A"
-				title: "&6Summon Gilbert &r&7&o(Make sure you do this in a safe place!)"
+				title: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.reward.9188554323886596618.title}"
 				type: "command"
 			}]
-			subtitle: "Purchase Mechanical Dragonfly"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.subtitle}"
 			tasks: [{
 				amount: 1800L
 				currency: "eternalcurrencies:coins"
 				id: "165976CC8B85CD82"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Mechanical Dragonfly"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.title}"
 			x: 6.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Barry has been feeling a little under the weather recently..."
-				"It's up to us to make them smile! "
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description2}"
 				""
-				"Let's bring them all of their FAVOURITE things in the WHOLE WIDE WORLD!!!"
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description3}"
 				""
-				"Here are a series of tasks that I know will for sure make that little critter smile <grad from=#FFB347 to=#FF4500 hue=true f=0.4 sp=80 uni=true>:)"
+				"{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.description4}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -893,7 +893,7 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3ADB5C5107CD68D1"
-					title: "&eUnlock Title:&r the Smiling Friend"
+					title: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.reward.4241084977192462545.title}"
 					type: "command"
 				}
 				{
@@ -918,7 +918,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "<grad from=#55CDFC to=#F7A8B8 hue=true f=0.3 sp=80 uni=true><wave>Make Barry Smile!"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -957,16 +957,16 @@
 					type: "item"
 				}
 			]
-			title: "<grad from=#FFD300 to=#FF6B00 hue uni><grad from=#FF6B00 to=#FF004C hue uni>The Smiling Friends!"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest3233184369614310664.title}"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Barry is willing to trade a &eKinetic Core&r for the items required to build a &dMagnetic Quarry"
+				"{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.description1}"
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -990,22 +990,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Want a Quarry? "
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "4A97A2C7839D877B"
 				item: "species:kinetic_core"
 				type: "item"
 			}]
-			title: "&eYard Trade:&r Magnetic Quarry"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.title}"
 			x: 6.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"&dNote:&r Has Veinmining"
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.description2}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1045,20 +1045,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Magnetic Junkyard Pickaxe"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.subtitle}"
 			tasks: [{
 				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "59DB31B201680447"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYardsale:&r Magnetic Junkyard Pickaxe"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest1235043918783982947.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.description1}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
@@ -1097,23 +1097,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Barry's Crankbow"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.subtitle}"
 			tasks: [{
 				amount: 300L
 				currency: "eternalcurrencies:coins"
 				id: "7E68A9874146A055"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Barry's Crankbow"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.title}"
 			x: 11.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Barry is willing to trade a &eWise Oak&r for a &dRusty Old Lumber Axe!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.description1}"
 				""
-				"&6&nOnly one in stock!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1145,14 +1145,14 @@
 				item: "mysticaloaktree:wise_oak"
 				type: "item"
 			}]
-			title: "&eYard Trade:&r Wise Oak"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&o&8Remnants of an ancient war in a world long gone... Some say it was destroyed by a bomb much bigger than this... at a certain shipping and recieving.."]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "betterarcheology:bomb"
@@ -1162,14 +1162,14 @@
 				item: "betterarcheology:bomb"
 				type: "item"
 			}]
-			subtitle: "Purchase a Rusty Bomb"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.subtitle}"
 			tasks: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "5373BE04DAD7309A"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Rusty Bomb"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7251631020990889252.title}"
 			x: 11.0d
 			y: 3.0d
 		}
@@ -1185,20 +1185,20 @@
 				item: "kubejs:artifact_endergem"
 				type: "item"
 			}]
-			subtitle: "Purchase a Soul Stone"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7234953266890537121.subtitle}"
 			tasks: [{
 				amount: 80L
 				currency: "eternalcurrencies:coins"
 				id: "1B02D3B0EC9C4C50"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale: &rSoul Stone"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest7234953266890537121.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -1256,17 +1256,17 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Book of Dark Mutations"
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.subtitle}"
 			tasks: [{
 				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "23F6A86EB917A8D7"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale: &rBook of Dark Mutations"
+			title: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.title}"
 			x: 12.0d
 			y: 5.0d
 		}
 	]
-	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
+	title: "{ftbquests.chapter.barrys_yard_sale.title}"
 }

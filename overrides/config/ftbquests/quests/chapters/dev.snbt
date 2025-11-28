@@ -18,23 +18,23 @@
 				command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
 				icon: "autumnity:red_maple_sapling"
 				id: "1A0517AB986A5101"
-				title: "&cOminous Warning"
+				title: "{ftbquests.chapter.dev.quest8462883830474632777.reward.1874930845633630465.title}"
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "for developer use"
+			subtitle: "{ftbquests.chapter.dev.quest8462883830474632777.subtitle}"
 			tasks: [{
 				dimension: "midnight:the_midnight"
 				disable_toast: true
 				id: "39D3F87D1451E5A3"
 				type: "dimension"
 			}]
-			title: "pack setup"
+			title: "{ftbquests.chapter.dev.quest8462883830474632777.title}"
 			x: 0.0d
 			y: -0.1d
 		}
 		{
-			description: ["for developer use"]
+			description: ["{ftbquests.chapter.dev.quest4294137544383696301.description1}"]
 			disable_toast: true
 			id: "3B97D75865A88DAD"
 			rewards: [{
@@ -55,7 +55,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "&eRewards The Player with &dThe Quest Book"
+			subtitle: "{ftbquests.chapter.dev.quest4294137544383696301.subtitle}"
 			tasks: [{
 				block: "minecraft:logs"
 				block_type: 1
@@ -64,7 +64,7 @@
 				type: "questsadditions:break"
 				value: 1L
 			}]
-			title: "&6The Questmasters Gift!"
+			title: "{ftbquests.chapter.dev.quest4294137544383696301.title}"
 			x: 1.0d
 			y: -0.1d
 		}
@@ -217,13 +217,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&eItem Update (AUTO)"
+			title: "{ftbquests.chapter.dev.quest37721892044573136.title}"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			can_repeat: true
-			description: ["Force Complete to get."]
+			description: ["{ftbquests.chapter.dev.quest3872601178615469033.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
@@ -248,15 +248,15 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Debug/Dev quest for just a Quest Loot box"
+			subtitle: "{ftbquests.chapter.dev.quest3872601178615469033.subtitle}"
 			tasks: [{
 				id: "607465DCA45BABDF"
 				type: "custom"
 			}]
-			title: "Quest Loot"
+			title: "{ftbquests.chapter.dev.quest3872601178615469033.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 	]
-	title: "dev"
+	title: "{ftbquests.chapter.dev.title}"
 }

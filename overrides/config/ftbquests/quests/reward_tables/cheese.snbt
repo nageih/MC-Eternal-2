@@ -12,5 +12,5 @@
 		{ item: "rats:cheese", weight: 50.0f }
 		{ item: "rats:cheese", random_bonus: 10, weight: 5.0f }
 	]
-	title: "cheese"
+	title: "{ftbquests.loot_table.1000697171934557785.title}"
 }

@@ -2892,7 +2892,7 @@
 					command: "/titles add {p} titles:hydra"
 					icon: "titles:title_scroll_rare"
 					id: "7CE7DF10F3DEA902"
-					title: "&eUnlock Title:&r of the Hydra"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest2956793000187677934.reward.9000407644227152130.title}"
 					type: "command"
 				}
 				{
@@ -2952,7 +2952,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThe Fist of Ratlantis"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest7735037035469037172.subtitle}"
 			tasks: [{
 				id: "5F0B645ACE0FD585"
 				item: {
@@ -2974,7 +2974,7 @@
 					command: "/titles add {p} titles:plagued"
 					icon: "titles:title_scroll_rare"
 					id: "095DD151E8707998"
-					title: "&eUnlock Title:&r The Plagued"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest6888493602012558784.reward.674925668897683864.title}"
 					type: "command"
 				}
 				{
@@ -3001,7 +3001,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&oThe Downfall of Ratlantis"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest6888493602012558784.subtitle}"
 			tasks: [{
 				id: "4952F666F9F537BF"
 				item: {
@@ -3042,7 +3042,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThe Eye of Ratlantis"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest8462276672703696166.subtitle}"
 			tasks: [{
 				id: "17E7A1283B793899"
 				item: {
@@ -3119,7 +3119,7 @@
 					command: "/titles add {p} titles:king_rat"
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
-					title: "&eUnlock Title:&r King of The Rats"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest2413032287311520114.reward.5886384005332860862.title}"
 					type: "command"
 				}
 				{
@@ -3145,7 +3145,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThe Heart of Ratlantis"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest2413032287311520114.subtitle}"
 			tasks: [
 				{
 					id: "067AA821F9DFB7A4"
@@ -3192,7 +3192,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Ratlantis Set"
+			title: "{ftbquests.chapter.llegendary_artifacts.quest2413032287311520114.title}"
 			x: -6.5d
 			y: 2.44d
 		}
@@ -3203,7 +3203,7 @@
 					command: "/titles add {p} titles:wraught"
 					icon: "titles:title_scroll_uncommon"
 					id: "35E36EC7C8552504"
-					title: "&eUnlock Title:&r of a Thousand Metals"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest7019814008628402972.reward.3883069108062070020.title}"
 					type: "command"
 				}
 				{
@@ -3298,7 +3298,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&oCarve reality itself!"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest7547873701884956604.subtitle}"
 			tasks: [{
 				id: "78166B2A9E102334"
 				item: {
@@ -3343,7 +3343,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oThe Blade of &eIgnis!"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest8095351553625982515.subtitle}"
 			tasks: [{
 				id: "70192FBB08471FE8"
 				item: {
@@ -3433,14 +3433,14 @@
 					}
 					id: "46B9BDAC58AA9A39"
 					table_id: 7633316997668108100L
-					title: "&ePick a Colour!"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest2606305938821695087.reward.5096313001266027065.title}"
 					type: "choice"
 				}
 				{
 					command: "/titles add {p} titles:dreadlord"
 					icon: "titles:title_scroll_uncommon"
 					id: "705E7F598DB92922"
-					title: "&eUnlock Title:&r Dreadlord"
+					title: "{ftbquests.chapter.llegendary_artifacts.quest2606305938821695087.reward.8097049202665269538.title}"
 					type: "command"
 				}
 				{
@@ -3466,7 +3466,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft The Dreadsteel Armor Set "
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest2606305938821695087.subtitle}"
 			tasks: [
 				{
 					id: "50CB1C1FFFDFEFCD"
@@ -3521,7 +3521,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Internalised Dread Part 1."
+			title: "{ftbquests.chapter.llegendary_artifacts.quest2606305938821695087.title}"
 			x: -1.5d
 			y: 8.5d
 		}
@@ -3567,7 +3567,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft The Dreadsteel Scythe and witness its power!"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest5734830238179453864.subtitle}"
 			tasks: [{
 				id: "4F5FFCE61F843F3E"
 				item: {
@@ -3581,13 +3581,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6Internalised Dread Part 2."
+			title: "{ftbquests.chapter.llegendary_artifacts.quest5734830238179453864.title}"
 			x: -0.5d
 			y: 9.5d
 		}
 		{
 			description: [
-				"&eHint:&r The Dreadsteel Shield has the highest Blocking Damage Reduction a shield can have after Expert Mode"
+				"{ftbquests.chapter.llegendary_artifacts.quest2400803410320661765.description1}"
 				""
 			]
 			id: "21515DFB4FB59D05"
@@ -3631,7 +3631,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oCraft the Dreadsteel Shield"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest2400803410320661765.subtitle}"
 			tasks: [{
 				id: "572DFBBF423BB0F4"
 				item: {
@@ -3645,12 +3645,12 @@
 				}
 				type: "item"
 			}]
-			title: "&6Internalised Dread Part 3."
+			title: "{ftbquests.chapter.llegendary_artifacts.quest2400803410320661765.title}"
 			x: 0.5d
 			y: 8.5d
 		}
 		{
-			description: ["{image:ftbchunks:textures/faces/minecraft/goat.png width:100 height:100 align:center}"]
+			description: ["{ftbquests.chapter.llegendary_artifacts.quest6802058094100008258.image0}"]
 			id: "5E65C3CC3866CD42"
 			optional: true
 			rewards: [
@@ -3705,7 +3705,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oWho needs Power anyway?"
+			subtitle: "{ftbquests.chapter.llegendary_artifacts.quest6802058094100008258.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -3726,7 +3726,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Crafting Quest:&r Bow of Yeeting"
+			title: "{ftbquests.chapter.llegendary_artifacts.quest6802058094100008258.title}"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -3853,5 +3853,5 @@
 			y: -0.92d
 		}
 	]
-	title: "&7Artifact Collection"
+	title: "{ftbquests.chapter.llegendary_artifacts.title}"
 }

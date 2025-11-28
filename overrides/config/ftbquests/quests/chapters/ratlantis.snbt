@@ -159,7 +159,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The source of the ancient Ratlantean's power!"]
+			description: ["{ftbquests.chapter.ratlantis.quest1708687039093783055.description1}"]
 			id: "17B679CF1D7FBA0F"
 			rewards: [
 				{
@@ -185,7 +185,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a &eChunky Cheese Token"
+			subtitle: "{ftbquests.chapter.ratlantis.quest1708687039093783055.subtitle}"
 			tasks: [{
 				id: "1542063D4B09CD45"
 				item: "rats:chunky_cheese_token"
@@ -223,19 +223,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "<wave>Enter Ratlantis!"
+			subtitle: "{ftbquests.chapter.ratlantis.quest7339987602106688146.subtitle}"
 			tasks: [{
 				dimension: "rats:ratlantis"
 				id: "1CE92FCBA7BFF6BB"
 				type: "dimension"
 			}]
-			title: "&eThe Dimension of Rats!"
+			title: "{ftbquests.chapter.ratlantis.quest7339987602106688146.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["May be able to change one of the lost feral rats."]
+			description: ["{ftbquests.chapter.ratlantis.quest8058529606323625251.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:psionic_rat_brain"
@@ -284,16 +284,16 @@
 					type: "item"
 				}
 			]
-			title: "Neo-Ratlantean"
+			title: "{ftbquests.chapter.ratlantis.quest8058529606323625251.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
 			description: [
-				"Build The Automaton Rat."
-				"&eTip:&f Place the head last"
-				"{image:modpack:textures/ratlanman.png width:150 height:100 align:center}"
+				"{ftbquests.chapter.ratlantis.quest4451753838077908639.description1}"
+				"{ftbquests.chapter.ratlantis.quest4451753838077908639.description2}"
+				"{ftbquests.chapter.ratlantis.quest4451753838077908639.image0}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -357,17 +357,17 @@
 							value: "rats:marbled_cheese"
 						}
 					}
-					title: "Any #rats:marbled_cheese"
+					title: "{ftbquests.chapter.ratlantis.quest4451753838077908639.task.6566394513844828426.title}"
 					type: "item"
 				}
 			]
-			title: "Ratlantean Automaton"
+			title: "{ftbquests.chapter.ratlantis.quest4451753838077908639.title}"
 			x: 6.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["In the late hours of the night, some say you can still see his ship floating through the air."]
+			description: ["{ftbquests.chapter.ratlantis.quest4150134948553164902.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:dutchrat_bell"
@@ -409,13 +409,13 @@
 				id: "22932EA0FA0E0B57"
 				type: "advancement"
 			}]
-			title: "The Flying Duchrat"
+			title: "{ftbquests.chapter.ratlantis.quest4150134948553164902.title}"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Somewhere in the lands is an old broken down runway with an &eAir Raid Siren&f maybe it will hear its call."]
+			description: ["{ftbquests.chapter.ratlantis.quest2456908208691772466.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:biplane_wing"
@@ -465,13 +465,13 @@
 					type: "item"
 				}
 			]
-			title: "Rat Baron"
+			title: "{ftbquests.chapter.ratlantis.quest2456908208691772466.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Plenty of petals can be found in these lands"]
+			description: ["{ftbquests.chapter.ratlantis.quest7386639570768571889.description1}"]
 			hide_until_deps_complete: true
 			id: "66829D8DB3812DF1"
 			rewards: [{
@@ -491,7 +491,7 @@
 		}
 		{
 			dependencies: ["66829D8DB3812DF1"]
-			description: ["Very rarely found underground"]
+			description: ["{ftbquests.chapter.ratlantis.quest22658542507326119.description1}"]
 			id: "00507FD30946FAA7"
 			rewards: [
 				{
@@ -527,7 +527,7 @@
 		}
 		{
 			dependencies: ["56DD03587D64EAE7"]
-			description: ["Mock the pursuit it took to create the avatar."]
+			description: ["{ftbquests.chapter.ratlantis.quest719651192794679430.description1}"]
 			hide_until_deps_visible: true
 			id: "09FCB6F26CB68886"
 			rewards: [
@@ -575,7 +575,7 @@
 				"2218B0FFA0D07C32"
 				"6FD5A5FB24E35D23"
 			]
-			description: ["Combined within are the powers of ratlantis."]
+			description: ["{ftbquests.chapter.ratlantis.quest6259162735710628583.description1}"]
 			hide_until_deps_visible: true
 			id: "56DD03587D64EAE7"
 			rewards: [
@@ -612,7 +612,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["They've come back to protect the land."]
+			description: ["{ftbquests.chapter.ratlantis.quest2759289912285384759.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:ratlantean_flame"
@@ -636,7 +636,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Destroy those little pirat sailors."]
+			description: ["{ftbquests.chapter.ratlantis.quest1572675020881378521.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:pirat_hat"
@@ -660,7 +660,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Most of the locals have gone feral."]
+			description: ["{ftbquests.chapter.ratlantis.quest4683784737794829413.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:feral_rat_claw"
@@ -684,7 +684,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["May be a bit rare in these jungles."]
+			description: ["{ftbquests.chapter.ratlantis.quest5708395174478141585.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "rats:ratbot_barrel"
@@ -726,14 +726,14 @@
 		{
 			dependencies: ["09FCB6F26CB68886"]
 			description: [
-				"Create the ultimate rat by combining upgrades."
+				"{ftbquests.chapter.ratlantis.quest471838227090907965.description1}"
 				""
-				"&eTip:&f 1 Combined upgrade per rat (upgrade. combined. rat gems for fuel)"
+				"{ftbquests.chapter.ratlantis.quest471838227090907965.description2}"
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "068C4E5E1D34233D"
-			subtitle: "Boo yaa! "
+			subtitle: "{ftbquests.chapter.ratlantis.quest471838227090907965.subtitle}"
 			tasks: [{
 				id: "3E63D610103F38E9"
 				item: "rats:upgrade_combiner"
@@ -745,8 +745,8 @@
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: [
-				"Extra tang to its bite."
-				"Watch Out!"
+				"{ftbquests.chapter.ratlantis.quest580332671236022453.description1}"
+				"{ftbquests.chapter.ratlantis.quest580332671236022453.description2}"
 			]
 			id: "080DC17D6093A0B5"
 			optional: true
@@ -762,13 +762,13 @@
 				item: "rats:rat_upgrade_feral_bite"
 				type: "item"
 			}]
-			title: "Feral Bite"
+			title: "{ftbquests.chapter.ratlantis.quest580332671236022453.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["243CDB964EC69A5E"]
-			description: ["Captain your own Fleet of Pirat's"]
+			description: ["{ftbquests.chapter.ratlantis.quest1762009105963607635.description1}"]
 			id: "1873E9F243F6E653"
 			optional: true
 			rewards: [{
@@ -783,13 +783,13 @@
 				item: "rats:rat_upgrade_buccaneer"
 				type: "item"
 			}]
-			title: "Buccaneer"
+			title: "{ftbquests.chapter.ratlantis.quest1762009105963607635.title}"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["243CDB964EC69A5E"]
-			description: ["Rat Automaton Systems Model 101"]
+			description: ["{ftbquests.chapter.ratlantis.quest3319196629500515336.description1}"]
 			id: "2E1027BFA90D5408"
 			optional: true
 			rewards: [{
@@ -799,21 +799,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Ill be back.. with Rats"
+			subtitle: "{ftbquests.chapter.ratlantis.quest3319196629500515336.subtitle}"
 			tasks: [{
 				id: "281C4F437DEDDAAF"
 				item: "rats:rat_upgrade_ratinator"
 				type: "item"
 			}]
-			title: "Ratinator"
+			title: "{ftbquests.chapter.ratlantis.quest3319196629500515336.title}"
 			x: 3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["243CDB964EC69A5E"]
 			description: [
-				"We have a Neo Rat at home."
-				"Big Brained."
+				"{ftbquests.chapter.ratlantis.quest4261191249018063540.description1}"
+				"{ftbquests.chapter.ratlantis.quest4261191249018063540.description2}"
 			]
 			id: "3B22CADD3DB98AB4"
 			optional: true
@@ -824,19 +824,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Ive heard it both ways"
+			subtitle: "{ftbquests.chapter.ratlantis.quest4261191249018063540.subtitle}"
 			tasks: [{
 				id: "6684B99F84B45C6C"
 				item: "rats:rat_upgrade_psychic"
 				type: "item"
 			}]
-			title: "Resident Psychic"
+			title: "{ftbquests.chapter.ratlantis.quest4261191249018063540.title}"
 			x: 1.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["243CDB964EC69A5E"]
-			description: ["Lil Ghosty Rat Friend."]
+			description: ["{ftbquests.chapter.ratlantis.quest4064386515742853564.description1}"]
 			id: "38679A0084BD89BC"
 			optional: true
 			rewards: [{
@@ -851,13 +851,13 @@
 				item: "rats:rat_upgrade_ethereal"
 				type: "item"
 			}]
-			title: "Ethereal Ghost"
+			title: "{ftbquests.chapter.ratlantis.quest4064386515742853564.title}"
 			x: 2.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["09FCB6F26CB68886"]
-			description: ["Craft the Nonbeliever with all the powers of the Ratlantean's in one "]
+			description: ["{ftbquests.chapter.ratlantis.quest1215700327929792111.description1}"]
 			id: "10DF0901D794C66F"
 			rewards: [
 				{
@@ -894,19 +894,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Blasphemy!"
+			subtitle: "{ftbquests.chapter.ratlantis.quest1215700327929792111.subtitle}"
 			tasks: [{
 				id: "71224D550DFAD7FB"
 				item: "rats:rat_upgrade_nonbeliever"
 				type: "item"
 			}]
-			title: "False Prophet"
+			title: "{ftbquests.chapter.ratlantis.quest1215700327929792111.title}"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Ratlantean Upgrade Base"]
+			description: ["{ftbquests.chapter.ratlantis.quest2611203322581260894.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "243CDB964EC69A5E"
@@ -922,13 +922,13 @@
 				item: "rats:rat_upgrade_basic_ratlantean"
 				type: "item"
 			}]
-			title: "Basic Ratlantean"
+			title: "{ftbquests.chapter.ratlantis.quest2611203322581260894.title}"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["66829D8DB3812DF1"]
-			description: ["We Need Gems, More gems, Gems with a rat."]
+			description: ["{ftbquests.chapter.ratlantis.quest6571929080622510477.description1}"]
 			id: "5B342EADE390718D"
 			rewards: [{
 				amount: 100L
@@ -947,7 +947,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Claws of the feral ones can be quite fast with attacks."]
+			description: ["{ftbquests.chapter.ratlantis.quest7628917735639730205.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "69DF5C42C57BC81D"
@@ -974,7 +974,7 @@
 		}
 		{
 			dependencies: ["068C4E5E1D34233D"]
-			description: ["Combine this with an upgrade and a gem inside the &eUpgrade Combiner"]
+			description: ["{ftbquests.chapter.ratlantis.quest8623865128020324664.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "77AE1FA48A87B138"
@@ -1002,19 +1002,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hitmaker"
+			subtitle: "{ftbquests.chapter.ratlantis.quest8623865128020324664.subtitle}"
 			tasks: [{
 				id: "7E7E30131BA643F0"
 				item: "rats:rat_upgrade_combined"
 				type: "item"
 			}]
-			title: "Combo Wombo"
+			title: "{ftbquests.chapter.ratlantis.quest8623865128020324664.title}"
 			x: 9.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Obtain both variants of the Cutlass."]
+			description: ["{ftbquests.chapter.ratlantis.quest8316942636522667910.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "736BB7434B3BFF86"
@@ -1055,9 +1055,9 @@
 		{
 			dependencies: ["65DCDFD5CF572292"]
 			description: [
-				"Rats will mow down anything in sight."
+				"{ftbquests.chapter.ratlantis.quest563615809798626247.description1}"
 				""
-				"&eTip:&f Give mob filter and set to hunt mobs"
+				"{ftbquests.chapter.ratlantis.quest563615809798626247.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1069,7 +1069,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Ratatatatat"
+			subtitle: "{ftbquests.chapter.ratlantis.quest563615809798626247.subtitle}"
 			tasks: [{
 				id: "7D27E7B8F5FD948A"
 				item: "rats:rattling_gun"
@@ -1080,7 +1080,7 @@
 		}
 		{
 			dependencies: ["77AE1FA48A87B138"]
-			description: ["Add One by one with combined upgrade to create the ultimate tank"]
+			description: ["{ftbquests.chapter.ratlantis.quest3320181575760987152.description1}"]
 			id: "2E13A78D5507C410"
 			optional: true
 			rewards: [{
@@ -1090,7 +1090,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Nothing but a scratch"
+			subtitle: "{ftbquests.chapter.ratlantis.quest3320181575760987152.subtitle}"
 			tasks: [
 				{
 					id: "56F50EE16D27FB49"
@@ -1118,13 +1118,13 @@
 					type: "item"
 				}
 			]
-			title: "Combined Foruma: Ultimate Tank"
+			title: "{ftbquests.chapter.ratlantis.quest3320181575760987152.title}"
 			x: 11.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["77AE1FA48A87B138"]
-			description: ["Add One by one with combined upgrade to create your own air support"]
+			description: ["{ftbquests.chapter.ratlantis.quest4090185672920315173.description1}"]
 			id: "38C34232E3CEB525"
 			optional: true
 			rewards: [{
@@ -1134,7 +1134,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Chopper incoming"
+			subtitle: "{ftbquests.chapter.ratlantis.quest4090185672920315173.subtitle}"
 			tasks: [
 				{
 					id: "525C4CC5C61D49A9"
@@ -1162,13 +1162,13 @@
 					type: "item"
 				}
 			]
-			title: "Combined Formula: Air Support"
+			title: "{ftbquests.chapter.ratlantis.quest4090185672920315173.title}"
 			x: 8.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["068C4E5E1D34233D"]
-			description: ["If you need to separate your new upgrade."]
+			description: ["{ftbquests.chapter.ratlantis.quest6070261249180029955.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "543DE671CB31D403"
@@ -1183,7 +1183,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["Some rats have chosen not to evolve to land."]
+			description: ["{ftbquests.chapter.ratlantis.quest2540908124425372277.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "23431E7A13474275"
@@ -1211,8 +1211,8 @@
 				"66829D8DB3812DF1"
 			]
 			description: [
-				"Ratlantean's most prized Reactors."
-				"Be careful how you use them."
+				"{ftbquests.chapter.ratlantis.quest9110803453290649520.description1}"
+				"{ftbquests.chapter.ratlantis.quest9110803453290649520.description2}"
 			]
 			id: "7E7013783BCA97B0"
 			rewards: [
@@ -1262,7 +1262,7 @@
 		}
 		{
 			dependencies: ["65DCDFD5CF572292"]
-			description: ["The Brainiac wishes they could harvest this information"]
+			description: ["{ftbquests.chapter.ratlantis.quest7919766590848218293.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6DE8A9C0EF83B4B5"
@@ -1296,10 +1296,10 @@
 				item: "rats:brain_block"
 				type: "item"
 			}]
-			title: "Oozing Information"
+			title: "{ftbquests.chapter.ratlantis.quest7919766590848218293.title}"
 			x: -1.0d
 			y: 6.0d
 		}
 	]
-	title: "<grad from=#FFF0A3 to=#F6B800 hue=true f=1.3 sp=50 uni=true>☆☆&r Ratlantis"
+	title: "{ftbquests.chapter.ratlantis.title}"
 }

@@ -2031,6 +2031,6 @@
 			type: "eternalcurrencies:currency"
 		}
 	]
-	title: "Blackmarket Cache"
+	title: "{ftbquests.loot_table.7907762097638722541.title}"
 	use_title: true
 }

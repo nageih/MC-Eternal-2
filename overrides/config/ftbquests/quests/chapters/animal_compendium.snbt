@@ -858,7 +858,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-				"&eTip: &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
+				"{ftbquests.chapter.animal_compendium.quest1062685234287048052.description1}"
 				""
 			]
 			hide_dependency_lines: true
@@ -885,13 +885,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1062685234287048052.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "76054D04B7784C1C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot an &e&oAlligator Snapping Turtle"
+				title: "{ftbquests.chapter.animal_compendium.quest1062685234287048052.task.8504288154012371996.title}"
 				to_observe: "alexsmobs:alligator_snapping_turtle"
 				type: "observation"
 			}]
@@ -901,9 +901,9 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-				"&eTip:&rOften seen soaring above the forests and groves. A true symbol of freedom."
+				"{ftbquests.chapter.animal_compendium.quest8289623878290726911.description1}"
 				""
-				"Watch out for the prime eagle!"
+				"{ftbquests.chapter.animal_compendium.quest8289623878290726911.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -949,13 +949,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest8289623878290726911.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0CB8065005D0B569"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBald Eagle"
+				title: "{ftbquests.chapter.animal_compendium.quest8289623878290726911.task.916489464934610281.title}"
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
@@ -966,7 +966,7 @@
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
 				""
-				"&eTip:&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
+				"{ftbquests.chapter.animal_compendium.quest375646027772876493.description1}"
 			]
 			icon: "exposure:camera"
 			id: "053690126EB056CD"
@@ -981,13 +981,13 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
-					title: "&eUnlock Title:&r Nature Photographer"
+					title: "{ftbquests.chapter.animal_compendium.quest375646027772876493.reward.4190529122197946973.title}"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "&oCraft a Camera and begin your Mob Snap journey! Try to capture all of the animals below with your camera!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest375646027772876493.subtitle}"
 			tasks: [
 				{
 					id: "11E406F3114981AA"
@@ -1003,17 +1003,17 @@
 							value: "exposure:film_rolls"
 						}
 					}
-					title: "Film Roll"
+					title: "{ftbquests.chapter.animal_compendium.quest375646027772876493.task.4323738517146716252.title}"
 					type: "item"
 				}
 			]
-			title: "&eAmateur Photography"
+			title: "{ftbquests.chapter.animal_compendium.quest375646027772876493.title}"
 			x: -2.0d
 			y: -6.1d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in jungles. Strong and social but easily angered."]
+			description: ["{ftbquests.chapter.animal_compendium.quest7945444246590153405.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6E43E3720CAD62BD"
@@ -1038,13 +1038,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7945444246590153405.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "381DFF9EEAD5FA70"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGorilla"
+				title: "{ftbquests.chapter.animal_compendium.quest7945444246590153405.task.4043669098458380912.title}"
 				to_observe: "alexsmobs:gorilla"
 				type: "observation"
 			}]
@@ -1053,7 +1053,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip: &rDeep-sea dweller. Unpleasant to look at, but a survivor of the abyss."]
+			description: ["{ftbquests.chapter.animal_compendium.quest4535528347797872874.description1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			hide_until_deps_visible: true
@@ -1073,13 +1073,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4535528347797872874.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "51182E2755DB26A4"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBlobfish"
+				title: "{ftbquests.chapter.animal_compendium.quest4535528347797872874.task.5843471262992246436.title}"
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
@@ -1088,7 +1088,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Nether serpent that swims through lava. Keep your distance! &4(Danger!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest6469029507099910494.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59C69C0FF435E15E"
@@ -1113,13 +1113,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6469029507099910494.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "520D202B35B5352C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest6469029507099910494.task.5912417255764079916.title}"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
@@ -1128,7 +1128,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Massive ocean whale that can dive to great depths , listen for its calls."]
+			description: ["{ftbquests.chapter.animal_compendium.quest6737598839243879219.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5D80C2726C373333"
@@ -1164,13 +1164,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6737598839243879219.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "5E71DD895A88FE1C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCachalot Whale"
+				title: "{ftbquests.chapter.animal_compendium.quest6737598839243879219.task.6805464093932715548.title}"
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
@@ -1179,7 +1179,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Scurries in dark places. Surprisingly resilient for such a small pest."]
+			description: ["{ftbquests.chapter.animal_compendium.quest2531940556079816807.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "232342855D8AE067"
@@ -1209,13 +1209,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest2531940556079816807.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "5E0E18B45C03EA7D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCockroach"
+				title: "{ftbquests.chapter.animal_compendium.quest2531940556079816807.task.6777381652156115581.title}"
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
@@ -1224,7 +1224,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Jungle dweller known for its playful nature and clever hands."]
+			description: ["{ftbquests.chapter.animal_compendium.quest2515740011671770429.description1}"]
 			hide_dependency_lines: true
 			id: "22E9B4362EEED53D"
 			rewards: [
@@ -1242,13 +1242,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest2515740011671770429.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "634A05BE60F664B1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCapuchin Monkey"
+				title: "{ftbquests.chapter.animal_compendium.quest2515740011671770429.task.7154537273260139697.title}"
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
@@ -1257,7 +1257,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Forest predator with distinctive stripes. Fierce and territorial. &4(Danger!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest4066999992133566469.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3870E2F1E8A34005"
@@ -1288,13 +1288,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4066999992133566469.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1625623617E19376"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTiger &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest4066999992133566469.task.1595789627441124214.title}"
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
@@ -1303,7 +1303,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip: &rSeals can often be found in cold climates and enjoy icy waters!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest4075256869529632231.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "388E3887FCC8BDE7"
@@ -1322,13 +1322,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4075256869529632231.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "3D39B7FB11ACE69D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSeal"
+				title: "{ftbquests.chapter.animal_compendium.quest4075256869529632231.task.4411759598947329693.title}"
 				to_observe: "alexsmobs:seal"
 				type: "observation"
 			}]
@@ -1337,7 +1337,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Native to the savannah. Loves to box and leap great distances."]
+			description: ["{ftbquests.chapter.animal_compendium.quest8286686123518259644.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7300391FE576F1BC"
@@ -1362,13 +1362,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Animal Snap"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest8286686123518259644.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "32D72FF064DF10CF"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKangaroo"
+				title: "{ftbquests.chapter.animal_compendium.quest8286686123518259644.task.3663449531420184783.title}"
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
@@ -1377,7 +1377,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest753040933865097220.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0A7356BD545B8804"
@@ -1402,14 +1402,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest753040933865097220.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:spyglass"
 				id: "4DBF98E89057C4F8"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCrocodile &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest753040933865097220.task.5602364586093692152.title}"
 				to_observe: "alexsmobs:crocodile"
 				type: "observation"
 			}]
@@ -1418,7 +1418,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest6537591505668687264.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5ABA30D635FE45A0"
@@ -1437,13 +1437,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6537591505668687264.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "496D5F100324EE3A"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGrizzly Bear &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest6537591505668687264.task.5290989659607068218.title}"
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
@@ -1452,7 +1452,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Tiny bird with rapid wings. Drawn to flowers and sweet nectar."]
+			description: ["{ftbquests.chapter.animal_compendium.quest9198551346961724144.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7FA7D1B6CBD832F0"
@@ -1471,13 +1471,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest9198551346961724144.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "05E8CE72F38687DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHummingbird"
+				title: "{ftbquests.chapter.animal_compendium.quest9198551346961724144.task.425817157893785563.title}"
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
@@ -1486,7 +1486,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest1419626102020076530.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "13B3866B14C773F2"
@@ -1511,13 +1511,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1419626102020076530.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "194F81481391938C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oElephant"
+				title: "{ftbquests.chapter.animal_compendium.quest1419626102020076530.task.1823818520674276236.title}"
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
@@ -1526,7 +1526,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in the sparse jungles. Uses venom and stealth to ambush prey."]
+			description: ["{ftbquests.chapter.animal_compendium.quest303508499854421192.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0436475F60226CC8"
@@ -1551,13 +1551,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest303508499854421192.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "54465F83E2C712DB"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oKomodo Dragon"
+				title: "{ftbquests.chapter.animal_compendium.quest303508499854421192.task.6072646167605744347.title}"
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
@@ -1566,7 +1566,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Patrols warm seas. Its wide head senses even the faintest movement."]
+			description: ["{ftbquests.chapter.animal_compendium.quest8554326172620207874.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "76B71254CBDAB702"
@@ -1591,13 +1591,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest8554326172620207874.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "78D5CF015EC831E3"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oHammerhead Shark"
+				title: "{ftbquests.chapter.animal_compendium.quest8554326172620207874.task.8707093059382817251.title}"
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
@@ -1606,7 +1606,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Fast-running bird from dry lands. Often travels in curious pairs."]
+			description: ["{ftbquests.chapter.animal_compendium.quest385514032167315670.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "05599EF83F42E8D6"
@@ -1631,13 +1631,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest385514032167315670.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "292E3F5498E8FD14"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oEmu"
+				title: "{ftbquests.chapter.animal_compendium.quest385514032167315670.task.2967378837058944276.title}"
 				to_observe: "alexsmobs:emu"
 				type: "observation"
 			}]
@@ -1646,7 +1646,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in cold forests. Large antlers and a calm but strong nature."]
+			description: ["{ftbquests.chapter.animal_compendium.quest6427316687941247381.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59326A796BADA195"
@@ -1671,13 +1671,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6427316687941247381.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E43E06EC4C50C39"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMoose"
+				title: "{ftbquests.chapter.animal_compendium.quest6427316687941247381.task.7945440933963959353.title}"
 				to_observe: "alexsmobs:moose"
 				type: "observation"
 			}]
@@ -1686,7 +1686,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest7892286089834098439.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6D87086232516F07"
@@ -1706,13 +1706,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7892286089834098439.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0B3A7844463754A9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMungus &r&d(Very Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest7892286089834098439.task.809091317697565865.title}"
 				to_observe: "alexsmobs:mungus"
 				type: "observation"
 			}]
@@ -1721,7 +1721,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Small but mighty! Known for the fastest punch in the warm ocean."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3130635843972008052.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "2B7240B6990E8874"
@@ -1746,13 +1746,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3130635843972008052.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "15CFA4EB4D1CA91C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMantis Shrimp"
+				title: "{ftbquests.chapter.animal_compendium.quest3130635843972008052.task.1571656125493586204.title}"
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
@@ -1761,7 +1761,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in wetlands. Its strange bill gives it an almost prehistoric look."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3704522203645020221.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "33691B511ACF083D"
@@ -1786,13 +1786,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3704522203645020221.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "16D93481357F3448"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oShoebill"
+				title: "{ftbquests.chapter.animal_compendium.quest3704522203645020221.task.1646404868333581384.title}"
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
@@ -1801,7 +1801,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest1538027263796837948.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "15582BA5C979FE3C"
@@ -1826,13 +1826,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1538027263796837948.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "38DB30C0321078EA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSunbird &r&d(Very Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest1538027263796837948.task.4096921888055392490.title}"
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
@@ -1841,7 +1841,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Bright wasp found in deserts. Brave one to photograph this! &4(Danger!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest6261013542648576192.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "56E396A50F7A78C0"
@@ -1866,13 +1866,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6261013542648576192.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "378F04C9EA892CB1"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTarantula Hawk"
+				title: "{ftbquests.chapter.animal_compendium.quest6261013542648576192.task.4003423859025456305.title}"
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
@@ -1881,7 +1881,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest7561960135558221572.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "68F17AADA59CCF04"
@@ -1906,13 +1906,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7561960135558221572.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "74B43A75C49BEDA5"
 				observe_type: 5
 				timer: 0L
-				title: "Spot an &e&oOrca &r&6(Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest7561960135558221572.task.8409410681691696549.title}"
 				to_observe: "alexsmobs:orca"
 				type: "observation"
 			}]
@@ -1921,7 +1921,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip: &rRiver mammal that lays eggs. Loves redstone dust for some reason, Try naming it Perry!"]
+			description: ["{ftbquests.chapter.animal_compendium.quest4259390336740827281.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3B1C64F1AD2B2091"
@@ -1946,13 +1946,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4259390336740827281.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "720C5F0AA36B93E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oPlatypus"
+				title: "{ftbquests.chapter.animal_compendium.quest4259390336740827281.task.8218047919340360672.title}"
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
@@ -1961,7 +1961,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Don’t let its size fool you; this snarling marsupial is chaos wrapped in fur."]
+			description: ["{ftbquests.chapter.animal_compendium.quest685217366631065027.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0982619083F925C3"
@@ -1986,13 +1986,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest685217366631065027.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "123D03A9055161E0"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oTasmanian Devil"
+				title: "{ftbquests.chapter.animal_compendium.quest685217366631065027.task.1314210690735628768.title}"
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
@@ -2001,7 +2001,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."]
+			description: ["{ftbquests.chapter.animal_compendium.quest1302533274014448507.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1213871C91C1FB7B"
@@ -2026,13 +2026,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1302533274014448507.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1802635A0C9F502D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGuster &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest1302533274014448507.task.1730054445273665581.title}"
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
@@ -2041,7 +2041,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in jungles. Works together to cut leaves and gather food."]
+			description: ["{ftbquests.chapter.animal_compendium.quest4512556157257110178.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3E9FD1EA9E4FD2A2"
@@ -2066,13 +2066,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4512556157257110178.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "7DE7D557BD1B9F28"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLeafcutter Ant"
+				title: "{ftbquests.chapter.animal_compendium.quest4512556157257110178.task.9072454547172728616.title}"
 				to_observe: "alexsmobs:leafcutter_ant"
 				type: "observation"
 			}]
@@ -2081,7 +2081,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Hides in cold oceans. Likes to pinch and crawl along the seafloor."]
+			description: ["{ftbquests.chapter.animal_compendium.quest6759389604420025167.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5DCE2D084DEC7B4F"
@@ -2106,13 +2106,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6759389604420025167.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "604C1B61CD35881C"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLobster"
+				title: "{ftbquests.chapter.animal_compendium.quest6759389604420025167.task.6938951232739706908.title}"
 				to_observe: "alexsmobs:lobster"
 				type: "observation"
 			}]
@@ -2121,7 +2121,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Mimics other sea creatures to confuse predators. &6(Rare!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest7149529189515109312.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "63383AEB0455A3C0"
@@ -2152,13 +2152,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7149529189515109312.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "004C0CF35F3996E9"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oMimic Octopus &r&6(Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest7149529189515109312.task.21406337644205801.title}"
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
@@ -2167,7 +2167,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Ancient deep sea shark. Prefers the darkest parts of the ocean."]
+			description: ["{ftbquests.chapter.animal_compendium.quest2282172739533799665.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1FABE803DFFE00F1"
@@ -2192,13 +2192,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest2282172739533799665.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "62DD99FF012333CC"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oFrilled Shark"
+				title: "{ftbquests.chapter.animal_compendium.quest2282172739533799665.task.7124019506084787148.title}"
 				to_observe: "alexsmobs:frilled_shark"
 				type: "observation"
 			}]
@@ -2207,7 +2207,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Desert serpent that rattles before striking! &4(Danger!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest4578455467587264725.description1}"]
 			hide_dependency_lines: true
 			id: "3F89F0FD757BE0D5"
 			rewards: [
@@ -2235,13 +2235,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4578455467587264725.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRattlesnake"
+				title: "{ftbquests.chapter.animal_compendium.quest4578455467587264725.task.2089677086710803946.title}"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
@@ -2250,7 +2250,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Found in deserts. Fast bird that hunts snakes for food."]
+			description: ["{ftbquests.chapter.animal_compendium.quest7101710073263590757.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "628E57AF66B08D65"
@@ -2275,13 +2275,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7101710073263590757.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "110E28CF2C0024C6"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRoadrunner"
+				title: "{ftbquests.chapter.animal_compendium.quest7101710073263590757.task.1228964618580272326.title}"
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
@@ -2290,7 +2290,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r The Dropbear is one scary creature! Find it in The Nether! Watch out! (Come prepared!)"]
+			description: ["{ftbquests.chapter.animal_compendium.quest3638063730744746482.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "327CFFB01545E1F2"
@@ -2316,13 +2316,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3638063730744746482.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oDropbear &r&6(Rare!) &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest3638063730744746482.task.1134120412209451653.title}"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
@@ -2348,7 +2348,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&oThe Chief of Police has a few words to say before you can begin your adventure, I would advise you follow his advice!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest9168168160214234523.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -2363,7 +2363,7 @@
 					}
 				}
 				id: "5F64014F55ED35D7"
-				title: "&eFilming Permit &n(Click To Agree)"
+				title: "{ftbquests.chapter.animal_compendium.quest9168168160214234523.task.6873620371529872855.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -2371,7 +2371,7 @@
 		}
 		{
 			dependencies: ["053690126EB056CD"]
-			description: ["&rWith your camera in hand, you’ve captured the world around you but the film alone won’t give you a picture. Once developed, the roll must be placed in a &eLightroom&r, where the photograph is revealed and finalized. Only then can your snapshots become true keepsakes."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3225337539329088883.description1}"]
 			id: "2CC2B36748715D73"
 			tasks: [
 				{
@@ -2388,7 +2388,7 @@
 							value: "exposure:developed_film_rolls"
 						}
 					}
-					title: "&ePhoto Development"
+					title: "{ftbquests.chapter.animal_compendium.quest3225337539329088883.task.1534452705890356106.title}"
 					type: "item"
 				}
 			]
@@ -2397,7 +2397,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Deep sea phantom of the void, it wrestles whales where no light dares reach."]
+			description: ["{ftbquests.chapter.animal_compendium.quest4687960722549599970.description1}"]
 			hide_dependency_lines: true
 			id: "410EFB70748D6EE2"
 			rewards: [
@@ -2427,13 +2427,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4687960722549599970.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "7D5103DAED3B4353"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGiant Squid"
+				title: "{ftbquests.chapter.animal_compendium.quest4687960722549599970.task.9030002966672393043.title}"
 				to_observe: "alexsmobs:giant_squid"
 				type: "observation"
 			}]
@@ -2442,7 +2442,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Dweller of molten oceans, its temper burns hotter than the Nether itself."]
+			description: ["{ftbquests.chapter.animal_compendium.quest8455222581510905583.description1}"]
 			hide_dependency_lines: true
 			id: "7556FC23E3D19EEF"
 			rewards: [
@@ -2461,13 +2461,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest8455222581510905583.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "120F2678E27E1196"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oLaviathan"
+				title: "{ftbquests.chapter.animal_compendium.quest8455222581510905583.task.1301301117971206550.title}"
 				to_observe: "alexsmobs:laviathan"
 				type: "observation"
 			}]
@@ -2476,7 +2476,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r A mushroom with a mind of its own,bounces, bites, and spreads its spores."]
+			description: ["{ftbquests.chapter.animal_compendium.quest4204301442175239621.description1}"]
 			hide_dependency_lines: true
 			id: "3A58ADE2E58485C5"
 			rewards: [
@@ -2495,13 +2495,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest4204301442175239621.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E5826F35C703383"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oBunfungus &r&6(Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest4204301442175239621.task.7951147968792376195.title}"
 				to_observe: "alexsmobs:bunfungus"
 				type: "observation"
 			}]
@@ -2510,7 +2510,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Ghostly pirate of the seas, forever cursed to haunt the waves it plundered."]
+			description: ["{ftbquests.chapter.animal_compendium.quest2115953314668678622.description1}"]
 			hide_dependency_lines: true
 			id: "1D5D605432230DDE"
 			rewards: [
@@ -2529,13 +2529,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest2115953314668678622.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "447D8AF28C30EF15"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oSkelewag"
+				title: "{ftbquests.chapter.animal_compendium.quest2115953314668678622.task.4935253541006667541.title}"
 				to_observe: "alexsmobs:skelewag"
 				type: "observation"
 			}]
@@ -2544,7 +2544,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Nether-born abomination; part fly, part beast, all fury."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3246157037818712701.description1}"]
 			hide_dependency_lines: true
 			id: "2D0CAAA08451927D"
 			rewards: [
@@ -2563,13 +2563,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3246157037818712701.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "3C6FBD0E0C461C6A"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oWarped Mosco &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest3246157037818712701.task.4354907232723672170.title}"
 				to_observe: "alexsmobs:warped_mosco"
 				type: "observation"
 			}]
@@ -2578,7 +2578,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Cosmic serpent of the End,its body splits reality itself. Toss a void to your worm"]
+			description: ["{ftbquests.chapter.animal_compendium.quest1301175889958283346.description1}"]
 			hide_dependency_lines: true
 			id: "120EB493F7442852"
 			rewards: [{
@@ -2589,13 +2589,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1301175889958283346.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "419E62D9655BCE5B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oVoid Worm &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest1301175889958283346.task.4728325344633540187.title}"
 				to_observe: "alexsmobs:void_worm"
 				type: "observation"
 			}]
@@ -2604,7 +2604,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Tiny desert hopper with huge ears and bigger energy."]
+			description: ["{ftbquests.chapter.animal_compendium.quest5337102888908629155.description1}"]
 			hide_dependency_lines: true
 			id: "4A1132CCDF1C24A3"
 			rewards: [
@@ -2623,14 +2623,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest5337102888908629155.subtitle}"
 			tasks: [
 				{
 					icon: "minecraft:spyglass"
 					id: "5C05BBDFA5785466"
 					observe_type: 5
 					timer: 0L
-					title: "Spot a &e&oJerboa"
+					title: "{ftbquests.chapter.animal_compendium.quest5337102888908629155.task.6630912595601151078.title}"
 					to_observe: "alexsmobs:jerboa"
 					type: "observation"
 				}
@@ -2649,7 +2649,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Horned tank of the Savanna, don’t stand between it and its charge."]
+			description: ["{ftbquests.chapter.animal_compendium.quest538771864573148948.description1}"]
 			hide_dependency_lines: true
 			id: "077A1A2802DB7F14"
 			rewards: [
@@ -2668,13 +2668,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest538771864573148948.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "30FF0006EF14778B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oRhinoceros"
+				title: "{ftbquests.chapter.animal_compendium.quest538771864573148948.task.3530540662662657931.title}"
 				to_observe: "alexsmobs:rhinoceros"
 				type: "observation"
 			}]
@@ -2683,7 +2683,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Master of disguise,just a branch... until it blinks."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3586846257990492892.description1}"]
 			hide_dependency_lines: true
 			id: "31C709AAEF7662DC"
 			rewards: [
@@ -2702,13 +2702,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3586846257990492892.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E7A730CB817399B"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oPotoo &r&6(Rare!)"
+				title: "{ftbquests.chapter.animal_compendium.quest3586846257990492892.task.7960801789796104603.title}"
 				to_observe: "alexsmobs:potoo"
 				type: "observation"
 			}]
@@ -2717,7 +2717,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Skittering nightmare from the dark caves, fast and venomous."]
+			description: ["{ftbquests.chapter.animal_compendium.quest855786597888114366.description1}"]
 			hide_dependency_lines: true
 			id: "0BE05D606AA93EBE"
 			rewards: [
@@ -2736,13 +2736,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest855786597888114366.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "46034653D28F69D8"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oCentipede &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest855786597888114366.task.5044953333413931480.title}"
 				to_observe: "alexsmobs:centipede"
 				type: "observation"
 			}]
@@ -2751,7 +2751,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Far Far away the ancient watcher of the stars, its gaze sees beyond worlds."]
+			description: ["{ftbquests.chapter.animal_compendium.quest1499533290431476258.description1}"]
 			hide_dependency_lines: true
 			id: "14CF6995310A7222"
 			rewards: [
@@ -2770,13 +2770,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest1499533290431476258.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "76A06B54EFBA52B6"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oFarseer &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest1499533290431476258.task.8547950105292591798.title}"
 				to_observe: "alexsmobs:farseer"
 				type: "observation"
 			}]
@@ -2785,7 +2785,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Nether brute with molten blood, feared even by ghasts."]
+			description: ["{ftbquests.chapter.animal_compendium.quest6438323600252198129.description1}"]
 			hide_dependency_lines: true
 			id: "59598533E60BDCF1"
 			rewards: [{
@@ -2796,13 +2796,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest6438323600252198129.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "21F34B736175CBCF"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oStraddler &r&4(Danger!)"
+				title: "{ftbquests.chapter.animal_compendium.quest6438323600252198129.task.2446381981520743375.title}"
 				to_observe: "alexsmobs:straddler"
 				type: "observation"
 			}]
@@ -2811,7 +2811,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Graceful hunter of tall grass, walking on legs built for the horizon."]
+			description: ["{ftbquests.chapter.animal_compendium.quest608388999381251092.description1}"]
 			hide_dependency_lines: true
 			id: "08716E92515FF414"
 			rewards: [
@@ -2830,13 +2830,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest608388999381251092.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "166A78E95485C62F"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oManed Wolf"
+				title: "{ftbquests.chapter.animal_compendium.quest608388999381251092.task.1615236359906510383.title}"
 				to_observe: "alexsmobs:maned_wolf"
 				type: "observation"
 			}]
@@ -2845,7 +2845,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&eTip:&r Swift and silent, the gazelle dances across the savanna, like grace in motion."]
+			description: ["{ftbquests.chapter.animal_compendium.quest7618764175808636723.description1}"]
 			hide_dependency_lines: true
 			id: "69BB49A6E68BA733"
 			rewards: [{
@@ -2856,13 +2856,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "&oAnimal Snap!"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7618764175808636723.subtitle}"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6602E90B68CFCC3D"
 				observe_type: 5
 				timer: 0L
-				title: "Spot a &e&oGazelle"
+				title: "{ftbquests.chapter.animal_compendium.quest7618764175808636723.task.7350693777034431549.title}"
 				to_observe: "alexsmobs:gazelle"
 				type: "observation"
 			}]
@@ -2876,8 +2876,8 @@
 				"7F3BE05DDE9DB59B"
 			]
 			description: [
-				"&o Hello Stranger, Barry has been looking for a professionally licensed photographer, if you can bring a picture of spiderman.. i mean any wildlife you may find on your adventures. You may be rewarded for your hard work. Keep your lenses steady and be careful exploring"
-				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
+				"{ftbquests.chapter.animal_compendium.quest9194529753576575254.description1}"
+				"{ftbquests.chapter.animal_compendium.quest9194529753576575254.image0}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2901,14 +2901,14 @@
 			]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "&oLook at this photograph"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest9194529753576575254.subtitle}"
 			tasks: [
 				{
 					disable_toast: true
 					elapsedTime: 10800L
 					icon: "kubejs:mossy_letter1"
 					id: "6B8C2F2C4DA95105"
-					title: "&e3 Hour Delivery"
+					title: "{ftbquests.chapter.animal_compendium.quest9194529753576575254.task.7749620926125789445.title}"
 					type: "questsadditions:time"
 				}
 				{
@@ -2918,27 +2918,27 @@
 					type: "item"
 				}
 			]
-			title: "&eProfessional Help Wanted"
+			title: "{ftbquests.chapter.animal_compendium.quest9194529753576575254.title}"
 			x: 21.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["053690126EB056CD"]
-			description: ["&o Useful guide filled with all the notes regarding some of animals that need more photographic research"]
+			description: ["{ftbquests.chapter.animal_compendium.quest421023242086516750.description1}"]
 			id: "05D7C66872C0080E"
-			subtitle: "&oGotta find them all"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest421023242086516750.subtitle}"
 			tasks: [{
 				id: "44AFF69990B65FD1"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			title: "&eVintage nature research"
+			title: "{ftbquests.chapter.animal_compendium.quest421023242086516750.title}"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["&o Not one to stand behind a lense? why not try to paint your view of the land &eTip:&r 3 planks + any dye"]
+			description: ["{ftbquests.chapter.animal_compendium.quest7031053681508652196.description1}"]
 			hide_dependency_lines: true
 			id: "619352123B0694A4"
 			rewards: [{
@@ -2948,19 +2948,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oHappy little trees"
+			subtitle: "{ftbquests.chapter.animal_compendium.quest7031053681508652196.subtitle}"
 			tasks: [{
 				id: "7F8CC2087C1DAE4D"
 				item: "xercapaint:item_palette"
 				type: "item"
 			}]
-			title: "&eThe joy of painting"
+			title: "{ftbquests.chapter.animal_compendium.quest7031053681508652196.title}"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["619352123B0694A4"]
-			description: ["&o Now that your palette is ready, it’s time to prepare your workspace and bring your vision to life on the canvas."]
+			description: ["{ftbquests.chapter.animal_compendium.quest3311450379157702387.description1}"]
 			id: "2DF4A293350706F3"
 			rewards: [{
 				amount: 50L
@@ -2969,7 +2969,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&oThe secret to art is knowing when to stop."
+			subtitle: "{ftbquests.chapter.animal_compendium.quest3311450379157702387.subtitle}"
 			tasks: [
 				{
 					id: "27423316E3B8E936"
@@ -2982,10 +2982,10 @@
 					type: "item"
 				}
 			]
-			title: "&eColor Outside the Lines"
+			title: "{ftbquests.chapter.animal_compendium.quest3311450379157702387.title}"
 			x: 2.0d
 			y: -6.0d
 		}
 	]
-	title: "&7Animal Snap!"
+	title: "{ftbquests.chapter.animal_compendium.title}"
 }
