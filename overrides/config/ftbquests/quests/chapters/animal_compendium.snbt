@@ -857,7 +857,10 @@
 	quests: [
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.1.description.1}"]
+			description: [
+				"&eTip: &rBig Freshwater Turtles that can be found in Swamps. They defend themselves with their Sharp Beak. "
+				""
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0EBF6A9719BB7574"
@@ -882,13 +885,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.1.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "76054D04B7784C1C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.1.task.1.title}"
+				title: "Spot an &e&oAlligator Snapping Turtle"
 				to_observe: "alexsmobs:alligator_snapping_turtle"
 				type: "observation"
 			}]
@@ -898,7 +901,7 @@
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
 			description: [
-				"{chapter.18.quest.2.description.1}"
+				"&eTip:&rOften seen soaring above the forests and groves. A true symbol of freedom."
 				""
 				"Watch out for the prime eagle!"
 			]
@@ -946,13 +949,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.2.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0CB8065005D0B569"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.2.task.1.title}"
+				title: "Spot a &e&oBald Eagle"
 				to_observe: "alexsmobs:bald_eagle"
 				type: "observation"
 			}]
@@ -961,7 +964,10 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.3.description.1}"]
+			description: [
+				""
+				"&eTip:&r You can use the &eAlbum&r to store all of your photos! Use the UP and DOWN arrow keys to change images."
+			]
 			icon: "exposure:camera"
 			id: "053690126EB056CD"
 			rewards: [
@@ -975,13 +981,13 @@
 					console: true
 					icon: "titles:title_scroll_uncommon"
 					id: "3A27C008C589C25D"
-					title: "{chapter.18.quest.3.reward.3.title}"
+					title: "&eUnlock Title:&r Nature Photographer"
 					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{chapter.18.quest.3.subtitle}"
+			subtitle: "&oCraft a Camera and begin your Mob Snap journey! Try to capture all of the animals below with your camera!"
 			tasks: [
 				{
 					id: "11E406F3114981AA"
@@ -1001,13 +1007,13 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.18.quest.3.title}"
+			title: "&eAmateur Photography"
 			x: -2.0d
 			y: -6.1d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.4.description.1}"]
+			description: ["&eTip:&r Found in jungles. Strong and social but easily angered."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6E43E3720CAD62BD"
@@ -1032,13 +1038,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.4.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "381DFF9EEAD5FA70"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.4.task.1.title}"
+				title: "Spot a &e&oGorilla"
 				to_observe: "alexsmobs:gorilla"
 				type: "observation"
 			}]
@@ -1047,7 +1053,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.5.description.1}"]
+			description: ["&eTip: &rDeep-sea dweller. Unpleasant to look at, but a survivor of the abyss."]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			hide_until_deps_visible: true
@@ -1067,13 +1073,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.5.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "51182E2755DB26A4"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.5.task.1.title}"
+				title: "Spot a &e&oBlobfish"
 				to_observe: "alexsmobs:blobfish"
 				type: "observation"
 			}]
@@ -1082,7 +1088,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.6.description.1}"]
+			description: ["&eTip:&r Nether serpent that swims through lava. Keep your distance! &4(Danger!)"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59C69C0FF435E15E"
@@ -1107,13 +1113,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.6.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "520D202B35B5352C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.6.task.1.title}"
+				title: "Spot a &e&oBone Serpent &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
@@ -1122,7 +1128,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.7.description.1}"]
+			description: ["&eTip:&r Massive ocean whale that can dive to great depths , listen for its calls."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5D80C2726C373333"
@@ -1158,13 +1164,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.7.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "5E71DD895A88FE1C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.7.task.1.title}"
+				title: "Spot a &e&oCachalot Whale"
 				to_observe: "alexsmobs:cachalot_whale"
 				type: "observation"
 			}]
@@ -1173,7 +1179,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.8.description.1}"]
+			description: ["&eTip:&r Scurries in dark places. Surprisingly resilient for such a small pest."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "232342855D8AE067"
@@ -1203,13 +1209,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.8.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "5E0E18B45C03EA7D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.8.task.1.title}"
+				title: "Spot a &e&oCockroach"
 				to_observe: "alexsmobs:cockroach"
 				type: "observation"
 			}]
@@ -1218,7 +1224,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.9.description.1}"]
+			description: ["&eTip:&r Jungle dweller known for its playful nature and clever hands."]
 			hide_dependency_lines: true
 			id: "22E9B4362EEED53D"
 			rewards: [
@@ -1236,13 +1242,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.9.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "634A05BE60F664B1"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.9.task.1.title}"
+				title: "Spot a &e&oCapuchin Monkey"
 				to_observe: "alexsmobs:capuchin_monkey"
 				type: "observation"
 			}]
@@ -1251,7 +1257,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.10.description.1}"]
+			description: ["&eTip:&r Forest predator with distinctive stripes. Fierce and territorial. &4(Danger!)"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3870E2F1E8A34005"
@@ -1282,13 +1288,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.10.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1625623617E19376"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.10.task.1.title}"
+				title: "Spot a &e&oTiger &r&4(Danger!)"
 				to_observe: "alexsmobs:tiger"
 				type: "observation"
 			}]
@@ -1297,7 +1303,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.11.description.1}"]
+			description: ["&eTip: &rSeals can often be found in cold climates and enjoy icy waters!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "388E3887FCC8BDE7"
@@ -1316,13 +1322,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.11.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "3D39B7FB11ACE69D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.11.task.1.title}"
+				title: "Spot a &e&oSeal"
 				to_observe: "alexsmobs:seal"
 				type: "observation"
 			}]
@@ -1331,7 +1337,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.12.description.1}"]
+			description: ["&eTip:&r Native to the savannah. Loves to box and leap great distances."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7300391FE576F1BC"
@@ -1362,7 +1368,7 @@
 				id: "32D72FF064DF10CF"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.12.task.1.title}"
+				title: "Spot a &e&oKangaroo"
 				to_observe: "alexsmobs:kangaroo"
 				type: "observation"
 			}]
@@ -1371,7 +1377,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.13.description.1}"]
+			description: ["&eTip:&r The Crocodile is one of Nature's oldest creations. This reptile takes no prisoners. Tread lightly!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0A7356BD545B8804"
@@ -1396,14 +1402,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.13.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:spyglass"
 				id: "4DBF98E89057C4F8"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.13.task.1.title}"
+				title: "Spot a &e&oCrocodile &r&4(Danger!)"
 				to_observe: "alexsmobs:crocodile"
 				type: "observation"
 			}]
@@ -1412,7 +1418,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.14.description.1}"]
+			description: ["&eTip:&r The Grizzly Bear is a force to be reckoned with! Find these powerful beasts in Forests and around Honey!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5ABA30D635FE45A0"
@@ -1431,13 +1437,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.14.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "496D5F100324EE3A"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.14.task.1.title}"
+				title: "Spot a &e&oGrizzly Bear &r&4(Danger!)"
 				to_observe: "alexsmobs:grizzly_bear"
 				type: "observation"
 			}]
@@ -1446,7 +1452,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.15.description.1}"]
+			description: ["&eTip:&r Tiny bird with rapid wings. Drawn to flowers and sweet nectar."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "7FA7D1B6CBD832F0"
@@ -1465,13 +1471,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.15.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "05E8CE72F38687DB"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.15.task.1.title}"
+				title: "Spot a &e&oHummingbird"
 				to_observe: "alexsmobs:hummingbird"
 				type: "observation"
 			}]
@@ -1480,7 +1486,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.16.description.1}"]
+			description: ["&eTip:&r The Elephant can be found in hot climates, Wandering Traders are known to ride these beautiful beasts and they are known to make excellent companions!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "13B3866B14C773F2"
@@ -1505,13 +1511,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.16.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "194F81481391938C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.16.task.1.title}"
+				title: "Spot a &e&oElephant"
 				to_observe: "alexsmobs:elephant"
 				type: "observation"
 			}]
@@ -1520,7 +1526,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.17.description.1}"]
+			description: ["&eTip:&r Found in the sparse jungles. Uses venom and stealth to ambush prey."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0436475F60226CC8"
@@ -1545,13 +1551,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.17.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "54465F83E2C712DB"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.17.task.1.title}"
+				title: "Spot a &e&oKomodo Dragon"
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
@@ -1560,7 +1566,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.18.description.1}"]
+			description: ["&eTip:&r Patrols warm seas. Its wide head senses even the faintest movement."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "76B71254CBDAB702"
@@ -1585,13 +1591,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.18.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "78D5CF015EC831E3"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.18.task.1.title}"
+				title: "Spot a &e&oHammerhead Shark"
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
@@ -1600,7 +1606,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.19.description.1}"]
+			description: ["&eTip:&r Fast-running bird from dry lands. Often travels in curious pairs."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "05599EF83F42E8D6"
@@ -1625,13 +1631,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.19.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "292E3F5498E8FD14"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.19.task.1.title}"
+				title: "Spot a &e&oEmu"
 				to_observe: "alexsmobs:emu"
 				type: "observation"
 			}]
@@ -1640,7 +1646,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.20.description.1}"]
+			description: ["&eTip:&r Found in cold forests. Large antlers and a calm but strong nature."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "59326A796BADA195"
@@ -1665,13 +1671,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.20.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E43E06EC4C50C39"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.20.task.1.title}"
+				title: "Spot a &e&oMoose"
 				to_observe: "alexsmobs:moose"
 				type: "observation"
 			}]
@@ -1680,7 +1686,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.21.description.1}"]
+			description: ["&eTip:&r The Mungus is an odd creature, known to live in areas overrun by Mushrooms. Some say the Mungus is hiding a terrible secret!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6D87086232516F07"
@@ -1700,13 +1706,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.21.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0B3A7844463754A9"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.21.task.1.title}"
+				title: "Spot a &e&oMungus &r&d(Very Rare!)"
 				to_observe: "alexsmobs:mungus"
 				type: "observation"
 			}]
@@ -1715,7 +1721,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.22.description.1}"]
+			description: ["&eTip:&r Small but mighty! Known for the fastest punch in the warm ocean."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "2B7240B6990E8874"
@@ -1740,13 +1746,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.22.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "15CFA4EB4D1CA91C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.22.task.1.title}"
+				title: "Spot a &e&oMantis Shrimp"
 				to_observe: "alexsmobs:mantis_shrimp"
 				type: "observation"
 			}]
@@ -1755,7 +1761,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.23.description.1}"]
+			description: ["&eTip:&r Found in wetlands. Its strange bill gives it an almost prehistoric look."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "33691B511ACF083D"
@@ -1780,13 +1786,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.23.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "16D93481357F3448"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.23.task.1.title}"
+				title: "Spot a &e&oShoebill"
 				to_observe: "alexsmobs:shoebill"
 				type: "observation"
 			}]
@@ -1795,7 +1801,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.24.description.1}"]
+			description: ["&eTip:&r Seeing a Sunbird is a true rarity. Most go their entire lives without ever seeing one, if you are lucky enough to be blessed by their presence, the locals claim you will be brought great fortune!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "15582BA5C979FE3C"
@@ -1820,13 +1826,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.24.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "38DB30C0321078EA"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.24.task.1.title}"
+				title: "Spot a &e&oSunbird &r&d(Very Rare!)"
 				to_observe: "alexsmobs:sunbird"
 				type: "observation"
 			}]
@@ -1835,7 +1841,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.25.description.1}"]
+			description: ["&eTip:&r Bright wasp found in deserts. Brave one to photograph this! &4(Danger!)"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "56E396A50F7A78C0"
@@ -1860,13 +1866,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.25.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "378F04C9EA892CB1"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.25.task.1.title}"
+				title: "Spot a &e&oTarantula Hawk"
 				to_observe: "alexsmobs:tarantula_hawk"
 				type: "observation"
 			}]
@@ -1875,7 +1881,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.26.description.1}"]
+			description: ["&eTip:&r The Orca claims the sea as its home, one of the most intelligent creatures in the Animal Kingdom!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "68F17AADA59CCF04"
@@ -1900,13 +1906,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.26.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "74B43A75C49BEDA5"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.26.task.1.title}"
+				title: "Spot an &e&oOrca &r&6(Rare!)"
 				to_observe: "alexsmobs:orca"
 				type: "observation"
 			}]
@@ -1915,7 +1921,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.27.description.1}"]
+			description: ["&eTip: &rRiver mammal that lays eggs. Loves redstone dust for some reason, Try naming it Perry!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3B1C64F1AD2B2091"
@@ -1940,13 +1946,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.27.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "720C5F0AA36B93E0"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.27.task.1.title}"
+				title: "Spot a &e&oPlatypus"
 				to_observe: "alexsmobs:platypus"
 				type: "observation"
 			}]
@@ -1955,7 +1961,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.28.description.1}"]
+			description: ["&eTip:&r Don’t let its size fool you; this snarling marsupial is chaos wrapped in fur."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0982619083F925C3"
@@ -1980,13 +1986,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.28.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "123D03A9055161E0"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.28.task.1.title}"
+				title: "Spot a &e&oTasmanian Devil"
 				to_observe: "alexsmobs:tasmanian_devil"
 				type: "observation"
 			}]
@@ -1995,7 +2001,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.29.description.1}"]
+			description: ["&eTip:&r The Guster can be found in Deserts exclusively. This mythical creature is bound by a special gemstone, no one truly knows the conditions for a Guster to be created, but they have been sighted throughout the ages."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1213871C91C1FB7B"
@@ -2020,13 +2026,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.29.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1802635A0C9F502D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.29.task.1.title}"
+				title: "Spot a &e&oGuster &r&4(Danger!)"
 				to_observe: "alexsmobs:guster"
 				type: "observation"
 			}]
@@ -2035,7 +2041,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.30.description.1}"]
+			description: ["&eTip:&r Found in jungles. Works together to cut leaves and gather food."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3E9FD1EA9E4FD2A2"
@@ -2060,13 +2066,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.30.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "7DE7D557BD1B9F28"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.30.task.1.title}"
+				title: "Spot a &e&oLeafcutter Ant"
 				to_observe: "alexsmobs:leafcutter_ant"
 				type: "observation"
 			}]
@@ -2075,7 +2081,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.31.description.1}"]
+			description: ["&eTip:&r Hides in cold oceans. Likes to pinch and crawl along the seafloor."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5DCE2D084DEC7B4F"
@@ -2100,13 +2106,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.31.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "604C1B61CD35881C"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.31.task.1.title}"
+				title: "Spot a &e&oLobster"
 				to_observe: "alexsmobs:lobster"
 				type: "observation"
 			}]
@@ -2115,7 +2121,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.32.description.1}"]
+			description: ["&eTip:&r Mimics other sea creatures to confuse predators. &6(Rare!)"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "63383AEB0455A3C0"
@@ -2146,13 +2152,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.32.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "004C0CF35F3996E9"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.32.task.1.title}"
+				title: "Spot a &e&oMimic Octopus &r&6(Rare!)"
 				to_observe: "alexsmobs:mimic_octopus"
 				type: "observation"
 			}]
@@ -2161,7 +2167,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.33.description.1}"]
+			description: ["&eTip:&r Ancient deep sea shark. Prefers the darkest parts of the ocean."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "1FABE803DFFE00F1"
@@ -2186,13 +2192,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.33.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "62DD99FF012333CC"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.33.task.1.title}"
+				title: "Spot a &e&oFrilled Shark"
 				to_observe: "alexsmobs:frilled_shark"
 				type: "observation"
 			}]
@@ -2201,7 +2207,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.34.description.1}"]
+			description: ["&eTip:&r Desert serpent that rattles before striking! &4(Danger!)"]
 			hide_dependency_lines: true
 			id: "3F89F0FD757BE0D5"
 			rewards: [
@@ -2229,13 +2235,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.34.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "1D00063D20ABADEA"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.34.task.1.title}"
+				title: "Spot a &e&oRattlesnake"
 				to_observe: "alexsmobs:rattlesnake"
 				type: "observation"
 			}]
@@ -2244,7 +2250,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.35.description.1}"]
+			description: ["&eTip:&r Found in deserts. Fast bird that hunts snakes for food."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "628E57AF66B08D65"
@@ -2269,13 +2275,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.35.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "110E28CF2C0024C6"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.35.task.1.title}"
+				title: "Spot a &e&oRoadrunner"
 				to_observe: "alexsmobs:roadrunner"
 				type: "observation"
 			}]
@@ -2284,7 +2290,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.36.description.1}"]
+			description: ["&eTip:&r The Dropbear is one scary creature! Find it in The Nether! Watch out! (Come prepared!)"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "327CFFB01545E1F2"
@@ -2310,13 +2316,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.36.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "0FBD34818E439285"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.36.task.1.title}"
+				title: "Spot a &e&oDropbear &r&6(Rare!) &r&4(Danger!)"
 				to_observe: "alexsmobs:dropbear"
 				type: "observation"
 			}]
@@ -2342,7 +2348,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{chapter.18.quest.37.subtitle}"
+			subtitle: "&oThe Chief of Police has a few words to say before you can begin your adventure, I would advise you follow his advice!"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -2357,7 +2363,7 @@
 					}
 				}
 				id: "5F64014F55ED35D7"
-				title: "{chapter.18.quest.37.task.1.title}"
+				title: "&eFilming Permit &n(Click To Agree)"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -2365,7 +2371,7 @@
 		}
 		{
 			dependencies: ["053690126EB056CD"]
-			description: ["{chapter.18.quest.38.description.1}"]
+			description: ["&rWith your camera in hand, you’ve captured the world around you but the film alone won’t give you a picture. Once developed, the roll must be placed in a &eLightroom&r, where the photograph is revealed and finalized. Only then can your snapshots become true keepsakes."]
 			id: "2CC2B36748715D73"
 			tasks: [
 				{
@@ -2382,7 +2388,7 @@
 							value: "exposure:developed_film_rolls"
 						}
 					}
-					title: "{chapter.18.quest.38.task.1.title}"
+					title: "&ePhoto Development"
 					type: "item"
 				}
 			]
@@ -2391,7 +2397,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.39.description.1}"]
+			description: ["&eTip:&r Deep sea phantom of the void, it wrestles whales where no light dares reach."]
 			hide_dependency_lines: true
 			id: "410EFB70748D6EE2"
 			rewards: [
@@ -2421,13 +2427,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.39.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "7D5103DAED3B4353"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.39.task.1.title}"
+				title: "Spot a &e&oGiant Squid"
 				to_observe: "alexsmobs:giant_squid"
 				type: "observation"
 			}]
@@ -2436,7 +2442,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.40.description.1}"]
+			description: ["&eTip:&r Dweller of molten oceans, its temper burns hotter than the Nether itself."]
 			hide_dependency_lines: true
 			id: "7556FC23E3D19EEF"
 			rewards: [
@@ -2455,13 +2461,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.40.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "120F2678E27E1196"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.40.task.1.title}"
+				title: "Spot a &e&oLaviathan"
 				to_observe: "alexsmobs:laviathan"
 				type: "observation"
 			}]
@@ -2470,7 +2476,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.41.description.1}"]
+			description: ["&eTip:&r A mushroom with a mind of its own,bounces, bites, and spreads its spores."]
 			hide_dependency_lines: true
 			id: "3A58ADE2E58485C5"
 			rewards: [
@@ -2489,13 +2495,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.41.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E5826F35C703383"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.41.task.1.title}"
+				title: "Spot a &e&oBunfungus &r&6(Rare!)"
 				to_observe: "alexsmobs:bunfungus"
 				type: "observation"
 			}]
@@ -2504,7 +2510,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.42.description.1}"]
+			description: ["&eTip:&r Ghostly pirate of the seas, forever cursed to haunt the waves it plundered."]
 			hide_dependency_lines: true
 			id: "1D5D605432230DDE"
 			rewards: [
@@ -2523,13 +2529,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.42.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "447D8AF28C30EF15"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.42.task.1.title}"
+				title: "Spot a &e&oSkelewag"
 				to_observe: "alexsmobs:skelewag"
 				type: "observation"
 			}]
@@ -2538,7 +2544,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.43.description.1}"]
+			description: ["&eTip:&r Nether-born abomination; part fly, part beast, all fury."]
 			hide_dependency_lines: true
 			id: "2D0CAAA08451927D"
 			rewards: [
@@ -2557,13 +2563,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.43.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "3C6FBD0E0C461C6A"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.43.task.1.title}"
+				title: "Spot a &e&oWarped Mosco &r&4(Danger!)"
 				to_observe: "alexsmobs:warped_mosco"
 				type: "observation"
 			}]
@@ -2572,7 +2578,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.44.description.1}"]
+			description: ["&eTip:&r Cosmic serpent of the End,its body splits reality itself. Toss a void to your worm"]
 			hide_dependency_lines: true
 			id: "120EB493F7442852"
 			rewards: [{
@@ -2583,13 +2589,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.44.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "419E62D9655BCE5B"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.44.task.1.title}"
+				title: "Spot a &e&oVoid Worm &r&4(Danger!)"
 				to_observe: "alexsmobs:void_worm"
 				type: "observation"
 			}]
@@ -2598,7 +2604,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.45.description.1}"]
+			description: ["&eTip:&r Tiny desert hopper with huge ears and bigger energy."]
 			hide_dependency_lines: true
 			id: "4A1132CCDF1C24A3"
 			rewards: [
@@ -2617,14 +2623,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.45.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [
 				{
 					icon: "minecraft:spyglass"
 					id: "5C05BBDFA5785466"
 					observe_type: 5
 					timer: 0L
-					title: "{chapter.18.quest.45.task.1.title}"
+					title: "Spot a &e&oJerboa"
 					to_observe: "alexsmobs:jerboa"
 					type: "observation"
 				}
@@ -2643,7 +2649,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.46.description.1}"]
+			description: ["&eTip:&r Horned tank of the Savanna, don’t stand between it and its charge."]
 			hide_dependency_lines: true
 			id: "077A1A2802DB7F14"
 			rewards: [
@@ -2662,13 +2668,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.46.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "30FF0006EF14778B"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.46.task.1.title}"
+				title: "Spot a &e&oRhinoceros"
 				to_observe: "alexsmobs:rhinoceros"
 				type: "observation"
 			}]
@@ -2677,7 +2683,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.47.description.1}"]
+			description: ["&eTip:&r Master of disguise,just a branch... until it blinks."]
 			hide_dependency_lines: true
 			id: "31C709AAEF7662DC"
 			rewards: [
@@ -2696,13 +2702,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.47.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6E7A730CB817399B"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.47.task.1.title}"
+				title: "Spot a &e&oPotoo &r&6(Rare!)"
 				to_observe: "alexsmobs:potoo"
 				type: "observation"
 			}]
@@ -2711,7 +2717,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.48.description.1}"]
+			description: ["&eTip:&r Skittering nightmare from the dark caves, fast and venomous."]
 			hide_dependency_lines: true
 			id: "0BE05D606AA93EBE"
 			rewards: [
@@ -2730,13 +2736,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.48.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "46034653D28F69D8"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.48.task.1.title}"
+				title: "Spot a &e&oCentipede &r&4(Danger!)"
 				to_observe: "alexsmobs:centipede"
 				type: "observation"
 			}]
@@ -2745,7 +2751,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.49.description.1}"]
+			description: ["&eTip:&r Far Far away the ancient watcher of the stars, its gaze sees beyond worlds."]
 			hide_dependency_lines: true
 			id: "14CF6995310A7222"
 			rewards: [
@@ -2764,13 +2770,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.49.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "76A06B54EFBA52B6"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.49.task.1.title}"
+				title: "Spot a &e&oFarseer &r&4(Danger!)"
 				to_observe: "alexsmobs:farseer"
 				type: "observation"
 			}]
@@ -2779,7 +2785,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.50.description.1}"]
+			description: ["&eTip:&r Nether brute with molten blood, feared even by ghasts."]
 			hide_dependency_lines: true
 			id: "59598533E60BDCF1"
 			rewards: [{
@@ -2790,13 +2796,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.50.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "21F34B736175CBCF"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.50.task.1.title}"
+				title: "Spot a &e&oStraddler &r&4(Danger!)"
 				to_observe: "alexsmobs:straddler"
 				type: "observation"
 			}]
@@ -2805,7 +2811,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.51.description.1}"]
+			description: ["&eTip:&r Graceful hunter of tall grass, walking on legs built for the horizon."]
 			hide_dependency_lines: true
 			id: "08716E92515FF414"
 			rewards: [
@@ -2824,13 +2830,13 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.51.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "166A78E95485C62F"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.51.task.1.title}"
+				title: "Spot a &e&oManed Wolf"
 				to_observe: "alexsmobs:maned_wolf"
 				type: "observation"
 			}]
@@ -2839,7 +2845,7 @@
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.52.description.1}"]
+			description: ["&eTip:&r Swift and silent, the gazelle dances across the savanna, like grace in motion."]
 			hide_dependency_lines: true
 			id: "69BB49A6E68BA733"
 			rewards: [{
@@ -2850,13 +2856,13 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "hexagon"
-			subtitle: "{chapter.18.quest.52.subtitle}"
+			subtitle: "&oAnimal Snap!"
 			tasks: [{
 				icon: "minecraft:spyglass"
 				id: "6602E90B68CFCC3D"
 				observe_type: 5
 				timer: 0L
-				title: "{chapter.18.quest.52.task.1.title}"
+				title: "Spot a &e&oGazelle"
 				to_observe: "alexsmobs:gazelle"
 				type: "observation"
 			}]
@@ -2870,7 +2876,7 @@
 				"7F3BE05DDE9DB59B"
 			]
 			description: [
-				"{chapter.18.quest.53.description.1}"
+				"&o Hello Stranger, Barry has been looking for a professionally licensed photographer, if you can bring a picture of spiderman.. i mean any wildlife you may find on your adventures. You may be rewarded for your hard work. Keep your lenses steady and be careful exploring"
 				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
 			]
 			hide_dependency_lines: true
@@ -2895,7 +2901,7 @@
 			]
 			shape: "pentagon"
 			size: 2.0d
-			subtitle: "{chapter.18.quest.53.subtitle}"
+			subtitle: "&oLook at this photograph"
 			tasks: [
 				{
 					disable_toast: true
@@ -2912,27 +2918,27 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.18.quest.53.task.1.title}"
+			title: "&eProfessional Help Wanted"
 			x: 21.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["053690126EB056CD"]
-			description: ["{chapter.18.quest.54.description.1}"]
+			description: ["&o Useful guide filled with all the notes regarding some of animals that need more photographic research"]
 			id: "05D7C66872C0080E"
-			subtitle: "{chapter.18.quest.54.subtitle}"
+			subtitle: "&oGotta find them all"
 			tasks: [{
 				id: "44AFF69990B65FD1"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			title: "{chapter.18.quest.54.task.1.title}"
+			title: "&eVintage nature research"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["7F3BE05DDE9DB59B"]
-			description: ["{chapter.18.quest.55.description.1}"]
+			description: ["&o Not one to stand behind a lense? why not try to paint your view of the land &eTip:&r 3 planks + any dye"]
 			hide_dependency_lines: true
 			id: "619352123B0694A4"
 			rewards: [{
@@ -2942,19 +2948,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.18.quest.55.subtitle}"
+			subtitle: "&oHappy little trees"
 			tasks: [{
 				id: "7F8CC2087C1DAE4D"
 				item: "xercapaint:item_palette"
 				type: "item"
 			}]
-			title: "{chapter.18.quest.55.task.1.title}"
+			title: "&eThe joy of painting"
 			x: 1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["619352123B0694A4"]
-			description: ["{chapter.18.quest.56.description.1}"]
+			description: ["&o Now that your palette is ready, it’s time to prepare your workspace and bring your vision to life on the canvas."]
 			id: "2DF4A293350706F3"
 			rewards: [{
 				amount: 50L
@@ -2963,7 +2969,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.18.quest.56.subtitle}"
+			subtitle: "&oThe secret to art is knowing when to stop."
 			tasks: [
 				{
 					id: "27423316E3B8E936"
@@ -2976,7 +2982,7 @@
 					type: "item"
 				}
 			]
-			title: "{chapter.18.quest.56.task.1.title}"
+			title: "&eColor Outside the Lines"
 			x: 2.0d
 			y: -6.0d
 		}

@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{mce.questing.hexcasting.amethysts.desc}"]
+			description: ["Strange new forms of &dAmethyst&r, packed full of energy known as &dMedia&r."]
 			icon: "hexcasting:charged_amethyst"
 			id: "6C519408B9996906"
 			rewards: [
@@ -28,7 +28,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "{mce.questing.hexcasting.amethysts.sub}"
+			subtitle: "Amethetical"
 			tasks: [
 				{
 					id: "4D249676D959D1CC"
@@ -41,13 +41,23 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.hexcasting.amethysts.name}"
+			title: "Hexxed Amethysts"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C519408B9996906"]
-			description: ["{mce.questing.hexcasting.get_casting.desc}"]
+			description: [
+				"&6Hexcasting&r is a mod about &e&lProgramming&r your own Spells, by drawing Patterns between nodes on &dHex&ragonal Grid!"
+				""
+				"If you're not familiar with &e&lProgramming&r concepts, most of this mod won't make much sense to you, and that's Ok! Like many mods, Hexcasting &lisn't&r for everyone!"
+				""
+				"This questline mostly serves as an impetus for those unaware of the mod, to get your mind spinning with its &enear-limitless&r possibilities."
+				""
+				"&6Staves&r are your core tool, they're how you open the &dHex Grid&r to cast on."
+				""
+				"The &6Hex Notebook&r is the mod's own form of documentation. Its &dPatterns section&r is an excellent reference for all the different Patterns available. But its other sections should not be written off, &lespecially&r since this questline doesn't cover everything!"
+			]
 			hide_until_deps_complete: true
 			id: "36B43D46705B3C0B"
 			rewards: [
@@ -75,7 +85,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{mce.questing.hexcasting.get_casting.sub}"
+			subtitle: "\"I'm casting Explode on you\""
 			tasks: [
 				{
 					id: "1FD1404CBD1B87B1"
@@ -86,7 +96,7 @@
 							value: "hexcasting:staves"
 						}
 					}
-					title: "{mce.questing.hexcasting.task.staff}"
+					title: "Any Hex Staff"
 					type: "item"
 				}
 				{
@@ -101,13 +111,27 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.hexcasting.get_casting.name}"
+			title: "Get Casting"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0F8871D3EC43504A"]
-			description: ["{mce.questing.hexcasting.casting_items.desc}"]
+			description: [
+				"&6Casting Items&r are a much faster way to cast your Spells."
+				""
+				"By casting the appropriate \"&dCraft&r\" spell, with a &5Pattern List&r Iota ontop of the Stack, and an &bEntity&r of an &dItem with a Media value&r below it, a Hex can be embedded into the Casting Item, from which it can then be cast by simply using the item."
+				""
+				"When a Casting Item is crafted, the &dtotal Media value of of the Media Item's stack&r will become the Casting Item's &eBattery&r, which will be drained to Cast the Hex from the Item."
+				""
+				"They can be recharged by Casting \"&dRecharge Item&r\", and \"&dErase Item&r\" can be used to clear them."
+				""
+				"&6Cyphers&r will &cbe destroyed&r once their &eBattery&r is fully drained. they also &ccannot be recharged&r."
+				""
+				"&6Trinkets&r will be unable to cast a Hex once their &eBattery&r is low."
+				""
+				"&6Artifacts&r can draw Media from their user when their &eBattery&r is drained."
+			]
 			id: "57D66AA198934D14"
 			rewards: [
 				{
@@ -200,7 +224,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.hexcasting.casting_items.sub}"
+			subtitle: "Casting from a Floppy"
 			tasks: [{
 				id: "7AA13A75EA584C6D"
 				item: {
@@ -223,16 +247,21 @@
 						]
 					}
 				}
-				title: "{mce.questing.hexcasting.task.casting_item}"
+				title: "Any Casting Item"
 				type: "item"
 			}]
-			title: "{mce.questing.hexcasting.casting_items.name}"
+			title: "Saved Casting"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
-			description: ["{mce.questing.hexcasting.abacus.desc}"]
+			description: [
+				"A Read-Only &aNumber&r Iota source that can be adjusted on the fly by &dSneaking and Scrolling&r. Holding it in the Offhand allows adjusting the Decmial by &b0.1&r."
+				"Holding &dSprint&r intensifies the adjustment, &b10&r when in the main hand, and &b0.001&r in the Offhand."
+				""
+				"Excellent as a source for variables for Spells. Lets you make a spell with an adjustable Length, for example!"
+			]
 			id: "398EC9976389BC27"
 			rewards: [{
 				amount: 25L
@@ -241,7 +270,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.hexcasting.abacus.sub}"
+			subtitle: "\"Gotta tweak that value...\""
 			tasks: [{
 				id: "79AB1A163C6DF3AA"
 				item: "hexcasting:abacus"
@@ -252,7 +281,11 @@
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
-			description: ["{mce.questing.hexcasting.pigments.desc}"]
+			description: [
+				"&6Pigments&r can be absorbed by casting \"&dInternalize Pigment&r\" with it in your other hand, permanently changing the &ecolor&r of Casting particles generated by your Spells."
+				""
+				"&6Vacant Pigment&r can be used to reset to the default coloration."
+			]
 			id: "0DF5F8A0498DCF82"
 			rewards: [{
 				amount: 50L
@@ -261,7 +294,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.hexcasting.pigments.sub}"
+			subtitle: "\"How Queer\""
 			tasks: [{
 				id: "6A54D60B05FD7FD8"
 				item: {
@@ -271,16 +304,25 @@
 						value: "mce2:hexcasting/pigment"
 					}
 				}
-				title: "{mce.questing.hexcasting.task.pigment}"
+				title: "Any Pigment"
 				type: "item"
 			}]
-			title: "{mce.questing.hexcasting.pigments.name}"
+			title: "Pigmentation"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
-			description: ["{mce.questing.hexcasting.iota_storage.desc}"]
+			description: [
+				"&eIota Storage&r Items allow you to write Iotas from your current Casting stack to them using \"&dScribe's Gambit&r\", to permanently save them to the Item to Copy later using \"&dScribe's Reflection&r\"."
+				""
+				"&6Thought-Knots&r can only be &cWritten to once&r. Further write or erase attempts on them fail."
+				""
+				"&6Foci&r can be freely overwritten. Handy for saving a Hex as you work on it. Casting \"&dErase Item&r\" will clear it."
+				""
+				"&6Spellbooks&r have &d64 Pages&r that can be cycled through with &dSneak+Scroll&r, each storing an Iota! Pages can be individually renamed, aswell as Write-locked with &6Honeycombs&r."
+				"Like the Focus, \"&dErase Item&r\" can clear the active Page."
+			]
 			id: "0F8871D3EC43504A"
 			rewards: [{
 				amount: 50L
@@ -289,7 +331,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.hexcasting.iota_storage.sub}"
+			subtitle: "stack.write(iota)"
 			tasks: [{
 				id: "6D76FE211B83C0CC"
 				item: {
@@ -316,16 +358,16 @@
 						]
 					}
 				}
-				title: "{mce.questing.hexcasting.task.iota_storage}"
+				title: "Any Iota Storage"
 				type: "item"
 			}]
-			title: "{mce.questing.hexcasting.iota_storage.name}"
+			title: "Wizard's Flash Drive"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["36B43D46705B3C0B"]
-			description: ["{mce.questing.hexcasting.scrying_lens.desc}"]
+			description: ["Decreases the space between nodes on the &dHex Grid&r, giving more room to write patterns."]
 			id: "040F7F9FAD685D8A"
 			rewards: [{
 				amount: 25L
@@ -334,7 +376,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{mce.questing.hexcasting.scrying_lens.sub}"
+			subtitle: "Demagnifying Glass"
 			tasks: [{
 				id: "5C38184183FA4C54"
 				item: "hexcasting:lens"
@@ -356,14 +398,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "diamond"
-			subtitle: "{mce.questing.hexcasting.blind_diversion.sub}"
+			subtitle: "\"Madness is a desire to comprehend, but the inability to do so.\""
 			tasks: [{
 				advancement: "hexcasting:y_u_no_cast_angy"
 				criterion: ""
 				id: "02840647B76406ED"
 				type: "advancement"
 			}]
-			title: "{mce.questing.hexcasting.blind_diversion.name}"
+			title: "Blind Diversion"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -377,20 +419,20 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "{mce.questing.hexcasting.achieve_enlightenment.sub}"
+			subtitle: "Peer through the Psychic barrier that binds reality."
 			tasks: [{
 				advancement: "hexcasting:enlightenment"
 				criterion: ""
 				id: "7943FCF0E1A18201"
 				type: "advancement"
 			}]
-			title: "{mce.questing.hexcasting.achieve_enlightenment.name}"
+			title: "Achieve Englightenment"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2D8003EAD136FF18"]
-			description: ["{mce.questing.hexcasting.flay_mind.desc}"]
+			description: ["A terrible spell, capable of rending Minds into proper housing, for all sorts of immoral purposes."]
 			hide_until_deps_complete: true
 			id: "457DD19A6A7EE468"
 			rewards: [{
@@ -401,7 +443,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "rsquare"
-			subtitle: "{mce.questing.hexcasting.flay_mind.sub}"
+			subtitle: "\"No thoughts, Head Empty.\""
 			tasks: [{
 				icon: {
 					Count: 1
@@ -423,13 +465,23 @@
 				title: "Ancient Scroll of Flay Mind"
 				type: "item"
 			}]
-			title: "{mce.questing.hexcasting.flay_mind.name}"
+			title: "The Mindflayer"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
-			description: ["{mce.questing.hexcasting.impetus.desc}"]
+			description: [
+				"&6Impeti&r are used to engage Casting in &eSpell Circles&r, which are assemblies of Slate that can autonomously cast Spells."
+				""
+				"Each Impetus activates when different criteria are met."
+				""
+				"&6Toolsmiths&r will activate when &binteracted with&r."
+				""
+				"&6Fletchers&r will activate when &bgazed at&r."
+				""
+				"&6Clerics&r will activated when given a &cRedstone Signal&r."
+			]
 			hide_until_deps_complete: true
 			id: "60016B4813A043FB"
 			rewards: [
@@ -456,7 +508,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.hexcasting.impetus.sub}"
+			subtitle: "\"One thought, only Casting...\""
 			tasks: [{
 				id: "2C0A58FED6F1AA28"
 				item: {
@@ -469,13 +521,13 @@
 				title: "Any Impetus"
 				type: "item"
 			}]
-			title: "{mce.questing.hexcasting.impetus.name}"
+			title: "Autonomous Spellcasting"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
-			description: ["{mce.questing.hexcasting.quenched_allay.desc}"]
+			description: ["An &dextremely Media-Rich&r material, filled with &dMedia&r from &bAllays&r."]
 			hide_until_deps_complete: true
 			id: "2523CFE59AE91C37"
 			rewards: [
@@ -502,7 +554,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.hexcasting.quenched_allay.sub}"
+			subtitle: "Are you really THAT thirsty?"
 			tasks: [{
 				id: "76F16182D9804C5C"
 				item: "hexcasting:quenched_allay_shard"
@@ -513,7 +565,7 @@
 		}
 		{
 			dependencies: ["457DD19A6A7EE468"]
-			description: ["{mce.questing.hexcasting.akashic_library.desc}"]
+			description: ["The &6Akashic Record&r allows you to create an &eAkashic Library&r, which can be used to associate Iotas with &dPatterns&r, essentially allowing you to &bcreate your own Shortcuts or Patterns!&r"]
 			id: "195A6EF465491409"
 			rewards: [
 				{
@@ -539,7 +591,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{mce.questing.hexcasting.akashic_library.sub}"
+			subtitle: "Not a Tome, but it does the trick."
 			tasks: [
 				{
 					id: "29E7E79FFC60335E"
@@ -557,7 +609,7 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.hexcasting.akashic_library.name}"
+			title: "Akashic Library"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -571,7 +623,7 @@
 				"0DF5F8A0498DCF82"
 				"195A6EF465491409"
 			]
-			description: ["{mce.questing.hexcasting.questline_end.desc}"]
+			description: ["This is the part where i tell you to go and &dmake more Hexes&r, get &ecreative&r, &6look for fellow Hexcasters&r to rope into your madness. You know, &buse Hexcasting to its fullest extent!&r I can't do that for you now, can i?"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "hexcasting:lore_fragment"
@@ -601,12 +653,12 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{mce.questing.hexcasting.questline_end.sub}"
+			subtitle: "\"You say you're a Hexmaster? Not even close.\""
 			tasks: [{
 				id: "1343BB952574B00E"
 				type: "checkmark"
 			}]
-			title: "{mce.questing.hexcasting.questline_end.name}"
+			title: "&dCaught in the Hex"
 			x: 0.0d
 			y: 2.0d
 		}

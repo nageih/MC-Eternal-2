@@ -158,5 +158,5 @@
 		}
 		{ item: "milkablecreepers:creeper_milk" }
 	]
-	title: "{loot_table.36}"
+	title: "packed_lunch"
 }

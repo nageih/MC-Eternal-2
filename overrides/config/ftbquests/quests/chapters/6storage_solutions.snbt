@@ -564,7 +564,13 @@
 		}
 		{
 			dependencies: ["127BD669F19CC02C"]
-			description: ["{mce.questing.botania.corporea_spark.desc}"]
+			description: [
+				"&dCorporea&r is an &6Item Request system&r in Botania, &oprimarily&r able to &6retreive Items from Containers connected to it&r and provide them to a Player, or to Automated systems."
+				""
+				"Designed to be heavily integrated with &cRedstone&r mechanics, it is a simple, yet very capable system, despite how few components it has."
+				""
+				"In &5MC Eternal 2&r, the basic parts of the Corporea system have been made available much earlier in the game, though some specific things will be unlocked later on instead."
+			]
 			id: "625F8E01CA0BBCB9"
 			rewards: [
 				{
@@ -581,19 +587,30 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_spark.sub}"
+			subtitle: "An Incorporeal system"
 			tasks: [{
 				id: "7CB71B3866F7E65A"
 				item: "botania:corporea_spark"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporea_spark.name}"
+			title: "Corporea"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6EA0A00013557D2A"]
-			description: ["{mce.questing.botania.corporea_master_and_index.desc}"]
+			description: [
+				"A &6Master Corporea Spark&r is the core of any Corporea network, one simply cannot function without it."
+				"It can be placed on any block which can accept a Corporea Spark, but will not provide the contents of that block to the network, for this reason, many users of Corporea networks will often place it upon..."
+				""
+				"The &6Corporea Index&r, the device used to &dRequest Items from the Corporea network manually&r!"
+				""
+				"To use the Index, place it down and connect it to the Corporea network by placing a (Master) Corporea Spark on it, then &duse your &bGame Chat&d to type out and send item's name&r."
+				"When requesting by name, the current name of an item is compared, so &dany renamed items will need to be requested by their new name&r!"
+				""
+				"Corporea requests have a form of Expressions that can be used, so typing out entire item names all the time isn't as necessary."
+				"Additionally, the &6Corporea Request&r Keybind can be used within GUIs to &drequest the item that is currently being hovered over&r, this can work in JEI too!"
+			]
 			id: "0DEAA29705F2A17A"
 			rewards: [
 				{
@@ -610,7 +627,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_master_and_index.sub}"
+			subtitle: "Requested 1 x \"Existence\" out of 1. 1 taken "
 			tasks: [
 				{
 					id: "6E86A34B37D22F59"
@@ -623,13 +640,13 @@
 					type: "item"
 				}
 			]
-			title: "{mce.questing.botania.corporea_master_and_index.name}"
+			title: "The Index and the Master"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["625F8E01CA0BBCB9"]
-			description: ["{mce.questing.botania.corporeality_crystal.desc}"]
+			description: ["Strange Crystals capable of exchanging information with others of their kind, used in the creation of some Corporea devices."]
 			id: "6EA0A00013557D2A"
 			rewards: [
 				{
@@ -646,13 +663,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporeality_crystal.sub}"
+			subtitle: "The Material and The Immaterial"
 			tasks: [{
 				id: "4B4591C85A6C901F"
 				item: "kubejs:corporea_crystal"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporeality_crystal.name}"
+			title: "Corporeality Crystals"
 			x: -5.0d
 			y: -1.0d
 		}
@@ -662,13 +679,21 @@
 				"695FC871D1105C97"
 			]
 			description: [
-				"{mce.questing.botania.corporea_automation.desc.page1}"
+				"The &6Corporea Automation Blocks&r are all very powerful devices, capable of more deeply integrating a Corporea network with Automation, opening many possibilities, such as &dOn-Demand Autocrafting!&r"
+				""
+				"Using these devices, you can take your Corporea network to the next level!"
+				""
+				"&6See the following pages for details on each!"
 				"{@pagebreak}"
-				"{mce.questing.botania.corporea_automation.desc.page2}"
+				"The &6Corporea Funnel&r is the simplest of the bunch, capable of requesting items from the network automatically, simply place an &bItem Frame&r on it, and slot in the item you want it to request, then when given a &cRedstone Signal&r, it will request that item!"
+				"The Rotation of the item in the frame will determine how many items are requested, doubling with each rotation except the last two (where it increases by 16 instead), up to 64."
+				"Items requested by a Corporea Funnel will either be dropped in the world ontop of it, or &dadded to a Container placed below it.&r"
 				"{@pagebreak}"
-				"{mce.questing.botania.corporea_automation.desc.page3}"
+				"The &6Corporea Interceptor&r is a bit more interesting, if a Request is unable to be completely fulfilled, by there being a shortage of items, it will emit a &cRedstone Pulse&r!"
+				"You can use this property to do many things, such as start up an automated mechanism to craft more of an item when it runs out, or create a &cRedstone&r system activated by a Password input to your Corporea network!"
 				"{@pagebreak}"
-				"{mce.questing.botania.corporea_automation.desc.page4}"
+				"Now then, the &6Corporea Retainer&r is a strange one, unlike the other two, it doesn't connect to a Corporea network directly, rather, it connects to a &bCorporea Interceptor&r, and &dstores the information of the last request the Interceptor was activated by&r, it can then &b\"Replay\"&r the request from where it was originally made, when provided with a &cRedstone signal&r."
+				"Additionally, it can read the count of items in the stored request in a nearly identical way to the &bCorporea Crystal Cube&r."
 			]
 			hide_until_deps_complete: true
 			id: "3940988637539E72"
@@ -693,7 +718,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_automation.sub}"
+			subtitle: "Integration by Parts"
 			tasks: [{
 				id: "403E6ADA1EFF9D79"
 				item: {
@@ -703,16 +728,24 @@
 						value: "mce2:botania/corporea_automation_device"
 					}
 				}
-				title: "{mce.questing.botania.task.any_corporea_automation_device}"
+				title: "&oAny Corporea Automation Device"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporea_automation.name}"
+			title: "Automation with Corporea"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6EA0A00013557D2A"]
-			description: ["{mce.questing.botania.corporea_crystal_cube.desc}"]
+			description: [
+				"&6Corporea Crystal Cubes&r are a Corporea device capable of monitoring the amount of an Item visible to a Corporea network, aswell as allowing a Player to withdraw that item from the Cube by &dPunching it&r."
+				"&dSneaking and Punching&r will withdraw up to a stack."
+				"To set the item, simply &dInteract&r with the Crystal Cube while holding it."
+				"Interacting with a &6Wand of the Forest&r on a Crystal Cube will &dLock&r it, preventing its item from being changed until unlocked."
+				""
+				"They can also be read by &cRedstone Comparators&r, and will increase the &dOutput signal's strength by 1 every time the number of items in the network doubles.&r"
+				"For example, only 1 item will result in a Signal Strength of 1, 2 will result as strength of 2, 4 will result in a strength of 3, 8 will result in a strength of 4, etc."
+			]
 			id: "0BBC047D0A951D8C"
 			rewards: [
 				{
@@ -729,13 +762,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{mce.questing.botania.corporea_crystal_cube.sub}"
+			subtitle: "Drawerporea"
 			tasks: [{
 				id: "455A8FBD8E5B3C51"
 				item: "botania:corporea_crystal_cube"
 				type: "item"
 			}]
-			title: "{mce.questing.botania.corporea_crystal_cube.name}"
+			title: "Corporea Crystal Cube"
 			x: -5.0d
 			y: -3.0d
 		}

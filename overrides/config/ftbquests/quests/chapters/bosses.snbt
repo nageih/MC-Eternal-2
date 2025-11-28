@@ -218,7 +218,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.1.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "202DB88496FB2526"
 				item: {
@@ -304,7 +304,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.2.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "3FFEE71D12B54F2E"
 				item: {
@@ -386,7 +386,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "18E3151544F6AAF8"
 				item: {
@@ -474,7 +474,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "7AA27D450A1F0A88"
 				item: {
@@ -575,7 +575,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.5.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "0B51833A2F5CF98F"
 				item: {
@@ -658,7 +658,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.7.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "54DAA9A9BDC6E761"
 				item: {
@@ -689,7 +689,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
 					id: "72FD7EB5624CE117"
-					title: "{chapter.8.quest.8.reward.4.title}"
+					title: "&eUnlock Title:&r Void Lord"
 					type: "command"
 				}
 				{
@@ -817,7 +817,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "49F1A8CD12054ACB"
 				item: {
@@ -869,7 +869,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "112006616A786B76"
-					title: "{chapter.8.quest.10.reward.3.title}"
+					title: "&eUnlock Title:&r Vanquisher"
 					type: "command"
 				}
 				{
@@ -913,7 +913,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "702D1C1AA83E16EB"
 				item: {
@@ -990,7 +990,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.10.subtitle}"
+			subtitle: "&4The Nether - Progression"
 			tasks: [{
 				id: "7E28F286737EA4A9"
 				item: {
@@ -1028,7 +1028,7 @@
 					elevate_perms: true
 					icon: "titles:title_scroll_uncommon"
 					id: "06439A84E2F5C8D9"
-					title: "{chapter.8.quest.13.reward.2.title}"
+					title: "&eUnlock Title:&r Ironside"
 					type: "command"
 				}
 				{
@@ -1072,7 +1072,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.11.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "12EA848687AB1062"
 				item: {
@@ -1156,7 +1156,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.4.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "710165FB8FDE1035"
 				item: {
@@ -1235,7 +1235,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "{chapter.8.quest.3.subtitle}"
+			subtitle: "&a&oOverworld - Progression"
 			tasks: [{
 				id: "371F374B9BEDADC0"
 				item: {

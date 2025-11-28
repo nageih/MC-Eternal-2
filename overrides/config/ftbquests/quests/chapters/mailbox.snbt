@@ -31,7 +31,8 @@
 			can_repeat: true
 			dependencies: ["740DD4098893630E"]
 			description: [
-				"{chapter.1.quest.60.description.1}"
+				"Hello Lovely! I went to the market today and bought some things that made me think of you! I hope they bring you happiness!! I also packed you some lunch! I hope its tasty!! XOXO"
+				"&eLOL (Lots of Love) - Mom"
 				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
 			]
 			hide_dependency_lines: true
@@ -50,7 +51,7 @@
 					icon: "create:orange_toolbox"
 					id: "1E4F523BAB1211F7"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.60.reward.1.title}"
+					title: "&d&nPacked Lunch"
 					type: "loot"
 				}
 				{
@@ -58,7 +59,7 @@
 					icon: "quark:crate"
 					id: "6B1393250318C85B"
 					table_id: 7614141430405098414L
-					title: "{chapter.1.quest.60.reward.2.title}"
+					title: "&6&oWhat Mom Found At The Market!"
 					type: "loot"
 				}
 				{
@@ -87,7 +88,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				elapsedTime: 28800L
 				icon: {
@@ -99,14 +100,14 @@
 				title: "&e8 Hour Delivery"
 				type: "questsadditions:time"
 			}]
-			title: "{chapter.1.quest.60.title}"
+			title: "&eLetter From Mom!"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["740DD4098893630E"]
 			description: [
-				"{chapter.1.quest.58.description.1}"
+				"&dLetter From Mom!&r We're all so proud of you for surviving the first night! You should call by some time! Are you getting my letters??? I found some old junk going through your fathers wardrobe, let me know what you want!! I've also packed you a lunch! Don't forget to eat your greens! XOXO - Mom"
 				"{image:modpack:textures/opened_letter.png width:115 height:100 align:center}"
 			]
 			hide_dependency_lines: true
@@ -120,7 +121,7 @@
 					icon: "create:orange_toolbox"
 					id: "4663D189BEB1D713"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
+					title: "&d&nPacked Lunch"
 					type: "random"
 				}
 				{
@@ -165,7 +166,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.58.subtitle}"
+			subtitle: "You've survived the first night! Oh look a letter from someone important!"
 			tasks: [{
 				days: 2
 				icon: {
@@ -347,7 +348,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				id: "5E15CE3842AD84D6"
 				item: "minecraft:bedrock"
@@ -416,7 +417,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				id: "30496B21C5BFE3B4"
 				item: "minecraft:bedrock"
@@ -447,7 +448,7 @@
 					icon: "create:orange_toolbox"
 					id: "1672991E815731B8"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
+					title: "&d&nPacked Lunch"
 					type: "random"
 				}
 				{
@@ -484,7 +485,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				days: 10
 				icon: "minecraft:red_bed"
@@ -516,7 +517,7 @@
 					icon: "create:orange_toolbox"
 					id: "7A306BFC51FBA4C0"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
+					title: "&d&nPacked Lunch"
 					type: "random"
 				}
 				{
@@ -553,7 +554,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				days: 25
 				icon: "minecraft:red_bed"
@@ -587,7 +588,7 @@
 					icon: "create:orange_toolbox"
 					id: "320310BDB26C5B7A"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
+					title: "&d&nPacked Lunch"
 					type: "random"
 				}
 				{
@@ -624,7 +625,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				days: 50
 				icon: "minecraft:red_bed"
@@ -664,7 +665,7 @@
 					icon: "create:orange_toolbox"
 					id: "08E8787B7C82A4B8"
 					table_id: 6664182306022005570L
-					title: "{chapter.1.quest.58.reward.2.title}"
+					title: "&d&nPacked Lunch"
 					type: "random"
 				}
 				{
@@ -749,7 +750,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.1.quest.60.subtitle}"
+			subtitle: "&d&nYou've got mail!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				disable_toast: true
