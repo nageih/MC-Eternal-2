@@ -515,8 +515,14 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [
+				"&2Unlocked by Expert Mode"
+				"&6&nOnly one in stock!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -526,6 +532,7 @@
 					Ammo: "cgs:round_shotgun"
 					AmmoCount: 2
 					FireMode: "ntgl:semi"
+					ThrowMode: "ntgl:safe"
 					display: {
 						Name: "{\"text\":\"Junkyard Shotgun\"}"
 					}
@@ -533,23 +540,31 @@
 				}
 			}
 			id: "76AE8F18AD0E7279"
-			rewards: [{
-				id: "2F7B5099818D6B27"
-				item: {
-					Count: 1
-					id: "cgs:shotgun"
-					tag: {
-						Ammo: "cgs:round_shotgun"
-						AmmoCount: 2
-						FireMode: "ntgl:semi"
-						display: {
-							Name: "{\"text\":\"Junkyard Shotgun\"}"
+			rewards: [
+				{
+					id: "2F7B5099818D6B27"
+					item: {
+						Count: 1
+						id: "cgs:shotgun"
+						tag: {
+							Ammo: "cgs:round_shotgun"
+							AmmoCount: 2
+							FireMode: "ntgl:semi"
+							display: {
+								Name: "{\"text\":\"Junkyard Shotgun\"}"
+							}
+							variant: "default"
 						}
-						variant: "default"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "199F91DD09062B74"
+					item: "cgs:round_shotgun"
+					type: "item"
+				}
+			]
 			subtitle: "Purchase a Junkyard Shotgun"
 			tasks: [{
 				amount: 2500L
@@ -829,7 +844,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
 			description: [
 				"The Mechanical Dragonfly is a true marvel of engineering!"
 				"It can be mounted and is capable of flight using its large brass wings!"
@@ -838,6 +856,7 @@
 				""
 				"&eHint:&r Upon purchasing this item, the dragonfly will be summoned nearby already tamed!"
 				""
+				"&2Unlocked by Expert Mode"
 				"&6&nOnly one in stock!"
 			]
 			hide_dependency_lines: true
