@@ -2522,7 +2522,7 @@
 						DisplayEntityType: "rats:rat"
 						DisplayMobScale: 2
 						display: {
-							Name: "{\"text\":\"Inventory Rat\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.3\"}"
 						}
 					}
 				}

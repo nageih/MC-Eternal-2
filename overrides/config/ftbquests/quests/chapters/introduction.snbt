@@ -1251,14 +1251,14 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§7§oThanks for your soul! \"}"
-									"{\"text\":\"§7§oThis can't really be legally binding can it?\"}"
+									"{\"translate\":\"lore.mce2.introduction.1\"}"
+									"{\"translate\":\"lore.mce2.introduction.2\"}"
 									"{\"text\":\"\"}"
 									"{\"text\":\"\"}"
-									"{\"text\":\"§4§lIT IS! MUHAHA!\"}"
-									"{\"text\":\"§8§oThis is only a copy.. don't try anything! I'm watching you! With my two beady eyes...\"}"
+									"{\"translate\":\"lore.mce2.introduction.3\"}"
+									"{\"translate\":\"lore.mce2.introduction.4\"}"
 								]
-								Name: "{\"text\":\"§eSigned Contract §7§8\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.1\"}"
 							}
 						}
 					}
@@ -1271,7 +1271,7 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Name: "{\"text\":\"Forgotten Trashcan\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.2\"}"
 							}
 							type: "forgotten_trashcan"
 						}
@@ -1736,7 +1736,7 @@
 			id: "639D9B8F85E2B499"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @a {\"text\":\"{p} has started their Questbook! Waahoo! ☆\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"and you should too! If you haven't already! :D\",\"color\":\"gold\"}]}}"
+				command: "/tellraw @a {\"translate\":\"message.mce2.introduction.1\",\"italic\":true,\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"message.mce2.introduction.2\",\"color\":\"gold\"}]}}"
 				console: true
 				icon: "ftbquests:book"
 				id: "7E06F2FDE4D23CA3"
@@ -2074,8 +2074,8 @@
 							Unbreakable: 1b
 							charm_glint: "yellow"
 							display: {
-								Lore: ["{\"text\":\"§eOnly given to those who have completed the \\\"Getting Started\\\" Quest Chapter!\"}"]
-								Name: "{\"text\":\"§6Crown of Dedication\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.5\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.6\"}"
 							}
 							rpgloot.randomize: 0b
 						}
@@ -2109,8 +2109,8 @@
 								lvl: 3
 							}]
 							display: {
-								Lore: ["{\"text\":\"§6§oGifted to only the most loyal of rat lords..\"}"]
-								Name: "{\"text\":\"§dBlessed Rat Flute\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.7\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.8\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2153,8 +2153,8 @@
 						Unbreakable: 1b
 						charm_glint: "yellow"
 						display: {
-							Lore: ["{\"text\":\"§eOnly given to those who have completed the \\\"Getting Started\\\" Quest Chapter!\"}"]
-							Name: "{\"text\":\"§6Crown of Dedication\"}"
+							Lore: ["{\"translate\":\"lore.mce2.introduction.5\"}"]
+							Name: "{\"translate\":\"lore.mce2.introduction.6\"}"
 						}
 						rpgloot.randomize: 0b
 					}
@@ -2661,8 +2661,8 @@
 						id: "botania:tiny_potato"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§4§kfvidjdgidux8vu8ugiudxi8yuvi8diegty8xdgiyudxigy8dx\"}"]
-								Name: "{\"text\":\"§c§ldemon\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.9\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.10\"}"
 							}
 							notMyNameTicks: 17
 						}
@@ -3075,8 +3075,8 @@
 							]
 							Damage: 63
 							display: {
-								Lore: ["{\"text\":\"§7§oOne time use, I should use this on an unlit campfire!\"}"]
-								Name: "{\"text\":\"§8Firestarter\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.11\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.12\"}"
 							}
 						}
 					}
@@ -3294,7 +3294,7 @@
 					type: "custom"
 				}
 				{
-					command: "/tellraw {p} [\"\",{\"text\":\"Click to Join the MC Eternal Discord!\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
+					command: "/tellraw {p} [\"\",{\"translate\":\"message.mce2.introduction.3\",\"color\":\"gold\",\"bold\":false,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/c8RZr58\"}}]"
 					icon: "mceletters:elegant_letter"
 					id: "65CBB395B37355EA"
 					title: "{ftbquests.chapter.introduction.quest8465804281931725370.reward.7335153873645164010.title}"
@@ -3426,7 +3426,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"You did not sign the contract and have been cursed for your insolence!\",\"color\":\"dark_red\"}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.introduction.4\",\"color\":\"dark_red\"}"
 					console: true
 					elevate_perms: true
 					icon: "cataclysm:remnant_skull"
@@ -3863,8 +3863,8 @@
 							Damage: 0
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§oThe Questmaster wore this boot every day for at least 80 Years! They found it at the bottom of a lake! Now you can have the pleasure of equipping it!\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.introduction.13\"}"
 								]
 							}
 						}
@@ -3889,10 +3889,10 @@
 					tag: {
 						display: {
 							Lore: [
-								"{\"text\":\"§7§oNeeded for the quest §e\\\"It's Shop' O Clock\\\"\"}"
-								"{\"text\":\"§e§7§o§8§oBatch number 23 \"}"
+								"{\"translate\":\"lore.mce2.introduction.14\"}"
+								"{\"translate\":\"lore.mce2.introduction.15\"}"
 							]
-							Name: "{\"text\":\"§8Speciality §8Craft Beer\"}"
+							Name: "{\"translate\":\"name.mce2.introduction.3\"}"
 						}
 					}
 				}
@@ -3921,7 +3921,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Pigstep! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.introduction.5\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.introduction.6\"}] "
 					icon: "etched:radio"
 					id: "16F83B3977639F96"
 					title: "{ftbquests.chapter.introduction.quest1523690579384703286.reward.1655137981060849558.title}"
@@ -3966,7 +3966,7 @@
 				}
 				{
 					auto: "no_toast"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Radio]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" {p} just requested Jellyfish Fields! Coming right up!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.introduction.5\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.introduction.7\"}] "
 					icon: "etched:radio"
 					id: "20BA00E670A225C1"
 					title: "{ftbquests.chapter.introduction.quest1120532153507730464.reward.2358198344614028737.title}"
@@ -4006,7 +4006,7 @@
 					id: "botania:tiny_potato"
 					tag: {
 						display: {
-							Name: "{\"text\":\"grumm\"}"
+							Name: "{\"translate\":\"name.mce2.introduction.4\"}"
 						}
 					}
 				}
@@ -4482,11 +4482,11 @@
 							HideFlags: 1
 							display: {
 								Lore: [
-									"{\"text\":\"§9§l[>] +1 Bonus Combat Roll Charge\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§oOwned by the legendary Dancing Cockroach. Gifted to one brilliant Player who listened to his Award-Winning tunes!\"}"
+									"{\"translate\":\"lore.mce2.introduction.16\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.introduction.17\"}"
 								]
-								Name: "{\"text\":\"§eCockroach' Sombrero\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.5\"}"
 							}
 							itemModifier: "modifiers:quick"
 							"quark:RuneAttached": 1b
@@ -4996,7 +4996,7 @@
 					id: "rats:cheese"
 					tag: {
 						display: {
-							Lore: ["{\"text\":\"He wasn't going to kill you with that kitchen knife silly! He was just preparing you a slice of cheese!\"}"]
+							Lore: ["{\"translate\":\"lore.mce2.introduction.18\"}"]
 						}
 					}
 				}
@@ -5032,7 +5032,7 @@
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/tellraw {p} {\"text\":\"You are a Pureblood Vampire... Thus you have started the game with \\\"Sanguinare Vampiris\\\"!\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
+					command: "/tellraw {p} {\"translate\":\"message.mce2.introduction.8\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://wiki.vampirism.dev/docs/wiki/content/effects\"}}"
 					icon: "vampirism:cursed_spruce_sign"
 					id: "44E8D9F08CE52A50"
 					title: "{ftbquests.chapter.introduction.quest2746222829629412079.reward.4965458216355179088.title}"
@@ -5071,8 +5071,8 @@
 							G-API_Entry: "minecraft:guide.vampirism.vampire.lord"
 							G-API_Page: 0
 							display: {
-								Lore: ["{\"text\":\"§7§oYou were born into a prestigious line of Pureblooded Vampires... now it is your duty to become the most powerful Vampire and make them proud...\"}"]
-								Name: "{\"text\":\"§5Family Heirloom §7(Vampire Guide Book)\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.19\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.20\"}"
 							}
 						}
 					}
@@ -5114,8 +5114,8 @@
 						id: "mod_lavacow:bonestew"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§7§oI guess meat really is back on the menu!\"}"]
-								Name: "{\"text\":\"§8Orc Head Stew\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.21\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.22\"}"
 							}
 						}
 					}
@@ -5194,8 +5194,8 @@
 						id: "farmersdelight:beef_stew"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§7§oJust like Granny Bacon used to make it!\"}"]
-								Name: "{\"text\":\"§8Dwarven Stew\"}"
+								Lore: ["{\"translate\":\"lore.mce2.introduction.23\"}"]
+								Name: "{\"translate\":\"lore.mce2.introduction.24\"}"
 							}
 						}
 					}
@@ -5241,11 +5241,11 @@
 							]
 							display: {
 								Lore: [
-									"{\"text\":\"§7§oYou are a mighty dwarf! You inherited this pickaxe from your great grandfather.. who was also a MIGHTY DWARF!\"}"
-									"{\"text\":\"§7`\"}"
-									"{\"text\":\"§6§oNote: §7To future generations, please do not use this pickaxe to mine.. it is symbolic and for all intensive purposes purely ceremonial, any dwarf knows gold is a TERRIBLE material to mine with! This pickaxe has been in our family for hundreds of years!  \"}"
+									"{\"translate\":\"lore.mce2.introduction.25\"}"
+									"{\"translate\":\"lore.mce2.introduction.26\"}"
+									"{\"translate\":\"lore.mce2.introduction.27\"}"
 								]
-								Name: "{\"text\":\"§eFamily Heirloom\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.6\"}"
 							}
 							itemModifier: "modifiers:swift"
 						}
@@ -5302,7 +5302,7 @@
 						id: "minecraft:apple"
 						tag: {
 							display: {
-								Name: "{\"text\":\"Normal Apple\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.7\"}"
 							}
 						}
 					}
@@ -6311,11 +6311,11 @@
 				tag: {
 					display: {
 						Lore: [
-							"[\"\",{\"text\":\"Place this \",\"italic\":false},{\"text\":\"Waystone \",\"italic\":false,\"bold\":true},{\"text\":\"somewhere in your home and use it to warp to other Waystones you find in the world at the cost of XP!\",\"italic\":false}]"
+							"[\"\",{\"translate\":\"lore.mce2.introduction.28\",\"italic\":false},{\"translate\":\"lore.mce2.introduction.29\",\"italic\":false,\"bold\":true},{\"translate\":\"lore.mce2.introduction.30\",\"italic\":false}]"
 							"[\"\"]"
-							"[\"\",{\"text\":\"Additionally you can use it to warp home from unlocked Waystones!\",\"italic\":false}]"
+							"[\"\",{\"translate\":\"lore.mce2.introduction.31\",\"italic\":false}]"
 						]
-						Name: "[\"\",{\"text\":\"Questmaster's Waystone\",\"italic\":false,\"color\":\"dark_green\"}]"
+						Name: "[\"\",{\"translate\":\"name.mce2.introduction.8\",\"italic\":false,\"color\":\"dark_green\"}]"
 					}
 				}
 			}
@@ -6329,11 +6329,11 @@
 						tag: {
 							display: {
 								Lore: [
-									"[\"\",{\"text\":\"Place this \",\"italic\":false},{\"text\":\"Waystone \",\"italic\":false,\"bold\":true},{\"text\":\"somewhere in your home and use it to warp to other Waystones you find in the world at the cost of XP!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.28\",\"italic\":false},{\"translate\":\"lore.mce2.introduction.29\",\"italic\":false,\"bold\":true},{\"translate\":\"lore.mce2.introduction.30\",\"italic\":false}]"
 									"[\"\"]"
-									"[\"\",{\"text\":\"Additionally you can use it to warp home from unlocked Waystones!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.31\",\"italic\":false}]"
 								]
-								Name: "[\"\",{\"text\":\"Questmaster's Waystone\",\"italic\":false,\"color\":\"dark_green\"}]"
+								Name: "[\"\",{\"translate\":\"name.mce2.introduction.8\",\"italic\":false,\"color\":\"dark_green\"}]"
 							}
 						}
 					}
@@ -6348,13 +6348,13 @@
 						tag: {
 							display: {
 								Lore: [
-									"[\"\",{\"text\":\"Return Scrolls\",\"italic\":false,\"bold\":true},{\"text\":\" can be bound to a \",\"italic\":false},{\"text\":\"Waystone\",\"italic\":false,\"bold\":true},{\"text\":\"!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.32\",\"italic\":false,\"bold\":true},{\"translate\":\"lore.mce2.introduction.33\",\"italic\":false},{\"translate\":\"lore.mce2.introduction.34\",\"italic\":false,\"bold\":true},{\"translate\":\"lore.mce2.introduction.35\",\"italic\":false}]"
 									"[\"\"]"
-									"[\"\",{\"text\":\"They are one-time use!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.36\",\"italic\":false}]"
 									"[\"\"]"
-									"[\"\",{\"text\":\"Make sure to bind it to your \",\"italic\":false},{\"text\":\"Waystone \",\"italic\":false,\"bold\":true},{\"text\":\"so you can warp home!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.37\",\"italic\":false},{\"translate\":\"lore.mce2.introduction.29\",\"italic\":false,\"bold\":true},{\"translate\":\"lore.mce2.introduction.38\",\"italic\":false}]"
 									"[\"\"]"
-									"[\"\",{\"text\":\"Here, have 3x for free!\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.introduction.39\",\"italic\":false}]"
 									"[\"To help you get back home!\"]"
 								]
 							}
@@ -6841,7 +6841,7 @@
 								]
 							}
 							display: {
-								Name: "{\"text\":\"Cursed \\\"Sandwich\\\"\"}"
+								Name: "{\"translate\":\"name.mce2.introduction.9\"}"
 							}
 						}
 					}

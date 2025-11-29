@@ -117,7 +117,7 @@
 					}
 					Personality: 3
 					display: {
-						Name: "{\"text\":\"Balloony\"}"
+						Name: "{\"translate\":\"name.mce2.balloony.1\"}"
 						color: 13084752
 					}
 				}

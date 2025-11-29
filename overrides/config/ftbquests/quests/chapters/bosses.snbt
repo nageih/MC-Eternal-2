@@ -710,8 +710,8 @@
 								lvl: 10
 							}]
 							display: {
-								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
-								Name: "{\"text\":\"§bArmageddon \"}"
+								Lore: ["{\"translate\":\"lore.mce2.bosses.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.bosses.2\"}"
 							}
 							dmcloot.rarity: "legendary"
 							dmcloot.swiftness: 15
@@ -1268,10 +1268,10 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§e§o§7§oHolding the lantern up to the letter you realise someone has used invisible ink to write the title of the letter! The contents of the letter seem the same but the title was hidden.. How strange..\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"message.mce2.bosses.1\"}"
 								]
-								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"text\":\"Nothing can stop me now..\"}"
+								Name: "{\"italic\":false,\"color\":\"dark_green\",\"font\":\"runelic:runelic\",\"translate\":\"name.mce2.bosses.1\"}"
 							}
 						}
 					}
@@ -1434,10 +1434,10 @@
 						Unbreakable: 1b
 						display: {
 							Lore: [
-								"{\"text\":\"§5§6✎ §nLore Text\"}"
-								"{\"text\":\"§7§o\\\"The Questmaster lost this weapon while trying to have a failed chat with The Ferrous Wroughtnaut... they aren't much of a conversationalist it turns out!\\\"\"}"
+								"{\"translate\":\"lore.mce2.bosses.3\"}"
+								"{\"translate\":\"lore.mce2.bosses.4\"}"
 							]
-							Name: "{\"text\":\"§2Questmaster's Special Salmon\"}"
+							Name: "{\"translate\":\"name.mce2.bosses.2\"}"
 						}
 						itemModifier: "modifiers:sharp"
 					}
@@ -1846,10 +1846,10 @@
 						tag: {
 							display: {
 								Lore: [
-									"{\"text\":\"§8§oHow do you not have fish? It says fresh fish daily on the menu!\"}"
-									"{\"text\":\"§8§oJust get me the snapper bozo!\"}"
+									"{\"translate\":\"lore.mce2.bosses.5\"}"
+									"{\"translate\":\"lore.mce2.bosses.6\"}"
 								]
-								Name: "{\"text\":\"§7Guigino's §744$ Snapper\"}"
+								Name: "{\"translate\":\"name.mce2.bosses.3\"}"
 							}
 						}
 					}

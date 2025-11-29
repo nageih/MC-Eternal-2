@@ -16,8 +16,8 @@
 			tag: {
 				CapeType: "challenge_cape"
 				display: {
-					Lore: ["{\"text\":\"§6Unlocked: §eQuesting\"}"]
-					Name: "{\"text\":\"§6Cosmetic Cape\"}"
+					Lore: ["{\"translate\":\"lore.mce2.presnt.1\"}"]
+					Name: "{\"translate\":\"lore.mce2.presnt.2\"}"
 				}
 				rpgloot.randomize: 0b
 			}

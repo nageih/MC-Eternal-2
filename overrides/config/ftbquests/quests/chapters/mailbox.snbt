@@ -74,7 +74,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					elevate_perms: true
 					icon: {
@@ -126,7 +126,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "2B26880DB70189CB"
@@ -214,13 +214,13 @@
 							AntiqueInk: 1b
 							author: "Cheferatu"
 							display: {
-								Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
-								Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+								Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+								Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
 							}
 							generation: 3
 							pages: [
-								"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
-								"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+								"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+								"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
 							]
 							title: "To Serve Man"
 						}
@@ -240,7 +240,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Gruncle Vlad! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.3\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "3355346697CAE973"
@@ -311,10 +311,10 @@
 							}
 							display: {
 								Lore: [
-									"[\"\",{\"text\":\"Handmade by your aunt.\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.mailbox.3\",\"italic\":false}]"
 									"[\"Not the correct size.\"]"
 								]
-								Name: "[\"\",{\"text\":\"Ill-Fitting Sweater\",\"italic\":false,\"color\":\"aqua\"}]"
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.1\",\"italic\":false,\"color\":\"aqua\"}]"
 								color: 15961002
 							}
 						}
@@ -329,7 +329,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.4\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "235496D94F1A7F34"
@@ -384,7 +384,7 @@
 								Value: -1.0f
 							}
 							display: {
-								Name: "[\"\",{\"text\":\"Expired Coupon for Build-A-Barry Workshop\",\"italic\":false,\"color\":\"gray\"}]"
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.2\",\"italic\":false,\"color\":\"gray\"}]"
 							}
 						}
 					}
@@ -398,7 +398,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Grandma! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.4\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "53EC069D4D9D9860"
@@ -453,7 +453,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "064D7537CFC8F666"
@@ -522,7 +522,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "146C7809CEA7BC2F"
@@ -593,7 +593,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "35AE0A14808F4193"
@@ -670,7 +670,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[Rat Mail Service]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" → You have received a letter from Mom! Open your Quest Book!\"}] "
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.mailbox.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.mailbox.2\"}] "
 					console: true
 					icon: "etched:radio"
 					id: "47DD182236A8ED78"
@@ -738,10 +738,10 @@
 							}
 							display: {
 								Lore: [
-									"[\"\",{\"text\":\"Handmade by your aunt.\",\"italic\":false}]"
+									"[\"\",{\"translate\":\"lore.mce2.mailbox.3\",\"italic\":false}]"
 									"[\"Not the correct size.\"]"
 								]
-								Name: "[\"\",{\"text\":\"Ill-Fitting Sweater\",\"italic\":false,\"color\":\"aqua\"}]"
+								Name: "[\"\",{\"translate\":\"name.mce2.mailbox.1\",\"italic\":false,\"color\":\"aqua\"}]"
 								color: 15961002
 							}
 						}

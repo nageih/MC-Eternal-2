@@ -771,7 +771,7 @@
 				id: "alexsmobs:spawn_egg_raccoon"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam\"}"
+						Name: "{\"translate\":\"name.mce2.curious_box.1\"}"
 					}
 				}
 			}
@@ -795,7 +795,7 @@
 				id: "rats:assorted_vegetables"
 				tag: {
 					display: {
-						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
 					}
 				}
 			}
@@ -971,7 +971,7 @@
 				id: "rats:assorted_vegetables"
 				tag: {
 					display: {
-						Lore: ["[\"\",{\"text\":\"When your married you'll understand the importance of fresh produce!\",\"color\":\"green\"}]"]
+						Lore: ["[\"\",{\"translate\":\"lore.mce2.mom_market.1\",\"color\":\"green\"}]"]
 					}
 				}
 			}

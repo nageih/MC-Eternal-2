@@ -73,23 +73,23 @@
 						display: {
 							Lore: [
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Plague\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.1\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Anti-Gravity\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.7\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Sugar Rush\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.8\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 								"{\"text\":\" \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"text\":\"Fire Resistance\"}],\"text\":\"Effect: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"1\"}],\"text\":\"Amplifier: \"}"
-								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"text\":\"0:15\"}],\"text\":\"Duration: \"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"red\",\"translate\":\"lore.mce2.help_from_barry.9\"}],\"translate\":\"lore.mce2.help_from_barry.2\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.3\"}],\"translate\":\"lore.mce2.help_from_barry.4\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"italic\":false,\"color\":\"aqua\",\"translate\":\"lore.mce2.help_from_barry.5\"}],\"translate\":\"lore.mce2.help_from_barry.6\"}"
 							]
-							Name: "{\"text\":\"Dumpster Cheese\"}"
+							Name: "{\"translate\":\"name.mce2.help_from_barry.1\"}"
 						}
 					}
 				}

@@ -460,8 +460,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -744,7 +744,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"translate\":\"message.mce2.clthe_nether.1\",\"color\":\"dark_red\",\"bold\":true},{\"translate\":\"message.mce2.clthe_nether.2\"}]"
 					console: true
 					elevate_perms: true
 					icon: "create:empty_blaze_burner"

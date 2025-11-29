@@ -2078,8 +2078,8 @@
 							}]
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§6Legendary\"}"]
-								Name: "{\"text\":\"§9Ocean Piercer\"}"
+								Lore: ["{\"translate\":\"lore.mce2.fishing.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.fishing.2\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

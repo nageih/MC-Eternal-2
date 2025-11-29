@@ -800,10 +800,10 @@
 							}]
 							display: {
 								Lore: [
-									"{\"text\":\"A Letter that you can hardly read\"}"
-									"{\"text\":\"You can barely make out the words cease and desist\"}"
+									"{\"translate\":\"lore.mce2.create.1\"}"
+									"{\"translate\":\"lore.mce2.create.2\"}"
 								]
-								Name: "{\"text\":\"Hastily Scribbled Letter\"}"
+								Name: "{\"translate\":\"name.mce2.create.1\"}"
 							}
 						}
 					}

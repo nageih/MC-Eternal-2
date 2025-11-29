@@ -29,7 +29,7 @@
 				id: "catburger:cat_burger"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Slightly Burnt Cat Burger\"}"
+						Name: "{\"translate\":\"name.mce2.special_reward.1\"}"
 					}
 				}
 			}

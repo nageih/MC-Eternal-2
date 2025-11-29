@@ -191,7 +191,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" {p} just unlocked Master Mode! ★★★\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.cldifficulty_modes.1\",\"color\":\"green\",\"bold\":true},{\"translate\":\"message.mce2.cldifficulty_modes.2\"}]"
 					console: true
 					icon: "farmersdelight:cake_slice"
 					id: "32CDD8391E6706FC"
@@ -303,7 +303,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[The Questmaster]\",\"color\":\"green\",\"bold\":true},{\"text\":\" {p} just unlocked Expert Mode! ★★\"}]"
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.cldifficulty_modes.1\",\"color\":\"green\",\"bold\":true},{\"translate\":\"message.mce2.cldifficulty_modes.3\"}]"
 					console: true
 					elevate_perms: true
 					icon: "farmersdelight:cake_slice"

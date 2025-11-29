@@ -21,8 +21,8 @@
 				id: "tropicraft:pina_colada"
 				tag: {
 					display: {
-						Lore: ["{\"text\":\"§f§oYou've arrived! Hooray! And you are only slightly seasick!\"}"]
-						Name: "{\"text\":\"§7Piña Colada\"}"
+						Lore: ["{\"translate\":\"lore.mce2.holiday_hamper.1\"}"]
+						Name: "{\"translate\":\"lore.mce2.holiday_hamper.2\"}"
 					}
 				}
 			}
@@ -39,8 +39,8 @@
 						id: "tropicraft:music_disc_eastern_isles"
 					}
 					display: {
-						Lore: ["{\"text\":\"§8§oYou don't bring the party.. You ARE the party!\"}"]
-						Name: "{\"text\":\"§dHoliday Boombox\"}"
+						Lore: ["{\"translate\":\"lore.mce2.holiday_hamper.3\"}"]
+						Name: "{\"translate\":\"lore.mce2.holiday_hamper.4\"}"
 					}
 				}
 			}

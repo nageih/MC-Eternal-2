@@ -3673,10 +3673,10 @@
 							}]
 							display: {
 								Lore: [
-									"{\"text\":\"§o§oPreviously owned by goat3045\"}"
-									"{\"text\":\"Bow combined with a Nether Star\"}"
+									"{\"translate\":\"lore.mce2.llegendary_artifacts.1\"}"
+									"{\"translate\":\"lore.mce2.llegendary_artifacts.2\"}"
 								]
-								Name: "{\"text\":\"§d§lBOW OF YEETING\"}"
+								Name: "{\"translate\":\"name.mce2.llegendary_artifacts.1\"}"
 							}
 						}
 					}

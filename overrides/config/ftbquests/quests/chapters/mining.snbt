@@ -326,7 +326,7 @@
 								Value: -0.6f
 							}
 							display: {
-								Name: "{\"text\":\"Simon's Lucky Rock\"}"
+								Name: "{\"translate\":\"name.mce2.mining.1\"}"
 							}
 						}
 					}
@@ -509,11 +509,11 @@
 							HideFlags: 3
 							display: {
 								Lore: [
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§o\\\"Once belonged to the legendary dwarf Honeydew, it was used for digging holes.. allegedly.\\\"\"}"
-									"{\"text\":\"§7§o\\\"Forged by the finest Dwarven blacksmiths from Khaz Modan!\\\"\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.mining.1\"}"
+									"{\"translate\":\"lore.mce2.mining.2\"}"
 								]
-								Name: "{\"text\":\"§eDwarven Pickaxe\"}"
+								Name: "{\"translate\":\"name.mce2.mining.2\"}"
 							}
 							etstlib_tool_uuid: "ec5f2ea8-d0d6-4b26-ba94-9b0853f6a4a5"
 							tic_broken: 0b

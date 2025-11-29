@@ -527,7 +527,7 @@
 					AmmoCount: 2
 					FireMode: "ntgl:semi"
 					display: {
-						Name: "{\"text\":\"Junkyard Shotgun\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
 					}
 					variant: "default"
 				}
@@ -543,7 +543,7 @@
 						AmmoCount: 2
 						FireMode: "ntgl:semi"
 						display: {
-							Name: "{\"text\":\"Junkyard Shotgun\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
 						}
 						variant: "default"
 					}
@@ -749,7 +749,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"<neon p=8 r=2 a=0.15>Barry's Famous Fez\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
 					}
 				}
 			}
@@ -766,7 +766,7 @@
 						}]
 						RepairCost: 1
 						display: {
-							Name: "{\"text\":\"<neon p=8 r=2 a=0.15>Barry's Famous Fez\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
 						}
 					}
 				}
@@ -882,7 +882,7 @@
 					DisplayEntityType: "rats:rat"
 					DisplayMobScale: 2
 					display: {
-						Name: "{\"text\":\"Inventory Rat\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.3\"}"
 					}
 				}
 			}
@@ -1021,7 +1021,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
 					}
 				}
 			}
@@ -1039,7 +1039,7 @@
 						}]
 						RepairCost: 1
 						display: {
-							Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
 						}
 					}
 				}
@@ -1073,7 +1073,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Barry's Crankbow\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
 					}
 				}
 			}
@@ -1091,7 +1091,7 @@
 						}]
 						RepairCost: 1
 						display: {
-							Name: "{\"text\":\"Barry's Crankbow\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
 						}
 					}
 				}
@@ -1132,7 +1132,7 @@
 						}]
 						RepairCost: 1
 						display: {
-							Name: "{\"text\":\"Rusty Old Lumber Axe\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.6\"}"
 						}
 					}
 				}

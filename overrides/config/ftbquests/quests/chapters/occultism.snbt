@@ -301,13 +301,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -506,13 +506,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -985,13 +985,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1044,13 +1044,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1186,13 +1186,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1339,13 +1339,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1470,13 +1470,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1581,13 +1581,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1658,13 +1658,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1863,13 +1863,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1963,13 +1963,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2024,13 +2024,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2338,13 +2338,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2396,13 +2396,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2454,13 +2454,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2512,13 +2512,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2570,13 +2570,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2628,13 +2628,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2686,13 +2686,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2744,13 +2744,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2818,13 +2818,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2882,13 +2882,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2954,13 +2954,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3026,13 +3026,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3098,13 +3098,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3170,13 +3170,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3242,13 +3242,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3314,13 +3314,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3386,13 +3386,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3458,13 +3458,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3530,13 +3530,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3602,13 +3602,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3674,13 +3674,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3746,13 +3746,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3818,13 +3818,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3890,13 +3890,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3962,13 +3962,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4135,13 +4135,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4249,13 +4249,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4352,13 +4352,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4418,13 +4418,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4487,13 +4487,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4598,13 +4598,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4686,13 +4686,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4793,13 +4793,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4879,13 +4879,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4973,13 +4973,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5069,13 +5069,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5331,13 +5331,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5417,13 +5417,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

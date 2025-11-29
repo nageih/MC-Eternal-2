@@ -67,8 +67,8 @@
 							Damage: 0
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§7§kk§f§7\\\"LIFE DEATH LIFE DEATH LIFE DEATH\\\"§kf\"}"]
-								Name: "{\"text\":\"§8\\\"Death\\\"\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.2\"}"
 							}
 							etstlib_tool_uuid: "e749a354-00e9-4f72-bc8f-a699c97d9067"
 						}
@@ -648,8 +648,8 @@
 							]
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§9§oThe Crystalline Fishing Rod was thought to be nothing more than a myth.. Until now!\"}"]
-								Name: "{\"text\":\"§bCrystalline Fishing Rod\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.3\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.4\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -883,8 +883,8 @@
 							HideFlags: 1
 							Unbreakable: 1b
 							display: {
-								Lore: ["{\"text\":\"§7\\\"This crab is so undercooked I can still hear it singing 'Under the Sea.\\\"\"}"]
-								Name: "{\"text\":\"§6Golden Skillet\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.5\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.6\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1012,23 +1012,23 @@
 							HideFlags: 1
 							author: "The Grand Nagus"
 							display: {
-								Lore: ["{\"text\":\"§e§oThe 245th Edition\"}"]
+								Lore: ["{\"translate\":\"lore.mce2.challenges.7\"}"]
 							}
 							pages: [
-								"{\"text\":\"What the Nagus wants, we acquire.\\n\\nOnce you have their money... you never give it back.\\n\\nMoney is §leverything\\n\\n§8§oThis page is damaged\\n-----------------\"}"
-								"{\"text\":\"Never spend more for an acquisition than you have to.\\n\\nSedition and treason are always profitable\\n\\nAlways exaggerate your estimates.\\n\\nNever allow family law stand in the way of opportunity.\"}"
-								"{\"text\":\"Keep your ears open.\\n\\nSmall print leads to large risk\\n\\nOpportunity plus instinct equals profit\\n\\nGreed is eternal\\n\\nAnything worth doing is worth doing for money.\"}"
-								"{\"text\":\"Sometimes the quickest way to find profits is to let them find you.\\n\\nDead men close no deals.\\n\\nA deal is a deal... until a better one comes along.\\n\\n\"}"
-								"{\"text\":\"A contract is a contract is a contract... but only between Ferengi\\n\\nA Ferengi without profit is no Ferengi at all\\n\\nSatisfaction is not guaranteed.\\n\\n\"}"
-								"{\"text\":\"He who dives under the table today lives to profit tomorrow.\\n\\nNever place friendship above profit.\\n\\nA wise man can hear profit in the wind.\\n\\n\"}"
-								"{\"text\":\"Nothing is more important than your health... except for your money.\\n\\nThere's nothing more dangerous than an honest businessman.\\n\\nWhat's in it for me?\\n\\n\\\"Confidentiality equals profit.\\\"\"}"
-								"{\"text\":\"Never make fun of a Ferengi's mother. Insult something he cares about instead.\\n\\nIt never hurts to suck up to the boss\\n\\nWar is good for business.\\n\\nPeace is good for business.\"}"
-								"{\"text\":\"The early investor reaps the most interest.\\n\\nDon't tell customers more than they need to know.\\n\\nShe can touch your lobes but never your latinum.\"}"
-								"{\"text\":\"Profit is its own reward.\\n\\nFeed your greed, but not enough to choke it.\\n\\nNever confuse wisdom with luck.\\n\\nExpand or die.\"}"
-								"{\"text\":\"Don't trust a man wearing a better suit than your own.\\n\\nThe bigger the smile, the sharper the knife.\\n\\nNever ask when you can take.\\n\\nNever trust anybody taller than you.\"}"
-								"{\"text\":\"Rate divided by time equals profit. (Also known as \\\"The Velocity of Wealth.\\\")\\n\\nTake joy from profit, and profit from joy.\\n\\nGood customers are as rare as latinum—treasure them.\"}"
-								"{\"text\":\"There is no substitute for success.\\n\\nFree advice is seldom cheap.\\n\\nKeep your lies consistent.\\n\\nThe riskier the road, the greater the profit.\\n\"}"
-								"{\"text\":\"§8§oThe rest of the book is damaged... The pages seem to have been forcefully removed\\n\\n\"}"
+								"{\"translate\":\"page.mce2.challenges.1\"}"
+								"{\"translate\":\"page.mce2.challenges.2\"}"
+								"{\"translate\":\"page.mce2.challenges.3\"}"
+								"{\"translate\":\"page.mce2.challenges.4\"}"
+								"{\"translate\":\"page.mce2.challenges.5\"}"
+								"{\"translate\":\"page.mce2.challenges.6\"}"
+								"{\"translate\":\"page.mce2.challenges.7\"}"
+								"{\"translate\":\"page.mce2.challenges.8\"}"
+								"{\"translate\":\"page.mce2.challenges.9\"}"
+								"{\"translate\":\"page.mce2.challenges.10\"}"
+								"{\"translate\":\"page.mce2.challenges.11\"}"
+								"{\"translate\":\"page.mce2.challenges.12\"}"
+								"{\"translate\":\"page.mce2.challenges.13\"}"
+								"{\"translate\":\"page.mce2.challenges.14\"}"
 							]
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1525,9 +1525,9 @@
 							display: {
 								Lore: [
 									"{\"text\":\"   \"}"
-									"{\"text\":\"§f§oThis prestigious piece of armor is awarded to those who have battled dozens of dragons and protected the realm from their plight!\"}"
+									"{\"translate\":\"lore.mce2.challenges.8\"}"
 								]
-								Name: "{\"text\":\"§cDragonslayer Chestplate\"}"
+								Name: "{\"translate\":\"name.mce2.challenges.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1834,7 +1834,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! {p} has officially beaten all known Quest Chapters! Wowza! Congrats to {p} for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"translate\":\"message.mce2.challenges.1\",\"color\":\"gold\",\"bold\":true},{\"translate\":\"message.mce2.challenges.2\"}] "
 					console: true
 					elevate_perms: true
 					icon: "etched:radio"
@@ -1982,8 +1982,8 @@
 								}
 							]
 							display: {
-								Lore: ["{\"text\":\"§e§oSteak procured from the legendary \\\"Ghow\\\"\"}"]
-								Name: "{\"text\":\"§dGhow Steak\"}"
+								Lore: ["{\"translate\":\"lore.mce2.challenges.9\"}"]
+								Name: "{\"translate\":\"lore.mce2.challenges.10\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {

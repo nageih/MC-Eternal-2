@@ -2341,7 +2341,7 @@
 					id: "minecraft:written_book"
 					tag: {
 						author: "Rat Police Chief"
-						pages: ["{\"text\":\"§c§lHALT!\\n------\\n\\n§7Please do make sure to not disturb the animals! You will be granted a wildlife photography licence on the condition that you §d§nRESPECT NATURE!\\n\\n§7Don't make me get Swampy Bogbeard!\"}"]
+						pages: ["{\"translate\":\"page.mce2.animal_compendium.1\"}"]
 						resolved: 1b
 						title: "Terms & Conditions!"
 					}

@@ -1423,8 +1423,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1777,8 +1777,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}
@@ -1847,8 +1847,8 @@
 						id: "ftbquests:lootcrate"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
+								Lore: ["{\"translate\":\"lore.mce2.modular_tools.1\"}"]
+								Name: "{\"translate\":\"lore.mce2.modular_tools.2\"}"
 							}
 							type: "curious_box"
 						}

@@ -10,13 +10,13 @@
 			AntiqueInk: 1b
 			author: "Cheferatu"
 			display: {
-				Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
-				Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+				Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+				Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
 			}
 			generation: 3
 			pages: [
-				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"text\":\"animandan\"}}},\"extra\":[{\"text\":\"animandan\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
-				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"translate\":\"page.mce2.vampires_cookbook.1\"}}},\"extra\":[{\"translate\":\"page.mce2.vampires_cookbook.1\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
 			]
 			resolved: 1b
 			title: "To Serve Man"
@@ -308,13 +308,13 @@
 						AntiqueInk: 1b
 						author: "Cheferatu"
 						display: {
-							Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
-							Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+							Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+							Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
 						}
 						generation: 3
 						pages: [
-							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
-							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
 						]
 						title: "To Serve Man"
 					}
