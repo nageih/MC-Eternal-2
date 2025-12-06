@@ -266,10 +266,10 @@
 		{
 			description: [
 				""
-				"&6Welcome to &5Occultism&6!"
-				"&5Occultism &7is a mod that enables you to automate various tasks, efficiently store items, and delve into the fascinating world of rituals and &4demons&7.  "
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description1}"
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description2}"
 				""
-				"&7To begin your journey, seek out &dDemon's Dream Seeds &7by harvesting grass in your surroundings. Once obtained, you can craft your very own &bDictionary of Spirits &7— your essential guide to the &5Spirit Realm&7!"
+				"{ftbquests.chapter.occultism.quest3904327047552619806.description3}"
 				"{@pagebreak}"
 			]
 			icon: {
@@ -301,13 +301,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -322,7 +322,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Introduction To The Occult"
+			subtitle: "{ftbquests.chapter.occultism.quest3904327047552619806.subtitle}"
 			tasks: [{
 				id: "6EC3CC6930C1BB4A"
 				item: {
@@ -334,15 +334,15 @@
 				}
 				type: "item"
 			}]
-			title: "&6The Dictionary Of Spirits"
+			title: "{ftbquests.chapter.occultism.quest3904327047552619806.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["362EF4C38452D51E"]
 			description: [
-				"&7To continue your journey, acquire another &dDemon's Dream Seed&7 and plant it on &6farmland&7."
-				"&7Once it has fully grown, harvest the &dfruit&7 it bears — who knew dreaming could be so easy!"
+				"{ftbquests.chapter.occultism.quest352171864690532200.description1}"
+				"{ftbquests.chapter.occultism.quest352171864690532200.description2}"
 			]
 			id: "04E32A71EEC41F68"
 			rewards: [{
@@ -352,24 +352,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Dark Fruit"
+			subtitle: "{ftbquests.chapter.occultism.quest352171864690532200.subtitle}"
 			tasks: [{
 				id: "5B1B04CDDFD5B1ED"
 				item: "occultism:datura"
 				type: "item"
 			}]
-			title: "&6The Fruit Of Dreams"
+			title: "{ftbquests.chapter.occultism.quest352171864690532200.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["04E32A71EEC41F68"]
 			description: [
-				"&7To create your very own &5Spirit Fire&7, simply toss your &dDream Fruit &7onto the ground, then ignite it using a &6Flint and Steel&7."
-				"&7There’s no need for concern — this mystical flame &adoes not spread&7, &adoes not extinguish itself&7, and &adoes not harm you&7."
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description1}"
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description2}"
 				""
-				"&7Next, toss &6Andesite Blocks &7directly into the &5Spirit Fire&7.  "
-				"&7After a brief moment, they will be consumed by the flames and transformed, rewarding you with &6Stone &7from the other side."
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description3}"
+				"{ftbquests.chapter.occultism.quest8381513675094618102.description4}"
 			]
 			icon: "occultism:spirit_fire"
 			id: "74511E47C417EFF6"
@@ -380,11 +380,11 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "My Fires Purple?!"
+			subtitle: "{ftbquests.chapter.occultism.quest8381513675094618102.subtitle}"
 			tasks: [
 				{
 					id: "5549E7BF111D9CA1"
-					title: "Make Spirit Fire"
+					title: "{ftbquests.chapter.occultism.quest8381513675094618102.task.6145697974335675553.title}"
 					type: "checkmark"
 				}
 				{
@@ -394,19 +394,19 @@
 					type: "item"
 				}
 			]
-			title: "&6Spirit Fire"
+			title: "{ftbquests.chapter.occultism.quest8381513675094618102.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["74511E47C417EFF6"]
 			description: [
-				"&7Another step before you can begin your first ritual is &eCandles&7!"
-				"&7To craft these, you will need a wick and some fuel — &4<shake>SOME BLOO-&7... &7I mean, some perfectly harmless fuel."
-				"&7To obtain &6Tallow&7, first create a &6Butcher's Knife&7 using &f2 Iron Ingots &7and &f3 Sticks&7."
-				"&7Then, hunt a few animals — they will drop &6Tallow&7. Isn’t that fun~?  "
+				"{ftbquests.chapter.occultism.quest653173348705175433.description1}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description2}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description3}"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description4}"
 				""
-				"&7Finally, combine &fString &7and &6Tallow &7to craft your very own &eCandle&7!"
+				"{ftbquests.chapter.occultism.quest653173348705175433.description5}"
 				"{@pagebreak}"
 			]
 			icon: "occultism:candle_white"
@@ -418,7 +418,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "&4First Blood"
+			subtitle: "{ftbquests.chapter.occultism.quest653173348705175433.subtitle}"
 			tasks: [
 				{
 					id: "61CF9DEADEB9AB58"
@@ -444,15 +444,15 @@
 					type: "item"
 				}
 			]
-			title: "&6Butcher"
+			title: "{ftbquests.chapter.occultism.quest653173348705175433.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["091089B332530789"]
 			description: [
-				"&7Did you know you can also use &eother candles&7?  "
-				"&7Feel free to experiment — the &5Spirit Realm &7isn’t picky about style!"
+				"{ftbquests.chapter.occultism.quest9220715628425286255.description1}"
+				"{ftbquests.chapter.occultism.quest9220715628425286255.description2}"
 			]
 			id: "7FF69002B72E926F"
 			optional: true
@@ -463,25 +463,25 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Colours!"
+			subtitle: "{ftbquests.chapter.occultism.quest9220715628425286255.subtitle}"
 			tasks: [{
 				id: "3768D019AB741869"
-				title: "Did you know?"
+				title: "{ftbquests.chapter.occultism.quest9220715628425286255.task.3992669878333216873.title}"
 				type: "checkmark"
 			}]
-			title: "&eDid you know?"
+			title: "{ftbquests.chapter.occultism.quest9220715628425286255.title}"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["091089B332530789"]
 			description: [
-				"&7To begin, toss a few &2Oak Saplings &7into your &5Spirit Fire&7 — it might be wise to add several for future use."
-				"&7Next, plant them and patiently wait for them to grow. They may appear ordinary, but to the spirits, they are &dmysterious &7and &dimportant&7."
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description1}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description2}"
 				""
-				"&7Once they have matured, eat one of your &dDream Fruits&7 to glimpse what the spirits see. "
-				"&7After your vision changes, gather the &6logs&7 and return..."
-				"&7But try not to bring back any... &4<shake>‘friends’&7. That would be... undesirable. At least, for now."
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description3}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description4}"
+				"{ftbquests.chapter.occultism.quest1220691420592144448.description5}"
 			]
 			icon: "occultism:otherworld_sapling"
 			id: "10F0C46128C30040"
@@ -506,13 +506,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Mirror"
+			subtitle: "{ftbquests.chapter.occultism.quest1220691420592144448.subtitle}"
 			tasks: [
 				{
 					id: "1453CDE0DFB8F785"
@@ -544,20 +544,20 @@
 					type: "item"
 				}
 			]
-			title: "&6The Other World"
+			title: "{ftbquests.chapter.occultism.quest1220691420592144448.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["10F0C46128C30040"]
 			description: [
-				"&7Ahh, &fChalk&7... brings back memories~  "
-				"&7To craft your very own &fChalk&7, place both &6Otherworld Wood &7and &6Otherstone &7into a &6Furnace&7."
-				"&7Burn them to create &cOtherworld Ash&7 and &cBurnt Otherstone&7, then combine them in a &6Crafting Table&7 to make some &fChalk&7!"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description1}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description2}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description3}"
 				""
-				"&7Unfortunately... you didn’t do a very good job. &7Humans never do."
-				"&7Come on, hand it over — toss it into your &5Spirit Fire&7 and I’ll clean it for you."
-				"&7It will only take a moment."
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description4}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description5}"
+				"{ftbquests.chapter.occultism.quest1840050031300507780.description6}"
 			]
 			icon: {
 				Count: 1
@@ -574,7 +574,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "A Chalk Drawing"
+			subtitle: "{ftbquests.chapter.occultism.quest1840050031300507780.subtitle}"
 			tasks: [
 				{
 					count: 3L
@@ -605,15 +605,15 @@
 					type: "item"
 				}
 			]
-			title: "&6Childhood Memories"
+			title: "{ftbquests.chapter.occultism.quest1840050031300507780.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19892BC1249CF884"]
 			description: [
-				"&7To offer items to the spirits, you will need to craft &6Sacrificial Bowls&7."
-				"&7Simply use the remaining &6Otherstone &7you created earlier to make them."
+				"{ftbquests.chapter.occultism.quest2607923544294834026.description1}"
+				"{ftbquests.chapter.occultism.quest2607923544294834026.description2}"
 			]
 			icon: "occultism:golden_sacrificial_bowl"
 			id: "243134A56B123F6A"
@@ -624,7 +624,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Offerings"
+			subtitle: "{ftbquests.chapter.occultism.quest2607923544294834026.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -638,24 +638,24 @@
 					type: "item"
 				}
 			]
-			title: "&6Not For Cereal"
+			title: "{ftbquests.chapter.occultism.quest2607923544294834026.title}"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["243134A56B123F6A"]
 			description: [
-				"&7It’s time to create a &afriend&7!  "
-				"&7But before we can craft your first &5pentacle &7to summon them, we’ll need to find them first.  "
+				"{ftbquests.chapter.occultism.quest267136015529809870.description1}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description2}"
 				""
-				"&7Fortunately, this is easy in &dThe Otherworld&7! "
-				"&7Simply toss a &fBook&7, a &fFeather&7, and &0Black Dye &7into your &5Spirit Fire&7."
-				"&7Then, combine the result with &f4 White Dye &7to create a &6Foliot Book of Binding&7."
+				"{ftbquests.chapter.occultism.quest267136015529809870.description3}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description4}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description5}"
 				""
-				"&7At this point, it is still unbound — so merge the unbound book with your &bDictionary of Spirits &7to complete the binding. "
-				"&7For now, your friend is tied directly to the book, meaning you can’t see them yet...  "
+				"{ftbquests.chapter.occultism.quest267136015529809870.description6}"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description7}"
 				""
-				"&7Don’t worry — we’re about to reveal your new companion!"
+				"{ftbquests.chapter.occultism.quest267136015529809870.description8}"
 			]
 			icon: {
 				Count: 1
@@ -672,7 +672,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Bind a friend"
+			subtitle: "{ftbquests.chapter.occultism.quest267136015529809870.subtitle}"
 			tasks: [
 				{
 					id: "1E8F0086C4C3D52D"
@@ -707,19 +707,19 @@
 					type: "item"
 				}
 			]
-			title: "&6Your First Binding"
+			title: "{ftbquests.chapter.occultism.quest267136015529809870.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["03B50ECA705E17CE"]
 			description: [
-				"&7To create your first &5ritual&7, gather everything you’ve crafted and place it on the ground in a specific order."
-				"&7Don’t worry — you can discover the correct arrangement by following your &bDictionary of Spirits&7!"
-				"&7I can even visualise it in your world for you — just click the &eEye &7icon in the bottom left of the ritual page."
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description1}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description2}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description3}"
 				""
-				"&7Once everything is in place, offer your items and wait for your new &afriend &7to take them."
-				"&7Welcome home, &afriend&7!"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description4}"
+				"{ftbquests.chapter.occultism.quest3635146049401499018.description5}"
 			]
 			icon: "occultism:ritual_dummy/summon_foliot_crusher"
 			id: "3272A212753DAD8A"
@@ -744,7 +744,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Welcome Friend!"
+			subtitle: "{ftbquests.chapter.occultism.quest3635146049401499018.subtitle}"
 			tasks: [
 				{
 					id: "5D115A2C0275315F"
@@ -770,7 +770,7 @@
 							value: "forge:raw_materials/silver"
 						}
 					}
-					title: "Any #forge:raw_materials/silver"
+					title: "{ftbquests.chapter.occultism.quest3635146049401499018.task.7002607421791384888.title}"
 					type: "item"
 				}
 				{
@@ -781,16 +781,16 @@
 					type: "advancement"
 				}
 			]
-			title: "&4Friends Forever"
+			title: "{ftbquests.chapter.occultism.quest3635146049401499018.title}"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["03B50ECA705E17CE"]
 			description: [
-				"&7Did you know you can create &6Empty Books of Binding&7 in two ways? "
-				"&7Simply toss a &fBook and Quill &7into the &5Spirit Fire&7, or craft one without any dye.  "
-				"&7They’re perfect to keep in storage for future use!"
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description1}"
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description2}"
+				"{ftbquests.chapter.occultism.quest7205753566080230259.description3}"
 			]
 			id: "63FFFAB0CD376373"
 			optional: true
@@ -801,24 +801,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Book Of Binding: Empty"
+			subtitle: "{ftbquests.chapter.occultism.quest7205753566080230259.subtitle}"
 			tasks: [{
 				id: "066EAACE47F7B2A6"
-				title: "Did you know?"
+				title: "{ftbquests.chapter.occultism.quest7205753566080230259.task.463495614613140134.title}"
 				type: "checkmark"
 			}]
-			title: "&eDid you know?"
+			title: "{ftbquests.chapter.occultism.quest7205753566080230259.title}"
 			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3272A212753DAD8A"]
 			description: [
-				"&7Well done on creating your first &6Foliot Crusher&7!  "
-				"&7You’ve got the basics down — but your work isn’t over yet. Now you have a &afriend &7to help!"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description1}"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description2}"
 				""
-				"&7Feed your crusher ores or rocks and it will return &6Crushed Ores&7, which are vital for future crafting. "
-				"&7For example: toss &63 Gold Ingots &7to your crusher to make &6Golden Chalk&7!"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description3}"
+				"{ftbquests.chapter.occultism.quest8273544086428870792.description4}"
 			]
 			icon: {
 				Count: 1
@@ -835,7 +835,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Oh Lawd He's Crushin'"
+			subtitle: "{ftbquests.chapter.occultism.quest8273544086428870792.subtitle}"
 			tasks: [
 				{
 					id: "37A9C88A550DC8F0"
@@ -846,7 +846,7 @@
 							value: "forge:dusts/gold"
 						}
 					}
-					title: "Any #forge:dusts/gold"
+					title: "{ftbquests.chapter.occultism.quest8273544086428870792.task.4010957439608146160.title}"
 					type: "item"
 				}
 				{
@@ -866,15 +866,15 @@
 					type: "item"
 				}
 			]
-			title: "&6Crushing Work!"
+			title: "{ftbquests.chapter.occultism.quest8273544086428870792.title}"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["72D18882F1206888"]
 			description: [
-				"&7Did you know your &6Crusher &7can increase ore yields?  "
-				"&7You’ll get even more if the ores were mined with &bSilk Touch&7!"
+				"{ftbquests.chapter.occultism.quest1958989025882807954.description1}"
+				"{ftbquests.chapter.occultism.quest1958989025882807954.description2}"
 			]
 			id: "1B2FBA23CEA21E92"
 			optional: true
@@ -885,23 +885,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Better Yeild!"
+			subtitle: "{ftbquests.chapter.occultism.quest1958989025882807954.subtitle}"
 			tasks: [{
 				id: "1AA627C791602E74"
-				title: "&6Did you know?"
+				title: "{ftbquests.chapter.occultism.quest1958989025882807954.task.1920266029211070068.title}"
 				type: "checkmark"
 			}]
-			title: "&eDid you know?"
+			title: "{ftbquests.chapter.occultism.quest1958989025882807954.title}"
 			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["72D18882F1206888"]
 			description: [
-				"&7Who knew you could store items in the &dOtherworld&7?  "
-				"&7With a few more &5rituals&7 you can craft a &6Dimensional Storage Actuator&7 — check your &bDictionary&7 for the pattern.  "
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description1}"
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description2}"
 				""
-				"&7It holds &a128 slots&7, each storing up to &a1024 items&7!"
+				"{ftbquests.chapter.occultism.quest3506934891250771886.description3}"
 			]
 			icon: "occultism:storage_controller"
 			id: "30AB22B3FB6CE7AE"
@@ -926,7 +926,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Storage In The Otherworld!"
+			subtitle: "{ftbquests.chapter.occultism.quest3506934891250771886.subtitle}"
 			tasks: [
 				{
 					id: "6D04A993327AD55A"
@@ -953,15 +953,15 @@
 					type: "item"
 				}
 			]
-			title: "Dimensional Storage!"
+			title: "{ftbquests.chapter.occultism.quest3506934891250771886.title}"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["30AB22B3FB6CE7AE"]
 			description: [
-				"&7Not enough storage? No problem! "
-				"&7Build &6Dimensional Storage Stabilizers&7 to expand your space — up to &a6 &7can be used at once."
+				"{ftbquests.chapter.occultism.quest6569490076782776063.description1}"
+				"{ftbquests.chapter.occultism.quest6569490076782776063.description2}"
 			]
 			id: "5B2B846B0E174EFF"
 			rewards: [
@@ -985,13 +985,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1006,21 +1006,21 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "More storage!"
+			subtitle: "{ftbquests.chapter.occultism.quest6569490076782776063.subtitle}"
 			tasks: [{
 				id: "2FDCC29A2B702939"
 				item: "occultism:storage_stabilizer_tier1"
 				type: "item"
 			}]
-			title: "&6T1 Storage Stabilizer"
+			title: "{ftbquests.chapter.occultism.quest6569490076782776063.title}"
 			x: 0.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["5B2B846B0E174EFF"]
 			description: [
-				"&7O-Oh! Still not enough storage? That’s fine— "
-				"&7You can upgrade your &6Storage Stabilizers&7 through additional &5rituals&7!"
+				"{ftbquests.chapter.occultism.quest982204521289093032.description1}"
+				"{ftbquests.chapter.occultism.quest982204521289093032.description2}"
 			]
 			id: "0DA17DCEE4380FA8"
 			rewards: [
@@ -1044,13 +1044,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1065,25 +1065,25 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Full To The Brim"
+			subtitle: "{ftbquests.chapter.occultism.quest982204521289093032.subtitle}"
 			tasks: [{
 				id: "22200FB25E39FC1B"
 				item: "occultism:storage_stabilizer_tier2"
 				type: "item"
 			}]
-			title: "&6T2 Storage Stabilizer"
+			title: "{ftbquests.chapter.occultism.quest982204521289093032.title}"
 			x: -2.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["0DA17DCEE4380FA8"]
 			description: [
-				"&7Huh?! Do you really need that many items? "
-				"&7Maybe clear some space — I see those &6chestplates &7you’ve never touched! "
-				"&7You know I have to sort this every time you toss more junk in here, right?  "
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description1}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description2}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description3}"
 				""
-				"&7Anyway... yes, you can upgrade further.  "
-				"&7But this time it won’t be so easy — you’ll need to defeat &dGaia &7(from &aBotania&7)."
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description4}"
+				"{ftbquests.chapter.occultism.quest4312593453813538688.description5}"
 			]
 			id: "3BD968E5AB3B1F80"
 			rewards: [
@@ -1107,24 +1107,24 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Even more?!"
+			subtitle: "{ftbquests.chapter.occultism.quest4312593453813538688.subtitle}"
 			tasks: [{
 				id: "090C52BCCD288E07"
 				item: "occultism:storage_stabilizer_tier3"
 				type: "item"
 			}]
-			title: "&6T3 Storage Stabilizer"
+			title: "{ftbquests.chapter.occultism.quest4312593453813538688.title}"
 			x: 0.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["3BD968E5AB3B1F80"]
 			description: [
-				"&7EVEN MORE?! No, you can’t!  "
-				"&7I’m literally swimming in your loot over here!  "
+				"{ftbquests.chapter.occultism.quest522835088136680408.description1}"
+				"{ftbquests.chapter.occultism.quest522835088136680408.description2}"
 				""
-				"&7Luckily, you can’t swamp me with any more until you’ve slain the &5Dragon&7.  "
-				"&7Haha~ it’s not like some &6Bee Queen &7would just hand you &5Dragon’s Breath&7... right?"
+				"{ftbquests.chapter.occultism.quest522835088136680408.description3}"
+				"{ftbquests.chapter.occultism.quest522835088136680408.description4}"
 			]
 			id: "07417BBE187F33D8"
 			rewards: [
@@ -1148,21 +1148,21 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "&4<shake>ENOUGH!"
+			subtitle: "{ftbquests.chapter.occultism.quest522835088136680408.subtitle}"
 			tasks: [{
 				id: "619A280401B25EC2"
 				item: "occultism:storage_stabilizer_tier4"
 				type: "item"
 			}]
-			title: "&6T4 Storage Stabilizer"
+			title: "{ftbquests.chapter.occultism.quest522835088136680408.title}"
 			x: 2.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["30AB22B3FB6CE7AE"]
 			description: [
-				"&7A &6Wormhole &7lets you access your storage from anywhere —  "
-				"&7even across &dDimensions&7!"
+				"{ftbquests.chapter.occultism.quest7752461306823572143.description1}"
+				"{ftbquests.chapter.occultism.quest7752461306823572143.description2}"
 			]
 			id: "6B96467BF82DFAAF"
 			rewards: [
@@ -1186,13 +1186,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1206,7 +1206,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dimensional Delivery"
+			subtitle: "{ftbquests.chapter.occultism.quest7752461306823572143.subtitle}"
 			tasks: [{
 				id: "1EBA8754BA164E06"
 				item: {
@@ -1216,15 +1216,15 @@
 				}
 				type: "item"
 			}]
-			title: "&6Wormhole"
+			title: "{ftbquests.chapter.occultism.quest7752461306823572143.title}"
 			x: 0.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["6B96467BF82DFAAF"]
 			description: [
-				"&7The &6Storage Accessor &7lets you access your storage remotely!  "
-				"&7Isn’t that helpful? &7Goodbye, backpacks!"
+				"{ftbquests.chapter.occultism.quest8040964005359393824.description1}"
+				"{ftbquests.chapter.occultism.quest8040964005359393824.description2}"
 			]
 			id: "6F973E28F7261C20"
 			optional: true
@@ -1249,7 +1249,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Portable Storage"
+			subtitle: "{ftbquests.chapter.occultism.quest8040964005359393824.subtitle}"
 			tasks: [{
 				id: "39AB2C0774E3EEE2"
 				item: {
@@ -1259,13 +1259,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6Handheld Wormhole"
+			title: "{ftbquests.chapter.occultism.quest8040964005359393824.title}"
 			x: 1.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["6B96467BF82DFAAF"]
-			description: ["&7Make sure your &6Storage &7stays loaded — otherwise you won’t be able to access it!"]
+			description: ["{ftbquests.chapter.occultism.quest6340534686831243291.description1}"]
 			id: "57FE1AB43E9E701B"
 			optional: true
 			rewards: [{
@@ -1275,19 +1275,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Loaded chunks"
+			subtitle: "{ftbquests.chapter.occultism.quest6340534686831243291.subtitle}"
 			tasks: [{
 				id: "4FC7812060FD7C2D"
-				title: "&6Tip"
+				title: "{ftbquests.chapter.occultism.quest6340534686831243291.task.5748705425427889197.title}"
 				type: "checkmark"
 			}]
-			title: "&eTip"
+			title: "{ftbquests.chapter.occultism.quest6340534686831243291.title}"
 			x: -1.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["6F973E28F7261C20"]
-			description: ["&7Because &6Warp Stones &7come late in the game, it may be easier to link your &5Occultism Storage &7with another system, like &dArs Nouveau&7."]
+			description: ["{ftbquests.chapter.occultism.quest8275902639326351017.description1}"]
 			id: "72D9E99A54C3CEA9"
 			optional: true
 			rewards: [{
@@ -1297,25 +1297,25 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Alternatives"
+			subtitle: "{ftbquests.chapter.occultism.quest8275902639326351017.subtitle}"
 			tasks: [{
 				id: "3648C051E0812B5F"
 				type: "checkmark"
 			}]
-			title: "&eOther Storage Remotes"
+			title: "{ftbquests.chapter.occultism.quest8275902639326351017.title}"
 			x: 2.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["2B5918000CFDC02A"]
 			description: [
-				"&7Although you can’t see everything on the other side, you can catch a &aglimpse&7 of what we see. "
-				"&7You’ve already tried, but it didn’t last long…  "
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description1}"
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description2}"
 				""
-				"&7Wouldn’t you like to explore the &dOtherworld &7for longer? Lucky for you, I might have just what you need!  "
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description3}"
 				""
-				"&7Crafting these &6Goggles &7gives the same effect as a &fDream Fruit &7—forever, while worn.  "
-				"&7Plus, no distortion effects like the fruit!"
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description4}"
+				"{ftbquests.chapter.occultism.quest3594066650940302713.description5}"
 			]
 			id: "31E0B093AC5FE579"
 			rewards: [
@@ -1339,13 +1339,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1359,7 +1359,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Look Into The Other Side"
+			subtitle: "{ftbquests.chapter.occultism.quest3594066650940302713.subtitle}"
 			tasks: [{
 				id: "5A6F1A6C4C326794"
 				item: {
@@ -1370,22 +1370,22 @@
 					}
 				}
 				match_nbt: false
-				title: "Otherworld Goggles"
+				title: "{ftbquests.chapter.occultism.quest3594066650940302713.task.6516456238265558932.title}"
 				type: "item"
 			}]
-			title: "&6Otherworld Vision"
+			title: "{ftbquests.chapter.occultism.quest3594066650940302713.title}"
 			x: -5.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["72D18882F1206888"]
 			description: [
-				"&7You should now understand the basics of &5Occultism&7, and can expand into summoning &dmore spirits &7— even stronger ones!"
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description1}"
 				""
-				"&7Unfortunately, you may not yet have all the &6items &7needed for certain &5rituals&7.  "
-				"&7But don’t worry — &5Occultism &7provides ways to obtain them!  "
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description2}"
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description3}"
 				""
-				"&7The most important are &fSkeleton Skulls &7and &dEnd Stone&7."
+				"{ftbquests.chapter.occultism.quest6431773933614730601.description4}"
 			]
 			id: "59424050CCB90D69"
 			rewards: [{
@@ -1395,24 +1395,24 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Long Road Ahead"
+			subtitle: "{ftbquests.chapter.occultism.quest6431773933614730601.subtitle}"
 			tasks: [{
 				id: "34B435B8AF1A69D3"
-				title: "The Expanding World"
+				title: "{ftbquests.chapter.occultism.quest6431773933614730601.task.3797719453108169171.title}"
 				type: "checkmark"
 			}]
-			title: "&6Basics Of Possession"
+			title: "{ftbquests.chapter.occultism.quest6431773933614730601.title}"
 			x: 3.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["72D18882F1206888"]
 			description: [
-				"&7&6Spirit Attuned Gems &7are vital for rituals. "
-				"&7Sadly for you humans, they cost a pretty penny!  "
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description1}"
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description2}"
 				""
-				"&7Throw a &bDiamond &7into your &5Spirit Fire &7to create one.  "
-				"&7You’ll need at least &a9 &7for the next step—and many more later!"
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description3}"
+				"{ftbquests.chapter.occultism.quest3123554205055172650.description4}"
 			]
 			id: "2B5918000CFDC02A"
 			rewards: [{
@@ -1422,23 +1422,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Spirit Attuned Gem"
+			subtitle: "{ftbquests.chapter.occultism.quest3123554205055172650.subtitle}"
 			tasks: [{
 				id: "433A2EF419EF26DF"
 				item: "occultism:spirit_attuned_gem"
 				type: "item"
 			}]
-			title: "&6Gem of the Otherworld"
+			title: "{ftbquests.chapter.occultism.quest3123554205055172650.title}"
 			x: -3.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["31E0B093AC5FE579"]
 			description: [
-				"&7You’ve almost seen all the &dOtherworld &7resources your inferior human eyes can spot. "
-				"&7Honestly, I’m sure you could make a deal with the devil to see the rest…  "
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description1}"
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description2}"
 				""
-				"&7Anyway, this &6Pickaxe &7lets you mine the final resource!"
+				"{ftbquests.chapter.occultism.quest6547098498407627598.description3}"
 			]
 			icon: {
 				Count: 1
@@ -1470,13 +1470,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1490,7 +1490,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Infused Pickaxe"
+			subtitle: "{ftbquests.chapter.occultism.quest6547098498407627598.subtitle}"
 			tasks: [
 				{
 					id: "5794606999D019EE"
@@ -1510,13 +1510,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Brittle Pickaxe"
+			title: "{ftbquests.chapter.occultism.quest6547098498407627598.title}"
 			x: -7.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["0D06AE88847D9D31"]
-			description: ["&7A &6Dimensional Mineshaft &7lets you automatically mine ores from the &dMining Dimension&7!"]
+			description: ["{ftbquests.chapter.occultism.quest7194615247323750013.description1}"]
 			id: "63D86872E0575E7D"
 			rewards: [
 				{
@@ -1538,25 +1538,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wormhole To The Mining Dimension"
+			subtitle: "{ftbquests.chapter.occultism.quest7194615247323750013.subtitle}"
 			tasks: [{
 				id: "22E2CC84E5EA1CB3"
 				item: "occultism:dimensional_mineshaft"
 				type: "item"
 			}]
-			title: "&6Dimesnional Mineshaft"
+			title: "{ftbquests.chapter.occultism.quest7194615247323750013.title}"
 			x: -6.0d
 			y: -16.0d
 		}
 		{
 			dependencies: ["5ADBF76573147B4E"]
 			description: [
-				"&7Mining &6Iesnium &7is easy!  "
+				"{ftbquests.chapter.occultism.quest938629473714937137.description1}"
 				""
-				"&7Grab a &6Divination Rod &7and bind it to &4Netherrack &7(Shift + Right Click).  "
-				"&7Then uncrouch and hold Right Click in a &cNetherite &7tunnel —nearby &6Iesnium &7will light up!"
+				"{ftbquests.chapter.occultism.quest938629473714937137.description2}"
+				"{ftbquests.chapter.occultism.quest938629473714937137.description3}"
 				""
-				"&7Mine it with your &6Infused Pickaxe&7!"
+				"{ftbquests.chapter.occultism.quest938629473714937137.description4}"
 			]
 			icon: "occultism:iesnium_ingot"
 			id: "0D06AE88847D9D31"
@@ -1581,13 +1581,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1601,7 +1601,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iesnium Miner"
+			subtitle: "{ftbquests.chapter.occultism.quest938629473714937137.subtitle}"
 			tasks: [
 				{
 					id: "4C62A6D6308F1E3E"
@@ -1623,18 +1623,18 @@
 					type: "item"
 				}
 			]
-			title: "&6Iesnium"
+			title: "{ftbquests.chapter.occultism.quest938629473714937137.title}"
 			x: -9.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["63D86872E0575E7D"]
 			description: [
-				"&7Done with your &6Mineshaft&7? Still not working?  "
-				"&7Well, of course — energy doesn’t create itself! "
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description1}"
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description2}"
 				""
-				"&7You’ll need someone to mine for you.  "
-				"&7Bind a &dDjinni &7to a &6Magic Lamp &7and let them do the hard work!"
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description3}"
+				"{ftbquests.chapter.occultism.quest4587507024651630646.description4}"
 			]
 			id: "3FAA195550F83836"
 			rewards: [
@@ -1658,13 +1658,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1679,7 +1679,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Miner Minion"
+			subtitle: "{ftbquests.chapter.occultism.quest4587507024651630646.subtitle}"
 			tasks: [{
 				id: "156A9385FB4A2922"
 				item: {
@@ -1695,17 +1695,17 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Automatic Mining"
+			title: "{ftbquests.chapter.occultism.quest4587507024651630646.title}"
 			x: -4.0d
 			y: -16.0d
 		}
 		{
 			dependencies: ["63D86872E0575E7D"]
 			description: [
-				"&7Your &dDjinni &7still not working hard enough?  "
-				"&7Well… to be fair, they’re not getting paid.  "
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description1}"
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description2}"
 				""
-				"&7No problem! Just overwrite them with an &cAfrit Miner&7!"
+				"{ftbquests.chapter.occultism.quest7040476626497107504.description3}"
 			]
 			id: "61B4CC3093CCF630"
 			rewards: [
@@ -1729,7 +1729,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Afrit Miner"
+			subtitle: "{ftbquests.chapter.occultism.quest7040476626497107504.subtitle}"
 			tasks: [{
 				id: "101DCD09DC358FF8"
 				item: {
@@ -1745,17 +1745,17 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Better Miner"
+			title: "{ftbquests.chapter.occultism.quest7040476626497107504.title}"
 			x: -5.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["63D86872E0575E7D"]
 			description: [
-				"&7Still too slow? Try binding a &1Marid&7 — one of the strongest spirits of the &dOtherworld&7.  "
-				"&7Few humans have ever succeeded in binding them…  "
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description1}"
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description2}"
 				""
-				"&7I would… &4<shake>avoid upsetting them&7."
+				"{ftbquests.chapter.occultism.quest2129076153642739630.description3}"
 			]
 			id: "1D8BFF7B3DA167AE"
 			rewards: [
@@ -1779,7 +1779,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Marid"
+			subtitle: "{ftbquests.chapter.occultism.quest2129076153642739630.subtitle}"
 			tasks: [{
 				id: "3D13D33838EF6EF3"
 				item: {
@@ -1795,18 +1795,18 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Master Of Mining"
+			title: "{ftbquests.chapter.occultism.quest2129076153642739630.title}"
 			x: -6.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["3272A212753DAD8A"]
 			description: [
-				"&7Fortunately, this &5ritual &7was easy — no sacrifice needed.  "
-				"&7But later rituals may require one. If &7gray dust &7appears around the circle, a sacrifice is needed.  "
+				"{ftbquests.chapter.occultism.quest844742277781913215.description1}"
+				"{ftbquests.chapter.occultism.quest844742277781913215.description2}"
 				""
-				"&7Slay it nearby to begin the ritual.  "
-				"&7instead of &6Minecarts&7, you can use a &dSoul Gem &7(found later in this chapter) to transport sacrifices!"
+				"{ftbquests.chapter.occultism.quest844742277781913215.description3}"
+				"{ftbquests.chapter.occultism.quest844742277781913215.description4}"
 			]
 			id: "0BB920A041F1FE7F"
 			optional: true
@@ -1817,28 +1817,28 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "The Sacrificial Lamb"
+			subtitle: "{ftbquests.chapter.occultism.quest844742277781913215.subtitle}"
 			tasks: [{
 				id: "5D05D51AF47F6F75"
-				title: "&6Tip"
+				title: "{ftbquests.chapter.occultism.quest844742277781913215.task.6702997932158709621.title}"
 				type: "checkmark"
 			}]
-			title: "&eTip"
+			title: "{ftbquests.chapter.occultism.quest844742277781913215.title}"
 			x: -1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["03B50ECA705E17CE"]
 			description: [
-				"&7There are &65 types of spirits &7in this realm — but only &64 &7have ever been bound by humans. "
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description1}"
 				""
-				"&6Foliot &7— the weakest, lacking intelligence, often used for simple labor.  "
-				"&6Djinni &7— commonly conjured, trusted with more important tasks.  "
-				"&6Afrit &7— powerful, with strength and intelligence beyond humans; only the most skilled cultists should summon them."
-				"&6Marid &7— the strongest bound spirits. But beware… are they serving you, or are you serving them?  "
-				"&6Greater Spirits &7— the most powerful beings in existence. They cannot be bound by your silly books. &7Don’t even try."
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description2}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description3}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description4}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description5}"
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description6}"
 				""
-				"&7&oYou can read more about this in your &bDictionary of Spirits&7."
+				"{ftbquests.chapter.occultism.quest6377873408296942791.description7}"
 			]
 			id: "5882C212CBF2FCC7"
 			optional: true
@@ -1863,13 +1863,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1883,7 +1883,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The 5 Spirits"
+			subtitle: "{ftbquests.chapter.occultism.quest6377873408296942791.subtitle}"
 			tasks: [
 				{
 					id: "7AB2D444E409BDFF"
@@ -1906,15 +1906,15 @@
 					type: "item"
 				}
 			]
-			title: "&eBooks Of Binding"
+			title: "{ftbquests.chapter.occultism.quest6377873408296942791.title}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["3272A212753DAD8A"]
 			description: [
-				"&6Foliot Demons &7are the weakest &dspirits&7, and unlike the others, they &cdecay slowly&7 over time. "
-				"&7To view their &cdecay status&7, &eCrouch &7and &eRight Click &7on your &6Foliot&7."
+				"{ftbquests.chapter.occultism.quest20701095601415897.description1}"
+				"{ftbquests.chapter.occultism.quest20701095601415897.description2}"
 			]
 			id: "00498B8969C8A6D9"
 			optional: true
@@ -1925,10 +1925,10 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Decay Of Spirits"
+			subtitle: "{ftbquests.chapter.occultism.quest20701095601415897.subtitle}"
 			tasks: [{
 				id: "6FBA61C667977669"
-				title: "&eFoliot Decay "
+				title: "{ftbquests.chapter.occultism.quest20701095601415897.task.8050854788647581289.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1937,9 +1937,9 @@
 		{
 			dependencies: ["59424050CCB90D69"]
 			description: [
-				"&7To gain &fSkeleton Skulls&7, summon a &6Possessed Skeleton&7 using the &5Pentacle: Hedyrin's Lure&7."
+				"{ftbquests.chapter.occultism.quest4481823838795305522.description1}"
 				""
-				"&7If the ritual refuses to begin, the reason is simple —  &7the &dspirits demand a sacrifice&7. Slay a &fChicken &7nearby to appease them."
+				"{ftbquests.chapter.occultism.quest4481823838795305522.description2}"
 			]
 			id: "3E32A30921459232"
 			rewards: [
@@ -1963,13 +1963,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -1984,23 +1984,23 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Skeleton Skulls"
+			subtitle: "{ftbquests.chapter.occultism.quest4481823838795305522.subtitle}"
 			tasks: [{
 				id: "0BEAA88296E53E8B"
 				item: "minecraft:skeleton_skull"
 				type: "item"
 			}]
-			title: "&6Possessed Skeleton"
+			title: "{ftbquests.chapter.occultism.quest4481823838795305522.title}"
 			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["59424050CCB90D69"]
 			description: [
-				"&7To obtain &dEnd Stone&7, summon a &6Possessed Endermite&7 using the &5Pentacle: Hedyrin's Lure&7.  "
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description1}"
 				""
-				"&7To begin the ritual, throw an &fEgg &7into the circle.  "
-				"&7&oDo not click the &6Sacrificial Bowls&7 — it will interrupt the ritual."
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description2}"
+				"{ftbquests.chapter.occultism.quest7233672429995629906.description3}"
 			]
 			id: "64632ABFDB6D1D52"
 			rewards: [
@@ -2024,13 +2024,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2045,19 +2045,19 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "End Stone"
+			subtitle: "{ftbquests.chapter.occultism.quest7233672429995629906.subtitle}"
 			tasks: [{
 				id: "036E939EE01F8D09"
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			title: "&6Possessed Endermite"
+			title: "{ftbquests.chapter.occultism.quest7233672429995629906.title}"
 			x: 4.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["3E32A30921459232"]
-			description: ["&7Although not part of &5Occultism&7 directly, &6“The Ender” &7is a great way to obtain &fMob Skulls&7."]
+			description: ["{ftbquests.chapter.occultism.quest5797188896009056471.description1}"]
 			id: "5073C0960A7570D7"
 			optional: true
 			rewards: [{
@@ -2067,7 +2067,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Decapitation"
+			subtitle: "{ftbquests.chapter.occultism.quest5797188896009056471.subtitle}"
 			tasks: [{
 				id: "7B9CF920A5ACAD5F"
 				item: {
@@ -2079,7 +2079,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eThe Ender"
+			title: "{ftbquests.chapter.occultism.quest5797188896009056471.title}"
 			x: 5.0d
 			y: -7.0d
 		}
@@ -2089,10 +2089,10 @@
 				"64632ABFDB6D1D52"
 			]
 			description: [
-				"&7&5Purple Chalk &7is one of the last major chalks required in &5Occultism&7.  "
-				"&7While &4Red Chalk &7is also needed, it’s only used in a few rituals and will be explained later.  "
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description1}"
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description2}"
 				""
-				"&7To craft &5Purple Chalk&7, crush &dEnd Stone &7and &5Obsidian &7using your &6Foliot Ore Crusher&7."
+				"{ftbquests.chapter.occultism.quest5286806532366273216.description3}"
 			]
 			id: "495E8287CDE80AC0"
 			rewards: [
@@ -2115,7 +2115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tastes like the moon!"
+			subtitle: "{ftbquests.chapter.occultism.quest5286806532366273216.subtitle}"
 			tasks: [{
 				id: "1292FEC2B008557D"
 				item: {
@@ -2127,7 +2127,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6Purple Chalk"
+			title: "{ftbquests.chapter.occultism.quest5286806532366273216.title}"
 			x: 6.0d
 			y: -11.0d
 		}
@@ -2137,11 +2137,11 @@
 				"495E8287CDE80AC0"
 			]
 			description: [
-				"&7&fWither Skeleton Skulls &7are vital for many &5Pentacles&7."
-				"&7One way to obtain them is through the &5Pentacle: Osorin's Unbound Calling&7 — using one of the &fSkeleton Skulls &7you’ve already gathered.  "
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description1}"
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description2}"
 				""
-				"&7But beware: the &5Wild Hunt &7summons several &cGreater Spirits&7.  "
-				"&o&7Be well prepared before you face them!"
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description3}"
+				"{ftbquests.chapter.occultism.quest4044484924216062876.description4}"
 			]
 			id: "3820E59C2752339C"
 			rewards: [
@@ -2165,27 +2165,27 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Skulls Of The Wither"
+			subtitle: "{ftbquests.chapter.occultism.quest4044484924216062876.subtitle}"
 			tasks: [{
 				id: "7E9C69082501CD74"
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			title: "&6Wither Skeleton Skulls"
+			title: "{ftbquests.chapter.occultism.quest4044484924216062876.title}"
 			x: 7.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["495E8287CDE80AC0"]
 			description: [
-				"&7Welp… I’ve reached my &6contractual obligation&7 to guide you through &5Occultism&7. "
-				"&7Oh? You thought I was helping out of choice? &aHaha! &7Good joke.  "
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description1}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description2}"
 				""
-				"&7I wouldn’t be helping if I didn’t have to!  "
-				"&7So… good luck. Try not to die.  "
-				"&7But if you do…"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description3}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description4}"
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description5}"
 				""
-				"&4<shake>I'LL BE WAITING."
+				"{ftbquests.chapter.occultism.quest6036883962725139539.description6}"
 			]
 			id: "53C751FAB47C0453"
 			rewards: [{
@@ -2195,13 +2195,13 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Dive Into Darkness"
+			subtitle: "{ftbquests.chapter.occultism.quest6036883962725139539.subtitle}"
 			tasks: [{
 				id: "4284073BEEA0F0B5"
-				title: "Explore The Occult"
+				title: "{ftbquests.chapter.occultism.quest6036883962725139539.task.4792963857417040053.title}"
 				type: "checkmark"
 			}]
-			title: "&6Explore The Occult"
+			title: "{ftbquests.chapter.occultism.quest6036883962725139539.title}"
 			x: 6.0d
 			y: -16.0d
 		}
@@ -2209,10 +2209,10 @@
 			dependencies: ["53C751FAB47C0453"]
 			dependency_requirement: "all_started"
 			description: [
-				"&7Although &4&onot required&r&7, I recommend completing the &6entire right side &7of the basics before diving deeper into the &5Occult&7.  "
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description1}"
 				""
-				"&7Some &5rituals &7may also demand preparation, as they involve &cpowerful spirits&7.  "
-				"&7Be sure to study your &bDictionary of Spirits&7 — it may hold vital knowledge for your success."
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description2}"
+				"{ftbquests.chapter.occultism.quest7051665384546628144.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2227,21 +2227,21 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Into The Unknown"
+			subtitle: "{ftbquests.chapter.occultism.quest7051665384546628144.subtitle}"
 			tasks: [{
 				id: "3645ED5EA6713364"
-				title: "The Wider Occult"
+				title: "{ftbquests.chapter.occultism.quest7051665384546628144.task.3910792842216289124.title}"
 				type: "checkmark"
 			}]
-			title: "&6The Wider Occult"
+			title: "{ftbquests.chapter.occultism.quest7051665384546628144.title}"
 			x: 0.0d
 			y: -22.0d
 		}
 		{
 			dependencies: ["61DC8C4E50D1F230"]
 			description: [
-				"&7&6Possession Rituals &7summon powerful beings of great use. "
-				"&7They can help you &abypass progression stages&7 or even replace &6hard-to-find structures&7, greatly aiding in your progression."
+				"{ftbquests.chapter.occultism.quest6648222650915510486.description1}"
+				"{ftbquests.chapter.occultism.quest6648222650915510486.description2}"
 			]
 			icon: "occultism:ritual_dummy/possess_enderman"
 			id: "5C433B46F78658D6"
@@ -2254,18 +2254,18 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Born To Die"
+			subtitle: "{ftbquests.chapter.occultism.quest6648222650915510486.subtitle}"
 			tasks: [{
 				id: "43BE361BC66D2095"
 				type: "checkmark"
 			}]
-			title: "&6Possession"
+			title: "{ftbquests.chapter.occultism.quest6648222650915510486.title}"
 			x: -7.0d
 			y: -25.0d
 		}
 		{
 			dependencies: ["61DC8C4E50D1F230"]
-			description: ["&7&6Summoning Rituals &7allow you to call forth spirits that can assist with many tasks —  from &atrading &7and &ebetter crushing&7, to &2woodcutting &7and even &bautomation&7."]
+			description: ["{ftbquests.chapter.occultism.quest6742842450344683425.description1}"]
 			icon: "occultism:ritual_dummy/summon_djinni_crusher"
 			id: "5D93637BC53827A1"
 			rewards: [{
@@ -2277,20 +2277,20 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "Born To Serve"
+			subtitle: "{ftbquests.chapter.occultism.quest6742842450344683425.subtitle}"
 			tasks: [{
 				id: "05F7B1A0314ECC31"
 				type: "checkmark"
 			}]
-			title: "&6Summoning"
+			title: "{ftbquests.chapter.occultism.quest6742842450344683425.title}"
 			x: 7.0d
 			y: -25.0d
 		}
 		{
 			dependencies: ["61DC8C4E50D1F230"]
 			description: [
-				"&7&6Familiar Rituals &7summon loyal servants, willing to &cprotect &7you — even to the death!"
-				"&7Some are &cstrong defenders&7, while others are simply &auseful companions&7 to keep at your side."
+				"{ftbquests.chapter.occultism.quest6113844826794729525.description1}"
+				"{ftbquests.chapter.occultism.quest6113844826794729525.description2}"
 			]
 			icon: "occultism:ritual_dummy/summon_demonic_wife"
 			id: "54D8BD7A38F5A035"
@@ -2303,18 +2303,18 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Born For Power"
+			subtitle: "{ftbquests.chapter.occultism.quest6113844826794729525.subtitle}"
 			tasks: [{
 				id: "1CDDC643A8596E22"
 				type: "checkmark"
 			}]
-			title: "&6Familiar"
+			title: "{ftbquests.chapter.occultism.quest6113844826794729525.title}"
 			x: 0.0d
 			y: -27.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Ghast&7 that drops &61–3 Ghast Tears&7."]
+			description: ["{ftbquests.chapter.occultism.quest7245643308122934904.description1}"]
 			icon: "vanillabackport:dried_ghast"
 			id: "648DB2331DDA8E78"
 			rewards: [
@@ -2338,13 +2338,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2359,20 +2359,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Tears Of The Nether"
+			subtitle: "{ftbquests.chapter.occultism.quest7245643308122934904.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_ghast"
 				id: "715FA3074B1551C8"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Ghast"
+			title: "{ftbquests.chapter.occultism.quest7245643308122934904.title}"
 			x: -5.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Enderman&7 that drops &61–3 Ender Pearls&7."]
+			description: ["{ftbquests.chapter.occultism.quest2550208942984800839.description1}"]
 			icon: "minecraft:ender_pearl"
 			id: "23642985A5A22A47"
 			rewards: [
@@ -2396,13 +2396,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2417,20 +2417,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ender Ballz"
+			subtitle: "{ftbquests.chapter.occultism.quest2550208942984800839.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_enderman"
 				id: "24238C14EF2853E8"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Enderman"
+			title: "{ftbquests.chapter.occultism.quest2550208942984800839.title}"
 			x: -9.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Phantom&7 that drops &61–4 Phantom Membranes&7."]
+			description: ["{ftbquests.chapter.occultism.quest2787037916820239546.description1}"]
 			icon: "minecraft:phantom_membrane"
 			id: "26AD8C380F9D74BA"
 			rewards: [
@@ -2454,13 +2454,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2475,20 +2475,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Take Flight"
+			subtitle: "{ftbquests.chapter.occultism.quest2787037916820239546.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_phantom"
 				id: "3DD956A54B96744F"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Phantom"
+			title: "{ftbquests.chapter.occultism.quest2787037916820239546.title}"
 			x: -9.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Shulker&7 that drops &61–2 Shulker Shells&7.  "]
+			description: ["{ftbquests.chapter.occultism.quest4361000769903417863.description1}"]
 			icon: "sophisticatedstorage:shulker_box"
 			id: "3C8563183B4C5A07"
 			rewards: [
@@ -2512,13 +2512,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2533,20 +2533,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ender Backpack"
+			subtitle: "{ftbquests.chapter.occultism.quest4361000769903417863.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_shulker"
 				id: "0CBD5CA8C6BDEE39"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Shulker"
+			title: "{ftbquests.chapter.occultism.quest4361000769903417863.title}"
 			x: -5.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Weak Possessed Shulker&7 that drops &61–3 Chorus Fruit&7 and has a &a10% chance&7 to drop a &5Shulker Shell&7."]
+			description: ["{ftbquests.chapter.occultism.quest3410710614041377438.description1}"]
 			icon: "minecraft:chorus_fruit"
 			id: "2F55473B95973A9E"
 			rewards: [
@@ -2570,13 +2570,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2591,20 +2591,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Weakling"
+			subtitle: "{ftbquests.chapter.occultism.quest3410710614041377438.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_weak_shulker"
 				id: "1C22D63C3816B58F"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Weak Shulker"
+			title: "{ftbquests.chapter.occultism.quest3410710614041377438.title}"
 			x: -9.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Elder Guardian&7 that drops &62–4 Nautilus Shells&7 and has a &640% chance&7 to drop a &1Heart of the Sea&7.  "]
+			description: ["{ftbquests.chapter.occultism.quest1077895186596553283.description1}"]
 			icon: "minecraft:heart_of_the_sea"
 			id: "0EF573F61630E243"
 			rewards: [
@@ -2628,13 +2628,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2649,20 +2649,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "A Very Old Fish"
+			subtitle: "{ftbquests.chapter.occultism.quest1077895186596553283.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_elder_guardian"
 				id: "2AF7844A647B97C9"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Elder Guardian"
+			title: "{ftbquests.chapter.occultism.quest1077895186596553283.title}"
 			x: -9.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Hoglin&7 that can drop either &c1 Smithing Template&7, &c1 Netherite Scrap&7, or &8nothing&7. "]
+			description: ["{ftbquests.chapter.occultism.quest5119197271193239732.description1}"]
 			icon: "mynethersdelight:hoglin_hide"
 			id: "470B0ACBA49F40B4"
 			rewards: [
@@ -2686,13 +2686,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2707,20 +2707,20 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Nether Pig"
+			subtitle: "{ftbquests.chapter.occultism.quest5119197271193239732.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_hoglin"
 				id: "2C49E0B63EAAFC5D"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Hoglin"
+			title: "{ftbquests.chapter.occultism.quest5119197271193239732.title}"
 			x: -5.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Warden&7 that drops &11 Echo Shard&7.  "]
+			description: ["{ftbquests.chapter.occultism.quest2875744021073382785.description1}"]
 			icon: "minecraft:echo_shard"
 			id: "27E8B1F369084D81"
 			rewards: [
@@ -2744,13 +2744,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2765,27 +2765,27 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Into The Depths"
+			subtitle: "{ftbquests.chapter.occultism.quest2875744021073382785.subtitle}"
 			tasks: [{
 				entity: "occultism:possessed_warden"
 				id: "5728E560BB0A1687"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&6Possessed Warden"
+			title: "{ftbquests.chapter.occultism.quest2875744021073382785.title}"
 			x: -5.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
 			description: [
-				"&7Huh? Oh… it’s &ayou&7. Great. "
-				"&7Why am I back here anyway? Ugh… do I really have to explain everything?  "
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description1}"
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description2}"
 				""
-				"&7That is an &4Unbound Afrit&7 — probably the strongest thing you humans will face.  "
-				"&7It’s very important though, as it allows you to make &cRed Chalk&7 for a few high-end &5rituals&7.  "
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description3}"
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description4}"
 				""
-				"&7Can I go back to my show now? Good. &7Now leave me alone!"
+				"{ftbquests.chapter.occultism.quest7271250144237883672.description5}"
 			]
 			icon: {
 				Count: 1
@@ -2818,13 +2818,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2839,20 +2839,20 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "A Strong Foe"
+			subtitle: "{ftbquests.chapter.occultism.quest7271250144237883672.subtitle}"
 			tasks: [{
 				entity: "occultism:afrit_wild"
 				id: "0B712A0FBE76A1CD"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&4<shake>The Unbound Afrit"
+			title: "{ftbquests.chapter.occultism.quest7271250144237883672.title}"
 			x: -7.0d
 			y: -34.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants the player &aincreased XP&7."]
+			description: ["{ftbquests.chapter.occultism.quest5384342346873650072.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -2882,13 +2882,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2902,7 +2902,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Donkey's Wife"
+			subtitle: "{ftbquests.chapter.occultism.quest5384342346873650072.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2914,17 +2914,17 @@
 				id: "74326DD6C9AA2C2D"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Dragon Familiar"
+				title: "{ftbquests.chapter.occultism.quest5384342346873650072.task.8372875426508975149.title}"
 				to_observe: "occultism:dragon_familiar"
 				type: "observation"
 			}]
-			title: "&6Dragon Familiar"
+			title: "{ftbquests.chapter.occultism.quest5384342346873650072.title}"
 			x: -1.0d
 			y: -24.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants the player &eNight Vision&7."]
+			description: ["{ftbquests.chapter.occultism.quest2262342022787814739.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -2954,13 +2954,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -2974,7 +2974,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This Is To See Even Further Beyond"
+			subtitle: "{ftbquests.chapter.occultism.quest2262342022787814739.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2986,17 +2986,17 @@
 				id: "51786928A5F54A1F"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Bat Familiar"
+				title: "{ftbquests.chapter.occultism.quest2262342022787814739.task.5870557737581365791.title}"
 				to_observe: "occultism:bat_familiar"
 				type: "observation"
 			}]
-			title: "&6Bat Familiar"
+			title: "{ftbquests.chapter.occultism.quest2262342022787814739.title}"
 			x: 1.0d
 			y: -24.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Assists other &6Familiars&7, prevents &cFamiliar death&7, and drains &4enemy life force&7."]
+			description: ["{ftbquests.chapter.occultism.quest7065751728094472376.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3026,13 +3026,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3046,7 +3046,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Weird Looking Fairy"
+			subtitle: "{ftbquests.chapter.occultism.quest7065751728094472376.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3058,17 +3058,17 @@
 				id: "347EB7C62D336892"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Fairy Familiar"
+				title: "{ftbquests.chapter.occultism.quest7065751728094472376.task.3782662798827546770.title}"
 				to_observe: "occultism:fairy_familiar"
 				type: "observation"
 			}]
-			title: "&6Fairy Familiar"
+			title: "{ftbquests.chapter.occultism.quest7065751728094472376.title}"
 			x: 2.0d
 			y: -25.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants &2increased wood break speed&7."]
+			description: ["{ftbquests.chapter.occultism.quest4157103097207323553.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3098,13 +3098,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3118,7 +3118,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Chipper's Lumber Co."
+			subtitle: "{ftbquests.chapter.occultism.quest4157103097207323553.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3130,17 +3130,17 @@
 				id: "15DD2984DEF1A743"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Beaver Familiar"
+				title: "{ftbquests.chapter.occultism.quest4157103097207323553.task.1575461095302342467.title}"
 				to_observe: "occultism:beaver_familiar"
 				type: "observation"
 			}]
-			title: "&6Beaver Familiar"
+			title: "{ftbquests.chapter.occultism.quest4157103097207323553.title}"
 			x: -2.0d
 			y: -25.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Automatically picks up items and grants &aincreased pick-up range&7."]
+			description: ["{ftbquests.chapter.occultism.quest3347267177474104533.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3170,13 +3170,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3190,7 +3190,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "<shake>GIVE THE GOBLIN SOME GOLD!"
+			subtitle: "{ftbquests.chapter.occultism.quest3347267177474104533.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3202,17 +3202,17 @@
 				id: "3E77223037705419"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Greedy Familiar"
+				title: "{ftbquests.chapter.occultism.quest3347267177474104533.task.4501103943063983129.title}"
 				to_observe: "occultism:greedy_familiar"
 				type: "observation"
 			}]
-			title: "&6Greedy Familiar"
+			title: "{ftbquests.chapter.occultism.quest3347267177474104533.title}"
 			x: -3.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Highlights enemies and shoots them with &cLasers&7."]
+			description: ["{ftbquests.chapter.occultism.quest2637307830050767066.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3242,13 +3242,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3262,7 +3262,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Sun Is a Deadly Lazer"
+			subtitle: "{ftbquests.chapter.occultism.quest2637307830050767066.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3274,17 +3274,17 @@
 				id: "2D9A65732857BCAD"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Beholder Familiar"
+				title: "{ftbquests.chapter.occultism.quest2637307830050767066.task.3286050423392681133.title}"
 				to_observe: "occultism:beholder_familiar"
 				type: "observation"
 			}]
-			title: "&6Beholder Familiar"
+			title: "{ftbquests.chapter.occultism.quest2637307830050767066.title}"
 			x: 3.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Prevents &cplayer death &7while alive."]
+			description: ["{ftbquests.chapter.occultism.quest4892139822301257682.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3314,13 +3314,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3334,7 +3334,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This isnt a fish."
+			subtitle: "{ftbquests.chapter.occultism.quest4892139822301257682.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3346,17 +3346,17 @@
 				id: "4371117C8B5806F9"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Guardian Familiar"
+				title: "{ftbquests.chapter.occultism.quest4892139822301257682.task.4859684699520894713.title}"
 				to_observe: "occultism:guardian_familiar"
 				type: "observation"
 			}]
-			title: "&6Guardian Familiar"
+			title: "{ftbquests.chapter.occultism.quest4892139822301257682.title}"
 			x: -3.0d
 			y: -27.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Repairs equipment while mining and &aupgrades other Familiars&7."]
+			description: ["{ftbquests.chapter.occultism.quest2036973968081999008.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3386,13 +3386,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3406,7 +3406,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mendin' 2: Electric Boogaloo"
+			subtitle: "{ftbquests.chapter.occultism.quest2036973968081999008.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3418,17 +3418,17 @@
 				id: "6508DCAD60E0911A"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Blacksmith Familiar"
+				title: "{ftbquests.chapter.occultism.quest2036973968081999008.task.7280311434857189658.title}"
 				to_observe: "occultism:blacksmith_familiar"
 				type: "observation"
 			}]
-			title: "&6Blacksmith Familiar"
+			title: "{ftbquests.chapter.occultism.quest2036973968081999008.title}"
 			x: 3.0d
 			y: -27.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants a &cconditional damage buff&7."]
+			description: ["{ftbquests.chapter.occultism.quest3051557231097527763.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3458,13 +3458,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3478,7 +3478,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Chicken Jockey"
+			subtitle: "{ftbquests.chapter.occultism.quest3051557231097527763.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3490,17 +3490,17 @@
 				id: "647A41620BF47092"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Headless Familiar"
+				title: "{ftbquests.chapter.occultism.quest3051557231097527763.task.7240171240314663058.title}"
 				to_observe: "occultism:headless_familiar"
 				type: "observation"
 			}]
-			title: "&6Headless Familiar"
+			title: "{ftbquests.chapter.occultism.quest3051557231097527763.title}"
 			x: -3.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Can be &bridden&7."]
+			description: ["{ftbquests.chapter.occultism.quest1418623224976930640.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3530,13 +3530,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3550,7 +3550,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Above Capacity"
+			subtitle: "{ftbquests.chapter.occultism.quest1418623224976930640.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3562,17 +3562,17 @@
 				id: "40BA1A4AE9E0490B"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Chimera Familiar"
+				title: "{ftbquests.chapter.occultism.quest1418623224976930640.task.4664069273149262091.title}"
 				to_observe: "occultism:chimera_familiar"
 				type: "observation"
 			}]
-			title: "&6Chimera Familiar"
+			title: "{ftbquests.chapter.occultism.quest1418623224976930640.title}"
 			x: 3.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Fights your enemies and grants the &aDodge &7effect."]
+			description: ["{ftbquests.chapter.occultism.quest1012191390670040804.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3602,13 +3602,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3622,7 +3622,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not The Best Toilet Paper"
+			subtitle: "{ftbquests.chapter.occultism.quest1012191390670040804.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3634,17 +3634,17 @@
 				id: "3E96E51E4900DD1F"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Mummy Familiar"
+				title: "{ftbquests.chapter.occultism.quest1012191390670040804.task.4510043995094703391.title}"
 				to_observe: "occultism:mummy_familiar"
 				type: "observation"
 			}]
-			title: "&6Mummy Familiar"
+			title: "{ftbquests.chapter.occultism.quest1012191390670040804.title}"
 			x: -3.0d
 			y: -29.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants &bWater Breathing&7."]
+			description: ["{ftbquests.chapter.occultism.quest6599728408517321413.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3674,13 +3674,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3694,7 +3694,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "From Below The Depths"
+			subtitle: "{ftbquests.chapter.occultism.quest6599728408517321413.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3706,17 +3706,17 @@
 				id: "57E4B6A697B412AA"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Cthulhu Familiar"
+				title: "{ftbquests.chapter.occultism.quest6599728408517321413.task.6333387802615747242.title}"
 				to_observe: "occultism:cthulhu_familiar"
 				type: "observation"
 			}]
-			title: "&6cthulhu Familiar"
+			title: "{ftbquests.chapter.occultism.quest6599728408517321413.title}"
 			x: 3.0d
 			y: -29.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants &bMulti-Jump&7, &bJump Boost&7, and &bSlow Falling&7."]
+			description: ["{ftbquests.chapter.occultism.quest8696452092533015343.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3746,13 +3746,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3766,7 +3766,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Otherworld Parrot"
+			subtitle: "{ftbquests.chapter.occultism.quest8696452092533015343.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3778,17 +3778,17 @@
 				id: "7872008E7EF0A89B"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Drikwing Familiar"
+				title: "{ftbquests.chapter.occultism.quest8696452092533015343.task.8679000043911424155.title}"
 				to_observe: "occultism:otherworld_bird"
 				type: "observation"
 			}]
-			title: "&6Drikwing Familiar"
+			title: "{ftbquests.chapter.occultism.quest8696452092533015343.title}"
 			x: -3.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants &bJump Boost&7."]
+			description: ["{ftbquests.chapter.occultism.quest6718120398882492132.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3818,13 +3818,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3838,7 +3838,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Unknown Specimen 4"
+			subtitle: "{ftbquests.chapter.occultism.quest6718120398882492132.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3850,17 +3850,17 @@
 				id: "1CFF91B09CED2D42"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Deer Familiar"
+				title: "{ftbquests.chapter.occultism.quest6718120398882492132.task.2089548939856260418.title}"
 				to_observe: "occultism:deer_familiar"
 				type: "observation"
 			}]
-			title: "&6Deer Familiar"
+			title: "{ftbquests.chapter.occultism.quest6718120398882492132.title}"
 			x: 3.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Grants &cFire Resistance&7 and attacks enemies."]
+			description: ["{ftbquests.chapter.occultism.quest7493375611196176508.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3890,13 +3890,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3910,7 +3910,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cursed Souls"
+			subtitle: "{ftbquests.chapter.occultism.quest7493375611196176508.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3922,17 +3922,17 @@
 				id: "372F332B0B8BF2C5"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Devil Familiar"
+				title: "{ftbquests.chapter.occultism.quest7493375611196176508.task.3976453255961768645.title}"
 				to_observe: "occultism:devil_familiar"
 				type: "observation"
 			}]
-			title: "&6Devil Familiar"
+			title: "{ftbquests.chapter.occultism.quest7493375611196176508.title}"
 			x: -2.0d
 			y: -31.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
-			description: ["&7Spawns smaller versions of itself to assist in &cfighting&7."]
+			description: ["{ftbquests.chapter.occultism.quest7127714771743727494.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -3962,13 +3962,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -3982,7 +3982,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rat?"
+			subtitle: "{ftbquests.chapter.occultism.quest7127714771743727494.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -3994,11 +3994,11 @@
 				id: "5B5C27B89A652ED4"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Shub Niggurath Familiar"
+				title: "{ftbquests.chapter.occultism.quest7127714771743727494.task.6583180429126610644.title}"
 				to_observe: "occultism:shub_niggurath_familiar"
 				type: "observation"
 			}]
-			title: "&6Shub niggurath Familiar"
+			title: "{ftbquests.chapter.occultism.quest7127714771743727494.title}"
 			x: 2.0d
 			y: -31.0d
 		}
@@ -4035,7 +4035,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "Bound &4<shake>Forever"
+			subtitle: "{ftbquests.chapter.occultism.quest3712230994747249086.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -4047,11 +4047,11 @@
 				id: "4AF98593EC68F7AF"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Demonic Wife"
+				title: "{ftbquests.chapter.occultism.quest3712230994747249086.task.5402496098380609455.title}"
 				to_observe: "occultism:demonic_wife"
 				type: "observation"
 			}]
-			title: "&dA Demonic Marriage"
+			title: "{ftbquests.chapter.occultism.quest3712230994747249086.title}"
 			x: -1.0d
 			y: -32.0d
 		}
@@ -4087,7 +4087,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "Bound &4<shake>Forever"
+			subtitle: "{ftbquests.chapter.occultism.quest3404518807669471084.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -4099,19 +4099,19 @@
 				id: "75B3342DB5474848"
 				observe_type: 5
 				timer: 0L
-				title: "Look At A Demonic Husband"
+				title: "{ftbquests.chapter.occultism.quest3404518807669471084.task.8481179894188296264.title}"
 				to_observe: "occultism:demonic_husband"
 				type: "observation"
 			}]
-			title: "&dA Demonic Marriage"
+			title: "{ftbquests.chapter.occultism.quest3404518807669471084.title}"
 			x: 1.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["54D8BD7A38F5A035"]
 			description: [
-				"&7Soul Gems &7allow you to move mobs while keeping all of their &cNBT&7 intact.  "
-				"&7They’re especially useful for transporting creatures to &5Rituals &7for sacrifice."
+				"{ftbquests.chapter.occultism.quest3767427217424758774.description1}"
+				"{ftbquests.chapter.occultism.quest3767427217424758774.description2}"
 			]
 			id: "34489717F3BDB7F6"
 			rewards: [
@@ -4135,13 +4135,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4155,7 +4155,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Otherworld Cage"
+			subtitle: "{ftbquests.chapter.occultism.quest3767427217424758774.subtitle}"
 			tasks: [{
 				id: "478E15F4FF9439BD"
 				item: {
@@ -4165,13 +4165,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6Soul Gems"
+			title: "{ftbquests.chapter.occultism.quest3767427217424758774.title}"
 			x: 0.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["34489717F3BDB7F6"]
-			description: ["&7This &6Ring &7grants the wearer the effects of a captured &6Familiar &7without needing it summoned."]
+			description: ["{ftbquests.chapter.occultism.quest5259967167041650647.description1}"]
 			id: "48FF284519BC3FD7"
 			rewards: [
 				{
@@ -4193,7 +4193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Portable Familiar"
+			subtitle: "{ftbquests.chapter.occultism.quest5259967167041650647.subtitle}"
 			tasks: [{
 				id: "72A59E3F37C439B0"
 				item: {
@@ -4210,15 +4210,15 @@
 				}
 				type: "item"
 			}]
-			title: "&6Familiar Ring"
+			title: "{ftbquests.chapter.occultism.quest5259967167041650647.title}"
 			x: 0.0d
 			y: -33.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
 			description: [
-				"&7The &6Foliot Lumberjack &7is a basic summoned spirit, perfect for the early game.  "
-				"&7It will &2cut trees automatically &7and &areplant saplings&7, giving you simple &bwood automation&7."
+				"{ftbquests.chapter.occultism.quest5797723097557929628.description1}"
+				"{ftbquests.chapter.occultism.quest5797723097557929628.description2}"
 			]
 			icon: {
 				Count: 1
@@ -4249,13 +4249,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4269,7 +4269,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Otherworld Lumberjack"
+			subtitle: "{ftbquests.chapter.occultism.quest5797723097557929628.subtitle}"
 			tasks: [{
 				id: "5EDB371D127AD1F6"
 				item: {
@@ -4282,13 +4282,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Foliot Lumberjack"
+			title: "{ftbquests.chapter.occultism.quest5797723097557929628.title}"
 			x: 5.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["64E8AB7B404E9118"]
-			description: ["&7&cRed Chalk &7is used for a few high-level &5Rituals&7."]
+			description: ["{ftbquests.chapter.occultism.quest6275269636594489775.description1}"]
 			id: "57163C7C970259AF"
 			rewards: [
 				{
@@ -4310,7 +4310,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hot To Hold"
+			subtitle: "{ftbquests.chapter.occultism.quest6275269636594489775.subtitle}"
 			tasks: [{
 				id: "7AEE02AD54EE818D"
 				item: {
@@ -4322,13 +4322,13 @@
 				}
 				type: "item"
 			}]
-			title: "&cRed Chalk"
+			title: "{ftbquests.chapter.occultism.quest6275269636594489775.title}"
 			x: -7.0d
 			y: -36.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
-			description: ["&7The &6Foliot Transporter &7is a summoned spirit that &emoves items &7between inventories,  making it a simple yet effective tool for &bitem logistics&7."]
+			description: ["{ftbquests.chapter.occultism.quest3291834807054458991.description1}"]
 			icon: "quark:dark_oak_chest"
 			id: "2DAEF250EDBF606F"
 			rewards: [
@@ -4352,13 +4352,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4372,7 +4372,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item Transport"
+			subtitle: "{ftbquests.chapter.occultism.quest3291834807054458991.subtitle}"
 			tasks: [{
 				id: "358C9EE2CEF46999"
 				item: {
@@ -4385,15 +4385,15 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Foliot Transporter"
+			title: "{ftbquests.chapter.occultism.quest3291834807054458991.title}"
 			x: 5.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
 			description: [
-				"&7The &6Foliot Janitor &7is a summoned spirit that &acollects dropped items&7 and neatly places them into &elinked inventories&7.  "
-				"&7A humble helper for keeping things &bclean and organized&7."
+				"{ftbquests.chapter.occultism.quest7200611429038054778.description1}"
+				"{ftbquests.chapter.occultism.quest7200611429038054778.description2}"
 			]
 			icon: "sophisticatedstorage:paintbrush"
 			id: "63EDB5F1B96E5D7A"
@@ -4418,13 +4418,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4438,7 +4438,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Clean Up Squad"
+			subtitle: "{ftbquests.chapter.occultism.quest7200611429038054778.subtitle}"
 			tasks: [{
 				id: "56427F752A694E58"
 				item: {
@@ -4451,13 +4451,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Foliot Janitor"
+			title: "{ftbquests.chapter.occultism.quest7200611429038054778.title}"
 			x: 5.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
-			description: ["&7The &6Machine Operator &7transfers items from your &6Storage Actuator &7to the machine it manages,  streamlining &bautomation &7processes."]
+			description: ["{ftbquests.chapter.occultism.quest6078702824296249724.description1}"]
 			icon: {
 				Count: 1
 				id: "occultism:book_of_calling_djinni_manage_machine"
@@ -4487,13 +4487,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4507,7 +4507,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Manager"
+			subtitle: "{ftbquests.chapter.occultism.quest6078702824296249724.subtitle}"
 			tasks: [{
 				id: "1F68B1F3FAA4C742"
 				item: {
@@ -4520,13 +4520,13 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "&6Djinni Machine Operator"
+			title: "{ftbquests.chapter.occultism.quest6078702824296249724.title}"
 			x: 5.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
-			description: ["&7You can even control the &etime of day &7by summoning &6Rituals&7!"]
+			description: ["{ftbquests.chapter.occultism.quest171321395067566411.description1}"]
 			icon: "minecraft:clock"
 			id: "0260A7E6AF6D394B"
 			rewards: [{
@@ -4536,18 +4536,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "A Shift In The World Rotation"
+			subtitle: "{ftbquests.chapter.occultism.quest171321395067566411.subtitle}"
 			tasks: [{
 				id: "41084E4A0CCBBD5C"
 				type: "checkmark"
 			}]
-			title: "Time Of Day"
+			title: "{ftbquests.chapter.occultism.quest171321395067566411.title}"
 			x: 8.0d
 			y: -34.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
-			description: ["&7You can even control the &bweather &7in your world by summoning &6Rituals&7!"]
+			description: ["{ftbquests.chapter.occultism.quest4485231607013917791.description1}"]
 			icon: {
 				Count: 1
 				id: "the_bumblezone:essence_radiance"
@@ -4563,18 +4563,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Control The Clouds"
+			subtitle: "{ftbquests.chapter.occultism.quest4485231607013917791.subtitle}"
 			tasks: [{
 				id: "441DF2B548E78961"
 				type: "checkmark"
 			}]
-			title: "&6Weather Control"
+			title: "{ftbquests.chapter.occultism.quest4485231607013917791.title}"
 			x: 6.0d
 			y: -34.0d
 		}
 		{
 			dependencies: ["0260A7E6AF6D394B"]
-			description: ["&7This ritual sets the &etime &7to &6Dawn&7."]
+			description: ["{ftbquests.chapter.occultism.quest1721105767395931891.description1}"]
 			icon: "ars_nouveau:ritual_sunrise"
 			id: "17E298939E82B6F3"
 			rewards: [
@@ -4598,13 +4598,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4619,7 +4619,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Good Morning"
+			subtitle: "{ftbquests.chapter.occultism.quest1721105767395931891.subtitle}"
 			tasks: [
 				{
 					id: "4C06BC4332AF4283"
@@ -4635,7 +4635,7 @@
 							value: "balm:yellow_dyes"
 						}
 					}
-					title: "Any #balm:yellow_dyes"
+					title: "{ftbquests.chapter.occultism.quest1721105767395931891.task.6045639436381898081.title}"
 					type: "item"
 				}
 				{
@@ -4656,13 +4656,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Rise Of Dawn"
+			title: "{ftbquests.chapter.occultism.quest1721105767395931891.title}"
 			x: 10.0d
 			y: -34.0d
 		}
 		{
 			dependencies: ["0260A7E6AF6D394B"]
-			description: ["&7This ritual sets the &etime &7to &5Dusk&7."]
+			description: ["{ftbquests.chapter.occultism.quest7324192519006302133.description1}"]
 			icon: "ars_nouveau:ritual_moonfall"
 			id: "65A4C24A71F1AFB5"
 			rewards: [
@@ -4686,13 +4686,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4707,7 +4707,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Good Night"
+			subtitle: "{ftbquests.chapter.occultism.quest7324192519006302133.subtitle}"
 			tasks: [
 				{
 					id: "057C6680DE751203"
@@ -4718,7 +4718,7 @@
 							value: "mekanism:colorable/beds"
 						}
 					}
-					title: "Any #mekanism:colorable/beds"
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.395303570975822339.title}"
 					type: "item"
 				}
 				{
@@ -4730,7 +4730,7 @@
 							value: "balm:black_dyes"
 						}
 					}
-					title: "Any #balm:black_dyes"
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.3864390130494194285.title}"
 					type: "item"
 				}
 				{
@@ -4742,7 +4742,7 @@
 							value: "forge:bones"
 						}
 					}
-					title: "Any #forge:bones"
+					title: "{ftbquests.chapter.occultism.quest7324192519006302133.task.6761750026056888598.title}"
 					type: "item"
 				}
 				{
@@ -4763,13 +4763,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Set Of Dusk"
+			title: "{ftbquests.chapter.occultism.quest7324192519006302133.title}"
 			x: 8.0d
 			y: -36.0d
 		}
 		{
 			dependencies: ["3E3EBE61FF6B445F"]
-			description: ["&7This ritual sets the &bweather &7to &eClear&7."]
+			description: ["{ftbquests.chapter.occultism.quest2912427702379283997.description1}"]
 			icon: "minecraft:glass_bottle"
 			id: "286B05908A53061D"
 			rewards: [
@@ -4793,13 +4793,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4814,7 +4814,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Part The Clouds"
+			subtitle: "{ftbquests.chapter.occultism.quest2912427702379283997.subtitle}"
 			tasks: [
 				{
 					id: "5B9A4F88C21E20F2"
@@ -4849,13 +4849,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Clear skys"
+			title: "{ftbquests.chapter.occultism.quest2912427702379283997.title}"
 			x: 4.0d
 			y: -34.0d
 		}
 		{
 			dependencies: ["3E3EBE61FF6B445F"]
-			description: ["&7This ritual sets the &bweather &7to &cThunder&7."]
+			description: ["{ftbquests.chapter.occultism.quest6481117546110437280.description1}"]
 			icon: "irons_spellbooks:lightning_bottle"
 			id: "59F18E11DB76C7A0"
 			rewards: [
@@ -4879,13 +4879,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4900,7 +4900,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Zeus"
+			subtitle: "{ftbquests.chapter.occultism.quest6481117546110437280.subtitle}"
 			tasks: [
 				{
 					id: "04496E229BB2EB25"
@@ -4916,7 +4916,7 @@
 							value: "forge:bones"
 						}
 					}
-					title: "Any #forge:bones"
+					title: "{ftbquests.chapter.occultism.quest6481117546110437280.task.6105641753264883159.title}"
 					type: "item"
 				}
 				{
@@ -4937,13 +4937,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Shocking"
+			title: "{ftbquests.chapter.occultism.quest6481117546110437280.title}"
 			x: 6.0d
 			y: -36.0d
 		}
 		{
 			dependencies: ["3E3EBE61FF6B445F"]
-			description: ["&7This ritual sets the &bweather &7to &1Rain&7."]
+			description: ["{ftbquests.chapter.occultism.quest6919821272198102839.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -4973,13 +4973,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -4994,7 +4994,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "When It Falls It Pours"
+			subtitle: "{ftbquests.chapter.occultism.quest6919821272198102839.subtitle}"
 			tasks: [
 				{
 					id: "6A8F8D9A0BBD8A14"
@@ -5015,7 +5015,7 @@
 							value: "minecraft:sand"
 						}
 					}
-					title: "Any #minecraft:sand"
+					title: "{ftbquests.chapter.occultism.quest6919821272198102839.task.867668974944365052.title}"
 					type: "item"
 				}
 				{
@@ -5036,15 +5036,15 @@
 					type: "item"
 				}
 			]
-			title: "&6A Rainy Day"
+			title: "{ftbquests.chapter.occultism.quest6919821272198102839.title}"
 			x: 5.0d
 			y: -35.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
 			description: [
-				"&7The &6Djinni Crusher &7functions like the &6Foliot Crusher&7, but &adoes not decay&7,  "
-				"&7crushes faster, and &bproduces 3 dusts &7from ores instead of 2."
+				"{ftbquests.chapter.occultism.quest6158661938434731233.description1}"
+				"{ftbquests.chapter.occultism.quest6158661938434731233.description2}"
 			]
 			icon: "occultism:iron_dust"
 			id: "5577F6672C1EECE1"
@@ -5069,13 +5069,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5089,7 +5089,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tasty Rocks"
+			subtitle: "{ftbquests.chapter.occultism.quest6158661938434731233.subtitle}"
 			tasks: [
 				{
 					id: "7739FCA7E677A62A"
@@ -5100,7 +5100,7 @@
 							value: "forge:dusts/iron"
 						}
 					}
-					title: "Any #forge:dusts/iron"
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.8591175562242270762.title}"
 					type: "item"
 				}
 				{
@@ -5112,7 +5112,7 @@
 							value: "forge:dusts/gold"
 						}
 					}
-					title: "Any #forge:dusts/gold"
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.3255922867245810776.title}"
 					type: "item"
 				}
 				{
@@ -5124,7 +5124,7 @@
 							value: "forge:dusts/silver"
 						}
 					}
-					title: "Any #forge:dusts/silver"
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.2955626075762132297.title}"
 					type: "item"
 				}
 				{
@@ -5136,7 +5136,7 @@
 							value: "forge:dusts/copper"
 						}
 					}
-					title: "Any #forge:dusts/copper"
+					title: "{ftbquests.chapter.occultism.quest6158661938434731233.task.7993869731228494923.title}"
 					type: "item"
 				}
 				{
@@ -5152,13 +5152,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Djinni Crusher"
+			title: "{ftbquests.chapter.occultism.quest6158661938434731233.title}"
 			x: 9.0d
 			y: -28.0d
 		}
 		{
 			dependencies: ["5577F6672C1EECE1"]
-			description: ["&7The &eAfrit Crusher &7is even more efficient, producing &b4 dusts &7per ore."]
+			description: ["{ftbquests.chapter.occultism.quest4537214647687518408.description1}"]
 			icon: "occultism:silver_dust"
 			id: "3EF76CAED11D18C8"
 			rewards: [
@@ -5181,7 +5181,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kicking Up Dust"
+			subtitle: "{ftbquests.chapter.occultism.quest4537214647687518408.subtitle}"
 			tasks: [
 				{
 					id: "1DF6124ADB3B874D"
@@ -5210,13 +5210,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Afrit Crusher"
+			title: "{ftbquests.chapter.occultism.quest4537214647687518408.title}"
 			x: 9.0d
 			y: -30.0d
 		}
 		{
 			dependencies: ["3EF76CAED11D18C8"]
-			description: ["&7The &2Marid Crusher &7is the most efficient, dramatically increasing yield from &b4 &7to &b6 dusts &7per ore."]
+			description: ["{ftbquests.chapter.occultism.quest2502814531562275668.description1}"]
 			icon: "occultism:gold_dust"
 			id: "22BBC88E54748354"
 			rewards: [
@@ -5239,7 +5239,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Pocket Sand"
+			subtitle: "{ftbquests.chapter.occultism.quest2502814531562275668.subtitle}"
 			tasks: [
 				{
 					id: "79EA2CC252372A96"
@@ -5273,13 +5273,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Marid Crusher"
+			title: "{ftbquests.chapter.occultism.quest2502814531562275668.title}"
 			x: 9.0d
 			y: -32.0d
 		}
 		{
 			dependencies: ["5D93637BC53827A1"]
-			description: ["&7&6Trader Spirits &7will exchange items between your world and theirs."]
+			description: ["{ftbquests.chapter.occultism.quest5423531741248790776.description1}"]
 			icon: {
 				Count: 1
 				id: "alexsmobs:tab_icon"
@@ -5296,18 +5296,18 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Trading With The Spirits"
+			subtitle: "{ftbquests.chapter.occultism.quest5423531741248790776.subtitle}"
 			tasks: [{
 				id: "675763CBC7AAEADE"
 				type: "checkmark"
 			}]
-			title: "&6Otherworld Traders"
+			title: "{ftbquests.chapter.occultism.quest5423531741248790776.title}"
 			x: 9.0d
 			y: -26.0d
 		}
 		{
 			dependencies: ["4B4441623130A0F8"]
-			description: ["&7The &6Otherworld Sapling Trader &7lets you trade normal saplings for &dStable Otherworld Saplings&7,  which don’t require the &b“Third Eye” &7effect to harvest."]
+			description: ["{ftbquests.chapter.occultism.quest6943496735150298785.description1}"]
 			icon: "occultism:otherworld_sapling"
 			id: "605C417E0DB7D6A1"
 			rewards: [
@@ -5331,13 +5331,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5352,7 +5352,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Otherworld Life"
+			subtitle: "{ftbquests.chapter.occultism.quest6943496735150298785.subtitle}"
 			tasks: [
 				{
 					id: "050ACDF288114497"
@@ -5387,13 +5387,13 @@
 					type: "item"
 				}
 			]
-			title: "&6Otherworld Sapling Trader"
+			title: "{ftbquests.chapter.occultism.quest6943496735150298785.title}"
 			x: 10.0d
 			y: -27.0d
 		}
 		{
 			dependencies: ["4B4441623130A0F8"]
-			description: ["&7The &6Otherstone Trader &7lets you trade various stones for &6Otherstone&7,  yielding more than you would from a &5Spirit Fire&7."]
+			description: ["{ftbquests.chapter.occultism.quest4415590285755942549.description1}"]
 			icon: "occultism:otherstone"
 			id: "3D4753F858260695"
 			rewards: [
@@ -5417,13 +5417,13 @@
 							HideFlags: 33
 							display: {
 								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
-									"{\"text\":\"§5§6✎ §nLore Text\"}"
-									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"translate\":\"lore.mce2.occultism.1\"}"
+									"{\"translate\":\"lore.mce2.occultism.2\"}"
+									"{\"translate\":\"lore.mce2.bosses.3\"}"
+									"{\"translate\":\"lore.mce2.occultism.3\"}"
 									"{\"text\":\"\"}"
 								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
+								Name: "{\"translate\":\"name.mce2.occultism.1\"}"
 							}
 							"quark:RuneAttached": 1b
 							"quark:RuneColor": {
@@ -5438,7 +5438,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Otherworld Miner"
+			subtitle: "{ftbquests.chapter.occultism.quest4415590285755942549.subtitle}"
 			tasks: [
 				{
 					id: "0B4365F7E8C13BBA"
@@ -5473,10 +5473,10 @@
 					type: "item"
 				}
 			]
-			title: "&6Otherstone Trader"
+			title: "{ftbquests.chapter.occultism.quest4415590285755942549.title}"
 			x: 10.0d
 			y: -25.0d
 		}
 	]
-	title: "&7Occultism"
+	title: "{ftbquests.chapter.occultism.title}"
 }

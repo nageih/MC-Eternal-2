@@ -23,7 +23,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"<neon p=8 r=2 a=0.15>Barry's Famous Fez\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
 					}
 				}
 			}
@@ -244,7 +244,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Magnetic Junkyard Pickaxe\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.4\"}"
 					}
 				}
 			}
@@ -261,7 +261,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Barry's Crankbow\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
 					}
 				}
 			}
@@ -421,7 +421,7 @@
 					WildTrust: 0
 					YouthPotion: 0b
 					display: {
-						Name: "{\"text\":\"Rat Mask\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_trash.1\"}"
 					}
 					"forge:spawn_type": "COMMAND"
 					id: "rats:rat"
@@ -461,7 +461,7 @@
 					}]
 					RepairCost: 1
 					display: {
-						Name: "{\"text\":\"Rusty Old Lumber Axe\"}"
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.6\"}"
 					}
 				}
 			}
@@ -487,5 +487,5 @@
 		{ item: "immersive_aircraft:boiler" }
 		{ item: "alshanex_familiars:rusty_helmet" }
 	]
-	title: "barry's trash"
+	title: "{ftbquests.loot_table.6507594593139803708.title}"
 }

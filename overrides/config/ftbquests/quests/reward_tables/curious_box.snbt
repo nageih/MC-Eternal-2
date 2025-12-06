@@ -755,7 +755,7 @@
 				id: "alexsmobs:spawn_egg_raccoon"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Adam\"}"
+						Name: "{\"translate\":\"name.mce2.curious_box.1\"}"
 					}
 				}
 			}
@@ -806,5 +806,5 @@
 			}
 		}
 	]
-	title: "{loot_table.34}"
+	title: "{ftbquests.loot_table.7614141430405098414.title}"
 }

@@ -80,9 +80,9 @@
 	quests: [
 		{
 			description: [
-				"The farther you wander, the richer the world becomes."
+				"{ftbquests.chapter.accessory.quest8879551266859464581.description1}"
 				""
-				"&eTip&f May be found as chest loot"
+				"{ftbquests.chapter.accessory.quest8879551266859464581.description2}"
 			]
 			hide_dependency_lines: true
 			id: "7B3A80D4D2073785"
@@ -130,9 +130,9 @@
 		}
 		{
 			description: [
-				"Bearer of eternity, the scarab reveals treasures long buried."
+				"{ftbquests.chapter.accessory.quest7620411104687887420.description1}"
 				""
-				"&eTip:&f May be found when brushing suspicuous items"
+				"{ftbquests.chapter.accessory.quest7620411104687887420.description2}"
 			]
 			hide_dependency_lines: true
 			id: "69C12386695D143C"
@@ -180,9 +180,9 @@
 		}
 		{
 			description: [
-				"Swim far and fast with your new swimmers guide"
+				"{ftbquests.chapter.accessory.quest5154044656139841651.description1}"
 				""
-				"&eTip:&f May be found when looting sunken ships or buried treasure"
+				"{ftbquests.chapter.accessory.quest5154044656139841651.description2}"
 			]
 			hide_dependency_lines: true
 			id: "4786D84EB5B73073"
@@ -230,9 +230,9 @@
 		}
 		{
 			description: [
-				"The crown of an angler, earned in salt and sweat."
+				"{ftbquests.chapter.accessory.quest8977619836634272568.description1}"
 				""
-				"&eTip:&f May be found when fishing"
+				"{ftbquests.chapter.accessory.quest8977619836634272568.description2}"
 			]
 			hide_dependency_lines: true
 			id: "7C96E9AD0B161338"
@@ -280,9 +280,9 @@
 		}
 		{
 			description: [
-				"When titans rise from the deep, this line does not bow."
+				"{ftbquests.chapter.accessory.quest967185160096322001.description1}"
 				""
-				"&eTip:&f May be found when fishing or hunting fish"
+				"{ftbquests.chapter.accessory.quest967185160096322001.description2}"
 			]
 			hide_dependency_lines: true
 			id: "0D6C21C75B9211D1"
@@ -330,9 +330,9 @@
 		}
 		{
 			description: [
-				"The right lure hooks them first try."
+				"{ftbquests.chapter.accessory.quest1756726083037719313.description1}"
 				""
-				"&eTip:&f May be found when hunting fish"
+				"{ftbquests.chapter.accessory.quest1756726083037719313.description2}"
 			]
 			hide_dependency_lines: true
 			id: "18612510A3206B11"
@@ -380,9 +380,9 @@
 		}
 		{
 			description: [
-				"Only the sharpest hagglers may wield such coupons."
+				"{ftbquests.chapter.accessory.quest2964876094544813444.description1}"
 				""
-				"&eTip:&f May be given after bartering with a villager"
+				"{ftbquests.chapter.accessory.quest2964876094544813444.description2}"
 			]
 			hide_dependency_lines: true
 			id: "29255B1972641D84"
@@ -430,9 +430,9 @@
 		}
 		{
 			description: [
-				"Mimimimi mimimi. you sleep so soundly. ;)"
+				"{ftbquests.chapter.accessory.quest7862839794843493909.description1}"
 				""
-				"&eTip:&f May be found on your bed in the morning"
+				"{ftbquests.chapter.accessory.quest7862839794843493909.description2}"
 			]
 			hide_dependency_lines: true
 			id: "6D1E6B226173A615"
@@ -460,7 +460,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "&oShhhhhhhhh"
+			subtitle: "{ftbquests.chapter.accessory.quest7862839794843493909.subtitle}"
 			tasks: [{
 				id: "5006C219647ED22C"
 				item: {
@@ -481,9 +481,9 @@
 		}
 		{
 			description: [
-				"Master alchemy you are. more potions you make. -&oyoda&r"
+				"{ftbquests.chapter.accessory.quest3012684568187973544.description1}"
 				""
-				"&eTip:&f May find an extra ingrediant when brewing potions"
+				"{ftbquests.chapter.accessory.quest3012684568187973544.description2}"
 			]
 			hide_dependency_lines: true
 			id: "29CF34A723252FA8"
@@ -531,9 +531,9 @@
 		}
 		{
 			description: [
-				"In every strike, fortune hides, this rock makes it yours."
+				"{ftbquests.chapter.accessory.quest4800457580375049497.description1}"
 				""
-				"&eTip:&f May be found when mining stone type blocks"
+				"{ftbquests.chapter.accessory.quest4800457580375049497.description2}"
 			]
 			hide_dependency_lines: true
 			id: "429EA6BC45960519"
@@ -581,9 +581,9 @@
 		}
 		{
 			description: [
-				"What took hours, now falls in moments"
+				"{ftbquests.chapter.accessory.quest4691309967663110575.description1}"
 				""
-				"&eTip:&f May be found through chest loot underground"
+				"{ftbquests.chapter.accessory.quest4691309967663110575.description2}"
 			]
 			hide_dependency_lines: true
 			id: "411AE18F59CF19AF"
@@ -631,9 +631,9 @@
 		}
 		{
 			description: [
-				"What was lost now guards what remains."
+				"{ftbquests.chapter.accessory.quest6707210787861179276.description1}"
 				""
-				"&eTip:&f May be found when you break a tool"
+				"{ftbquests.chapter.accessory.quest6707210787861179276.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5D14CCACDC222B8C"
@@ -681,9 +681,9 @@
 		}
 		{
 			description: [
-				"A mark of trust, carved from conquest"
+				"{ftbquests.chapter.accessory.quest3031324150317391028.description1}"
 				""
-				"&eTip:&f May be found from taming animals"
+				"{ftbquests.chapter.accessory.quest3031324150317391028.description2}"
 			]
 			hide_dependency_lines: true
 			id: "2A116D410ABB1CB4"
@@ -735,7 +735,7 @@
 				"7B3A80D4D2073785"
 				"4786D84EB5B73073"
 			]
-			description: ["From distant lands to sunken ruins, luck and skill travel with you."]
+			description: ["{ftbquests.chapter.accessory.quest1480407918953772085.description1}"]
 			id: "148B7728A3EA3435"
 			rewards: [
 				{
@@ -785,7 +785,7 @@
 				"7C96E9AD0B161338"
 				"0D6C21C75B9211D1"
 			]
-			description: ["From the smallest stream to the mightiest river, it commands a catch."]
+			description: ["{ftbquests.chapter.accessory.quest6920376251772050473.description1}"]
 			id: "600A1D8906EC1C29"
 			rewards: [
 				{
@@ -835,7 +835,7 @@
 				"6D1E6B226173A615"
 				"29255B1972641D84"
 			]
-			description: ["A charm for those who seek ease and fortune at home."]
+			description: ["{ftbquests.chapter.accessory.quest4953867557948983244.description1}"]
 			id: "44BFAC4C17E187CC"
 			rewards: [
 				{
@@ -885,7 +885,7 @@
 				"5D14CCACDC222B8C"
 				"429EA6BC45960519"
 			]
-			description: ["The rune binds swiftness, fortune, and resilience into one unbreakable power."]
+			description: ["{ftbquests.chapter.accessory.quest5741925717427406333.description1}"]
 			id: "4FAF6B0499F0C5FD"
 			rewards: [
 				{
@@ -931,9 +931,9 @@
 		}
 		{
 			description: [
-				"Where one blessing was expected, two are given."
+				"{ftbquests.chapter.accessory.quest2120723835869857057.description1}"
 				""
-				"&eTip:&f May be found in the arms of a new born animal"
+				"{ftbquests.chapter.accessory.quest2120723835869857057.description2}"
 			]
 			hide_dependency_lines: true
 			id: "1D6E5317B7BA0521"
@@ -981,9 +981,9 @@
 		}
 		{
 			description: [
-				"Small enough to hide in a leaf, strong enough to double a feast."
+				"{ftbquests.chapter.accessory.quest2238272719705372971.description1}"
 				""
-				"&eTip:&f Found when harvesting crops"
+				"{ftbquests.chapter.accessory.quest2238272719705372971.description2}"
 			]
 			hide_dependency_lines: true
 			id: "1F0FF12E007C792B"
@@ -1035,7 +1035,7 @@
 				"1F0FF12E007C792B"
 				"2A116D410ABB1CB4"
 			]
-			description: ["The wild bends, the earth prospers, and life multiplies."]
+			description: ["{ftbquests.chapter.accessory.quest6615527032120550063.description1}"]
 			id: "5BCF12C8FF8A22AF"
 			rewards: [
 				{
@@ -1088,7 +1088,7 @@
 				"44BFAC4C17E187CC"
 			]
 			description: [
-				"The heartbeat of worlds, the flame of every quest, contained in one eternal soul."
+				"{ftbquests.chapter.accessory.quest2753457304972126186.description1}"
 				""
 			]
 			id: "26363ED4971167EA"
@@ -1121,11 +1121,11 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "1FF0A653214E415B"
-					title: "&eUnlock Title:&r the Soulful"
+					title: "{ftbquests.chapter.accessory.quest2753457304972126186.reward.2301522285557596507.title}"
 					type: "command"
 				}
 			]
-			subtitle: "Obtain the perfect &eSoul of Minecraft"
+			subtitle: "{ftbquests.chapter.accessory.quest2753457304972126186.subtitle}"
 			tasks: [{
 				id: "329864470BF42FF8"
 				item: {
@@ -1146,7 +1146,7 @@
 		}
 		{
 			dependencies: ["28856EB467B85620"]
-			description: ["More Experience"]
+			description: ["{ftbquests.chapter.accessory.quest7197775830525495738.description1}"]
 			hide_dependency_lines: true
 			id: "63E3A2FB7F5D49BA"
 			rewards: [
@@ -1183,7 +1183,7 @@
 		}
 		{
 			dependencies: ["28856EB467B85620"]
-			description: ["More accessory luck chance"]
+			description: ["{ftbquests.chapter.accessory.quest1974907082187162145.description1}"]
 			hide_dependency_lines: true
 			id: "1B6847871A2B4221"
 			rewards: [
@@ -1227,7 +1227,7 @@
 		}
 		{
 			dependencies: ["28856EB467B85620"]
-			description: ["More efficiency bonus with accessories"]
+			description: ["{ftbquests.chapter.accessory.quest1800943052416858703.description1}"]
 			hide_dependency_lines: true
 			id: "18FE3C2A1403BA4F"
 			rewards: [
@@ -1264,7 +1264,7 @@
 		}
 		{
 			dependencies: ["28856EB467B85620"]
-			description: ["More Luck"]
+			description: ["{ftbquests.chapter.accessory.quest6226686871510359666.description1}"]
 			hide_dependency_lines: true
 			id: "5669A2B81FF69E72"
 			rewards: [
@@ -1311,7 +1311,7 @@
 				"0937152190A59C5A"
 				"60E339DF5E8AB806"
 			]
-			description: ["Gamble to increase the efficiency bonus within a set range"]
+			description: ["{ftbquests.chapter.accessory.quest5849758849903269723.description1}"]
 			hide_dependency_lines: true
 			id: "512E84AE3E2E975B"
 			rewards: [
@@ -1351,7 +1351,7 @@
 				"0937152190A59C5A"
 				"60E339DF5E8AB806"
 			]
-			description: ["Removes the accessory booster from your accessory"]
+			description: ["{ftbquests.chapter.accessory.quest2340845492649962319.description1}"]
 			hide_dependency_lines: true
 			id: "207C5A92BF79AB4F"
 			rewards: [
@@ -1392,9 +1392,9 @@
 				"60E339DF5E8AB806"
 			]
 			description: [
-				"int main()"
+				"{ftbquests.chapter.accessory.quest3520055890312733665.description1}"
 				""
-				"return 0"
+				"{ftbquests.chapter.accessory.quest3520055890312733665.description2}"
 			]
 			hide_dependency_lines: true
 			id: "30D9C02EA39CA3E1"
@@ -1432,8 +1432,8 @@
 		}
 		{
 			description: [
-				"Have you found Majrusz accessories and ended up with multiples of the same type?"
-				"Don't throw them away! Instead, craft the duplicate accessories together to increase their efficiency bonus."
+				"{ftbquests.chapter.accessory.quest664022703965314138.description1}"
+				"{ftbquests.chapter.accessory.quest664022703965314138.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1479,35 +1479,35 @@
 						value: "curios:pocket_left"
 					}
 				}
-				title: "Any #curios:pocket_right"
+				title: "{ftbquests.chapter.accessory.quest664022703965314138.task.7541288614988947695.title}"
 				type: "item"
 			}]
-			title: "Combine to profit"
+			title: "{ftbquests.chapter.accessory.quest664022703965314138.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
-			description: ["Combine the boosters with an accessory to apply the bonus"]
+			description: ["{ftbquests.chapter.accessory.quest2919861654532937248.description1}"]
 			id: "28856EB467B85620"
 			tasks: [{
 				id: "42561F791C90095E"
-				title: "Booster"
+				title: "{ftbquests.chapter.accessory.quest2919861654532937248.task.4780042659531065694.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
 			y: -5.0d
 		}
 		{
-			description: ["You can get these cards by trading in accessories to a certain wanderer who roams around."]
+			description: ["{ftbquests.chapter.accessory.quest6981487478881040390.description1}"]
 			id: "60E339DF5E8AB806"
 			tasks: [{
 				id: "5D2FB830CFE7DC91"
-				title: "Card Stock"
+				title: "{ftbquests.chapter.accessory.quest6981487478881040390.task.6714788089218718865.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
 			y: -5.0d
 		}
 	]
-	title: "&7Trial of the Soul"
+	title: "{ftbquests.chapter.accessory.title}"
 }

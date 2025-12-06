@@ -65,7 +65,7 @@
 			]
 			description: [
 				""
-				"&eTip:&r You cannot use a standard &eEye of Ender&r inside an &dAncient Portal Frame"
+				"{ftbquests.chapter.4lthe_end.quest287363028670826703.description1}"
 			]
 			icon: {
 				Count: 1
@@ -86,7 +86,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "0513FC884C2493C4"
-					title: "&eUnlock Title:&r the Conqueror"
+					title: "{ftbquests.chapter.4lthe_end.quest287363028670826703.reward.365913657070359492.title}"
 					type: "command"
 				}
 				{
@@ -111,18 +111,18 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{chapter.24.quest.1.subtitle}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest287363028670826703.subtitle}"
 			tasks: [{
 				id: "179E38248DFCF54C"
 				type: "checkmark"
 			}]
-			title: "{chapter.24.quest.1.title}"
+			title: "{ftbquests.chapter.4lthe_end.quest287363028670826703.title}"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["03FCEB26ED8148CF"]
-			description: ["{image:modpack:textures/end_portal.png width:200 height:110 align:1}"]
+			description: ["{ftbquests.chapter.4lthe_end.quest793348087428637137.image0}"]
 			id: "0B0289E1D66B61D1"
 			rewards: [
 				{
@@ -153,13 +153,13 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.24.quest.2.subtitle}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest793348087428637137.subtitle}"
 			tasks: [{
 				icon: "endrem:ancient_portal_frame"
 				id: "25D1BD3B4F9873F5"
 				observe_type: 0
 				timer: 0L
-				title: "{chapter.24.quest.2.task.1.title}"
+				title: "{ftbquests.chapter.4lthe_end.quest793348087428637137.task.2725167311971972085.title}"
 				to_observe: "endrem:ancient_portal_frame"
 				type: "observation"
 			}]
@@ -168,15 +168,15 @@
 		}
 		{
 			description: [
-				"Getting to &dThe End&r might be a little different than you are used to..."
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description1}"
 				""
-				"In order to open The Portal,"
-				"You will need to seek out &e\"The 12 Legendary Eyes\"&r."
-				"See The Chapter &d\"End Progression\"&r for more information."
-				"{image:modpack:textures/end_portal_room.png width:200 height:110 align:1 fit:true}"
-				"&eTip:&r You cannot use a standard &eEye of Ender&r to locate the portal room. You must use one of &eThe Legendary Eyes!&r"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description2}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description3}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description4}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.image0}"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description5}"
 				""
-				"&6Hint:&r Legendary Eyes do not break! But be careful not to lose one! You can purchase a \"Replica Eye\" once you've collected &eThe Golem Eye&r. It can be purchased from &dThe Quest Shop&r and can be used to safely locate &eThe Portal Room&r"
+				"{ftbquests.chapter.4lthe_end.quest6054729026732096550.description6}"
 			]
 			id: "5406B7F8719CFC26"
 			rewards: [
@@ -208,14 +208,14 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "Adventure Awaits!"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest6054729026732096550.subtitle}"
 			tasks: [{
 				icon: "cataclysm:cursed_eye"
 				id: "62776C5B79BD955B"
 				structure: "integrated_stronghold:stronghold"
 				type: "structure"
 			}]
-			title: "{chapter.24.quest.3.title}"
+			title: "{ftbquests.chapter.4lthe_end.quest6054729026732096550.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -256,7 +256,7 @@
 					id: "minecraft:end_crystal"
 				}
 				id: "4D768685DB45CC67"
-				title: "{chapter.24.quest.4.task.1.title}"
+				title: "{ftbquests.chapter.4lthe_end.quest2683673880863943323.task.5581796697639865447.title}"
 				type: "dimension"
 			}]
 			x: 0.0051020408163253705d
@@ -264,7 +264,7 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["{chapter.24.quest.5.description.1}"]
+			description: ["{ftbquests.chapter.4lthe_end.quest5099887963503203233.description1}"]
 			hide_dependency_lines: true
 			id: "46C671151AE613A1"
 			rewards: [
@@ -281,7 +281,7 @@
 						id: "rats:corrupt_rat_skull"
 					}
 					id: "6D587B8039B56B56"
-					title: "{chapter.24.quest.5.reward.2.title}"
+					title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.reward.7879183338738903894.title}"
 					type: "command"
 				}
 				{
@@ -305,7 +305,7 @@
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "3E9991B626495847"
-					title: "&eUnlock Title: &rthe Harbinger of Doom"
+					title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.reward.4510796713300678727.title}"
 					type: "command"
 				}
 				{
@@ -318,7 +318,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{chapter.24.quest.5.subtitle}"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.subtitle}"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_egg"
@@ -326,7 +326,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{chapter.24.quest.5.title}"
+			title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.title}"
 			x: 0.0d
 			y: 1.642857142857146d
 		}
@@ -359,15 +359,15 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Collect 12 Legendary Eyes!"
+			subtitle: "{ftbquests.chapter.4lthe_end.quest2727483265648271701.subtitle}"
 			tasks: [{
 				id: "725C3AEDCE16E509"
 				type: "checkmark"
 			}]
-			title: "&6&lEye See"
+			title: "{ftbquests.chapter.4lthe_end.quest2727483265648271701.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 	]
-	title: "<grad from=#FFF0A3 to=#F6B800 hue=true f=1.3 sp=50 uni=true>☆☆☆&r The End"
+	title: "{ftbquests.chapter.4lthe_end.title}"
 }

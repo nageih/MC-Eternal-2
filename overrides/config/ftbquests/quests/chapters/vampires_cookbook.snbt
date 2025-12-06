@@ -10,13 +10,13 @@
 			AntiqueInk: 1b
 			author: "Cheferatu"
 			display: {
-				Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
-				Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+				Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+				Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
 			}
 			generation: 3
 			pages: [
-				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"text\":\"animandan\"}}},\"extra\":[{\"text\":\"animandan\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
-				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+				"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"insertion\":\"animandan\",\"clickEvent\":{\"action\":\"suggest_command\",\"value\":\"/tell animandan \"},\"hoverEvent\":{\"action\":\"show_entity\",\"contents\":{\"type\":\"minecraft:player\",\"id\":\"98feea67-d965-4233-b106-fd482ad87b2f\",\"name\":{\"translate\":\"page.mce2.vampires_cookbook.1\"}}},\"extra\":[{\"translate\":\"page.mce2.vampires_cookbook.1\"}],\"text\":\"\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+				"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
 			]
 			resolved: 1b
 			title: "To Serve Man"
@@ -71,7 +71,7 @@
 	quests: [
 		{
 			dependencies: ["1A2702FA5DD5FFE5"]
-			description: ["Use full blood bottles to make Blood Syrup (the eyes on the bottle will turn from red to yellow) which is the base for all of these recipes."]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest4201576264237548053.description1}"]
 			id: "3A4EFF59F6978215"
 			tasks: [
 				{
@@ -126,21 +126,21 @@
 					type: "item"
 				}
 			]
-			title: "Blood Syrup Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest4201576264237548053.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["664C513761CC4B0E"]
 			description: [
-				"If your crosshair turns into vampire fangs when hovering over an entity, "
-				"you can hold the Vampirism \"&l{keys.vampirism.suck}&r\" key (default V) to suck their blood."
-				"If your blood bar is full and you have a bottle, it will start filling up the bottle."
-				"Once the eyes turn from yellow to red, the bottle is full."
-				"(If you have a mulitiple vanilla bottles, there will sometimes be odd behavior when filling,"
-				"where it will fill a bunch of bottles a little bit instead of filling up one at a time."
-				"This can usually be fixed by holding one of the blood bottles and it will start filling them"
-				"up correctly. It might not be filling the one you are holding but should be going into one of them)"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description1}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description2}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description3}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description4}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description5}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description6}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description7}"
+				"{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.description8}"
 			]
 			icon: {
 				Count: 1
@@ -166,21 +166,21 @@
 						}
 					}
 					match_nbt: true
-					title: "Blood Bottle (Filled)"
+					title: "{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.task.2969372678802297745.title}"
 					type: "item"
 				}
 			]
-			title: "Blood Bottle"
+			title: "{ftbquests.chapter.vampires_cookbook.quest1884478243417227237.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1A2702FA5DD5FFE5"]
 			description: [
-				"Craft the Bloody Dark Stone Bricks and then place them on the ground around a 2x2 hole as shown in the image below.  Right click on the portal with a bottle of Vampire Blood (kill vampires with a stake) to activate."
+				"{ftbquests.chapter.vampires_cookbook.quest167030033390376677.description1}"
 				""
 				""
-				"{image:modpack:textures/vampire_forest_portal.png width:100 height:100 align:center fit:true}"
+				"{ftbquests.chapter.vampires_cookbook.quest167030033390376677.image0}"
 			]
 			id: "025168EE2F0E16E5"
 			tasks: [
@@ -201,13 +201,13 @@
 					type: "dimension"
 				}
 			]
-			title: "Vampire Forest Dimension"
+			title: "{ftbquests.chapter.vampires_cookbook.quest167030033390376677.title}"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["025168EE2F0E16E5"]
-			description: ["Don't right click the orchids!  The \"right click to harvest\" doesn't give you anything. You need to break them to pick them up."]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest2310641575735329598.description1}"]
 			id: "20110C4554F4033E"
 			tasks: [{
 				id: "02AAF8C3E3AE28EA"
@@ -220,9 +220,9 @@
 		{
 			dependencies: ["20110C4554F4033E"]
 			description: [
-				"Chop the Orchid on a cutting board to get petals and seeds."
+				"{ftbquests.chapter.vampires_cookbook.quest7146252191085093249.description1}"
 				""
-				"Hoe some Cursed Dirt to plant the orchid seeds."
+				"{ftbquests.chapter.vampires_cookbook.quest7146252191085093249.description2}"
 			]
 			icon: "vampiresdelight:orchid_petals"
 			id: "632C96815CFBE181"
@@ -291,12 +291,12 @@
 					type: "item"
 				}
 			]
-			title: "Orchid Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest2772382808837415268.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
-			description: ["All of the food in this chapter can fill your blood bar."]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest7371355988404488974.description1}"]
 			id: "664C513761CC4B0E"
 			invisible: true
 			tasks: [{
@@ -308,13 +308,13 @@
 						AntiqueInk: 1b
 						author: "Cheferatu"
 						display: {
-							Lore: ["[\"\",{\"text\":\"It's a cookbook!\",\"italic\":false,\"color\":\"white\"}]"]
-							Name: "[\"\",{\"text\":\"To Serve Man\",\"italic\":false,\"color\":\"red\"}]"
+							Lore: ["[\"\",{\"translate\":\"lore.mce2.mailbox.1\",\"italic\":false,\"color\":\"white\"}]"]
+							Name: "[\"\",{\"translate\":\"lore.mce2.mailbox.2\",\"italic\":false,\"color\":\"red\"}]"
 						}
 						generation: 3
 						pages: [
-							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"text\":\"To \"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"text\":\"\\nI hope you enjoy these recipes as much as I did.\\n\\nLove,\\nYour Gruncle Vlad\"}],\"text\":\"\"}"
-							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"text\":\"(Check your quest book)\"}"
+							"{\"font\":\"supplementaries:antiquable\",\"extra\":[{\"text\":\"\\n\\n\\n\\n\\n\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.1\"},{\"color\":\"dark_red\",\"selector\":\"@s\"},{\"color\":\"dark_red\",\"translate\":\"page.mce2.mailbox.2\"}],\"text\":\"\"}"
+							"{\"italic\":true,\"color\":\"black\",\"font\":\"supplementaries:antiquable\",\"translate\":\"page.mce2.mailbox.3\"}"
 						]
 						title: "To Serve Man"
 					}
@@ -326,7 +326,7 @@
 		}
 		{
 			dependencies: ["664C513761CC4B0E"]
-			description: ["You can still eat normal foods to get extra hearts!"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest8132643229579864808.description1}"]
 			icon: "solcarrot:food_book"
 			id: "70DCF3EDC017EAE8"
 			rewards: [{
@@ -338,7 +338,7 @@
 				id: "1C6B41EDC4E39A1B"
 				type: "checkmark"
 			}]
-			title: "Tip!"
+			title: "{ftbquests.chapter.vampires_cookbook.quest8132643229579864808.title}"
 			x: -1.0d
 			y: 1.0d
 		}
@@ -347,7 +347,7 @@
 				"3A4EFF59F6978215"
 				"632C96815CFBE181"
 			]
-			description: ["These recipes require both Blood Syrup and ingredients from the Vampire Forest"]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest1619550503981664765.description1}"]
 			id: "1679CC9A45A1C9FD"
 			tasks: [
 				{
@@ -361,13 +361,13 @@
 					type: "item"
 				}
 			]
-			title: "Mixed Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest1619550503981664765.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["025168EE2F0E16E5"]
-			description: ["You can bonemeal the black mushrooms to make a giant version."]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest7498713922271562295.description1}"]
 			id: "6810C8951945CA37"
 			tasks: [
 				{
@@ -386,16 +386,16 @@
 					type: "item"
 				}
 			]
-			title: "Black Mushroom Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest7498713922271562295.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["025168EE2F0E16E5"]
 			description: [
-				"Get Pure Blood by killing Vampire Barons in the Vampire Forest."
+				"{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.description1}"
 				""
-				"Use a bowl on placed Weird Jelly to eat it.  Gives the sunscreen buff!"
+				"{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.description2}"
 			]
 			id: "52A3630923A752EA"
 			tasks: [
@@ -408,7 +408,7 @@
 							value: "vampirism:pure_blood"
 						}
 					}
-					title: "Any Pure Blood"
+					title: "{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.task.8557851919442391050.title}"
 					type: "item"
 				}
 				{
@@ -427,16 +427,16 @@
 					type: "item"
 				}
 			]
-			title: "Pure Blood Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest5954712023217951466.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["664C513761CC4B0E"]
 			description: [
-				"Put raw meat (multiple vanilla and modded meats work) or human hearts into a Blood Grinder to make impure blood.  Put it through a Blood Seive to purify it.  They can pull from tanks/inventories above them so it can be combined in this arrangement for automation.  Right with a bottle to get the blood out."
+				"{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.description1}"
 				""
-				"{image:modpack:textures/autoblood.png width:462 height:624 align:center fit:true}"
+				"{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.image0}"
 			]
 			icon: "vampirism:blood_grinder"
 			id: "6C2F188312C7DED0"
@@ -452,7 +452,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "For Vampire Minions who can't suck blood."
+			subtitle: "{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.subtitle}"
 			tasks: [
 				{
 					id: "2B9458B71FED47B9"
@@ -465,13 +465,13 @@
 					type: "item"
 				}
 			]
-			title: "Blood from Meat"
+			title: "{ftbquests.chapter.vampires_cookbook.quest7795476431236488912.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["664C513761CC4B0E"]
-			description: ["Kill a Villager or Hunter with a Farmer's Delight Knife to get eyes."]
+			description: ["{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.description1}"]
 			icon: "vampiresdelight:human_eye"
 			id: "34B1C00F9AAE2671"
 			tasks: [
@@ -484,13 +484,13 @@
 							value: "farmersdelight:tools/knives"
 						}
 					}
-					title: "Any Farmer's Delight Knife"
+					title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.task.8546430110809278171.title}"
 					type: "item"
 				}
 				{
 					id: "425F4CBC636EFDE8"
 					item: "vampiresdelight:human_eye"
-					title: "Human Eye"
+					title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.task.4782625701296537064.title}"
 					type: "item"
 				}
 				{
@@ -504,7 +504,7 @@
 					type: "item"
 				}
 			]
-			title: "Human Eye Recipes"
+			title: "{ftbquests.chapter.vampires_cookbook.quest3797027134102185585.title}"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -525,17 +525,17 @@
 				elevate_perms: true
 				icon: "titles:title_scroll_uncommon"
 				id: "6EC2D8D6D62DC84E"
-				title: "&eUnlock Title:&r Vampire Gourmand"
+				title: "{ftbquests.chapter.vampires_cookbook.quest6383707908601247455.reward.7981179906881865806.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "7DC899986C966C04"
 				type: "checkmark"
 			}]
-			title: "Cooked all Recipes!"
+			title: "{ftbquests.chapter.vampires_cookbook.quest6383707908601247455.title}"
 			x: 0.36938775510206767d
 			y: 5.018367346938753d
 		}
 	]
-	title: "&7Vampire's Cookbook"
+	title: "{ftbquests.chapter.vampires_cookbook.title}"
 }

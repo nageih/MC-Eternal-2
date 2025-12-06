@@ -173,7 +173,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{chapter.15.quest.69.description.1}"]
+			description: [
+				"{ftbquests.chapter.rats.quest5474526212739684653.description1}"
+				"{ftbquests.chapter.rats.quest5474526212739684653.description2}"
+			]
 			hide_dependency_lines: true
 			id: "4BF96C95CFE9D92D"
 			rewards: [
@@ -190,7 +193,7 @@
 					type: "eternalcurrencies:currency"
 				}
 			]
-			subtitle: "{chapter.15.quest.69.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest5474526212739684653.subtitle}"
 			tasks: [
 				{
 					id: "2EB66AAD8E0A6C6A"
@@ -207,7 +210,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["{chapter.15.quest.70.description.1}"]
+			description: ["{ftbquests.chapter.rats.quest5205940490396677381.description1}"]
 			id: "483F374B33EAB505"
 			rewards: [{
 				amount: 50L
@@ -216,7 +219,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "{chapter.15.quest.70.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest5205940490396677381.subtitle}"
 			tasks: [{
 				id: "633A34E9333CF014"
 				item: "rats:auto_curdler"
@@ -226,7 +229,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["{chapter.15.quest.113.description.1}"]
+			description: ["{ftbquests.chapter.rats.quest3773881629445084074.description1}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -268,13 +271,13 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{chapter.15.quest.113.subtitle}"
+			subtitle: "{ftbquests.chapter.rats.quest3773881629445084074.subtitle}"
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 				icon: "rats:cheese"
 				id: "0773FC5376E06CFB"
-				title: "{chapter.15.quest.113.task.1.title}"
+				title: "{ftbquests.chapter.rats.quest3773881629445084074.task.537050215994125563.title}"
 				type: "advancement"
 			}]
 			x: 1.0d
@@ -282,10 +285,10 @@
 		}
 		{
 			description: [
-				"Wild Rats can sometimes spawn near your crops! They are very crafty.. and hungry!!"
-				"They will eat all they can and even burrow through wood/dirt to steal food from chests!"
+				"{ftbquests.chapter.rats.quest227638523206836574.description1}"
+				"{ftbquests.chapter.rats.quest227638523206836574.description2}"
 				""
-				"Behold! The humble Rat Trap! Place one or two of these around your farm and food storage to scare off those no good wild rats! "
+				"{ftbquests.chapter.rats.quest227638523206836574.description3}"
 			]
 			id: "0328BC07E0F0215E"
 			rewards: [{
@@ -295,7 +298,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Craft a &eRat Trap"
+			subtitle: "{ftbquests.chapter.rats.quest227638523206836574.subtitle}"
 			tasks: [{
 				id: "4F263B92FD679E39"
 				item: "rats:rat_trap"
@@ -306,8 +309,8 @@
 		}
 		{
 			description: [
-				"Why wait to find a RAT when they can come to you!"
-				"Craft yourself a trash can for easy access to garbage"
+				"{ftbquests.chapter.rats.quest383653276388428297.description1}"
+				"{ftbquests.chapter.rats.quest383653276388428297.description2}"
 			]
 			icon: "rats:trash_can"
 			id: "0553029F480C0A09"
@@ -326,23 +329,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shoosh"
+			subtitle: "{ftbquests.chapter.rats.quest383653276388428297.subtitle}"
 			tasks: [{
 				id: "2AFA20615DB76818"
 				item: "rats:trash_can"
 				type: "item"
 			}]
-			title: "One Mans Trash is Another Rats Garbage"
+			title: "{ftbquests.chapter.rats.quest383653276388428297.title}"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"You've outdone it this time"
-				"So Many Options."
-				"Wowza look at how snazzy they are."
+				"{ftbquests.chapter.rats.quest6604253114818947630.description1}"
+				"{ftbquests.chapter.rats.quest6604253114818947630.description2}"
+				"{ftbquests.chapter.rats.quest6604253114818947630.description3}"
 				""
-				"Ready to party... or work"
+				"{ftbquests.chapter.rats.quest6604253114818947630.description4}"
 			]
 			icon: "rats:party_hat"
 			id: "5BA70537938CEA2E"
@@ -371,7 +374,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eya like ratz?"
+			subtitle: "{ftbquests.chapter.rats.quest6604253114818947630.subtitle}"
 			tasks: [
 				{
 					advancement: "rats:all_hats"
@@ -488,13 +491,13 @@
 					type: "item"
 				}
 			]
-			title: "Master of Coat Check"
+			title: "{ftbquests.chapter.rats.quest6604253114818947630.title}"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["129BCE5215BE5DC4"]
-			description: ["Make a rat cage to store your new rat friends"]
+			description: ["{ftbquests.chapter.rats.quest7578274326662658041.description1}"]
 			hide_until_deps_complete: true
 			id: "692B70594330B7F9"
 			rewards: [{
@@ -504,21 +507,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "It's a bit bare"
+			subtitle: "{ftbquests.chapter.rats.quest7578274326662658041.subtitle}"
 			tasks: [{
 				id: "6E7AB11141A8254E"
 				item: "rats:rat_cage"
 				type: "item"
 			}]
-			title: "Keep them safe"
+			title: "{ftbquests.chapter.rats.quest7578274326662658041.title}"
 			x: 5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["692B70594330B7F9"]
 			description: [
-				"Used inside of a rat cage to breed."
-				"Can spawn different Colored rats."
+				"{ftbquests.chapter.rats.quest6202975993963987592.description1}"
+				"{ftbquests.chapter.rats.quest6202975993963987592.description2}"
 			]
 			id: "561565CD3E7FC288"
 			rewards: [{
@@ -539,8 +542,8 @@
 		{
 			dependencies: ["692B70594330B7F9"]
 			description: [
-				"Power may not be the rats strong suit,"
-				"but they will run to their hearts content."
+				"{ftbquests.chapter.rats.quest7067916972433732491.description1}"
+				"{ftbquests.chapter.rats.quest7067916972433732491.description2}"
 			]
 			id: "62164909FBDDF38B"
 			rewards: [{
@@ -550,7 +553,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Run Rat Run"
+			subtitle: "{ftbquests.chapter.rats.quest7067916972433732491.subtitle}"
 			tasks: [{
 				id: "3D0A4FACE336F062"
 				item: "rats:rat_wheel"
@@ -562,9 +565,9 @@
 		{
 			dependencies: ["129BCE5215BE5DC4"]
 			description: [
-				"Once youve created Tons and Tons of garbage youll be able to create&e Filth."
+				"{ftbquests.chapter.rats.quest9087011606224736487.description1}"
 				""
-				"&eTip: &fClick on a wild rat with the &eBall of filth&f and prepare"
+				"{ftbquests.chapter.rats.quest9087011606224736487.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "7E1B8CE92AE090E7"
@@ -588,13 +591,13 @@
 					type: "item"
 				}
 			]
-			title: "Filty filthy rats"
+			title: "{ftbquests.chapter.rats.quest9087011606224736487.title}"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7E1B8CE92AE090E7"]
-			description: ["Steal the bundled up throne of the Rat King."]
+			description: ["{ftbquests.chapter.rats.quest8341346134230121808.description1}"]
 			hide_until_deps_complete: true
 			icon: "rats:rat_king_crown"
 			id: "73C26A1D5F5D3D50"
@@ -629,25 +632,25 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Rat Basher"
+			subtitle: "{ftbquests.chapter.rats.quest8341346134230121808.subtitle}"
 			tasks: [{
 				advancement: "rats:defeat_rat_king"
 				criterion: ""
 				id: "5F7DA32A3FA7CF35"
 				type: "advancement"
 			}]
-			title: "King of the rats?"
+			title: "{ftbquests.chapter.rats.quest8341346134230121808.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0553029F480C0A09"]
 			description: [
-				"Trash, Trash, Trash, Garbage!"
+				"{ftbquests.chapter.rats.quest1340892166020292036.description1}"
 				""
-				"&eTip: &fSet in the dark and leave some cheese"
+				"{ftbquests.chapter.rats.quest1340892166020292036.description2}"
 				""
-				"&eTip: &fThere may be other type of garbage"
+				"{ftbquests.chapter.rats.quest1340892166020292036.description3}"
 			]
 			id: "129BCE5215BE5DC4"
 			rewards: [
@@ -665,7 +668,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Duck Duck Rat"
+			subtitle: "{ftbquests.chapter.rats.quest1340892166020292036.subtitle}"
 			tasks: [{
 				id: "4E8F4E720243FA8B"
 				item: "rats:garbage_pile"
@@ -676,9 +679,9 @@
 		}
 		{
 			description: [
-				"&eCheese Staff&f lets you set Container and home point"
-				"&eRadius Staff&f to change the area a rat can harvest"
-				"&ePatrol Staff&f to have a rat guard between points(Not working)"
+				"{ftbquests.chapter.rats.quest6533331778497810392.description1}"
+				"{ftbquests.chapter.rats.quest6533331778497810392.description2}"
+				"{ftbquests.chapter.rats.quest6533331778497810392.description3}"
 			]
 			id: "5AAB0EA331220FD8"
 			rewards: [
@@ -712,13 +715,13 @@
 					type: "item"
 				}
 			]
-			title: "Cheester Staffington"
+			title: "{ftbquests.chapter.rats.quest6533331778497810392.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["129BCE5215BE5DC4"]
-			description: ["&eTip:&f Obtain Plastic waste by destroying that fresh pile of garbage"]
+			description: ["{ftbquests.chapter.rats.quest5832590010567319761.description1}"]
 			hide_until_deps_complete: true
 			id: "50F185B6545B60D1"
 			rewards: [{
@@ -728,7 +731,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Plastic Cheese"
+			subtitle: "{ftbquests.chapter.rats.quest5832590010567319761.subtitle}"
 			tasks: [
 				{
 					id: "7FF58EF0C5C48D9F"
@@ -741,17 +744,17 @@
 					type: "item"
 				}
 			]
-			title: "Microplastic Haven"
+			title: "{ftbquests.chapter.rats.quest5832590010567319761.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Its time to stop drinking your rat"
-				"and Start eating your rat,"
-				"By Ratguards for Ratguards."
-				"(no rats are harmed)"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description1}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description2}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description3}"
+				"{ftbquests.chapter.rats.quest2508906647623005804.description4}"
 			]
 			hide_until_deps_complete: true
 			id: "22D16D4DA22F766C"
@@ -763,23 +766,23 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Power of a &mcrow&r Rat"
+			subtitle: "{ftbquests.chapter.rats.quest2508906647623005804.subtitle}"
 			tasks: [{
 				id: "74825A05A9840A56"
 				item: "rats:rat_upgrade_carrat"
 				type: "item"
 			}]
-			title: "Eat Carrat"
+			title: "{ftbquests.chapter.rats.quest2508906647623005804.title}"
 			x: 8.25d
 			y: 10.0d
 		}
 		{
 			dependencies: ["345F8558DB7253AA"]
 			description: [
-				"Start your rat legion by making them work for you."
-				"Useful automation with rats and these upgrades."
+				"{ftbquests.chapter.rats.quest2093066631418245747.description1}"
+				"{ftbquests.chapter.rats.quest2093066631418245747.description2}"
 				""
-				"&eTip: &fMake sure &eMob Griefing&f is on"
+				"{ftbquests.chapter.rats.quest2093066631418245747.description3}"
 			]
 			hide_dependency_lines: true
 			id: "1D0C110300E87273"
@@ -795,7 +798,7 @@
 				item: "rats:rat_upgrade_basic"
 				type: "item"
 			}]
-			title: "Utility upgrades"
+			title: "{ftbquests.chapter.rats.quest2093066631418245747.title}"
 			x: 8.0d
 			y: 6.0d
 		}
@@ -804,7 +807,7 @@
 				"50F185B6545B60D1"
 				"692B70594330B7F9"
 			]
-			description: ["Rat Cage accessories"]
+			description: ["{ftbquests.chapter.rats.quest3973350187717695008.description1}"]
 			id: "37242CF1AB251620"
 			optional: true
 			rewards: [{
@@ -814,7 +817,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Home is where the cheese is"
+			subtitle: "{ftbquests.chapter.rats.quest3973350187717695008.subtitle}"
 			tasks: [
 				{
 					id: "5F036A9437751691"
@@ -825,7 +828,7 @@
 							value: "rats:hammocks"
 						}
 					}
-					title: "Any #rats:hammocks"
+					title: "{ftbquests.chapter.rats.quest3973350187717695008.task.6846433043351410321.title}"
 					type: "item"
 				}
 				{
@@ -837,7 +840,7 @@
 							value: "rats:igloos"
 						}
 					}
-					title: "Any #rats:igloos"
+					title: "{ftbquests.chapter.rats.quest3973350187717695008.task.2823654929122104182.title}"
 					type: "item"
 				}
 				{
@@ -851,15 +854,15 @@
 					type: "item"
 				}
 			]
-			title: "Cage Decor"
+			title: "{ftbquests.chapter.rats.quest3973350187717695008.title}"
 			x: 5.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"Pour one out for all the lost rats"
-				"and feed them for the rest of time."
+				"{ftbquests.chapter.rats.quest4018331349832384671.description1}"
+				"{ftbquests.chapter.rats.quest4018331349832384671.description2}"
 			]
 			id: "37C3FB129893409F"
 			optional: true
@@ -870,7 +873,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Press F to pay respect"
+			subtitle: "{ftbquests.chapter.rats.quest4018331349832384671.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 1024L
@@ -878,15 +881,15 @@
 				item: "rats:block_of_cheese"
 				type: "item"
 			}]
-			title: "Sacrifice"
+			title: "{ftbquests.chapter.rats.quest4018331349832384671.title}"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["129BCE5215BE5DC4"]
 			description: [
-				"Wonder what notes the doctor has been taking."
-				"Maybe give them back and see what it does?"
+				"{ftbquests.chapter.rats.quest2957272073827995254.description1}"
+				"{ftbquests.chapter.rats.quest2957272073827995254.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -909,8 +912,8 @@
 		{
 			dependencies: ["290A574868B34E76"]
 			description: [
-				"Grant the doctor his tome"
-				"Defeat the black death in rome."
+				"{ftbquests.chapter.rats.quest371073441252096560.description1}"
+				"{ftbquests.chapter.rats.quest371073441252096560.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "052651542B69BA30"
@@ -945,22 +948,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Plague immune"
+			subtitle: "{ftbquests.chapter.rats.quest371073441252096560.subtitle}"
 			tasks: [{
 				advancement: "rats:black_death"
 				criterion: ""
 				id: "63187647FECA5A4C"
 				type: "advancement"
 			}]
-			title: "Dance with Death"
+			title: "{ftbquests.chapter.rats.quest371073441252096560.title}"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Dont wanna keep fishing for neptunium on your own?"
-				"Make one of this little guys do it for you"
+				"{ftbquests.chapter.rats.quest5646989522284384857.description1}"
+				"{ftbquests.chapter.rats.quest5646989522284384857.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "4E5E230D2E1D1259"
@@ -977,12 +980,12 @@
 				item: "rats:rat_upgrade_fisherman"
 				type: "item"
 			}]
-			title: "The Codfather"
+			title: "{ftbquests.chapter.rats.quest5646989522284384857.title}"
 			x: 6.8d
 			y: 6.0d
 		}
 		{
-			description: ["Is there much else to say?"]
+			description: ["{ftbquests.chapter.rats.quest1149339663762163965.description1}"]
 			id: "0FF34655B0CF88FD"
 			rewards: [{
 				amount: 100L
@@ -991,19 +994,19 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Rat with no keys"
+			subtitle: "{ftbquests.chapter.rats.quest1149339663762163965.subtitle}"
 			tasks: [{
 				id: "2664D2CECF2E0C4D"
 				item: "rats:ratbow_essence"
 				type: "item"
 			}]
-			title: "RGB Rat"
+			title: "{ftbquests.chapter.rats.quest1149339663762163965.title}"
 			x: 1.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Basic Mount Upgrade for crafting."]
+			description: ["{ftbquests.chapter.rats.quest5305121412565509503.description1}"]
 			hide_until_deps_complete: true
 			id: "499F93D12649257F"
 			optional: true
@@ -1019,13 +1022,13 @@
 				item: "rats:rat_upgrade_basic_mount"
 				type: "item"
 			}]
-			title: "Slinkstallion"
+			title: "{ftbquests.chapter.rats.quest5305121412565509503.title}"
 			x: 10.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["Chicken Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest2768532967965735537.description1}"]
 			id: "266BCE10E88E3A71"
 			optional: true
 			rewards: [{
@@ -1040,13 +1043,13 @@
 				item: "rats:rat_upgrade_chicken_mount"
 				type: "item"
 			}]
-			title: "Bawk Bawk"
+			title: "{ftbquests.chapter.rats.quest2768532967965735537.title}"
 			x: 10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["Iron Golem Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest777369355454437203.description1}"]
 			id: "0AC9C54F6322D753"
 			optional: true
 			rewards: [{
@@ -1061,13 +1064,13 @@
 				item: "rats:rat_upgrade_golem_mount"
 				type: "item"
 			}]
-			title: "Irat Golem"
+			title: "{ftbquests.chapter.rats.quest777369355454437203.title}"
 			x: 10.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["Strider Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest2505336495667820064.description1}"]
 			id: "22C4BE44DB1A3620"
 			optional: true
 			rewards: [{
@@ -1082,13 +1085,13 @@
 				item: "rats:rat_upgrade_strider_mount"
 				type: "item"
 			}]
-			title: "Squeakstride"
+			title: "{ftbquests.chapter.rats.quest2505336495667820064.title}"
 			x: 10.8d
 			y: 6.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["Beast Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest3623697649065109852.description1}"]
 			id: "3249F5D009F1A95C"
 			optional: true
 			rewards: [{
@@ -1103,13 +1106,13 @@
 				item: "rats:rat_upgrade_beast_mount"
 				type: "item"
 			}]
-			title: "Clawsteed"
+			title: "{ftbquests.chapter.rats.quest3623697649065109852.title}"
 			x: 10.8d
 			y: 8.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["Automaton Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest2496045569178766323.description1}"]
 			id: "22A3BC3876168BF3"
 			optional: true
 			rewards: [{
@@ -1124,13 +1127,13 @@
 				item: "rats:rat_upgrade_automaton_mount"
 				type: "item"
 			}]
-			title: "T-800"
+			title: "{ftbquests.chapter.rats.quest2496045569178766323.title}"
 			x: 10.8d
 			y: 7.0d
 		}
 		{
 			dependencies: ["499F93D12649257F"]
-			description: ["The Barons Biplane Mount for the rat."]
+			description: ["{ftbquests.chapter.rats.quest5322160971472889382.description1}"]
 			id: "49DC1D349E16E626"
 			optional: true
 			rewards: [{
@@ -1145,15 +1148,15 @@
 				item: "rats:rat_upgrade_biplane_mount"
 				type: "item"
 			}]
-			title: "Barons little pilot"
+			title: "{ftbquests.chapter.rats.quest5322160971472889382.title}"
 			x: 10.8d
 			y: 9.0d
 		}
 		{
 			dependencies: ["7EB2FD5E07A7A312"]
 			description: [
-				"Get yourself a cow and a rat willing to do the hard work."
-				"Harvest milk for more cheese!"
+				"{ftbquests.chapter.rats.quest2874566068043347942.description1}"
+				"{ftbquests.chapter.rats.quest2874566068043347942.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "27E4829BD91D77E6"
@@ -1170,15 +1173,15 @@
 				item: "rats:rat_upgrade_milker"
 				type: "item"
 			}]
-			title: "Squeakmaid Buttercup"
+			title: "{ftbquests.chapter.rats.quest2874566068043347942.title}"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Rats may speak a language of love we dont understand"
-				"More Animals!"
+				"{ftbquests.chapter.rats.quest7307561193069673652.description1}"
+				"{ftbquests.chapter.rats.quest7307561193069673652.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "6569AC301F58FCB4"
@@ -1195,13 +1198,13 @@
 				item: "rats:rat_upgrade_breeder"
 				type: "item"
 			}]
-			title: "Rat Husbandry"
+			title: "{ftbquests.chapter.rats.quest7307561193069673652.title}"
 			x: 5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Make the trees tumble with the power of a rat"]
+			description: ["{ftbquests.chapter.rats.quest6767960656258533022.description1}"]
 			hide_until_deps_complete: true
 			id: "5DECA05BD21C069E"
 			optional: true
@@ -1217,15 +1220,15 @@
 				item: "rats:rat_upgrade_lumberjack"
 				type: "item"
 			}]
-			title: "Paul Bunrat"
+			title: "{ftbquests.chapter.rats.quest6767960656258533022.title}"
 			x: 6.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Why not make the rats cook up one of "
-				"the famous delicacies they can offer."
+				"{ftbquests.chapter.rats.quest8152462563459366678.description1}"
+				"{ftbquests.chapter.rats.quest8152462563459366678.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "71235D8203AA7F16"
@@ -1241,15 +1244,15 @@
 				item: "rats:rat_upgrade_chef"
 				type: "item"
 			}]
-			title: "Ricotta Ratterini"
+			title: "{ftbquests.chapter.rats.quest8152462563459366678.title}"
 			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["71235D8203AA7F16"]
 			description: [
-				"Youve done it. you have recreated Ratatouille "
-				"Hope you are proud"
+				"{ftbquests.chapter.rats.quest6854313846264139586.description1}"
+				"{ftbquests.chapter.rats.quest6854313846264139586.description2}"
 			]
 			id: "5F1F6A20A19D8F42"
 			rewards: [
@@ -1296,13 +1299,13 @@
 					type: "item"
 				}
 			]
-			title: "Squeak ‘n’ Serve"
+			title: "{ftbquests.chapter.rats.quest6854313846264139586.title}"
 			x: 5.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Turn your rat friend into a little demon with more stats."]
+			description: ["{ftbquests.chapter.rats.quest4653761890738110106.description1}"]
 			hide_until_deps_complete: true
 			id: "40957BC86EB1FE9A"
 			optional: true
@@ -1318,13 +1321,13 @@
 				item: "rats:rat_upgrade_demon"
 				type: "item"
 			}]
-			title: "NosfeRATu"
+			title: "{ftbquests.chapter.rats.quest4653761890738110106.title}"
 			x: -4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Give your rat resurrective immortality."]
+			description: ["{ftbquests.chapter.rats.quest2201088082036277119.description1}"]
 			hide_until_deps_complete: true
 			id: "1E8BD5F2E11E3F7F"
 			optional: true
@@ -1340,13 +1343,13 @@
 				item: "rats:rat_upgrade_angel"
 				type: "item"
 			}]
-			title: "Saint Cheddard"
+			title: "{ftbquests.chapter.rats.quest2201088082036277119.title}"
 			x: 9.05d
 			y: 10.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Archeologist rats can transform a handful of items into a ratlantean counterpart ."]
+			description: ["{ftbquests.chapter.rats.quest721513775237668451.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0A0354F4B1979E63"
@@ -1380,7 +1383,7 @@
 				item: "rats:rat_upgrade_archeologist"
 				type: "item"
 			}]
-			title: "Ratassic Excavator"
+			title: "{ftbquests.chapter.rats.quest721513775237668451.title}"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1390,7 +1393,7 @@
 				"0F17D9539C1D0D19"
 				"78FE17774BFBB62C"
 			]
-			description: ["Now thats one mini winged beast."]
+			description: ["{ftbquests.chapter.rats.quest7811728195561649753.description1}"]
 			id: "6C68D567D25AF659"
 			optional: true
 			rewards: [{
@@ -1400,21 +1403,21 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Winged Beast"
+			subtitle: "{ftbquests.chapter.rats.quest7811728195561649753.subtitle}"
 			tasks: [{
 				id: "196F739D77BB35D0"
 				item: "rats:rat_upgrade_dragon"
 				type: "item"
 			}]
-			title: "Rat Goes Rawr"
+			title: "{ftbquests.chapter.rats.quest7811728195561649753.title}"
 			x: -7.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5B60D17E7595FAD3"]
 			description: [
-				"Turn your rat into a Bee."
-				"Because science"
+				"{ftbquests.chapter.rats.quest1147538596085404084.description1}"
+				"{ftbquests.chapter.rats.quest1147538596085404084.description2}"
 			]
 			id: "0FECE045F1B891B4"
 			optional: true
@@ -1430,13 +1433,13 @@
 				item: "rats:rat_upgrade_bee"
 				type: "item"
 			}]
-			title: "BeeRat"
+			title: "{ftbquests.chapter.rats.quest1147538596085404084.title}"
 			x: -3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Let your rat feel the air through its fur."]
+			description: ["{ftbquests.chapter.rats.quest6584492996284512979.description1}"]
 			hide_until_deps_complete: true
 			id: "5B60D17E7595FAD3"
 			optional: true
@@ -1452,7 +1455,7 @@
 				item: "rats:rat_upgrade_flight"
 				type: "item"
 			}]
-			title: "When Rats Fly"
+			title: "{ftbquests.chapter.rats.quest6584492996284512979.title}"
 			x: -3.0d
 			y: 7.0d
 		}
@@ -1493,13 +1496,13 @@
 				item: "rats:rat_upgrade_warrior"
 				type: "item"
 			}]
-			title: "Warrior"
+			title: "{ftbquests.chapter.rats.quest8718431729779193388.title}"
 			x: -8.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Give your rat a small boost to its damage."]
+			description: ["{ftbquests.chapter.rats.quest6563164992114199846.description1}"]
 			hide_until_deps_complete: true
 			id: "5B150BC9853F0D26"
 			optional: true
@@ -1515,13 +1518,13 @@
 				item: "rats:rat_upgrade_strength"
 				type: "item"
 			}]
-			title: "Strength up"
+			title: "{ftbquests.chapter.rats.quest6563164992114199846.title}"
 			x: -8.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Give your rat a little health boost."]
+			description: ["{ftbquests.chapter.rats.quest6664417166730481519.description1}"]
 			hide_until_deps_complete: true
 			id: "5C7CC41A81FC4F6F"
 			optional: true
@@ -1537,13 +1540,13 @@
 				item: "rats:rat_upgrade_health"
 				type: "item"
 			}]
-			title: "Health up"
+			title: "{ftbquests.chapter.rats.quest6664417166730481519.title}"
 			x: -9.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Make your rat just a little more like a tank"]
+			description: ["{ftbquests.chapter.rats.quest3559459365706189870.description1}"]
 			hide_until_deps_complete: true
 			id: "3165BD6F2D5ACC2E"
 			optional: true
@@ -1559,15 +1562,15 @@
 				item: "rats:rat_upgrade_armor"
 				type: "item"
 			}]
-			title: "Armor Up"
+			title: "{ftbquests.chapter.rats.quest3559459365706189870.title}"
 			x: -7.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["345F8558DB7253AA"]
 			description: [
-				"Start your rat army off with some battle upgrades"
-				"Attack, Defense. and Health"
+				"{ftbquests.chapter.rats.quest453946783543873847.description1}"
+				"{ftbquests.chapter.rats.quest453946783543873847.description2}"
 			]
 			hide_dependency_lines: true
 			id: "064CBE31CC105137"
@@ -1583,13 +1586,13 @@
 				item: "rats:rat_upgrade_basic"
 				type: "item"
 			}]
-			title: "Combat Ready"
+			title: "{ftbquests.chapter.rats.quest453946783543873847.title}"
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["78FE17774BFBB62C"]
-			description: ["Upgrade your rat to be your ultimate fighting companion."]
+			description: ["{ftbquests.chapter.rats.quest6716874077704811505.description1}"]
 			id: "5D372162DA9FF3F1"
 			optional: true
 			rewards: [
@@ -1616,19 +1619,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "oof. Thats gotta hurt"
+			subtitle: "{ftbquests.chapter.rats.quest6716874077704811505.subtitle}"
 			tasks: [{
 				id: "023AAA182E822142"
 				item: "rats:rat_upgrade_god"
 				type: "item"
 			}]
-			title: "Basic Battle Tank"
+			title: "{ftbquests.chapter.rats.quest6716874077704811505.title}"
 			x: -8.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Some environmental damage immunity."]
+			description: ["{ftbquests.chapter.rats.quest1087576788157926681.description1}"]
 			hide_until_deps_complete: true
 			id: "0F17D9539C1D0D19"
 			optional: true
@@ -1644,13 +1647,13 @@
 				item: "rats:rat_upgrade_asbestos"
 				type: "item"
 			}]
-			title: "Asbesto-Rat"
+			title: "{ftbquests.chapter.rats.quest1087576788157926681.title}"
 			x: -6.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["5C7CC41A81FC4F6F"]
-			description: ["Conjure something dark and youll notice your rats healthier."]
+			description: ["{ftbquests.chapter.rats.quest6471196678950706776.description1}"]
 			id: "59CE4F17F88B5E58"
 			optional: true
 			rewards: [{
@@ -1665,13 +1668,13 @@
 				item: "rats:rat_upgrade_voodoo"
 				type: "item"
 			}]
-			title: "Voodoo Wooloo"
+			title: "{ftbquests.chapter.rats.quest6471196678950706776.title}"
 			x: -9.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Rats rule everything around me. Get the cheese tiny tiny coins yall."]
+			description: ["{ftbquests.chapter.rats.quest2092679600443511250.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1D0AB102552451D2"
@@ -1705,13 +1708,13 @@
 				item: "rats:rat_upgrade_aristocrat"
 				type: "item"
 			}]
-			title: "Lord Nibbleton"
+			title: "{ftbquests.chapter.rats.quest2092679600443511250.title}"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Turns your rat friend into santa to give you a little gift every hour."]
+			description: ["{ftbquests.chapter.rats.quest5347482122616747094.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4A3612A88952B456"
@@ -1728,16 +1731,16 @@
 				item: "rats:rat_upgrade_christmas"
 				type: "item"
 			}]
-			title: "Rudrat the Red Noised"
+			title: "{ftbquests.chapter.rats.quest5347482122616747094.title}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
 			description: [
-				"Let your rat double your ore output"
+				"{ftbquests.chapter.rats.quest1414216814055519406.description1}"
 				""
-				"&eTip:&f Rats may drop some regular nuggets after eating"
+				"{ftbquests.chapter.rats.quest1414216814055519406.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1772,13 +1775,13 @@
 				item: "rats:rat_upgrade_ore_doubling"
 				type: "item"
 			}]
-			title: "Oresplitter"
+			title: "{ftbquests.chapter.rats.quest1414216814055519406.title}"
 			x: 1.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Rat fluid transportation"]
+			description: ["{ftbquests.chapter.rats.quest9129637974930596626.description1}"]
 			hide_until_deps_complete: true
 			id: "7EB2FD5E07A7A312"
 			optional: true
@@ -1794,7 +1797,7 @@
 				item: "rats:rat_upgrade_bucket"
 				type: "item"
 			}]
-			title: "Bucket Bucket"
+			title: "{ftbquests.chapter.rats.quest9129637974930596626.title}"
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1804,7 +1807,7 @@
 				"1CBB36A1983F38F3"
 				"779B7814DBF8ADDB"
 			]
-			description: ["Wow 99% environmentally indestructible."]
+			description: ["{ftbquests.chapter.rats.quest6023263787012294787.description1}"]
 			id: "5396EE806D578883"
 			optional: true
 			rewards: [
@@ -1836,13 +1839,13 @@
 				item: "rats:rat_upgrade_damage_protection"
 				type: "item"
 			}]
-			title: "Damage Immunity"
+			title: "{ftbquests.chapter.rats.quest6023263787012294787.title}"
 			x: -5.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Some environmental damage immunity"]
+			description: ["{ftbquests.chapter.rats.quest2070308521378789619.description1}"]
 			hide_until_deps_complete: true
 			id: "1CBB36A1983F38F3"
 			optional: true
@@ -1858,13 +1861,13 @@
 				item: "rats:rat_upgrade_poison"
 				type: "item"
 			}]
-			title: "Poisonous Resistance"
+			title: "{ftbquests.chapter.rats.quest2070308521378789619.title}"
 			x: -5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
-			description: ["Some environmental damage immunity."]
+			description: ["{ftbquests.chapter.rats.quest8618614342888762843.description1}"]
 			hide_until_deps_complete: true
 			id: "779B7814DBF8ADDB"
 			optional: true
@@ -1880,15 +1883,15 @@
 				item: "rats:rat_upgrade_underwater"
 				type: "item"
 			}]
-			title: "Deep Breathe"
+			title: "{ftbquests.chapter.rats.quest8618614342888762843.title}"
 			x: -4.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"GOLDEN RAT"
-				"isn't it glorious."
+				"{ftbquests.chapter.rats.quest6795344930803308914.description1}"
+				"{ftbquests.chapter.rats.quest6795344930803308914.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1906,15 +1909,15 @@
 				item: "rats:rat_upgrade_idol"
 				type: "item"
 			}]
-			title: "Golden Idol"
+			title: "{ftbquests.chapter.rats.quest6795344930803308914.title}"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"&eBarry&f is NOT going to pick any kind of support"
-				"Lets make other rats do it"
+				"{ftbquests.chapter.rats.quest9016989128181509485.description1}"
+				"{ftbquests.chapter.rats.quest9016989128181509485.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1932,13 +1935,13 @@
 				item: "rats:rat_upgrade_support"
 				type: "item"
 			}]
-			title: "Pick Mercy"
+			title: "{ftbquests.chapter.rats.quest9016989128181509485.title}"
 			x: 2.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Turn the little rat into a skeleton."]
+			description: ["{ftbquests.chapter.rats.quest7747959074928902007.description1}"]
 			hide_until_deps_complete: true
 			id: "6B8647BA6B66BF77"
 			optional: true
@@ -1954,13 +1957,13 @@
 				item: "rats:rat_upgrade_undead"
 				type: "item"
 			}]
-			title: "Vertebratt"
+			title: "{ftbquests.chapter.rats.quest7747959074928902007.title}"
 			x: 9.9d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Bath your rat in the sculky ancient city."]
+			description: ["{ftbquests.chapter.rats.quest4235122965642198837.description1}"]
 			hide_until_deps_complete: true
 			id: "3AC62DE60B33BF35"
 			optional: true
@@ -1976,13 +1979,13 @@
 				item: "rats:rat_upgrade_sculked"
 				type: "item"
 			}]
-			title: "Sculkgnasher"
+			title: "{ftbquests.chapter.rats.quest4235122965642198837.title}"
 			x: 10.7d
 			y: 10.0d
 		}
 		{
 			dependencies: ["779B7814DBF8ADDB"]
-			description: ["Rats are under da water and they're not drowning."]
+			description: ["{ftbquests.chapter.rats.quest8025318135326346342.description1}"]
 			id: "6F5FA852F9A08C66"
 			optional: true
 			rewards: [{
@@ -1997,12 +2000,12 @@
 				item: "rats:rat_upgrade_aquatic"
 				type: "item"
 			}]
-			title: "Glug glug"
+			title: "{ftbquests.chapter.rats.quest8025318135326346342.title}"
 			x: -4.0d
 			y: 10.0d
 		}
 		{
-			description: ["Create the ultimate cheese and be forever stuck with the cheese touch"]
+			description: ["{ftbquests.chapter.rats.quest2913729126706218895.description1}"]
 			icon: "kubejs:ultimate_cheese"
 			id: "286FA5340108878F"
 			invisible: true
@@ -2039,7 +2042,7 @@
 			]
 			secret: true
 			shape: "heart"
-			subtitle: "ew! Get away from me"
+			subtitle: "{ftbquests.chapter.rats.quest2913729126706218895.subtitle}"
 			tasks: [
 				{
 					id: "1D9061FECD096032"
@@ -2062,15 +2065,15 @@
 					type: "item"
 				}
 			]
-			title: "CHEESE TOUCH"
+			title: "{ftbquests.chapter.rats.quest2913729126706218895.title}"
 			x: 1.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"&eWhitelist&f Used to filter the items you want the Rat to be able to interact with."
-				"&eBlacklist&f Used to filter the items you don't want the rat to interact with."
+				"{ftbquests.chapter.rats.quest7843804397347744776.description1}"
+				"{ftbquests.chapter.rats.quest7843804397347744776.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2095,13 +2098,13 @@
 					type: "item"
 				}
 			]
-			title: "Rat Filter"
+			title: "{ftbquests.chapter.rats.quest7843804397347744776.title}"
 			x: 5.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1A700C584A856120"]
-			description: ["Dipped in gold, &eBarry&f questions your motives."]
+			description: ["{ftbquests.chapter.rats.quest7075293175411895853.description1}"]
 			hide_until_deps_complete: true
 			id: "62307DA8122BEE2D"
 			rewards: [{
@@ -2111,7 +2114,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Treacherous"
+			subtitle: "{ftbquests.chapter.rats.quest7075293175411895853.subtitle}"
 			tasks: [{
 				id: "19CD09E30A16C058"
 				item: "rats:golden_rat_skull"
@@ -2123,8 +2126,8 @@
 		{
 			dependencies: ["62307DA8122BEE2D"]
 			description: [
-				"&eBarry&f will not ask you were you got this."
-				"They are just disappointed."
+				"{ftbquests.chapter.rats.quest1952773742611924703.description1}"
+				"{ftbquests.chapter.rats.quest1952773742611924703.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "1B19A55F671806DF"
@@ -2152,7 +2155,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Why"
+			subtitle: "{ftbquests.chapter.rats.quest1952773742611924703.subtitle}"
 			tasks: [{
 				id: "508BAD37A3C5CB46"
 				item: "rats:corrupt_rat_skull"
@@ -2162,7 +2165,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["&eBarry&f asks that you change your ways."]
+			description: ["{ftbquests.chapter.rats.quest1905036215724630304.description1}"]
 			id: "1A700C584A856120"
 			invisible: true
 			rewards: [{
@@ -2172,7 +2175,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Bad"
+			subtitle: "{ftbquests.chapter.rats.quest1905036215724630304.subtitle}"
 			tasks: [{
 				id: "3A0E9BF8A455B520"
 				item: "rats:rat_skull"
@@ -2184,15 +2187,15 @@
 		{
 			dependencies: ["064CBE31CC105137"]
 			description: [
-				"If rats could save time in a bottle"
+				"{ftbquests.chapter.rats.quest6423657310972823708.description1}"
 				""
-				"The first thing that we'd like to do"
+				"{ftbquests.chapter.rats.quest6423657310972823708.description2}"
 				""
-				"Is to stash every day"
+				"{ftbquests.chapter.rats.quest6423657310972823708.description3}"
 				""
-				"'til the mold drifts away,"
+				"{ftbquests.chapter.rats.quest6423657310972823708.description4}"
 				""
-				"Just to spend them with cheese"
+				"{ftbquests.chapter.rats.quest6423657310972823708.description5}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2222,19 +2225,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "1 Eternity Later"
+			subtitle: "{ftbquests.chapter.rats.quest6423657310972823708.subtitle}"
 			tasks: [{
 				id: "2954A31655F72EC5"
 				item: "rats:rat_upgrade_time_manipulator"
 				type: "item"
 			}]
-			title: "Time in a Rat"
+			title: "{ftbquests.chapter.rats.quest6423657310972823708.title}"
 			x: 1.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Easily replant seeds after harvesting crops or lumber"]
+			description: ["{ftbquests.chapter.rats.quest6604061594226243516.description1}"]
 			hide_until_deps_complete: true
 			id: "5BA65707B6A7B7BC"
 			optional: true
@@ -2250,13 +2253,13 @@
 				item: "rats:rat_upgrade_replanter"
 				type: "item"
 			}]
-			title: "Tillrat"
+			title: "{ftbquests.chapter.rats.quest6604061594226243516.title}"
 			x: 5.95d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
-			description: ["Obtain all the wool by making your rat shear sheep"]
+			description: ["{ftbquests.chapter.rats.quest4643425738978663661.description1}"]
 			hide_until_deps_complete: true
 			id: "4070C31B90BA9CED"
 			optional: true
@@ -2272,13 +2275,13 @@
 				item: "rats:rat_upgrade_shears"
 				type: "item"
 			}]
-			title: "Woolwhisker"
+			title: "{ftbquests.chapter.rats.quest4643425738978663661.title}"
 			x: 5.1d
 			y: 6.0d
 		}
 		{
 			dependencies: ["603233D2050BF539"]
-			description: ["Create what could possibly be the only real cure to the plague."]
+			description: ["{ftbquests.chapter.rats.quest23740562784381646.description1}"]
 			hide_until_deps_complete: true
 			id: "005457EA8387EACE"
 			rewards: [
@@ -2312,22 +2315,22 @@
 				}
 			]
 			shape: "spstar"
-			subtitle: "A sunny day!"
+			subtitle: "{ftbquests.chapter.rats.quest23740562784381646.subtitle}"
 			tasks: [{
 				id: "187572C8252AFF1B"
 				item: "rats:plague_stew"
 				type: "item"
 			}]
-			title: "The Cure?"
+			title: "{ftbquests.chapter.rats.quest23740562784381646.title}"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
 			description: [
-				"If you want to combine upgrades the old fashion way."
+				"{ftbquests.chapter.rats.quest6392064539900931500.description1}"
 				""
-				"&eTip: &fRight click when in hand. Cannot Edit once made"
+				"{ftbquests.chapter.rats.quest6392064539900931500.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2340,20 +2343,20 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Tales from the Bootleg Trail"
+			subtitle: "{ftbquests.chapter.rats.quest6392064539900931500.subtitle}"
 			tasks: [{
 				id: "1DCD652D6C128276"
 				item: "rats:rat_upgrade_jury_rigged"
 				type: "item"
 			}]
-			title: "Bootleg Combination"
+			title: "{ftbquests.chapter.rats.quest6392064539900931500.title}"
 			x: -6.0d
 			y: 10.0d
 		}
 		{
 			description: [
-				"Carry all your rats with you."
-				"A lot more cozy on the inside."
+				"{ftbquests.chapter.rats.quest4600149543552037274.description1}"
+				"{ftbquests.chapter.rats.quest4600149543552037274.description2}"
 			]
 			id: "3FD703A32118319A"
 			rewards: [
@@ -2371,19 +2374,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Comfortable"
+			subtitle: "{ftbquests.chapter.rats.quest4600149543552037274.subtitle}"
 			tasks: [{
 				id: "1BE59DFDFB75B201"
 				item: "rats:rat_sack"
 				type: "item"
 			}]
-			title: "Pouch Potato"
+			title: "{ftbquests.chapter.rats.quest4600149543552037274.title}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["129BCE5215BE5DC4"]
-			description: ["Not much can be done to prevent it but you may have a chance to cleanse yourself."]
+			description: ["{ftbquests.chapter.rats.quest6931659753597433145.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "603233D2050BF539"
@@ -2394,7 +2397,7 @@
 				ignore_reward_blocking: true
 				type: "eternalcurrencies:currency"
 			}]
-			subtitle: "Not feeling so well"
+			subtitle: "{ftbquests.chapter.rats.quest6931659753597433145.subtitle}"
 			tasks: [
 				{
 					id: "68AA3B45B0B4D4D5"
@@ -2412,16 +2415,16 @@
 					type: "item"
 				}
 			]
-			title: "Temporary Plague"
+			title: "{ftbquests.chapter.rats.quest6931659753597433145.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Make your rat yearn for the mines."
+				"{ftbquests.chapter.rats.quest5495484415850347147.description1}"
 				""
-				"&eTip:&f Make a &eRat Quarry&f to start"
+				"{ftbquests.chapter.rats.quest5495484415850347147.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "4C43E1F5BB747A8B"
@@ -2438,15 +2441,15 @@
 				item: "rats:rat_upgrade_quarry"
 				type: "item"
 			}]
-			title: "Miney McChews "
+			title: "{ftbquests.chapter.rats.quest5495484415850347147.title}"
 			x: 7.45d
 			y: 10.0d
 		}
 		{
 			dependencies: ["064CBE31CC105137"]
 			description: [
-				"&eMob Filter&f Required to set what the rats will attack."
-				"Blacklist will attack anything"
+				"{ftbquests.chapter.rats.quest221071508670904157.description1}"
+				"{ftbquests.chapter.rats.quest221071508670904157.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "0311675DA849F75D"
@@ -2463,16 +2466,16 @@
 				item: "rats:rat_upgrade_mob_filter"
 				type: "item"
 			}]
-			title: "Filtered rat"
+			title: "{ftbquests.chapter.rats.quest221071508670904157.title}"
 			x: -8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1D0C110300E87273"]
 			description: [
-				"Let the rat get its hands on a book to give it magical energy."
+				"{ftbquests.chapter.rats.quest5031058059783626356.description1}"
 				""
-				"&eTip:&f Surround with bookshelves for better enchants"
+				"{ftbquests.chapter.rats.quest5031058059783626356.description2}"
 			]
 			hide_until_deps_complete: true
 			id: "45D1E8A651C4DE74"
@@ -2496,9 +2499,9 @@
 			can_repeat: true
 			dependencies: ["345F8558DB7253AA"]
 			description: [
-				"Ever wanted your own Inventory Rat?"
-				" No? "
-				"Well you can have one anyways"
+				"{ftbquests.chapter.rats.quest4348901192520279947.description1}"
+				"{ftbquests.chapter.rats.quest4348901192520279947.description2}"
+				"{ftbquests.chapter.rats.quest4348901192520279947.description3}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2519,7 +2522,7 @@
 						DisplayEntityType: "rats:rat"
 						DisplayMobScale: 2
 						display: {
-							Name: "{\"text\":\"Inventory Rat\"}"
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.3\"}"
 						}
 					}
 				}
@@ -2533,10 +2536,10 @@
 				item: { Count: 64, id: "rats:block_of_cheese" }
 				type: "item"
 			}]
-			title: "Not an Inventory Pet"
+			title: "{ftbquests.chapter.rats.quest4348901192520279947.title}"
 			x: 5.0d
 			y: 0.0d
 		}
 	]
-	title: "&7Rats"
+	title: "{ftbquests.chapter.rats.title}"
 }
